@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.unswbc-build/
+**/.unswbc-build/
+**/.unswbc-wasm/
+**/main.wasm
+**/.wasm-built-from
+*.replay
+submissions/server-snapshot.json
+submissions/.lock
+evaluations/online/*.json

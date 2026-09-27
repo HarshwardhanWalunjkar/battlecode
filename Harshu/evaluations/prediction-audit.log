@@ -1,0 +1,1 @@
+PASS: 10 wall/self deaths audited; all came from explicitly unsafe last resorts, none from supposedly exact safe moves

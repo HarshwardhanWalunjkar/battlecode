@@ -1,0 +1,49 @@
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 10s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 5s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/479fabb69737ead43514f1a33d8049ba1b371578a52ca6a64c90f824af0fdc71 to wasm with judge clang
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 0s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 0s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/d9f548cdfeca65770502316c718731d8fcb530a422d798805c022930c061114b to wasm with judge clang
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 0s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 0s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/396bb8d5e5b95ee2c95f15fa3eafa139e24dfa4952d4ccc47354e3ee8ebc44e6 to wasm with judge clang
+  1 arena              211 A vs baselines/hunter: 0 (153 rounds), cumulative 0.0%
+  2 arena              211 B vs baselines/hunter: 0 (22 rounds), cumulative 0.0%
+  3 default_small      211 A vs baselines/hunter: 0 (412 rounds), cumulative 0.0%
+  4 default_small      211 B vs baselines/hunter: 1 (480 rounds), cumulative 25.0%
+  5 autarky            211 A vs baselines/hunter: 1 (500 rounds), cumulative 40.0%
+  6 autarky            211 B vs baselines/hunter: 1 (500 rounds), cumulative 50.0%
+  7 devil              211 A vs baselines/hunter: 1 (458 rounds), cumulative 57.1%
+  8 devil              211 B vs baselines/hunter: 1 (171 rounds), cumulative 62.5%
+  9 dilemma            211 A vs baselines/hunter: 1 (500 rounds), cumulative 66.7%
+ 10 dilemma            211 B vs baselines/hunter: 0 (500 rounds), cumulative 60.0%
+ 11 stronghold         211 A vs baselines/hunter: 1 (500 rounds), cumulative 63.6%
+ 12 stronghold         211 B vs baselines/hunter: 0 (500 rounds), cumulative 58.3%
+ 13 arena              211 A vs baselines/greedy: 1 (40 rounds), cumulative 61.5%
+ 14 arena              211 B vs baselines/greedy: 1 (30 rounds), cumulative 64.3%
+ 15 default_small      211 A vs baselines/greedy: 1 (155 rounds), cumulative 66.7%
+ 16 default_small      211 B vs baselines/greedy: 1 (273 rounds), cumulative 68.8%
+ 17 autarky            211 A vs baselines/greedy: 0 (500 rounds), cumulative 64.7%
+ 18 autarky            211 B vs baselines/greedy: 1 (205 rounds), cumulative 66.7%
+ 19 devil              211 A vs baselines/greedy: 1 (145 rounds), cumulative 68.4%
+ 20 devil              211 B vs baselines/greedy: 1 (131 rounds), cumulative 70.0%
+ 21 dilemma            211 A vs baselines/greedy: 1 (500 rounds), cumulative 71.4%
+ 22 dilemma            211 B vs baselines/greedy: 1 (117 rounds), cumulative 72.7%
+ 23 stronghold         211 A vs baselines/greedy: 1 (424 rounds), cumulative 73.9%
+ 24 stronghold         211 B vs baselines/greedy: 1 (143 rounds), cumulative 75.0%
+{
+  "games": 24,
+  "score": 0.75,
+  "wins": 18,
+  "draws": 0,
+  "errors": 0
+}

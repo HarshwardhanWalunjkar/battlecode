@@ -1,0 +1,25 @@
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 5s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 3s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/d9f548cdfeca65770502316c718731d8fcb530a422d798805c022930c061114b to wasm with judge clang
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 0s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 0s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/396bb8d5e5b95ee2c95f15fa3eafa139e24dfa4952d4ccc47354e3ee8ebc44e6 to wasm with judge clang
+  1 arena              211 A vs baselines/hunter: 0 (153 rounds), cumulative 0.0%
+  2 arena              211 B vs baselines/hunter: 0 (22 rounds), cumulative 0.0%
+  3 portals            211 A vs baselines/hunter: 0 (500 rounds), cumulative 0.0%
+  4 portals            211 B vs baselines/hunter: 1 (500 rounds), cumulative 25.0%
+  5 slithery_fight     211 A vs baselines/hunter: 1 (26 rounds), cumulative 40.0%
+  6 slithery_fight     211 B vs baselines/hunter: 1 (500 rounds), cumulative 50.0%
+{
+  "games": 6,
+  "score": 0.5,
+  "wins": 3,
+  "draws": 0,
+  "errors": 0
+}

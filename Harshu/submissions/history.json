@@ -1,0 +1,72 @@
+{
+  "history_known_from_account_creation": true,
+  "uploads": [
+    {
+      "uploaded_at": "2026-09-27T17:07:26.641432+00:00",
+      "fingerprint": "396bb8d5e5b95ee2c95f15fa3eafa139e24dfa4952d4ccc47354e3ee8ebc44e6",
+      "name": "abyss-v1",
+      "version": 1,
+      "status": "accepted",
+      "archive": "20260927T170726Z-396bb8d5e5b9.zip",
+      "server_response": {
+        "id": 9003,
+        "teamId": 422,
+        "name": "abyss-v1",
+        "description": "Tested survival and growth search",
+        "language": "cpp",
+        "status": "processing",
+        "storageKey": "submissions/d1b1eeed-90e2-4e67-8cc1-0f5e962c46fc.zip",
+        "uploadedAt": "2026-09-27T17:07:28.690Z",
+        "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+        "buildLog": null,
+        "buildHeartbeatAt": null,
+        "buildAttempts": 0,
+        "sourceHash": "6989485b182f60b4b4a95a945a25a6aa8ea7988fc4bb427b2854d2f30de1ea07",
+        "kStart": null,
+        "kFreshAt": null,
+        "version": 1
+      }
+    },
+    {
+      "uploaded_at": "2026-09-27T18:06:18.854266+00:00",
+      "fingerprint": "28cbd6c113a585daf64b7f2b99c3cf37ce1be06fb98f2dfc92965aa1ca11fce8",
+      "name": "abyss-v2",
+      "version": 2,
+      "status": "accepted",
+      "archive": "20260927T180618Z-28cbd6c113a5.zip",
+      "server_response": {
+        "id": 9062,
+        "teamId": 422,
+        "name": "abyss-v2",
+        "description": "Swarm expansion, selective trades, portal exploration and long-body escape",
+        "language": "cpp",
+        "status": "processing",
+        "storageKey": "submissions/8e189679-9ca2-470a-98ec-2306ae062f28.zip",
+        "uploadedAt": "2026-09-27T18:06:20.040Z",
+        "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+        "buildLog": null,
+        "buildHeartbeatAt": null,
+        "buildAttempts": 0,
+        "sourceHash": "59f1c6b33da04f742fec411ab614e873e88fd81455881f178f893ed21e157e37",
+        "kStart": null,
+        "kFreshAt": null,
+        "version": 2
+      }
+    }
+  ],
+  "ranked_battles": [],
+  "notes": "User confirmed no previous submissions or ranked battles on 2026-09-27. No submissions made during development.",
+  "history_confirmed_at": "2026-09-27T11:30:35.772399+00:00",
+  "latest_server_verification": {
+    "at": "2026-09-27T17:17:03.280776+00:00",
+    "active_submission_id": 9003,
+    "active_version": 1,
+    "kStart": null,
+    "kFreshAt": null,
+    "ranked_battles_returned": 0,
+    "unranked_series_ids": [
+      409982,
+      409862
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 6s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 3s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/d9f548cdfeca65770502316c718731d8fcb530a422d798805c022930c061114b to wasm with judge clang
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 0s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 0s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/396bb8d5e5b95ee2c95f15fa3eafa139e24dfa4952d4ccc47354e3ee8ebc44e6 to wasm with judge clang
+  1 big_empty           73 A vs baselines/hunter: 1 (500 rounds), cumulative 100.0%
+  2 big_empty           73 B vs baselines/hunter: 1 (500 rounds), cumulative 100.0%
+  3 queen_of_spades     73 A vs baselines/hunter: 1 (500 rounds), cumulative 100.0%
+  4 queen_of_spades     73 B vs baselines/hunter: 1 (55 rounds), cumulative 100.0%
+  5 Colosseum           73 A vs baselines/hunter: 0 (17 rounds), cumulative 80.0%
+  6 Colosseum           73 B vs baselines/hunter: 1 (265 rounds), cumulative 83.3%
+  7 trauma              73 A vs baselines/hunter: 1 (500 rounds), cumulative 85.7%
+  8 trauma              73 B vs baselines/hunter: 0 (500 rounds), cumulative 75.0%
+{
+  "games": 8,
+  "score": 0.75,
+  "wins": 6,
+  "draws": 0,
+  "errors": 0
+}

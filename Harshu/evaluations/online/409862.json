@@ -1,0 +1,111 @@
+{
+  "match": {
+    "id": 409862,
+    "teamAId": 422,
+    "teamBId": 151,
+    "submissionAId": 9003,
+    "submissionBId": 8950,
+    "mapId": 19,
+    "mapHash": null,
+    "ranked": false,
+    "skinA": "Jiaolong",
+    "skinB": "Loch Ness",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 2,
+    "scoresB": 260,
+    "replayKey": "replays/409862-e52f5acb.replay",
+    "views": 0,
+    "requestedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+    "seriesId": "f19f06d3-fb4d-4ac6-a563-25ee44d92235",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-27T17:09:59.327Z",
+    "startedAt": "2026-09-27T17:09:59.576Z",
+    "completedAt": "2026-09-27T17:10:21.118Z",
+    "attempts": 1,
+    "hostFailures": 0,
+    "heartbeatAt": "2026-09-27T17:10:08.323Z",
+    "claimedBy": "a38229ac345f",
+    "log": null,
+    "seed": "a26abe66034ff8ee"
+  },
+  "mapName": "Autarky",
+  "teamAName": "Borgor",
+  "teamBName": "blauerdrache",
+  "teamAElo": 1500,
+  "teamBElo": 1522,
+  "games": [
+    {
+      "id": 409862,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Autarky"
+    },
+    {
+      "id": 409863,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Default"
+    },
+    {
+      "id": 409864,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Devil"
+    },
+    {
+      "id": 409865,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Portals"
+    },
+    {
+      "id": 409866,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Prisoners Dilemma"
+    },
+    {
+      "id": 409867,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Queen Of Spades"
+    },
+    {
+      "id": 409868,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Schooltime"
+    },
+    {
+      "id": 409869,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Slithery Fight"
+    },
+    {
+      "id": 409870,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Trauma"
+    },
+    {
+      "id": 409871,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Trophy"
+    }
+  ],
+  "wait": null
+}

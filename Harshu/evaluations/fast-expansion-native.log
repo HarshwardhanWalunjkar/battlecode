@@ -1,0 +1,23 @@
+  1 arena              101 A vs baselines/hunter: 0 (147 rounds), cumulative 0.0%
+  2 arena              101 B vs baselines/hunter: 0 (43 rounds), cumulative 0.0%
+  3 default_small      101 A vs baselines/hunter: 1 (485 rounds), cumulative 33.3%
+  4 default_small      101 B vs baselines/hunter: 0 (441 rounds), cumulative 25.0%
+  5 autarky            101 A vs baselines/hunter: 0 (500 rounds), cumulative 20.0%
+  6 autarky            101 B vs baselines/hunter: 1 (500 rounds), cumulative 33.3%
+  7 stronghold         101 A vs baselines/hunter: 0 (500 rounds), cumulative 28.6%
+  8 stronghold         101 B vs baselines/hunter: 0 (500 rounds), cumulative 25.0%
+  9 arena              101 A vs baselines/sheltered: 0 (116 rounds), cumulative 22.2%
+ 10 arena              101 B vs baselines/sheltered: 1 (214 rounds), cumulative 30.0%
+ 11 default_small      101 A vs baselines/sheltered: 0 (500 rounds), cumulative 27.3%
+ 12 default_small      101 B vs baselines/sheltered: 0 (500 rounds), cumulative 25.0%
+ 13 autarky            101 A vs baselines/sheltered: 1 (500 rounds), cumulative 30.8%
+ 14 autarky            101 B vs baselines/sheltered: 0 (500 rounds), cumulative 28.6%
+ 15 stronghold         101 A vs baselines/sheltered: 0 (500 rounds), cumulative 26.7%
+ 16 stronghold         101 B vs baselines/sheltered: 1 (500 rounds), cumulative 31.2%
+{
+  "games": 16,
+  "score": 0.3125,
+  "wins": 5,
+  "draws": 0,
+  "errors": 0
+}

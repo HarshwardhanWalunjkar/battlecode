@@ -1,0 +1,12 @@
+{
+  "fingerprint": "28cbd6c113a585daf64b7f2b99c3cf37ce1be06fb98f2dfc92965aa1ca11fce8",
+  "files": [
+    "bot.toml",
+    "config.hpp",
+    "helper.hpp",
+    "main.cpp",
+    "strategy.hpp"
+  ],
+  "bytes": 13956,
+  "toolkit": "1.2.2"
+}

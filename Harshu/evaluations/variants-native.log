@@ -1,0 +1,55 @@
+  1 arena               17 A vs baselines/no_split: 1 (55 rounds), cumulative 100.0%
+  2 arena               17 B vs baselines/no_split: 1 (33 rounds), cumulative 100.0%
+  3 autarky             17 A vs baselines/no_split: 1 (500 rounds), cumulative 100.0%
+  4 autarky             17 B vs baselines/no_split: 0 (500 rounds), cumulative 75.0%
+  5 devil               17 A vs baselines/no_split: 1 (500 rounds), cumulative 80.0%
+  6 devil               17 B vs baselines/no_split: 0 (500 rounds), cumulative 66.7%
+  7 queen_of_spades     17 A vs baselines/no_split: 1 (500 rounds), cumulative 71.4%
+  8 queen_of_spades     17 B vs baselines/no_split: 0 (500 rounds), cumulative 62.5%
+  9 arena               17 A vs baselines/early_split: 0 (50 rounds), cumulative 55.6%
+ 10 arena               17 B vs baselines/early_split: 0 (21 rounds), cumulative 50.0%
+ 11 autarky             17 A vs baselines/early_split: 1 (500 rounds), cumulative 54.5%
+ 12 autarky             17 B vs baselines/early_split: 0 (500 rounds), cumulative 50.0%
+ 13 devil               17 A vs baselines/early_split: 0 (500 rounds), cumulative 46.2%
+ 14 devil               17 B vs baselines/early_split: 0 (500 rounds), cumulative 42.9%
+ 15 queen_of_spades     17 A vs baselines/early_split: 1 (500 rounds), cumulative 46.7%
+ 16 queen_of_spades     17 B vs baselines/early_split: 0 (500 rounds), cumulative 43.8%
+ 17 arena               17 A vs baselines/late_split: 1 (55 rounds), cumulative 47.1%
+ 18 arena               17 B vs baselines/late_split: 1 (181 rounds), cumulative 50.0%
+ 19 autarky             17 A vs baselines/late_split: 1 (500 rounds), cumulative 52.6%
+ 20 autarky             17 B vs baselines/late_split: 0 (500 rounds), cumulative 50.0%
+ 21 devil               17 A vs baselines/late_split: 1 (500 rounds), cumulative 52.4%
+ 22 devil               17 B vs baselines/late_split: 0 (500 rounds), cumulative 50.0%
+ 23 queen_of_spades     17 A vs baselines/late_split: 1 (500 rounds), cumulative 52.2%
+ 24 queen_of_spades     17 B vs baselines/late_split: 0 (500 rounds), cumulative 50.0%
+ 25 arena               17 A vs baselines/wide_search: 0 (57 rounds), cumulative 48.0%
+ 26 arena               17 B vs baselines/wide_search: 1 (93 rounds), cumulative 50.0%
+ 27 autarky             17 A vs baselines/wide_search: 1 (500 rounds), cumulative 51.9%
+ 28 autarky             17 B vs baselines/wide_search: 0 (500 rounds), cumulative 50.0%
+ 29 devil               17 A vs baselines/wide_search: 1 (384 rounds), cumulative 51.7%
+ 30 devil               17 B vs baselines/wide_search: 0 (500 rounds), cumulative 50.0%
+ 31 queen_of_spades     17 A vs baselines/wide_search: 1 (500 rounds), cumulative 51.6%
+ 32 queen_of_spades     17 B vs baselines/wide_search: 1 (500 rounds), cumulative 53.1%
+ 33 arena               17 A vs baselines/cautious: 1 (46 rounds), cumulative 54.5%
+ 34 arena               17 B vs baselines/cautious: 1 (59 rounds), cumulative 55.9%
+ 35 autarky             17 A vs baselines/cautious: 0 (500 rounds), cumulative 54.3%
+ 36 autarky             17 B vs baselines/cautious: 1 (500 rounds), cumulative 55.6%
+ 37 devil               17 A vs baselines/cautious: 1 (500 rounds), cumulative 56.8%
+ 38 devil               17 B vs baselines/cautious: 1 (353 rounds), cumulative 57.9%
+ 39 queen_of_spades     17 A vs baselines/cautious: 0 (500 rounds), cumulative 56.4%
+ 40 queen_of_spades     17 B vs baselines/cautious: 0 (500 rounds), cumulative 55.0%
+ 41 arena               17 A vs baselines/bold: 1 (39 rounds), cumulative 56.1%
+ 42 arena               17 B vs baselines/bold: 1 (72 rounds), cumulative 57.1%
+ 43 autarky             17 A vs baselines/bold: 1 (500 rounds), cumulative 58.1%
+ 44 autarky             17 B vs baselines/bold: 1 (500 rounds), cumulative 59.1%
+ 45 devil               17 A vs baselines/bold: 1 (405 rounds), cumulative 60.0%
+ 46 devil               17 B vs baselines/bold: 1 (228 rounds), cumulative 60.9%
+ 47 queen_of_spades     17 A vs baselines/bold: 0 (500 rounds), cumulative 59.6%
+ 48 queen_of_spades     17 B vs baselines/bold: 0 (500 rounds), cumulative 58.3%
+{
+  "games": 48,
+  "score": 0.5833333333333334,
+  "wins": 28,
+  "draws": 0,
+  "errors": 0
+}

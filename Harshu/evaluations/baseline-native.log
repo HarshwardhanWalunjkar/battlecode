@@ -1,0 +1,79 @@
+  1 arena               11 A vs baselines/starter: 1 (28 rounds), cumulative 100.0%
+  2 arena               11 B vs baselines/starter: 1 (36 rounds), cumulative 100.0%
+  3 arena               29 A vs baselines/starter: 1 (44 rounds), cumulative 100.0%
+  4 arena               29 B vs baselines/starter: 1 (35 rounds), cumulative 100.0%
+  5 default_small       11 A vs baselines/starter: 1 (88 rounds), cumulative 100.0%
+  6 default_small       11 B vs baselines/starter: 1 (88 rounds), cumulative 100.0%
+  7 default_small       29 A vs baselines/starter: 1 (98 rounds), cumulative 100.0%
+  8 default_small       29 B vs baselines/starter: 1 (83 rounds), cumulative 100.0%
+  9 autarky             11 A vs baselines/starter: 1 (361 rounds), cumulative 100.0%
+ 10 autarky             11 B vs baselines/starter: 1 (500 rounds), cumulative 100.0%
+ 11 autarky             29 A vs baselines/starter: 1 (382 rounds), cumulative 100.0%
+ 12 autarky             29 B vs baselines/starter: 1 (230 rounds), cumulative 100.0%
+ 13 devil               11 A vs baselines/starter: 1 (183 rounds), cumulative 100.0%
+ 14 devil               11 B vs baselines/starter: 1 (98 rounds), cumulative 100.0%
+ 15 devil               29 A vs baselines/starter: 1 (149 rounds), cumulative 100.0%
+ 16 devil               29 B vs baselines/starter: 1 (86 rounds), cumulative 100.0%
+ 17 dilemma             11 A vs baselines/starter: 1 (491 rounds), cumulative 100.0%
+ 18 dilemma             11 B vs baselines/starter: 1 (453 rounds), cumulative 100.0%
+ 19 dilemma             29 A vs baselines/starter: 1 (255 rounds), cumulative 100.0%
+ 20 dilemma             29 B vs baselines/starter: 1 (422 rounds), cumulative 100.0%
+ 21 stronghold          11 A vs baselines/starter: 1 (258 rounds), cumulative 100.0%
+ 22 stronghold          11 B vs baselines/starter: 1 (130 rounds), cumulative 100.0%
+ 23 stronghold          29 A vs baselines/starter: 1 (258 rounds), cumulative 100.0%
+ 24 stronghold          29 B vs baselines/starter: 1 (137 rounds), cumulative 100.0%
+ 25 arena               11 A vs baselines/greedy: 1 (40 rounds), cumulative 100.0%
+ 26 arena               11 B vs baselines/greedy: 1 (34 rounds), cumulative 100.0%
+ 27 arena               29 A vs baselines/greedy: 1 (38 rounds), cumulative 100.0%
+ 28 arena               29 B vs baselines/greedy: 1 (57 rounds), cumulative 100.0%
+ 29 default_small       11 A vs baselines/greedy: 1 (48 rounds), cumulative 100.0%
+ 30 default_small       11 B vs baselines/greedy: 1 (148 rounds), cumulative 100.0%
+ 31 default_small       29 A vs baselines/greedy: 1 (230 rounds), cumulative 100.0%
+ 32 default_small       29 B vs baselines/greedy: 1 (130 rounds), cumulative 100.0%
+ 33 autarky             11 A vs baselines/greedy: 1 (358 rounds), cumulative 100.0%
+ 34 autarky             11 B vs baselines/greedy: 1 (372 rounds), cumulative 100.0%
+ 35 autarky             29 A vs baselines/greedy: 0 (500 rounds), cumulative 97.1%
+ 36 autarky             29 B vs baselines/greedy: 1 (500 rounds), cumulative 97.2%
+ 37 devil               11 A vs baselines/greedy: 1 (292 rounds), cumulative 97.3%
+ 38 devil               11 B vs baselines/greedy: 1 (113 rounds), cumulative 97.4%
+ 39 devil               29 A vs baselines/greedy: 1 (96 rounds), cumulative 97.4%
+ 40 devil               29 B vs baselines/greedy: 1 (90 rounds), cumulative 97.5%
+ 41 dilemma             11 A vs baselines/greedy: 1 (500 rounds), cumulative 97.6%
+ 42 dilemma             11 B vs baselines/greedy: 1 (48 rounds), cumulative 97.6%
+ 43 dilemma             29 A vs baselines/greedy: 1 (500 rounds), cumulative 97.7%
+ 44 dilemma             29 B vs baselines/greedy: 1 (48 rounds), cumulative 97.7%
+ 45 stronghold          11 A vs baselines/greedy: 0 (500 rounds), cumulative 95.6%
+ 46 stronghold          11 B vs baselines/greedy: 1 (153 rounds), cumulative 95.7%
+ 47 stronghold          29 A vs baselines/greedy: 1 (296 rounds), cumulative 95.7%
+ 48 stronghold          29 B vs baselines/greedy: 1 (367 rounds), cumulative 95.8%
+ 49 arena               11 A vs baselines/hunter: 0 (19 rounds), cumulative 93.9%
+ 50 arena               11 B vs baselines/hunter: 0 (48 rounds), cumulative 92.0%
+ 51 arena               29 A vs baselines/hunter: 0 (58 rounds), cumulative 90.2%
+ 52 arena               29 B vs baselines/hunter: 0 (37 rounds), cumulative 88.5%
+ 53 default_small       11 A vs baselines/hunter: 0 (295 rounds), cumulative 86.8%
+ 54 default_small       11 B vs baselines/hunter: 0 (44 rounds), cumulative 85.2%
+ 55 default_small       29 A vs baselines/hunter: 0 (113 rounds), cumulative 83.6%
+ 56 default_small       29 B vs baselines/hunter: 0 (85 rounds), cumulative 82.1%
+ 57 autarky             11 A vs baselines/hunter: 1 (500 rounds), cumulative 82.5%
+ 58 autarky             11 B vs baselines/hunter: 1 (500 rounds), cumulative 82.8%
+ 59 autarky             29 A vs baselines/hunter: 1 (500 rounds), cumulative 83.1%
+ 60 autarky             29 B vs baselines/hunter: 1 (500 rounds), cumulative 83.3%
+ 61 devil               11 A vs baselines/hunter: 1 (500 rounds), cumulative 83.6%
+ 62 devil               11 B vs baselines/hunter: 0 (178 rounds), cumulative 82.3%
+ 63 devil               29 A vs baselines/hunter: 0 (284 rounds), cumulative 81.0%
+ 64 devil               29 B vs baselines/hunter: 0 (190 rounds), cumulative 79.7%
+ 65 dilemma             11 A vs baselines/hunter: 1 (500 rounds), cumulative 80.0%
+ 66 dilemma             11 B vs baselines/hunter: 0 (178 rounds), cumulative 78.8%
+ 67 dilemma             29 A vs baselines/hunter: 1 (500 rounds), cumulative 79.1%
+ 68 dilemma             29 B vs baselines/hunter: 0 (165 rounds), cumulative 77.9%
+ 69 stronghold          11 A vs baselines/hunter: 0 (500 rounds), cumulative 76.8%
+ 70 stronghold          11 B vs baselines/hunter: 0 (500 rounds), cumulative 75.7%
+ 71 stronghold          29 A vs baselines/hunter: 0 (500 rounds), cumulative 74.6%
+ 72 stronghold          29 B vs baselines/hunter: 0 (500 rounds), cumulative 73.6%
+{
+  "games": 72,
+  "score": 0.7361111111111112,
+  "wins": 53,
+  "draws": 0,
+  "errors": 0
+}

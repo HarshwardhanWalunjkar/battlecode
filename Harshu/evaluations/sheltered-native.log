@@ -1,0 +1,31 @@
+  1 arena               47 A vs baselines/hunter: 0 (91 rounds), cumulative 0.0%
+  2 arena               47 B vs baselines/hunter: 0 (48 rounds), cumulative 0.0%
+  3 default_small       47 A vs baselines/hunter: 1 (500 rounds), cumulative 33.3%
+  4 default_small       47 B vs baselines/hunter: 1 (324 rounds), cumulative 50.0%
+  5 autarky             47 A vs baselines/hunter: 1 (500 rounds), cumulative 60.0%
+  6 autarky             47 B vs baselines/hunter: 0 (500 rounds), cumulative 50.0%
+  7 devil               47 A vs baselines/hunter: 1 (312 rounds), cumulative 57.1%
+  8 devil               47 B vs baselines/hunter: 1 (330 rounds), cumulative 62.5%
+  9 dilemma             47 A vs baselines/hunter: 1 (500 rounds), cumulative 66.7%
+ 10 dilemma             47 B vs baselines/hunter: 0 (500 rounds), cumulative 60.0%
+ 11 stronghold          47 A vs baselines/hunter: 0 (500 rounds), cumulative 54.5%
+ 12 stronghold          47 B vs baselines/hunter: 0 (500 rounds), cumulative 50.0%
+ 13 arena               47 A vs baselines/early_split: 0 (51 rounds), cumulative 46.2%
+ 14 arena               47 B vs baselines/early_split: 1 (142 rounds), cumulative 50.0%
+ 15 default_small       47 A vs baselines/early_split: 1 (389 rounds), cumulative 53.3%
+ 16 default_small       47 B vs baselines/early_split: 0 (425 rounds), cumulative 50.0%
+ 17 autarky             47 A vs baselines/early_split: 0 (500 rounds), cumulative 47.1%
+ 18 autarky             47 B vs baselines/early_split: 0 (500 rounds), cumulative 44.4%
+ 19 devil               47 A vs baselines/early_split: 1 (500 rounds), cumulative 47.4%
+ 20 devil               47 B vs baselines/early_split: 1 (500 rounds), cumulative 50.0%
+ 21 dilemma             47 A vs baselines/early_split: 1 (500 rounds), cumulative 52.4%
+ 22 dilemma             47 B vs baselines/early_split: 0 (500 rounds), cumulative 50.0%
+ 23 stronghold          47 A vs baselines/early_split: 0 (500 rounds), cumulative 47.8%
+ 24 stronghold          47 B vs baselines/early_split: 1 (500 rounds), cumulative 50.0%
+{
+  "games": 24,
+  "score": 0.5,
+  "wins": 12,
+  "draws": 0,
+  "errors": 0
+}

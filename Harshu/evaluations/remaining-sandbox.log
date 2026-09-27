@@ -1,0 +1,25 @@
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 10s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 5s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/479fabb69737ead43514f1a33d8049ba1b371578a52ca6a64c90f824af0fdc71 to wasm with judge clang
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 0s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 0s
+building /home/harshuiiuii/Projects/battlecode/evaluations/builds/396bb8d5e5b95ee2c95f15fa3eafa139e24dfa4952d4ccc47354e3ee8ebc44e6 to wasm with judge clang
+  1 default            307 A vs baselines/greedy: 0 (500 rounds), cumulative 0.0%
+  2 default            307 B vs baselines/greedy: 0 (500 rounds), cumulative 0.0%
+  3 schooltime         307 A vs baselines/greedy: 1 (408 rounds), cumulative 33.3%
+  4 schooltime         307 B vs baselines/greedy: 1 (326 rounds), cumulative 50.0%
+  5 trophy             307 A vs baselines/greedy: 1 (163 rounds), cumulative 60.0%
+  6 trophy             307 B vs baselines/greedy: 1 (183 rounds), cumulative 66.7%
+{
+  "games": 6,
+  "score": 0.6666666666666666,
+  "wins": 4,
+  "draws": 0,
+  "errors": 0
+}

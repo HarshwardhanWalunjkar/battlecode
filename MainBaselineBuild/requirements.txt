@@ -1,0 +1,2 @@
+unswbc==1.2.2
+wasmtime==49.0.0

@@ -1,0 +1,196 @@
+{
+  "trace_fields": "complete, length, known_body_size, exact_decision, deliberate_fatal, head_tile",
+  "deaths_match": false,
+  "deaths": [
+    [
+      2,
+      0,
+      "W"
+    ],
+    [
+      3,
+      10,
+      "A"
+    ]
+  ],
+  "expected_deaths": [
+    [
+      2,
+      0,
+      "W"
+    ]
+  ],
+  "trace": [
+    {
+      "round": 0,
+      "id": 0,
+      "expected": "MOVE N",
+      "chosen": "MOVE N",
+      "same": true,
+      "trace": "LOG TRACE 0 11 4 0 0 78",
+      "error": null
+    },
+    {
+      "round": 0,
+      "id": 2,
+      "expected": "MOVE E",
+      "chosen": "MOVE E",
+      "same": true,
+      "trace": "LOG TRACE 1 3 3 1 0 195",
+      "error": null
+    },
+    {
+      "round": 0,
+      "id": 4,
+      "expected": "MOVE E",
+      "chosen": "MOVE E",
+      "same": true,
+      "trace": "LOG TRACE 1 3 3 1 0 387",
+      "error": null
+    },
+    {
+      "round": 0,
+      "id": 6,
+      "expected": "MOVE S",
+      "chosen": "MOVE S",
+      "same": true,
+      "trace": "LOG TRACE 1 2 2 1 0 211",
+      "error": null
+    },
+    {
+      "round": 0,
+      "id": 8,
+      "expected": "MOVE N",
+      "chosen": "MOVE N",
+      "same": true,
+      "trace": "LOG TRACE 1 2 2 1 0 463",
+      "error": null
+    },
+    {
+      "round": 1,
+      "id": 0,
+      "expected": "MOVE N",
+      "chosen": "MOVE N",
+      "same": true,
+      "trace": "LOG TRACE 0 11 4 0 0 46",
+      "error": null
+    },
+    {
+      "round": 1,
+      "id": 2,
+      "expected": "MOVE S",
+      "chosen": "MOVE S",
+      "same": true,
+      "trace": "LOG TRACE 1 3 3 1 0 196",
+      "error": null
+    },
+    {
+      "round": 1,
+      "id": 4,
+      "expected": "MOVE S",
+      "chosen": "MOVE S",
+      "same": true,
+      "trace": "LOG TRACE 1 3 3 1 0 388",
+      "error": null
+    },
+    {
+      "round": 1,
+      "id": 6,
+      "expected": "MOVE E",
+      "chosen": "MOVE E",
+      "same": true,
+      "trace": "LOG TRACE 1 2 2 1 0 243",
+      "error": null
+    },
+    {
+      "round": 1,
+      "id": 8,
+      "expected": "MOVE N",
+      "chosen": "MOVE N",
+      "same": true,
+      "trace": "LOG TRACE 1 2 2 1 0 431",
+      "error": null
+    },
+    {
+      "round": 2,
+      "id": 0,
+      "expected": "MOVE N",
+      "chosen": "MOVE N",
+      "same": true,
+      "trace": "LOG TRACE 0 11 4 0 1 14",
+      "error": null
+    },
+    {
+      "round": 2,
+      "id": 2,
+      "expected": "MOVE S",
+      "chosen": "MOVE S",
+      "same": true,
+      "trace": "LOG TRACE 1 3 3 1 0 228",
+      "error": null
+    },
+    {
+      "round": 2,
+      "id": 4,
+      "expected": "MOVE W",
+      "chosen": "MOVE W",
+      "same": true,
+      "trace": "LOG TRACE 1 3 3 1 0 420",
+      "error": null
+    },
+    {
+      "round": 2,
+      "id": 6,
+      "expected": "MOVE S",
+      "chosen": "MOVE S",
+      "same": true,
+      "trace": "LOG TRACE 1 2 2 1 0 244",
+      "error": null
+    },
+    {
+      "round": 2,
+      "id": 8,
+      "expected": "MOVE E",
+      "chosen": "MOVE N",
+      "same": false,
+      "trace": "LOG TRACE 1 2 2 1 0 399",
+      "error": null
+    },
+    {
+      "round": 3,
+      "id": 2,
+      "expected": "MOVE W",
+      "chosen": "MOVE W",
+      "same": true,
+      "trace": "LOG TRACE 1 3 3 1 0 260",
+      "error": null
+    },
+    {
+      "round": 3,
+      "id": 4,
+      "expected": "MOVE S",
+      "chosen": "MOVE S",
+      "same": true,
+      "trace": "LOG TRACE 1 3 3 1 0 419",
+      "error": null
+    },
+    {
+      "round": 3,
+      "id": 6,
+      "expected": "MOVE E",
+      "chosen": "MOVE E",
+      "same": true,
+      "trace": "LOG TRACE 1 2 2 1 0 276",
+      "error": null
+    },
+    {
+      "round": 3,
+      "id": 8,
+      "expected": "MOVE S",
+      "chosen": "MOVE S",
+      "same": true,
+      "trace": "LOG TRACE 1 2 2 1 0 400",
+      "error": null
+    }
+  ]
+}

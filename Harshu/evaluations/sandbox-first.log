@@ -1,0 +1,20 @@
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 5s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 3s
+building bot to wasm with judge clang
+preparing judge clang for this machine
+  clang (1 of 2)...
+  clang (1 of 2): 0s
+  wasm-ld (2 of 2)...
+  wasm-ld (2 of 2): 0s
+building baselines/starter to wasm with judge clang
+loaded wasm vs wasm in the judge's sandbox
+seed 0x000000000000002a
+running round 2/500 --  last: 8ms  eta: 4.2s  dragons: 1 vs 1
+round 32: bot 1 (team B) died: hit another dragon
+team A wins after 33 rounds (by elimination) (0.2s)
+team A points per turn: p50 17.4M  p99 19.4M  mean 15.3M  max 19.4M  (47 turns)
+team B points per turn: p50 3.7M  p99 4.0M  mean 3.7M  max 4.0M  (33 turns)
+wrote replay: evaluations/sandbox-first.replay

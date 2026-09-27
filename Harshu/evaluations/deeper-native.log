@@ -1,0 +1,23 @@
+  1 arena               67 A vs baselines/hunter: 1 (64 rounds), cumulative 100.0%
+  2 arena               67 B vs baselines/hunter: 0 (48 rounds), cumulative 50.0%
+  3 autarky             67 A vs baselines/hunter: 1 (500 rounds), cumulative 66.7%
+  4 autarky             67 B vs baselines/hunter: 1 (500 rounds), cumulative 75.0%
+  5 devil               67 A vs baselines/hunter: 1 (359 rounds), cumulative 80.0%
+  6 devil               67 B vs baselines/hunter: 1 (233 rounds), cumulative 83.3%
+  7 stronghold          67 A vs baselines/hunter: 0 (500 rounds), cumulative 71.4%
+  8 stronghold          67 B vs baselines/hunter: 0 (500 rounds), cumulative 62.5%
+  9 arena               67 A vs baselines/sheltered: 1 (134 rounds), cumulative 66.7%
+ 10 arena               67 B vs baselines/sheltered: 0 (172 rounds), cumulative 60.0%
+ 11 autarky             67 A vs baselines/sheltered: 1 (500 rounds), cumulative 63.6%
+ 12 autarky             67 B vs baselines/sheltered: 0 (500 rounds), cumulative 58.3%
+ 13 devil               67 A vs baselines/sheltered: 1 (500 rounds), cumulative 61.5%
+ 14 devil               67 B vs baselines/sheltered: 0 (500 rounds), cumulative 57.1%
+ 15 stronghold          67 A vs baselines/sheltered: 0 (500 rounds), cumulative 53.3%
+ 16 stronghold          67 B vs baselines/sheltered: 0 (500 rounds), cumulative 50.0%
+{
+  "games": 16,
+  "score": 0.5,
+  "wins": 8,
+  "draws": 0,
+  "errors": 0
+}

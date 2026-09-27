@@ -1,0 +1,130 @@
+{
+  "fetched_at": "2026-09-27T17:17:03.280776+00:00",
+  "submissions": [
+    {
+      "id": 9003,
+      "teamId": 422,
+      "name": "abyss-v1",
+      "description": "Tested survival and growth search",
+      "language": "cpp",
+      "status": "active",
+      "storageKey": "submissions/d1b1eeed-90e2-4e67-8cc1-0f5e962c46fc.zip",
+      "uploadedAt": "2026-09-27T17:07:28.690Z",
+      "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+      "buildLog": null,
+      "buildHeartbeatAt": null,
+      "buildAttempts": 1,
+      "sourceHash": "6989485b182f60b4b4a95a945a25a6aa8ea7988fc4bb427b2854d2f30de1ea07",
+      "kStart": null,
+      "kFreshAt": null,
+      "wins": 0,
+      "draws": 0,
+      "losses": 20,
+      "byMap": {
+        "Prisoners Dilemma": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Slithery Fight": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Queen Of Spades": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Default": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Trauma": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Devil": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Schooltime": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Trophy": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Autarky": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Portals": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        }
+      },
+      "version": 1
+    }
+  ],
+  "battles": [
+    {
+      "id": 409982,
+      "ranked": false,
+      "opponentId": 532,
+      "opponent": "bongcloud",
+      "opponentElo": 1586,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 0,
+      "losses": 10,
+      "outcome": "loss",
+      "replayId": 409982,
+      "at": "2026-09-27T17:15:00.728Z"
+    },
+    {
+      "id": 409862,
+      "ranked": false,
+      "opponentId": 151,
+      "opponent": "blauerdrache",
+      "opponentElo": 1522,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 0,
+      "losses": 10,
+      "outcome": "loss",
+      "replayId": 409862,
+      "at": "2026-09-27T17:10:46.338Z"
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "our_team": "A",
+  "games": [
+    {
+      "id": 409862,
+      "map": "Autarky",
+      "opponent": "blauerdrache",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 1,
+          "longestDragon": 2,
+          "totalLength": 2
+        },
+        "teamB": {
+          "dragonCount": 50,
+          "longestDragon": 9,
+          "totalLength": 260
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1693,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 18289959,
+          "W": 2,
+          "H": 9,
+          "splits": 6
+        },
+        "B": {
+          "turns": 22300,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 160,
+          "A": 95,
+          "H": 13,
+          "O": 7,
+          "S": 1
+        }
+      },
+      "collisions": {
+        "A initiated AB": 9
+      },
+      "peak_count": {
+        "A": 6,
+        "B": 62
+      }
+    },
+    {
+      "id": 409863,
+      "map": "Default",
+      "opponent": "blauerdrache",
+      "rounds_played": 356,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 58,
+          "longestDragon": 9,
+          "totalLength": 219
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1063,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 18731626,
+          "H": 7,
+          "splits": 3
+        },
+        "B": {
+          "turns": 15064,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 134,
+          "H": 39,
+          "O": 15,
+          "A": 25,
+          "S": 1
+        }
+      },
+      "collisions": {
+        "A initiated AB": 7
+      },
+      "peak_count": {
+        "A": 4,
+        "B": 61
+      }
+    },
+    {
+      "id": 409864,
+      "map": "Devil",
+      "opponent": "blauerdrache",
+      "rounds_played": 187,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 50,
+          "longestDragon": 4,
+          "totalLength": 120
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 486,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 18259729,
+          "splits": 3,
+          "H": 4,
+          "O": 2
+        },
+        "B": {
+          "turns": 5348,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 157,
+          "A": 106,
+          "H": 4
+        }
+      },
+      "collisions": {
+        "A initiated AB": 4
+      },
+      "peak_count": {
+        "A": 4,
+        "B": 54
+      }
+    },
+    {
+      "id": 409865,
+      "map": "Portals",
+      "opponent": "blauerdrache",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 2,
+          "longestDragon": 3,
+          "totalLength": 5
+        },
+        "teamB": {
+          "dragonCount": 19,
+          "longestDragon": 18,
+          "totalLength": 112
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1497,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 13933719,
+          "O": 1
+        },
+        "B": {
+          "turns": 15150,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 753,
+          "A": 579,
+          "H": 128,
+          "O": 29,
+          "S": 1
+        }
+      },
+      "collisions": {},
+      "peak_count": {
+        "A": 3,
+        "B": 42
+      }
+    },
+    {
+      "id": 409866,
+      "map": "Prisoners Dilemma",
+      "opponent": "blauerdrache",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 1,
+          "longestDragon": 2,
+          "totalLength": 2
+        },
+        "teamB": {
+          "dragonCount": 32,
+          "longestDragon": 8,
+          "totalLength": 126
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 728,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 14617050,
+          "W": 1,
+          "H": 3
+        },
+        "B": {
+          "turns": 18428,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 240,
+          "A": 136,
+          "H": 51,
+          "O": 26
+        }
+      },
+      "collisions": {
+        "A initiated AB": 2,
+        "B initiated AB": 1
+      },
+      "peak_count": {
+        "A": 5,
+        "B": 55
+      }
+    },
+    {
+      "id": 409867,
+      "map": "Queen Of Spades",
+      "opponent": "blauerdrache",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 1,
+          "longestDragon": 2,
+          "totalLength": 2
+        },
+        "teamB": {
+          "dragonCount": 44,
+          "longestDragon": 8,
+          "totalLength": 167
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1190,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 17459486,
+          "splits": 2,
+          "H": 3
+        },
+        "B": {
+          "turns": 17197,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 262,
+          "A": 198,
+          "H": 19,
+          "O": 3
+        }
+      },
+      "collisions": {
+        "A initiated AB": 3
+      },
+      "peak_count": {
+        "A": 4,
+        "B": 59
+      }
+    },
+    {
+      "id": 409868,
+      "map": "Schooltime",
+      "opponent": "blauerdrache",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 1,
+          "longestDragon": 2,
+          "totalLength": 2
+        },
+        "teamB": {
+          "dragonCount": 36,
+          "longestDragon": 14,
+          "totalLength": 253
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1258,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 18799070,
+          "splits": 4,
+          "W": 3,
+          "H": 3
+        },
+        "B": {
+          "turns": 20749,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 138,
+          "O": 20,
+          "A": 45,
+          "H": 39,
+          "S": 1
+        }
+      },
+      "collisions": {
+        "A initiated AB": 2,
+        "B initiated AB": 1
+      },
+      "peak_count": {
+        "A": 6,
+        "B": 60
+      }
+    },
+    {
+      "id": 409869,
+      "map": "Slithery Fight",
+      "opponent": "blauerdrache",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 20,
+          "longestDragon": 14,
+          "totalLength": 104
+        },
+        "teamB": {
+          "dragonCount": 55,
+          "longestDragon": 23,
+          "totalLength": 344
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 7911,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 21997079,
+          "splits": 56,
+          "W": 16,
+          "H": 22,
+          "O": 4,
+          "S": 1
+        },
+        "B": {
+          "turns": 30299,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 1658,
+          "A": 1586,
+          "H": 20,
+          "O": 4
+        }
+      },
+      "collisions": {
+        "A initiated AB": 20,
+        "A initiated AA": 1
+      },
+      "peak_count": {
+        "A": 27,
+        "B": 64
+      }
+    },
+    {
+      "id": 409870,
+      "map": "Trauma",
+      "opponent": "blauerdrache",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 3,
+          "longestDragon": 5,
+          "totalLength": 11
+        },
+        "teamB": {
+          "dragonCount": 41,
+          "longestDragon": 11,
+          "totalLength": 175
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1676,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 18562929,
+          "splits": 2,
+          "H": 1
+        },
+        "B": {
+          "turns": 15668,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 294,
+          "A": 248,
+          "H": 7
+        }
+      },
+      "collisions": {
+        "A initiated AB": 1
+      },
+      "peak_count": {
+        "A": 4,
+        "B": 61
+      }
+    },
+    {
+      "id": 409871,
+      "map": "Trophy",
+      "opponent": "blauerdrache",
+      "rounds_played": 171,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 59,
+          "longestDragon": 8,
+          "totalLength": 199
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 354,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 20035742,
+          "splits": 2,
+          "H": 4
+        },
+        "B": {
+          "turns": 6346,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 85,
+          "A": 22,
+          "H": 6
+        }
+      },
+      "collisions": {
+        "A initiated AB": 4
+      },
+      "peak_count": {
+        "A": 4,
+        "B": 60
+      }
+    },
+    {
+      "id": 409982,
+      "map": "Autarky",
+      "opponent": "bongcloud",
+      "rounds_played": 226,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 40,
+          "longestDragon": 4,
+          "totalLength": 105
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 522,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 18173253,
+          "W": 1,
+          "H": 5
+        },
+        "B": {
+          "turns": 7312,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 143,
+          "S": 78,
+          "H": 31
+        }
+      },
+      "collisions": {
+        "A initiated AB": 4,
+        "B initiated AB": 1
+      },
+      "peak_count": {
+        "A": 6,
+        "B": 46
+      }
+    },
+    {
+      "id": 409983,
+      "map": "Default",
+      "opponent": "bongcloud",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 1,
+          "longestDragon": 5,
+          "totalLength": 5
+        },
+        "teamB": {
+          "dragonCount": 9,
+          "longestDragon": 27,
+          "totalLength": 128
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1008,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 20485128,
+          "H": 3
+        },
+        "B": {
+          "turns": 19613,
+          "timeouts": 1,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 219,
+          "H": 39,
+          "O": 30,
+          "S": 144,
+          "A": 1
+        }
+      },
+      "collisions": {
+        "A initiated AB": 2,
+        "B initiated AB": 1
+      },
+      "peak_count": {
+        "A": 4,
+        "B": 61
+      }
+    },
+    {
+      "id": 409984,
+      "map": "Devil",
+      "opponent": "bongcloud",
+      "rounds_played": 238,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 62,
+          "longestDragon": 10,
+          "totalLength": 160
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 905,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 17270845,
+          "splits": 13,
+          "H": 15,
+          "O": 1
+        },
+        "B": {
+          "turns": 9345,
+          "timeouts": 1,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 283,
+          "S": 210,
+          "A": 1,
+          "H": 13
+        }
+      },
+      "collisions": {
+        "A initiated AB": 11,
+        "A initiated AA": 1,
+        "B initiated AB": 2
+      },
+      "peak_count": {
+        "A": 10,
+        "B": 64
+      }
+    },
+    {
+      "id": 409985,
+      "map": "Portals",
+      "opponent": "bongcloud",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 2,
+          "longestDragon": 3,
+          "totalLength": 5
+        },
+        "teamB": {
+          "dragonCount": 5,
+          "longestDragon": 11,
+          "totalLength": 34
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1497,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 13955919,
+          "O": 1
+        },
+        "B": {
+          "turns": 13628,
+          "timeouts": 3,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 697,
+          "S": 593,
+          "H": 76,
+          "O": 23,
+          "A": 3
+        }
+      },
+      "collisions": {},
+      "peak_count": {
+        "A": 3,
+        "B": 37
+      }
+    },
+    {
+      "id": 409986,
+      "map": "Prisoners Dilemma",
+      "opponent": "bongcloud",
+      "rounds_played": 73,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 19,
+          "longestDragon": 4,
+          "totalLength": 44
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 132,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 14849340,
+          "W": 1,
+          "H": 4
+        },
+        "B": {
+          "turns": 1098,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 49,
+          "S": 31,
+          "H": 4
+        }
+      },
+      "collisions": {
+        "A initiated AB": 3,
+        "B initiated AB": 1
+      },
+      "peak_count": {
+        "A": 5,
+        "B": 21
+      }
+    },
+    {
+      "id": 409987,
+      "map": "Queen Of Spades",
+      "opponent": "bongcloud",
+      "rounds_played": 284,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 31,
+          "longestDragon": 6,
+          "totalLength": 92
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 569,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 18611829,
+          "splits": 1,
+          "W": 1,
+          "H": 2
+        },
+        "B": {
+          "turns": 4154,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 79,
+          "S": 40,
+          "H": 8,
+          "O": 2
+        }
+      },
+      "collisions": {
+        "A initiated AB": 1,
+        "B initiated AB": 1
+      },
+      "peak_count": {
+        "A": 3,
+        "B": 34
+      }
+    },
+    {
+      "id": 409988,
+      "map": "Schooltime",
+      "opponent": "bongcloud",
+      "rounds_played": 288,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 64,
+          "longestDragon": 21,
+          "totalLength": 261
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 719,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 20118326,
+          "splits": 3,
+          "H": 6
+        },
+        "B": {
+          "turns": 13557,
+          "timeouts": 1,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 241,
+          "S": 155,
+          "O": 12,
+          "H": 12,
+          "A": 1
+        }
+      },
+      "collisions": {
+        "A initiated AB": 6
+      },
+      "peak_count": {
+        "A": 4,
+        "B": 64
+      }
+    },
+    {
+      "id": 409989,
+      "map": "Slithery Fight",
+      "opponent": "bongcloud",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 1,
+          "longestDragon": 2,
+          "totalLength": 2
+        },
+        "teamB": {
+          "dragonCount": 14,
+          "longestDragon": 40,
+          "totalLength": 210
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 2853,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 20695031,
+          "splits": 12,
+          "W": 3,
+          "H": 14,
+          "O": 1
+        },
+        "B": {
+          "turns": 28699,
+          "timeouts": 8,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 791,
+          "S": 764,
+          "H": 12,
+          "A": 8
+        }
+      },
+      "collisions": {
+        "A initiated AB": 12,
+        "A initiated AA": 1
+      },
+      "peak_count": {
+        "A": 13,
+        "B": 64
+      }
+    },
+    {
+      "id": 409990,
+      "map": "Trauma",
+      "opponent": "bongcloud",
+      "rounds_played": 500,
+      "result": {
+        "terminated": true,
+        "endReason": "roundLimit",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 1,
+          "longestDragon": 6,
+          "totalLength": 6
+        },
+        "teamB": {
+          "dragonCount": 11,
+          "longestDragon": 14,
+          "totalLength": 72
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 1214,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 18000620,
+          "splits": 4,
+          "W": 1,
+          "H": 4
+        },
+        "B": {
+          "turns": 16068,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 474,
+          "S": 434,
+          "H": 26,
+          "O": 5
+        }
+      },
+      "collisions": {
+        "A initiated AB": 4
+      },
+      "peak_count": {
+        "A": 5,
+        "B": 55
+      }
+    },
+    {
+      "id": 409991,
+      "map": "Trophy",
+      "opponent": "bongcloud",
+      "rounds_played": 119,
+      "result": {
+        "terminated": true,
+        "endReason": "teamEliminated",
+        "winner": "B",
+        "teamA": {
+          "dragonCount": 0,
+          "longestDragon": 0,
+          "totalLength": 0
+        },
+        "teamB": {
+          "dragonCount": 50,
+          "longestDragon": 3,
+          "totalLength": 117
+        }
+      },
+      "stats": {
+        "A": {
+          "turns": 311,
+          "timeouts": 0,
+          "budget_exceeded": 0,
+          "max_points": 19263772,
+          "splits": 4,
+          "W": 1,
+          "H": 5
+        },
+        "B": {
+          "turns": 2886,
+          "timeouts": 1,
+          "budget_exceeded": 0,
+          "max_points": 0,
+          "splits": 75,
+          "S": 21,
+          "H": 5,
+          "A": 1
+        }
+      },
+      "collisions": {
+        "A initiated AB": 4,
+        "B initiated AB": 1
+      },
+      "peak_count": {
+        "A": 5,
+        "B": 50
+      }
+    }
+  ],
+  "totals": {
+    "turns": 27586,
+    "timeouts": 0,
+    "budget_exceeded": 0,
+    "W": 30,
+    "H": 114,
+    "splits": 115,
+    "max_points": 21997079,
+    "A initiated AB": 99,
+    "roundLimit": 11,
+    "teamEliminated": 9,
+    "O": 10,
+    "B initiated AB": 9,
+    "S": 1,
+    "A initiated AA": 3
+  }
+}
