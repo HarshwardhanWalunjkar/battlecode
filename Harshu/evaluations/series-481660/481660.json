@@ -1,0 +1,67 @@
+{
+  "match": {
+    "id": 481660,
+    "teamAId": 422,
+    "teamBId": 328,
+    "mapId": 11,
+    "ranked": true,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 92,
+    "views": 0,
+    "seriesId": "f46ffc62-7668-43ae-a2e1-91cbf630342f",
+    "eloChangeA": -35,
+    "eloChangeB": 10,
+    "requestedAt": "2026-09-28T10:56:22.784Z",
+    "startedAt": "2026-09-28T10:56:24.128Z",
+    "completedAt": "2026-09-28T10:56:27.498Z",
+    "log": null,
+    "seed": "d1dbec295f5fb44a"
+  },
+  "mapName": "Trophy",
+  "teamAName": "Borgor",
+  "teamBName": "UnderTheC",
+  "teamAElo": 1431,
+  "teamBElo": 1517,
+  "games": [
+    {
+      "id": 481660,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Trophy"
+    },
+    {
+      "id": 481661,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Trauma"
+    },
+    {
+      "id": 481662,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Prisoners Dilemma"
+    },
+    {
+      "id": 481663,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Slithery Fight"
+    },
+    {
+      "id": 481664,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Devil"
+    }
+  ],
+  "wait": null
+}

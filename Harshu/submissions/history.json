@@ -62,7 +62,7 @@
       "latest_server_state": {
         "id": 9062,
         "version": 2,
-        "status": "active",
+        "status": "idle",
         "kStart": 2,
         "kFreshAt": null
       }
@@ -91,6 +91,79 @@
         "kStart": null,
         "kFreshAt": null,
         "version": 3
+      },
+      "latest_server_state": {
+        "id": 9700,
+        "version": 3,
+        "status": "idle",
+        "kStart": 10,
+        "kFreshAt": null
+      }
+    },
+    {
+      "uploaded_at": "2026-09-28T10:49:41.198337+00:00",
+      "fingerprint": "217f6872e1b068b83481e5cc89777406f6615f3a1428ed2ac975c56d289d6aa8",
+      "name": "abyss-v4.1",
+      "version": 4,
+      "status": "accepted",
+      "archive": "20260928T104941Z-217f6872e1b0.zip",
+      "server_response": {
+        "id": 10118,
+        "teamId": 422,
+        "name": "abyss-v4.1",
+        "description": "V4 portal continuity and length-preserving rescues, with a last-resort escape past adjacent ally reports",
+        "language": "cpp",
+        "status": "processing",
+        "storageKey": "submissions/37e29826-0f5d-4ae0-859b-7e401139f6b6.zip",
+        "uploadedAt": "2026-09-28T10:49:42.143Z",
+        "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+        "buildLog": null,
+        "buildHeartbeatAt": null,
+        "buildAttempts": 0,
+        "sourceHash": "d5057070acba7bff7c9b00d98c04c7ef189de94b7ce0e8336353fd19a2a1efec",
+        "kStart": null,
+        "kFreshAt": null,
+        "version": 4
+      },
+      "latest_server_state": {
+        "id": 10118,
+        "version": 4,
+        "status": "idle",
+        "kStart": null,
+        "kFreshAt": null
+      }
+    },
+    {
+      "uploaded_at": "2026-09-28T10:49:55.792049+00:00",
+      "fingerprint": "217f6872e1b068b83481e5cc89777406f6615f3a1428ed2ac975c56d289d6aa8",
+      "name": "abyss-v4.1",
+      "version": 5,
+      "status": "accepted",
+      "archive": "20260928T104955Z-217f6872e1b0.zip",
+      "server_response": {
+        "id": 10120,
+        "teamId": 422,
+        "name": "abyss-v4.1",
+        "description": "V4 portal continuity and length-preserving rescues, with a last-resort escape past adjacent ally reports",
+        "language": "cpp",
+        "status": "processing",
+        "storageKey": "submissions/58ed460c-d4aa-4762-9fb5-64c97248c48c.zip",
+        "uploadedAt": "2026-09-28T10:49:56.914Z",
+        "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+        "buildLog": null,
+        "buildHeartbeatAt": null,
+        "buildAttempts": 0,
+        "sourceHash": "d5057070acba7bff7c9b00d98c04c7ef189de94b7ce0e8336353fd19a2a1efec",
+        "kStart": null,
+        "kFreshAt": null,
+        "version": 5
+      },
+      "latest_server_state": {
+        "id": 10120,
+        "version": 5,
+        "status": "active",
+        "kStart": 0,
+        "kFreshAt": "2026-09-28T10:52:22.078Z"
       }
     }
   ],
@@ -644,42 +717,169 @@
       ],
       "first_game_started_at": "2026-09-28T04:43:59.628Z",
       "evidence": "evaluations/recent-20260928/453306.json"
+    },
+    {
+      "version": 2,
+      "submission_id": 9062,
+      "battle_id": 449342,
+      "series_id": "0d5db38f-ad41-4e85-ae95-b4ea2433bcdc",
+      "played_at": "2026-09-28T05:19:53.484Z",
+      "series_completed_at": "2026-09-28T05:19:53.484Z",
+      "count_before": 22,
+      "count_after": 23,
+      "fresh_window": false,
+      "opponent": "the_best_team",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 3,
+      "game_ids": [
+        449342,
+        449343,
+        449344,
+        449345,
+        449346
+      ],
+      "first_game_started_at": "2026-09-28T04:45:18.787Z",
+      "evidence": "evaluations/recent-20260928/449342.json"
+    },
+    {
+      "version": 2,
+      "submission_id": 9062,
+      "battle_id": 450662,
+      "series_id": "12aa9321-3bed-4dac-b8a1-6a128af3919b",
+      "played_at": "2026-09-28T05:22:05.682Z",
+      "series_completed_at": "2026-09-28T05:22:05.682Z",
+      "count_before": 23,
+      "count_after": 24,
+      "fresh_window": false,
+      "opponent": "Hampter",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo_change": -2,
+      "game_ids": [
+        450662,
+        450663,
+        450664,
+        450665,
+        450666
+      ],
+      "first_game_started_at": "2026-09-28T04:15:07.688Z",
+      "evidence": "evaluations/recent-20260928/450662.json"
     }
   ],
-  "notes": "Complete account history confirmed by user; uploads and ranked series reconciled from API. v3 is a local candidate, not uploaded.",
+  "notes": "Latest submission-only verification is in latest_submission_verification. Older full battle-count reconciliation remains historical; do not infer current effective K from that older snapshot.",
   "history_confirmed_at": "2026-09-27T11:30:35.772399+00:00",
   "latest_server_verification": {
-    "at": "2026-09-28T04:47:31.308519+00:00",
-    "active_submission_id": 9062,
-    "active_version": 2,
-    "kStart": 2,
+    "at": "2026-09-28T10:12:57.741088+00:00",
+    "active_submission_id": 9700,
+    "active_version": 3,
+    "kStart": 10,
     "kFreshAt": null,
-    "completed_ranked_series": 22,
+    "completed_ranked_series": 24,
     "queued_ranked_series": [
       {
-        "battle_id": 450662,
-        "version": 2,
-        "opponent": "Hampter"
+        "battle_id": 478549,
+        "version": null,
+        "opponent": "GZHU-AISquad-Machine"
       },
       {
-        "battle_id": 449342,
-        "version": 2,
-        "opponent": "the_best_team"
+        "battle_id": 477219,
+        "version": null,
+        "opponent": "Wisher"
       }
     ],
     "effective_counts": {
-      "2": 22,
+      "3": 10,
+      "2": 24,
       "1": 2
     },
     "effective_count_basis": "Server kStart plus completed ranked series; live/queued series excluded.",
+    "unattributed_completed_series": 6,
     "snapshot": "evaluations/recent-20260928/snapshot.json"
   },
   "fresh_window": {
-    "submission_id": 9003,
-    "version": 1,
-    "started_at": "2026-09-27T18:34:02.102Z",
-    "expires_at": "2026-09-28T06:34:02.102000+00:00",
+    "submission_id": 10120,
+    "version": 5,
+    "started_at": "2026-09-28T10:52:22.078Z",
+    "expires_at": "2026-09-28T22:52:22.078000+00:00",
     "basis": "Authoritative server submissions.kFreshAt",
-    "verified_at": "2026-09-27T22:12:25.815588+00:00"
+    "verified_at": "2026-09-28T11:44:45.905476+00:00"
+  },
+  "unattributed_ranked_battles": [
+    {
+      "battle_id": 457772,
+      "opponent": "Lozer",
+      "completed_at": "2026-09-28T06:00:21.983Z",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "reason": "Current battle response omits submission identity; no version inferred."
+    },
+    {
+      "battle_id": 461829,
+      "opponent": "Lozer",
+      "completed_at": "2026-09-28T06:26:22.777Z",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "reason": "Current battle response omits submission identity; no version inferred."
+    },
+    {
+      "battle_id": 458742,
+      "opponent": "Potential man",
+      "completed_at": "2026-09-28T06:56:34.110Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "reason": "Current battle response omits submission identity; no version inferred."
+    },
+    {
+      "battle_id": 460052,
+      "opponent": "GZHU-AISquad-Machine",
+      "completed_at": "2026-09-28T06:57:15.789Z",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "reason": "Current battle response omits submission identity; no version inferred."
+    },
+    {
+      "battle_id": 467868,
+      "opponent": "dragon",
+      "completed_at": "2026-09-28T08:45:50.757Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "reason": "Current battle response omits submission identity; no version inferred."
+    },
+    {
+      "battle_id": 469198,
+      "opponent": "Med Students",
+      "completed_at": "2026-09-28T08:47:10.033Z",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "reason": "Current battle response omits submission identity; no version inferred."
+    },
+    {
+      "battle_id": 481660,
+      "opponent": "UnderTheC",
+      "completed_at": "2026-09-28T10:56:51.798Z",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "reason": "Match details omit submission identity; played after v4.1 uploads but not assigned by guesswork."
+    }
+  ],
+  "latest_submission_verification": {
+    "at": "2026-09-28T11:44:45.905476+00:00",
+    "active_submission_id": 10120,
+    "active_server_version": 5,
+    "local_build": "v4.1",
+    "kStart": 0,
+    "kFreshAt": "2026-09-28T10:52:22.078Z",
+    "snapshot": "evaluations/series-481660/submissions.json",
+    "series_attribution": "Requested match details omit submission IDs; effective completed count is not inferred."
   }
 }

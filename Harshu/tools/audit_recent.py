@@ -117,7 +117,7 @@ def analyze(path):
     result = replay['result']
     us, them = result['team' + own], result['team' + enemy]
     return {'id':m['id'], 'series':m['seriesId'], 'map':detail['mapName'], 'own_side':own,
-            'version_id':m['submission' + own + 'Id'], 'opponent':detail['team'+enemy+'Name'],
+            'version_id':m.get('submission' + own + 'Id'), 'opponent':detail['team'+enemy+'Name'],
             'ranked':m['ranked'], 'win':result['winner']==own, 'draw':result['winner'] is None, 'reason':result['endReason'],
             'rounds':round_num+1, 'final_own':us, 'final_enemy':them,
             'stats_own':stats[own], 'stats_enemy':stats[enemy],
@@ -131,7 +131,7 @@ def analyze(path):
 if __name__ == '__main__':
     games = [analyze(p) for p in sorted(ROOT.glob('*.events.json'))]
     (ROOT / 'analysis.json').write_text(json.dumps({'games':games}, indent=2)+'\n')
-    for version in sorted({g['version_id'] for g in games}):
+    for version in sorted({g['version_id'] for g in games}, key=str):
         group = [g for g in games if g['version_id']==version]
         print(version, len(group), 'games', sum(g['win'] for g in group), 'wins',
               Counter(g['reason'] for g in group if not g['win']),

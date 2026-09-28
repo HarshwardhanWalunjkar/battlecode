@@ -1,13 +1,86 @@
 {
-  "fetched_at": "2026-09-28T04:47:31.308519+00:00",
+  "fetched_at": "2026-09-28T10:12:57.741088+00:00",
   "submissions": [
+    {
+      "id": 9700,
+      "teamId": 422,
+      "name": "abyss-v3",
+      "description": "Protected growers, 64-slot expansion, persistent exploration and selective upward trades",
+      "language": "cpp",
+      "status": "active",
+      "storageKey": "submissions/60960cf4-7b35-4b91-89aa-d01835728eac.zip",
+      "uploadedAt": "2026-09-28T05:09:17.007Z",
+      "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+      "buildLog": null,
+      "buildHeartbeatAt": null,
+      "buildAttempts": 1,
+      "sourceHash": "c90c3de0d6352ea3483647c421ff50033cc33a85fae2dbd068aed9fad2ff6898",
+      "kStart": 10,
+      "kFreshAt": null,
+      "wins": 31,
+      "draws": 0,
+      "losses": 29,
+      "byMap": {
+        "Trauma": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 3
+        },
+        "Schooltime": {
+          "wins": 3,
+          "draws": 0,
+          "losses": 2
+        },
+        "Queen Of Spades": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 2
+        },
+        "Prisoners Dilemma": {
+          "wins": 3,
+          "draws": 0,
+          "losses": 5
+        },
+        "Default": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 0
+        },
+        "Trophy": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 5
+        },
+        "Autarky": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 4
+        },
+        "Portals": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 0
+        },
+        "Slithery Fight": {
+          "wins": 2,
+          "draws": 0,
+          "losses": 5
+        },
+        "Devil": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 3
+        }
+      },
+      "version": 3
+    },
     {
       "id": 9062,
       "teamId": 422,
       "name": "abyss-v2",
       "description": "Swarm expansion, selective trades, portal exploration and long-body escape",
       "language": "cpp",
-      "status": "active",
+      "status": "idle",
       "storageKey": "submissions/8e189679-9ca2-470a-98ec-2306ae062f28.zip",
       "uploadedAt": "2026-09-27T18:06:20.040Z",
       "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
@@ -17,9 +90,9 @@
       "sourceHash": "59f1c6b33da04f742fec411ab614e873e88fd81455881f178f893ed21e157e37",
       "kStart": 2,
       "kFreshAt": null,
-      "wins": 75,
+      "wins": 78,
       "draws": 0,
-      "losses": 119,
+      "losses": 122,
       "byMap": {
         "Trophy": {
           "wins": 5,
@@ -32,19 +105,19 @@
           "losses": 8
         },
         "Prisoners Dilemma": {
-          "wins": 5,
+          "wins": 6,
           "draws": 0,
-          "losses": 11
+          "losses": 12
         },
         "Trauma": {
-          "wins": 3,
+          "wins": 4,
           "draws": 0,
           "losses": 13
         },
         "Queen Of Spades": {
           "wins": 5,
           "draws": 0,
-          "losses": 12
+          "losses": 13
         },
         "Schooltime": {
           "wins": 12,
@@ -52,14 +125,14 @@
           "losses": 6
         },
         "Devil": {
-          "wins": 9,
+          "wins": 10,
           "draws": 0,
           "losses": 11
         },
         "Default": {
           "wins": 17,
           "draws": 0,
-          "losses": 7
+          "losses": 8
         },
         "Slithery Fight": {
           "wins": 3,
@@ -150,28 +223,287 @@
   ],
   "battles": [
     {
-      "id": 449342,
+      "id": 478549,
       "ranked": true,
-      "opponentId": 254,
-      "opponent": "the_best_team",
-      "opponentElo": 1389,
+      "opponentId": 305,
+      "opponent": "GZHU-AISquad-Machine",
+      "opponentElo": 1373,
       "eloChange": null,
       "results": [
         "pending",
-        "win",
+        "pending",
         "pending",
         "pending",
         "pending"
       ],
-      "wins": 1,
+      "wins": 0,
       "losses": 0,
-      "outcome": "live",
-      "replayId": 449343,
-      "at": "2026-09-28T04:45:57.584Z",
+      "outcome": "queued",
+      "replayId": null,
+      "at": "2026-09-28T10:00:00.000Z",
       "wait": {
-        "ahead": 537,
-        "ms": 175427
+        "ahead": 1991,
+        "ms": 1045469
       }
+    },
+    {
+      "id": 477219,
+      "ranked": true,
+      "opponentId": 870,
+      "opponent": "Wisher",
+      "opponentElo": 1373,
+      "eloChange": null,
+      "results": [
+        "pending",
+        "pending",
+        "pending",
+        "pending",
+        "pending"
+      ],
+      "wins": 0,
+      "losses": 0,
+      "outcome": "queued",
+      "replayId": null,
+      "at": "2026-09-28T10:00:00.000Z",
+      "wait": {
+        "ahead": 775,
+        "ms": 460080
+      }
+    },
+    {
+      "id": 469198,
+      "ranked": true,
+      "opponentId": 550,
+      "opponent": "Med Students",
+      "opponentElo": 1359,
+      "eloChange": 12,
+      "results": [
+        "win",
+        "win",
+        "win",
+        "win",
+        "win"
+      ],
+      "wins": 5,
+      "losses": 0,
+      "outcome": "win",
+      "replayId": 469198,
+      "at": "2026-09-28T08:47:10.033Z"
+    },
+    {
+      "id": 467868,
+      "ranked": true,
+      "opponentId": 912,
+      "opponent": "dragon",
+      "opponentElo": 1357,
+      "eloChange": 7,
+      "results": [
+        "loss",
+        "win",
+        "win",
+        "win",
+        "win"
+      ],
+      "wins": 4,
+      "losses": 1,
+      "outcome": "win",
+      "replayId": 467868,
+      "at": "2026-09-28T08:45:50.757Z"
+    },
+    {
+      "id": 464366,
+      "ranked": false,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1414,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "win",
+        "loss"
+      ],
+      "wins": 3,
+      "losses": 7,
+      "outcome": "loss",
+      "replayId": 464366,
+      "at": "2026-09-28T07:11:12.932Z"
+    },
+    {
+      "id": 460052,
+      "ranked": true,
+      "opponentId": 305,
+      "opponent": "GZHU-AISquad-Machine",
+      "opponentElo": 1372,
+      "eloChange": 13,
+      "results": [
+        "win",
+        "win",
+        "win",
+        "win",
+        "win"
+      ],
+      "wins": 5,
+      "losses": 0,
+      "outcome": "win",
+      "replayId": 460052,
+      "at": "2026-09-28T06:57:15.789Z"
+    },
+    {
+      "id": 458742,
+      "ranked": true,
+      "opponentId": 669,
+      "opponent": "Potential man",
+      "opponentElo": 1352,
+      "eloChange": 3,
+      "results": [
+        "win",
+        "loss",
+        "win",
+        "win",
+        "loss"
+      ],
+      "wins": 3,
+      "losses": 2,
+      "outcome": "win",
+      "replayId": 458742,
+      "at": "2026-09-28T06:56:34.110Z"
+    },
+    {
+      "id": 461829,
+      "ranked": true,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1372,
+      "eloChange": -7,
+      "results": [
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "win"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 461829,
+      "at": "2026-09-28T06:26:22.777Z"
+    },
+    {
+      "id": 457772,
+      "ranked": true,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1336,
+      "eloChange": -3,
+      "results": [
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "win"
+      ],
+      "wins": 2,
+      "losses": 3,
+      "outcome": "loss",
+      "replayId": 457772,
+      "at": "2026-09-28T06:00:21.983Z"
+    },
+    {
+      "id": 457084,
+      "ranked": false,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1336,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 3,
+      "losses": 7,
+      "outcome": "loss",
+      "replayId": 457084,
+      "at": "2026-09-28T05:50:58.874Z"
+    },
+    {
+      "id": 450662,
+      "ranked": true,
+      "opponentId": 861,
+      "opponent": "Hampter",
+      "opponentElo": 1378,
+      "eloChange": -2,
+      "results": [
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "win"
+      ],
+      "wins": 2,
+      "losses": 3,
+      "outcome": "loss",
+      "replayId": 450662,
+      "at": "2026-09-28T05:22:05.682Z"
+    },
+    {
+      "id": 449342,
+      "ranked": true,
+      "opponentId": 254,
+      "opponent": "the_best_team",
+      "opponentElo": 1382,
+      "eloChange": 3,
+      "results": [
+        "loss",
+        "win",
+        "win",
+        "loss",
+        "win"
+      ],
+      "wins": 3,
+      "losses": 2,
+      "outcome": "win",
+      "replayId": 449342,
+      "at": "2026-09-28T05:19:53.484Z"
+    },
+    {
+      "id": 454913,
+      "ranked": false,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1349,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "win",
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "win",
+        "loss"
+      ],
+      "wins": 5,
+      "losses": 5,
+      "outcome": "draw",
+      "replayId": 454913,
+      "at": "2026-09-28T05:19:14.998Z"
     },
     {
       "id": 453306,
@@ -217,30 +549,6 @@
       "outcome": "loss",
       "replayId": 453271,
       "at": "2026-09-28T04:45:07.368Z"
-    },
-    {
-      "id": 450662,
-      "ranked": true,
-      "opponentId": 861,
-      "opponent": "Hampter",
-      "opponentElo": 1381,
-      "eloChange": null,
-      "results": [
-        "pending",
-        "loss",
-        "win",
-        "loss",
-        "pending"
-      ],
-      "wins": 1,
-      "losses": 2,
-      "outcome": "live",
-      "replayId": 450663,
-      "at": "2026-09-28T04:41:46.641Z",
-      "wait": {
-        "ahead": 1328,
-        "ms": 387301
-      }
     },
     {
       "id": 453002,

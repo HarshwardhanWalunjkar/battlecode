@@ -1,0 +1,41 @@
+{
+  "release": "v4.1",
+  "name": "abyss-v4.1",
+  "fingerprint": "217f6872e1b068b83481e5cc89777406f6615f3a1428ed2ac975c56d289d6aa8",
+  "files": [
+    "bot.toml",
+    "config.hpp",
+    "helper.hpp",
+    "main.cpp",
+    "strategy.hpp"
+  ],
+  "bytes": 18869,
+  "toolkit": "1.2.2",
+  "status": "candidate-not-submitted",
+  "based_on": "v4, retained as a separate immutable release",
+  "validation": {
+    "strategy_scenarios": 47,
+    "compiler": "g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic",
+    "warnings": 0,
+    "local_matches": 2,
+    "local_wins": 2,
+    "sandbox_matches": 2,
+    "sandbox_wins": 2,
+    "online_games": 0,
+    "bot_errors": 0,
+    "engine_notices": 0,
+    "sandbox_turns": 54589,
+    "max_points": 25426672,
+    "max_memory_bytes": 786432,
+    "initiated_portal_collisions": 0,
+    "opponent": "v3",
+    "seed": 509,
+    "native_maps": [
+      "portals"
+    ],
+    "sandbox_maps": [
+      "slithery_fight"
+    ]
+  },
+  "report": "../../evaluations/v4-review/VALIDATION.md"
+}

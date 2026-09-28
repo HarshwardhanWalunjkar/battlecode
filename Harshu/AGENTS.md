@@ -14,6 +14,10 @@ pages together. Record the source/review date and any tested engine version.
 
 ## Collaboration and strategy
 
+- Maintain `current planned work.md` before implementation and update it as
+  work completes. Include the objective, current decisions, changed files,
+  verification performed, remaining work and constraints so another model can
+  resume without repeating the investigation.
 - Maintain `Gamplan.md` (the user's chosen spelling), with clear sections for
   movement, food, splitting, sonar, opponents, and every other implemented policy.
   Use plain English, explain unfamiliar terms, and include every threshold,

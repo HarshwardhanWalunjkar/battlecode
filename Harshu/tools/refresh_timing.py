@@ -13,15 +13,22 @@ submissions = {s['id']:s for s in snapshot['submissions']}
 counts = {s['version']:s['kStart'] for s in submissions.values() if s['kStart'] is not None}
 ranked = []
 pending = []
+unattributed = []
 for battle in sorted(snapshot['battles'], key=lambda b:b['at']):
     if not battle['ranked']:
         continue
     details = json.loads((audit/f"{battle['id']}.json").read_text())
     match = details['match'];side = 'A' if match['teamAId']==422 else 'B'
-    submission = submissions[match['submission'+side+'Id']]
-    version = submission['version']
+    submission = submissions.get(match.get('submission'+side+'Id'))
+    version = submission['version'] if submission else None
     if any(r == 'pending' for r in battle['results']) or battle['outcome'] in ('queued','live'):
         pending.append({'battle_id':battle['id'],'version':version,'opponent':battle['opponent']})
+        continue
+    if submission is None:
+        unattributed.append({'battle_id':battle['id'],'opponent':battle['opponent'],
+            'completed_at':battle['at'],'wins':battle['wins'],'losses':battle['losses'],
+            'draws':battle['results'].count('draw'),
+            'reason':'Current battle response omits submission identity; no version inferred.'})
         continue
     if version not in counts:
         raise RuntimeError('Completed ranked version has no server starting count')
@@ -42,17 +49,22 @@ for battle in sorted(snapshot['battles'], key=lambda b:b['at']):
                    'first_game_started_at':min(starts) if starts else None,
                    'evidence':f"evaluations/recent-20260928/{battle['id']}.json"})
 history['ranked_battles'] = ranked
+history['unattributed_ranked_battles'] = unattributed
 active = next(s for s in submissions.values() if s['status']=='active')
 history['latest_server_verification'] = {'at':snapshot['fetched_at'], 'active_submission_id':active['id'],
     'active_version':active['version'],'kStart':active['kStart'],'kFreshAt':active['kFreshAt'],
     'completed_ranked_series':len(ranked),'queued_ranked_series':pending,
     'effective_counts':{str(k):v for k,v in counts.items()},
     'effective_count_basis':'Server kStart plus completed ranked series; live/queued series excluded.',
+    'unattributed_completed_series':len(unattributed),
     'snapshot':'evaluations/recent-20260928/snapshot.json'}
 for upload in history['uploads']:
     s = next((s for s in submissions.values() if s['version']==upload['version']), None)
     if s:upload['latest_server_state'] = {k:s[k] for k in ('id','version','status','kStart','kFreshAt')}
-history['notes'] = 'Complete account history confirmed by user; uploads and ranked series reconciled from API. v3 is a local candidate, not uploaded.'
+release = json.loads((root/'versions/current.json').read_text())
+history['notes'] = ('Complete account history confirmed by user; uploads and ranked series reconciled '
+                    f"through {snapshot['fetched_at']}. Active server submission: {active['name']} / {active['id']}. "
+                    f"Local working release: {release['name']}; see upload receipts for submission status.")
 (root/'submissions/history.json').write_text(json.dumps(history,indent=2)+'\n')
 fresh_at = max(s['kFreshAt'] for s in submissions.values() if s['kFreshAt'])
 deadline = dt.datetime.fromisoformat(fresh_at.replace('Z','+00:00'))+dt.timedelta(hours=12)
@@ -64,7 +76,7 @@ text = f'''# Latest ranked timing
 
 Snapshot: **{snapshot['fetched_at']}**. Active submission: **{active['name']} / {active['id']}**.
 
-| Version | Completed ranked series | Games W–D–L | Effective count | Next K |
+| Version | Attributed completed ranked series | Games W–D–L | Verified count (minimum if attribution is incomplete) | K from that count |
 |---|---:|---|---:|---:|
 '''+'\n'.join(rows)+f'''
 
@@ -76,12 +88,17 @@ retains its own progress. A stronger candidate can still be worth submitting ear
 
 {len(pending)} live/queued ranked series are excluded from completed counts:
 {', '.join(str(b['battle_id'])+' ('+b['opponent']+')' for b in pending) or 'none'}.
+{len(unattributed)} additional completed ranked series have no submission identity in
+the current API response and are retained separately in the ledger. Their results
+are not assigned to a version by guesswork. Counts above may therefore be lower
+bounds. A version already at count ten or greater still has K=24.
 Some games can finish while replays download; this timing ledger consistently uses
 the listing's snapshot cutoff. Refresh before later submission advice.
 
 Original upload receipts remain in [history.json](../../submissions/history.json).
 The earlier [timing audit](TIMING.md) explains the first-ranked timestamp discrepancy.
-v3 is packaged locally and has not been uploaded.
+Local working release: **{release['name']}**. This is separate from the active
+server version shown above; inspect upload receipts before claiming it was submitted.
 '''
 (audit/'TIMING-LATEST.md').write_text(text)
 print(text)

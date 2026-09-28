@@ -1,71 +1,80 @@
 # Abyss — UNSW Battlecode bot
 
-Read [Gamplan.md](Gamplan.md) for the complete plain-English strategy, [documentation/MASTER.md](documentation/MASTER.md) for rules, and [evaluations/REPORT.md](evaluations/REPORT.md) for measured results and limitations.
+**V4.1 is packaged and not submitted. V3 / submission 9700 is the latest verified
+active bot.** V4.1 passes 47 focused logic checks and won both native Portals
+games plus both sandbox Slithery Fight games against frozen v3, without runtime
+errors. Sandbox CPU peaked at 25.43 million of 100 million points; memory peaked
+at 0.75 MiB. These small fixed-seed checks do not establish a ranked win rate.
 
-## Run locally
+Start with [current planned work.md](current%20planned%20work.md) to resume work.
+Read [Gamplan.md](Gamplan.md) for every implemented strategy detail,
+[documentation/MASTER.md](documentation/MASTER.md) for rules, and the
+[v4 review](evaluations/v4-review/REPORT.md) for evidence and limitations.
+[Version history](versions/README.md) identifies frozen builds and prior results.
+Do not reread the complete documentation unless explicitly requested.
 
-The project uses C++20 and the official `unswbc` toolkit, pinned in `requirements.txt`.
+## Package and submission
+
+All commands below run from the repository root, which contains `.venv/` and
+`Harshu/`. The installed toolkit is 1.2.2; the submission uses C++20.
 
 ```sh
-uv venv .venv
-uv pip install --python .venv/bin/python -r requirements.txt
-UNSWBC_NO_UPDATE=1 .venv/bin/unswbc run maps/arena.map bot baselines/hunter --sandbox --seed 101 -v
+.venv/bin/python Harshu/tools/submissions.py status
+.venv/bin/python Harshu/tools/submissions.py package
 ```
 
-The workspace already has the toolkit installed. The judge-equivalent `--sandbox` check is required before a release; an ordinary local run does not establish the computation budget.
-
-The current toolkit is 1.2.2. This virtual environment is managed by `uv` and does
-not need `pip` installed inside it. If the toolkit's automatic updater reports
-`No module named pip`, update with `uv` instead:
+The candidate is [dist/abyss-v4.1.zip](dist/abyss-v4.1.zip), 18,869 bytes, containing
+only `bot.toml` and four C++ source/header files. Exact uploaded bytes, server
+receipts and timing are kept in [submission history](submissions/README.md).
+Submitting can activate the build automatically. Only when an upload is requested:
 
 ```sh
-uv pip install --python .venv/bin/python 'unswbc==1.2.2'
+.venv/bin/python Harshu/tools/submissions.py submit
 ```
 
-The original 38-game report remains labeled with its tested version, 1.1.0.
-See [the update check](evaluations/TOOLKIT-1.2.2.md) for separate 1.2.2 results.
+Authentication is already configured locally. Keep keys out of source files and
+chat. This workspace's environment is managed by `uv`; it does not require pip
+inside the virtual environment.
 
-## Checks
+## Focused checks
+
+The following compiled logic checks passed for this candidate. They do not
+launch bots in matches or run the official engine.
 
 ```sh
-g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic tests/strategy_test.cpp -o /tmp/battlecode-strategy-test
+g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic Harshu/tests/strategy_test.cpp -o /tmp/battlecode-strategy-test
 /tmp/battlecode-strategy-test
-.venv/bin/python tests/engine_contract.py
-.venv/bin/python tests/submissions_test.py
 ```
 
-Run a repeatable two-sided evaluation:
+## Match validation
+
+The [validation report](evaluations/v4-review/VALIDATION.md) records exact builds,
+both-side results, CPU and memory, portal failures, rescue lengths and feeding
+outcomes. Original v4 won four native and two sandbox games; review found and
+fixed one overly cautious portal fallback. V4.1 then won four targeted games.
+No additional automatic runs are planned.
+
+For a future targeted comparison, use a fresh output name and the intended
+frozen opponent. This example runs two games; do not rerun it automatically:
 
 ```sh
-UNSWBC_NO_UPDATE=1 .venv/bin/python tools/evaluate.py --opponents baselines/greedy baselines/hunter --maps arena default_small autarky devil dilemma stronghold --seeds 101 --sandbox --output evaluations/new-results.json
+.venv/bin/python Harshu/tools/evaluate.py --bot Harshu/bot --opponents Harshu/versions/v3/bot --maps portals --seeds 509 --output Harshu/evaluations/next-check.json --replays
 ```
 
-Each evaluation freezes source and builds under its content fingerprint. Editing a bot during evaluation cannot change that run's executable. Results record sides, maps, seeds, fingerprints, deaths, runtime errors and sandbox costs. Native runs are development comparisons, not server-performance guarantees. `tools/make_variants.py` generates experimental opponents; do not rerun it over historical opponents whose results you want to preserve.
+A native game does not verify judge CPU points or memory; `--sandbox` measures
+those. Native and sandbox decisions can differ because of their search clocks.
 
-## Package and submit
-
-```sh
-.venv/bin/python tools/submissions.py package
-.venv/bin/python tools/submissions.py status
-```
-
-The ZIP is `dist/abyss-v1.zip`. It contains the manifest and four C++ source/header files, with no evaluation history, strategy notes, keys, or replays.
-
-Create an API key on your [team page](https://game.battlecode.au/team) and configure it locally. The key authorizes uploads; do not put it in source files or chat.
-
-```sh
-.venv/bin/unswbc auth set YOUR_KEY
-.venv/bin/python tools/submissions.py submit --name abyss-v1
-```
-
-Use the wrapper for uploads so [submission history](submissions/README.md) stays accurate. Successful builds activate automatically. No live submission was made during development.
+Evaluations freeze source under its fingerprint and record maps, sides, seeds,
+deaths, errors and resource usage where available. Avoid tuning sweeps and do
+not overwrite earlier evaluated opponents or frozen release files.
 
 ## Files
 
-- `bot/`: the submission project. `config.hpp` contains policy choices; `strategy.hpp` implements them; `main.cpp` runs the loop.
-- `bot/helper.hpp`: unmodified helper, identical in toolkits 1.1.0 and 1.2.2.
-- `maps/`: the original 13 maps and two maps added by toolkit 1.2.2.
-- `baselines/`: starter, custom opponents and frozen earlier policies.
-- `tools/`: evaluation and submission tracking.
-- `tests/`: transition rules, official-engine behavior and submission timing.
-- `dist/`: packaged release and exact content manifest.
+- `bot/`: current candidate source.
+- `versions/`: frozen source, strategy, manifests and version index.
+- `documentation/`: master rules and focused references.
+- `evaluations/v4-review/`: named game review and archived replay evidence.
+- `submissions/`: receipts, exact uploaded ZIPs and rating timing.
+- `tools/`: replay audits, evaluation and submission tracking.
+- `tests/`: focused strategy assertions and separate engine/timing checks.
+- `maps/`, `baselines/`: local maps and prior opponents; unchanged for v4.

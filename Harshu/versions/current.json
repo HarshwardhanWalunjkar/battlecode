@@ -1,6 +1,6 @@
 {
-  "release": "v3",
-  "name": "abyss-v3",
+  "release": "v5",
+  "name": "abyss-v5",
   "status": "candidate",
-  "description": "Protected growers, 64-slot expansion, persistent exploration and selective upward trades"
+  "description": "Correct food lookahead scoring, resource-directed workers, repeated-rescue splitting and earlier checked length concentration"
 }

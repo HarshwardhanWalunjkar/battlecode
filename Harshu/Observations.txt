@@ -1,0 +1,32 @@
+Observations from games between higher rated players on maps we can improve on and strategies we can implement
+https://game.battlecode.au/visualiser?match=459157
+1. Here even disregarding the way both teams are navigating the complicated maze in between I think a very big advantage they have is a very precise control over all the pearls and their countdowns.
+During the later stages the smaller workers even sacrificed themselves to contribute to the longest dragon! -  This is a feature we must implement precisely. Even within the maze the smaller
+dragons sacrificed themselved for the bigger one and even outside the maze I need maximum effort on this feature and a precise implementation on the first try!
+2. Compared to what we do these teams explore that maze in the middle much more thoroughly, can you also identify how they might be doing this and try to incorporate that in our code. Note that 
+none of this should come at the cost of reckless decisions the feature we implemented about a dragon getting out a tightspace by splitting into a bigger child is a feature that preserves dragon length
+so we need to balance however splitting into multiple childs as a way to explore the map early on. So make sure that this feature of splitting into a bigger child is done only for lengths that make
+sense to preserve like a 7 or 8 length dragon but for a say 5-6 we can split into multiple smaller, and again the fact about having smaller dragons and splitting generously is to give room 
+fot this type of exploration
+For the endgame I would heavily take isspiration from this game
+
+https://game.battlecode.au/visualiser?match=464013
+
+This game is probably a case against splitting into a bigger child always as the winning team on the autarky map here does not exactly split into a n-2 biggeer child but something like halves itself
+then splits again into a child and stuff but one thing I notice is that it exploits that resource in the 2 L shaped brackets by continuosly goin in collecting and then splitting to escape witha bigger child
+but something interesting is that the bigger snakes dont do this so there is clearly an expected length calculation we can perform. For such trapped exists that we know contain pearls we can
+carry out an expected length after all pearl collection and then child split escape to see if it increases the length of that dragon and then make the decision otherwise see if it increases the 
+number of dragons alive but never sacrifice more dragons for long snakes make an appropriate threshold here probably
+
+
+
+-----------------------------------FOLLOWING ARE MUST FIXES BEFORE THE ABOVE ONES ARE CONSIDERED----------------------------------------------------------------------
+
+https://game.battlecode.au/visualiser?match=464372
+Analyze these games in depth our dragons are making collisions which should be avoided when they are trapped they make weird divisions especially at the start of game 5 Prisoners dillema, why does
+the longest dragon of ours split like that I need an equity calculation or atleast a method that makes sure that we preserve length or if its early on in the game we increase numbers. there
+needs to be a tradeoff like earlier on we should be more inclined towards splitting especially if you are stuck but if you are bale to maintain a really large dragon by splitting bigger child do that instead sort of.
+
+
+Note:
+All these are necessities to climb really high in ranks but to beat the low ranks we need the basic pearl captures and team advantage along with long dragon preservations perfect so make sure

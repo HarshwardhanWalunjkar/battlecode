@@ -1,18 +1,25 @@
-I dont understand this limit of 48 dragons why not fill all 64 slots.
-These move scorins as to which move to make seem a bit conservative in the sense they try to avoid a 3-step
-enemy danger too aggresively maybe
-Also for head trades it is in our favour if the head trade kills the enemy dragon which
-is bigger in length than our
-I also think we should be using sonar echoes to relay as much information as possible
-and help our allies build a better map.
-Also we are holding off on the attack part of the dragons which is sort of necessary
-if we do split agressively the relatively smaller dragons should swarm up and use the sonar
-to start taking up enemy space and cornering them often splitting more if necessary to attack
-if we are able to implement such a switch to attack mode then we must fix a proportion of dragons
-or the dragon lengths that are allowed to go into this mode if the swarm lacks dragons the smallest 
-and nearest available dragon is split if valid and ordered to join the swarm the dragons on the longer
-length side are instructed to be safe in known terrain and exploit pearls from countdowns as efficiently as theu
-can and stop at a length which can looped around and maitained without colliding with itself.
-I think we can use sonar to implement such swarm attack tactic
-Also tone up the exploration a bit.
+1. There are portal conflicts like I saw two of our dragons enter the same portal from both the ends and die.
+2. Also the splitting is less agressive because of the length preservation which usually lets the opponent have the muscle and push us out. What I would then suggest is split agressively till round 
+200-250 maybe and then start length preservation. Like till round 250 we should have an agressive strat of exploring and looking for food obvioly not sacrificing safety we should only always
+move through known terrain and rather go near boundaries to expand our views and locate resource spots to later target with our huge swarm to get length preservation and muscel pwoer to conquer the resource
+regions
+3. But there are maps like trauma which require a very accurate resource allocation from the start because the resource is scarce and the two teams are seperated with a big maze that usually both
+the teams refuse to enter. What we need to do then to balance I suppose is to make sure we are splitting till round say 200 and then when we start length preserving before we convey with sonar 
+the snake ids and their lengths so before any of those split snakes is about to take a resource it checks idf there is a longer snake than can take it instead and this way in maps with scarce
+resources we make it possible for the longer snake to take over, however if the resource is not taken for the last 8 roudns then just take it update length and sonar. Or if you can convey
+up with a better strategy for such maps would like to see it.
+4. One really good observation is that in a map like slithery fight where we start long snakes which are coiled into themselves what the other team did was split it with 1 at the head and n-1 at the tail 
+that way they saved their longest snakes at the start of the round mostly and maintained them throughout.
+5. So with the 4th observation in mind I think splitting agressively at the starting rounds would kill that longest snake of ours at the start itself. Then what I will say is split agressively
+for any snake of lenght <=5 if there exists a snake iwth length >:=6 we want to switch to a cautius strategy where going into portals and off the edges might be dangerous, edges not so mcuh as portals atleast
+unless the portal is unexplored and or we are aware no other snake is taking it from the other side as I mentioned in point 1.
+6. I am open to suggestiosn as to how we should handle the splitting in earlier rounds till waht we should split how do we handle these big snakes at the start of the rounds and how we switch 
+to a length preserving strategy towards the end while making sure that we are allcoating resources to the longest snakes or atleast makiing usre our longest snakes are defended and fed or atleast
+switching to a more resource hungry strat without sacrificing snake safety ofc.
+7. The Hampter vs Borgor matches are really a lesson is splitting your big snakes to maitain their lengths and get out of tight spaces out of everyhting we disucssed this seems like a must have 
+nodification for atleast the time we are trying to preserve length.
+8. In autarky as well the way it got its longest snake out was impressive, we seemed to have one that probably with accident but something like this is a must have addition. Study these matches deeply 
+to figure out a deterministic way to get out of any tight space with the largest snake length possible if that snakes length is already >= 6 say
+
+
 

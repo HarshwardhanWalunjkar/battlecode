@@ -13,7 +13,9 @@ import unswbc
 ADAPTER = r'''
 const fs = require('fs'), zlib = require('zlib');
 for (const filename of process.argv.slice(2)) {
-  const loaded = replayDecode(zlib.gunzipSync(fs.readFileSync(filename)));
+  const bytes = fs.readFileSync(filename);
+  // Downloads are gzip-compressed; EngineModule.replay() returns raw bytes.
+  const loaded = replayDecode(bytes[0] === 0x1f && bytes[1] === 0x8b ? zlib.gunzipSync(bytes) : bytes);
   const {match, events, result, map} = loaded;
   const rounds = [];
   for (let round = 0; round <= match.maxRound; round++) {
