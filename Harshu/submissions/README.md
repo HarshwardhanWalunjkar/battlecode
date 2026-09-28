@@ -14,10 +14,13 @@ After verifying a ranked battle, record it once:
 
 Add `--fresh-window` only to a confirmed first-ranked event whose starting count was zero and which starts the team's fresh-bot window. Count battles, not individual games. This is not needed for every game of a five-game series.
 
-The user initially confirmed no earlier submissions or ranked games. Version 1
-was subsequently uploaded through the wrapper at 2026-09-27 17:07 UTC (22:37 IST)
-and is now active. The loss-audit server snapshot contains two unranked series
-(409862 and 409982), 20 games in total, and no ranked battles. The submission's
-`kStart` and `kFreshAt` are null. No 12-hour fresh-bot deadline can be calculated
-from these unranked games. Refresh before giving later timing advice, because
-autoscrims and user activity may change the account state.
+The latest verified active upload is v2 / 9062. v3 is packaged locally. Ranked
+history is reconciled from the API in `history.json`; see the
+[latest timing report](../evaluations/recent-20260928/TIMING-LATEST.md) for counts,
+queued games and the server-derived fresh-window deadline. The historical first
+window ends on 28 September at 12:04:02.102 IST. Refresh before later advice.
+
+After downloading a new snapshot and all relevant game details, run
+`../.venv/bin/python tools/refresh_timing.py` from `Harshu/` to reconcile the
+ledger. The first individual game start and the server fresh-window marker are
+stored separately. Live series never count as completed ranked series.

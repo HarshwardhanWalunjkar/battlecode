@@ -1,0 +1,27 @@
+{
+  "release": "v3",
+  "name": "abyss-v3",
+  "fingerprint": "52ffbaf11ec9244f9dc7333b81a4e18c1ed85b29f0028c21ca837599b070535d",
+  "files": [
+    "bot.toml",
+    "config.hpp",
+    "helper.hpp",
+    "main.cpp",
+    "strategy.hpp"
+  ],
+  "bytes": 14778,
+  "toolkit": "1.2.2",
+  "status": "candidate-not-submitted",
+  "parent": "v2",
+  "source_snapshot": "bot/",
+  "gameplan": "Gamplan.md",
+  "validation": {
+    "strategy_scenarios": 22,
+    "native_games": 8,
+    "native_wins": 7,
+    "sandbox_games": 2,
+    "sandbox_wins": 2,
+    "max_points": 22615866,
+    "max_memory": 524288
+  }
+}

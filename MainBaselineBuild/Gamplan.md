@@ -84,7 +84,9 @@ Normal expansion starts at length four. We split exactly two rear segments into 
 
 Before a normal split, the child must have at least one exit and four reachable tiles. Neither the parent's stationary head nor the child's new head may have an enemy within the one-step attack check. The child's exit check leaves the parent's body blocked. A new child acts immediately in the same round; we account for that opportunity and danger.
 
-Emergency splitting is different. If we are trapped, a legal split can preserve a child even if the parent is likely to die. It needs only two reachable tiles and one child exit, and still rejects a one-step attack on the child. It can exceed the normal 48-dragon target, ignore the usual cooldown and expansion-round rules, and works from length four. Emergency splits also work when the body is only partially known, as long as at least two segments have been reconstructed. The game's actual team cap and minimum lengths always apply.
+Emergency splitting is different. If we are trapped, a legal split can preserve a child even if the parent is likely to die. It needs only two reachable tiles and one child exit, and still rejects a one-step attack on the child. It can exceed the normal 48-dragon target, ignore the usual cooldown and expansion-round rules, and works from length four. Emergency splits also work when the body is only partially known, as long as at least two segments have been reconstructed. The game's actual 
+
+ soteam cap and minimum lengths always apply.
 
 Each child starts without its parent's memory. It does not receive a secret role assignment. Small dragons naturally qualify for more head trades; longer ones naturally collect and preserve more length. There is no merging rule, so splitting is a genuine loss of length concentration.
 
@@ -151,3 +153,4 @@ Version 1 lost all 20 unranked games against blauerdrache and bongcloud. The [re
 5. Our local baselines (greedy and hunter) were too simple to expose these weaknesses.
 
 All five are now addressed in the current strategy described in sections 1 through 12. Head trades require ally survivors or a draw opportunity (section 7). Expansion targets up to 48 dragons through round 420 (section 8). Portal exploration triggers after five foodless rounds or when local prospects are poor (section 10). Incomplete bodies shed their unseen tail at length five (section 2). Far-threat penalties were reduced so the bot can differentiate moves in swarm-heavy games (section 7).
+These 

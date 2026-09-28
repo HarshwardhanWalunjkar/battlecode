@@ -25,7 +25,9 @@ for (const filename of process.argv.slice(2)) {
       team.longest = Math.max(team.longest, dragon.body.length);
       team.total += dragon.body.length;
     }
-    rounds.push({round, ...teams});
+    const dragons = [...state.bodies.dragons.values()].map(d => ({id:d.id, team:d.team,
+      length:d.body.length, x:d.body[0].x, y:d.body[0].y}));
+    rounds.push({round, ...teams, ...(globalThis.includeDragonStates ? {dragons} : {})});
   }
   fs.writeFileSync(filename.replace(/\.replay$/, '.events.json'),
     JSON.stringify({result, map, rounds, events}, (_, v) => typeof v === 'bigint' ? String(v) : v));
@@ -36,6 +38,7 @@ for (const filename of process.argv.slice(2)) {
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('--states', action='store_true', help='Include per-round dragon heads and lengths')
     parser.add_argument('replays', nargs='+')
     args = parser.parse_args()
     viewer = Path(unswbc.__file__).with_name('replay-viewer.vsix')
@@ -44,7 +47,8 @@ def main():
     marker = 'var t_=document.getElementById'
     if source.count(marker) != 1 or 'function Hf(e)' not in source:
         raise RuntimeError('Viewer changed; review the decoder adapter')
-    source = ('globalThis.document={contentType:"text/html"};\n' + source.split(marker)[0]
+    source = ('globalThis.includeDragonStates=' + str(args.states).lower() + ';\n'
+              + 'globalThis.document={contentType:"text/html"};\n' + source.split(marker)[0]
               + 'globalThis.replayDecode=Hf;})();\n' + ADAPTER)
     with tempfile.TemporaryDirectory(prefix='battlecode-decoder-') as folder:
         script = Path(folder) / 'decode.cjs'

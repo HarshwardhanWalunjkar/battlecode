@@ -1,8 +1,8 @@
 # Our game plan — Abyss
 
-This file explains the **v3 candidate** in `bot/`, including every policy threshold. The active online submission remains v2 (9062) until an upload is made. The [current audit](evaluations/recent-20260928/REPORT.md) explains the recurring weaknesses behind these changes. Version history and validation are in [versions/README.md](versions/README.md). A small local check can catch regressions; it does not establish ladder strength.
+This file explains the **v3 candidate** in `bot/`, including every policy threshold. The active online submission remains v2 (9062) until an upload is made. The [current audit](../../evaluations/recent-20260928/REPORT.md) explains the recurring weaknesses behind these changes. Version history and validation are in [versions/README.md](../../versions/README.md). A small local check can catch regressions; it does not establish ladder strength.
 
-The project uses toolkit 1.2.2. The C++ helper is identical to 1.1.0; compatibility was checked separately in [the toolkit update report](evaluations/TOOLKIT-1.2.2.md).
+The project uses toolkit 1.2.2. The C++ helper is identical to 1.1.0; compatibility was checked separately in [the toolkit update report](../../evaluations/TOOLKIT-1.2.2.md).
 
 ## 1. What we are trying to achieve
 
@@ -142,7 +142,7 @@ A rejected experiment remains in the evaluation records where useful. It does no
 
 The upload time and the first ranked battle time are different. A new-code bot may receive stronger rating changes for its early ranked battles, but the 12-hour window starts when an eligible bot first plays ranked. Identical code does not restart that advantage. Stronger rating changes can also magnify losses.
 
-Uploads and verified ranked series are tracked in [submissions/history.json](submissions/history.json). v1 is submission 9003; active v2 is submission 9062; v3 is a local candidate. The server's first fresh-window marker is 2026-09-27 18:34:02.102 UTC, giving a 12-hour deadline of **28 September 12:04:02.102 India time**. This marker followed completion of a ranked series; the earliest individual game started earlier. Use the refreshed [timing report](evaluations/recent-20260928/TIMING-LATEST.md) before making a submission decision. A stronger release can still be worth uploading before that deadline with inherited rating sensitivity.
+Uploads and verified ranked series are tracked in [submissions/history.json](../../submissions/history.json). v1 is submission 9003; active v2 is submission 9062; v3 is a local candidate. The server's first fresh-window marker is 2026-09-27 18:34:02.102 UTC, giving a 12-hour deadline of **28 September 12:04:02.102 India time**. This marker followed completion of a ranked series; the earliest individual game started earlier. Use the refreshed [timing report](../../evaluations/recent-20260928/TIMING-LATEST.md) before making a submission decision. A stronger release can still be worth uploading before that deadline with inherited rating sensitivity.
 
 The tracker reports both India time and UTC. A genuinely stronger bot can be worth uploading inside the 12-hour window. Timing is an aid to improving rank, not a reason to leave a clearly weaker bot active.
 
@@ -156,7 +156,7 @@ The tracker reports both India time and UTC. A genuinely stronger bot can be wor
 
 ## 16. What the first online games revealed and how we responded
 
-Version 1 lost all 20 unranked games against blauerdrache and bongcloud. The [replay audit](evaluations/online/REPORT.md) records the evidence. Five problems drove the losses:
+Version 1 lost all 20 unranked games against blauerdrache and bongcloud. The [replay audit](../../evaluations/online/REPORT.md) records the evidence. Five problems drove the losses:
 
 1. We initiated 99 of 114 head collisions. With only four dragons against opponents fielding 21 to 64, each 1-for-1 trade devastated us while barely affecting them.
 2. Opponents built massive populations while our cap was four. On Autarky at round 100, we had two dragons and four total segments against 31 dragons and 71 segments.

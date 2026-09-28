@@ -10,3 +10,6 @@ __pycache__/
 submissions/server-snapshot.json
 submissions/.lock
 evaluations/online/*.json
+Harshu/evaluations/recent-20260928/*.json
+Harshu/evaluations/online/*.json
+Harshu/submissions/.lock

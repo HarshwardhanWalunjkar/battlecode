@@ -53,9 +53,10 @@ def advice(h,identity,at):
     return lines
 
 def main():
+    release=json.loads((ROOT/'versions/current.json').read_text())
     p=argparse.ArgumentParser();sub=p.add_subparsers(dest='cmd',required=True)
     sub.add_parser('status');sub.add_parser('package')
-    s=sub.add_parser('submit');s.add_argument('--name',default='abyss-v1');s.add_argument('--description',default='Tested survival and growth search')
+    s=sub.add_parser('submit');s.add_argument('--name',default=release['name']);s.add_argument('--description',default=release['description'])
     r=sub.add_parser('record-ranked');r.add_argument('--version',required=True);r.add_argument('--battle-id',required=True);r.add_argument('--time',required=True);r.add_argument('--count-before',type=int,required=True);r.add_argument('--fresh-window',action='store_true')
     sub.add_parser('sync')
     a=p.parse_args();blob,identity,names=package()
@@ -63,8 +64,13 @@ def main():
         fcntl.flock(lock,fcntl.LOCK_EX);h=load()
         if a.cmd=='status':print('\n'.join(advice(h,identity,now())));return
         if a.cmd=='package':
-            out=ROOT/'dist/abyss-v1.zip';out.parent.mkdir(exist_ok=True);out.write_bytes(blob)
-            (ROOT/'dist/manifest.json').write_text(json.dumps({'fingerprint':identity,'files':names,'bytes':len(blob),'toolkit':version('unswbc')},indent=2)+'\n')
+            out=ROOT/'dist'/f"{release['name']}.zip";out.parent.mkdir(exist_ok=True)
+            if out.exists() and out.read_bytes()!=blob:
+                raise ValueError('A different build already uses this version name. Advance versions/current.json first.')
+            out.write_bytes(blob)
+            manifest={'release':release['release'],'name':release['name'],'fingerprint':identity,'files':names,'bytes':len(blob),'toolkit':version('unswbc')}
+            (ROOT/'dist'/f"{release['name']}.manifest.json").write_text(json.dumps(manifest,indent=2)+'\n')
+            (ROOT/'dist/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
             print(f'{out}\n{len(blob)} bytes; fingerprint {identity}');return
         if a.cmd=='record-ranked':
             if a.count_before<0 or (a.fresh_window and a.count_before!=0):raise ValueError('Fresh-window must start at count zero; counts must be nonnegative')

@@ -1,0 +1,18 @@
+I dont understand this limit of 48 dragons why not fill all 64 slots.
+These move scorins as to which move to make seem a bit conservative in the sense they try to avoid a 3-step
+enemy danger too aggresively maybe
+Also for head trades it is in our favour if the head trade kills the enemy dragon which
+is bigger in length than our
+I also think we should be using sonar echoes to relay as much information as possible
+and help our allies build a better map.
+Also we are holding off on the attack part of the dragons which is sort of necessary
+if we do split agressively the relatively smaller dragons should swarm up and use the sonar
+to start taking up enemy space and cornering them often splitting more if necessary to attack
+if we are able to implement such a switch to attack mode then we must fix a proportion of dragons
+or the dragon lengths that are allowed to go into this mode if the swarm lacks dragons the smallest 
+and nearest available dragon is split if valid and ordered to join the swarm the dragons on the longer
+length side are instructed to be safe in known terrain and exploit pearls from countdowns as efficiently as theu
+can and stop at a length which can looped around and maitained without colliding with itself.
+I think we can use sonar to implement such swarm attack tactic
+Also tone up the exploration a bit.
+
