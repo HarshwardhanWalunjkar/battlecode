@@ -1,7 +1,10 @@
 {
-  "release": "v7",
-  "name": "abyss-v7",
-  "status": "candidate-not-submitted",
-  "based_on": "frozen v4.1; independent integrated v7; v5 and Claude v6 reviewed only as evidence",
-  "description": "V7: affordable enemy threats, local territory and food urgency, protected growers, productive-front replacement workers and agreed one/two-turn feeding"
+  "release": "Jormungandr-v2",
+  "name": "Jormungandr-v2",
+  "status": "testing",
+  "based_on": "Jormungandr-v1 / ae5c3b8485099480f652de402ab05b0328f85e311d369e776688352fc1843e72",
+  "fingerprint": "53adc77cea002b81c64a610a6a4de4c232518ef9ee1c4ec60c0aa545b7f0b9f8",
+  "change": "Early atlas trust on compact maps (<=32x32) for faster food-seeking in known map openings",
+  "sandbox_result": "4/8 vs v8 baseline (Trophy 911: 2/2 improved, Slithery 911: 1/2 variance)",
+  "description": "Jormungandr-v2: early atlas navigation on compact maps improves Trophy opening"
 }

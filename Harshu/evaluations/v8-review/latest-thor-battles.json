@@ -1,0 +1,260 @@
+{
+  "at": "2026-09-29T21:52:46.013197+00:00",
+  "battles": [
+    {
+      "id": 630369,
+      "ranked": true,
+      "opponentId": 983,
+      "opponent": "Link",
+      "opponentElo": 1476,
+      "eloChange": -7,
+      "results": [
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 630369,
+      "at": "2026-09-29T21:28:56.211Z"
+    },
+    {
+      "id": 631890,
+      "ranked": false,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1482,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "win",
+        "win",
+        "loss",
+        "win",
+        "loss"
+      ],
+      "wins": 5,
+      "losses": 5,
+      "outcome": "draw",
+      "replayId": 631890,
+      "at": "2026-09-29T21:21:03.106Z"
+    },
+    {
+      "id": 626503,
+      "ranked": true,
+      "opponentId": 150,
+      "opponent": "IT",
+      "opponentElo": 1477,
+      "eloChange": -7,
+      "results": [
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 626503,
+      "at": "2026-09-29T20:26:31.726Z"
+    },
+    {
+      "id": 622898,
+      "ranked": true,
+      "opponentId": 866,
+      "opponent": "Spirit",
+      "opponentElo": 1484,
+      "eloChange": -9,
+      "results": [
+        "win",
+        "loss",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 622898,
+      "at": "2026-09-29T19:22:07.416Z"
+    },
+    {
+      "id": 619115,
+      "ranked": true,
+      "opponentId": 293,
+      "opponent": "AAAP",
+      "opponentElo": 1469,
+      "eloChange": 19,
+      "results": [
+        "win",
+        "win",
+        "win",
+        "win",
+        "win"
+      ],
+      "wins": 5,
+      "losses": 0,
+      "outcome": "win",
+      "replayId": 619115,
+      "at": "2026-09-29T18:29:42.352Z"
+    },
+    {
+      "id": 614904,
+      "ranked": true,
+      "opponentId": 190,
+      "opponent": "risq-v",
+      "opponentElo": 1474,
+      "eloChange": -4,
+      "results": [
+        "win",
+        "loss",
+        "loss",
+        "loss",
+        "win"
+      ],
+      "wins": 2,
+      "losses": 3,
+      "outcome": "loss",
+      "replayId": 614904,
+      "at": "2026-09-29T17:23:57.669Z"
+    },
+    {
+      "id": 610537,
+      "ranked": true,
+      "opponentId": 794,
+      "opponent": "HowaryaMate",
+      "opponentElo": 1489,
+      "eloChange": -16,
+      "results": [
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 610537,
+      "at": "2026-09-29T16:33:49.374Z"
+    },
+    {
+      "id": 609148,
+      "ranked": false,
+      "opponentId": 507,
+      "opponent": "bread first search",
+      "opponentElo": 1950,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 0,
+      "losses": 10,
+      "outcome": "loss",
+      "replayId": 609148,
+      "at": "2026-09-29T15:50:53.436Z"
+    },
+    {
+      "id": 605871,
+      "ranked": true,
+      "opponentId": 420,
+      "opponent": "That's That, and This is This",
+      "opponentElo": 1477,
+      "eloChange": 6,
+      "results": [
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "win"
+      ],
+      "wins": 3,
+      "losses": 2,
+      "outcome": "win",
+      "replayId": 605871,
+      "at": "2026-09-29T15:43:19.609Z"
+    },
+    {
+      "id": 601218,
+      "ranked": true,
+      "opponentId": 849,
+      "opponent": "Milk Dragon",
+      "opponentElo": 1475,
+      "eloChange": 7,
+      "results": [
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "win"
+      ],
+      "wins": 3,
+      "losses": 2,
+      "outcome": "win",
+      "replayId": 601218,
+      "at": "2026-09-29T14:32:50.250Z"
+    },
+    {
+      "id": 599276,
+      "ranked": false,
+      "opponentId": 333,
+      "opponent": "goblin gooners",
+      "opponentElo": 1485,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "loss",
+        "win",
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 4,
+      "losses": 6,
+      "outcome": "loss",
+      "replayId": 599276,
+      "at": "2026-09-29T13:40:03.433Z"
+    },
+    {
+      "id": 596443,
+      "ranked": true,
+      "opponentId": 333,
+      "opponent": "goblin gooners",
+      "opponentElo": 1483,
+      "eloChange": -7,
+      "results": [
+        "win",
+        "loss",
+        "loss",
+        "loss",
+        "win"
+      ],
+      "wins": 2,
+      "losses": 3,
+      "outcome": "loss",
+      "replayId": 596443,
+      "at": "2026-09-29T13:35:21.605Z"
+    }
+  ]
+}

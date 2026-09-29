@@ -165,7 +165,7 @@
       "latest_server_state": {
         "id": 10120,
         "version": 5,
-        "status": "active",
+        "status": "idle",
         "kStart": 0,
         "kFreshAt": "2026-09-28T10:52:22.078Z",
         "uploadedAt": "2026-09-28T10:49:56.914Z"
@@ -229,6 +229,66 @@
         "kStart": null,
         "kFreshAt": null,
         "version": 7
+      },
+      "latest_server_state": {
+        "id": 11413,
+        "version": 7,
+        "status": "active",
+        "kStart": 0,
+        "kFreshAt": "2026-09-29T10:19:30.416Z",
+        "uploadedAt": "2026-09-29T09:12:25.494Z"
+      }
+    },
+    {
+      "uploaded_at": "2026-09-29T22:19:45.337303+00:00",
+      "fingerprint": "ae5c3b8485099480f652de402ab05b0328f85e311d369e776688352fc1843e72",
+      "name": "Jormungandr",
+      "version": 8,
+      "status": "accepted",
+      "archive": "20260929T221945Z-ae5c3b848509.zip",
+      "server_response": {
+        "id": 12177,
+        "teamId": 422,
+        "name": "Jormungandr",
+        "description": "Jormungandr-v1: staged junction rescues, informed opening exploration, safe terrain/portal/food sharing and committed collector rendezvous",
+        "language": "cpp",
+        "status": "processing",
+        "storageKey": "submissions/bcf3e64b-3f3c-4f58-9296-885db9c754d0.zip",
+        "uploadedAt": "2026-09-29T22:19:46.839Z",
+        "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+        "buildLog": null,
+        "buildHeartbeatAt": null,
+        "buildAttempts": 0,
+        "sourceHash": "002ec1f8589ce5ae219b898741c5a8b1d09f6f589cf69983eb96127aa12b1425",
+        "kStart": null,
+        "kFreshAt": null,
+        "version": 8
+      }
+    },
+    {
+      "uploaded_at": "2026-09-29T23:30:23.791879+00:00",
+      "fingerprint": "53adc77cea002b81c64a610a6a4de4c232518ef9ee1c4ec60c0aa545b7f0b9f8",
+      "name": "Jormungandr-v2",
+      "version": 9,
+      "status": "accepted",
+      "archive": "20260929T233023Z-53adc77cea00.zip",
+      "server_response": {
+        "id": 12233,
+        "teamId": 422,
+        "name": "Jormungandr-v2",
+        "description": "Jormungandr-v2: early atlas navigation on compact maps improves Trophy opening",
+        "language": "cpp",
+        "status": "processing",
+        "storageKey": "submissions/53eada5d-37a1-4e47-a812-041fab7d7fb3.zip",
+        "uploadedAt": "2026-09-29T23:30:24.884Z",
+        "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+        "buildLog": null,
+        "buildHeartbeatAt": null,
+        "buildAttempts": 0,
+        "sourceHash": "bed5c50805239acb564ae4ea632b5a5a1bb604251257f8fd90c1c20f3ca02c57",
+        "kStart": null,
+        "kFreshAt": null,
+        "version": 9
       }
     }
   ],
@@ -856,12 +916,12 @@
     "snapshot": "evaluations/v7-review/timing-final-snapshot.json"
   },
   "fresh_window": {
-    "submission_id": 10120,
-    "version": 5,
-    "started_at": "2026-09-28T10:52:22.078Z",
-    "expires_at": "2026-09-28T22:52:22.078000+00:00",
+    "submission_id": 11413,
+    "version": 7,
+    "started_at": "2026-09-29T10:19:30.416Z",
+    "expires_at": "2026-09-29T22:19:30.416000+00:00",
     "basis": "Authoritative server submissions.kFreshAt",
-    "verified_at": "2026-09-29T08:53:49.588877+00:00"
+    "verified_at": "2026-09-29T22:06:09.386247+00:00"
   },
   "unattributed_ranked_battles": [
     {
@@ -1251,14 +1311,14 @@
     }
   ],
   "latest_submission_verification": {
-    "at": "2026-09-29T08:53:49.588877+00:00",
-    "active_submission_id": 10120,
-    "active_server_version": 5,
-    "local_build": "v4.1",
+    "at": "2026-09-29T22:06:09.386247+00:00",
+    "active_submission_id": 11413,
+    "active_server_version": 7,
+    "name": "abyss-v7",
     "kStart": 0,
-    "kFreshAt": "2026-09-28T10:52:22.078Z",
-    "snapshot": "evaluations/v7-review/timing-final-snapshot.json",
-    "series_attribution": "Recent listing and reviewed match details omit submission IDs; no exact current effective count inferred."
+    "kFreshAt": "2026-09-29T10:19:30.416Z",
+    "snapshot": "submissions/server-snapshot.json",
+    "series_attribution": "Only server markers refreshed; completed counts are not inferred."
   },
   "latest_targeted_replay_review": {
     "at": "2026-09-29T08:53:49.588877+00:00",

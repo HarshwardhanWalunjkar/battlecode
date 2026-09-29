@@ -1,0 +1,422 @@
+{
+  "578853": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 64
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 8,
+        "longestDragon": 7,
+        "totalLength": 29
+      },
+      "teamB": {
+        "dragonCount": 13,
+        "longestDragon": 16,
+        "totalLength": 122
+      }
+    }
+  },
+  "578854": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 96
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 16,
+        "longestDragon": 17,
+        "totalLength": 103
+      },
+      "teamB": {
+        "dragonCount": 7,
+        "longestDragon": 12,
+        "totalLength": 53
+      }
+    }
+  },
+  "578855": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 72
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 3,
+        "longestDragon": 16,
+        "totalLength": 43
+      },
+      "teamB": {
+        "dragonCount": 8,
+        "longestDragon": 13,
+        "totalLength": 52
+      }
+    }
+  },
+  "578856": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 36
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 21,
+        "longestDragon": 7,
+        "totalLength": 78
+      },
+      "teamB": {
+        "dragonCount": 13,
+        "longestDragon": 13,
+        "totalLength": 55
+      }
+    }
+  },
+  "578857": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 28
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 11,
+        "longestDragon": 15,
+        "totalLength": 63
+      },
+      "teamB": {
+        "dragonCount": 3,
+        "longestDragon": 6,
+        "totalLength": 12
+      }
+    }
+  },
+  "578858": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 24
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 3,
+        "longestDragon": 4,
+        "totalLength": 10
+      },
+      "teamB": {
+        "dragonCount": 10,
+        "longestDragon": 10,
+        "totalLength": 62
+      }
+    }
+  },
+  "578859": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 72
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 23,
+        "longestDragon": 22,
+        "totalLength": 135
+      },
+      "teamB": {
+        "dragonCount": 15,
+        "longestDragon": 28,
+        "totalLength": 189
+      }
+    }
+  },
+  "578860": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 60
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 3,
+        "longestDragon": 45,
+        "totalLength": 63
+      },
+      "teamB": {
+        "dragonCount": 18,
+        "longestDragon": 28,
+        "totalLength": 232
+      }
+    }
+  },
+  "578861": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 48
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 17,
+        "longestDragon": 17,
+        "totalLength": 69
+      },
+      "teamB": {
+        "dragonCount": 14,
+        "longestDragon": 7,
+        "totalLength": 38
+      }
+    }
+  },
+  "578862": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 24
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "teamEliminated",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 0,
+        "longestDragon": 0,
+        "totalLength": 0
+      },
+      "teamB": {
+        "dragonCount": 50,
+        "longestDragon": 7,
+        "totalLength": 151
+      }
+    }
+  },
+  "580042": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 64
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 10,
+        "longestDragon": 13,
+        "totalLength": 52
+      },
+      "teamB": {
+        "dragonCount": 10,
+        "longestDragon": 22,
+        "totalLength": 100
+      }
+    }
+  },
+  "580043": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 96
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 28,
+        "longestDragon": 14,
+        "totalLength": 148
+      },
+      "teamB": {
+        "dragonCount": 12,
+        "longestDragon": 23,
+        "totalLength": 70
+      }
+    }
+  },
+  "580044": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 72
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "teamEliminated",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 0,
+        "longestDragon": 0,
+        "totalLength": 0
+      },
+      "teamB": {
+        "dragonCount": 26,
+        "longestDragon": 11,
+        "totalLength": 95
+      }
+    }
+  },
+  "580045": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 36
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 12,
+        "longestDragon": 7,
+        "totalLength": 42
+      },
+      "teamB": {
+        "dragonCount": 5,
+        "longestDragon": 7,
+        "totalLength": 21
+      }
+    }
+  },
+  "580046": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 76
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "teamEliminated",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 0,
+        "longestDragon": 0,
+        "totalLength": 0
+      },
+      "teamB": {
+        "dragonCount": 25,
+        "longestDragon": 12,
+        "totalLength": 83
+      }
+    }
+  },
+  "580047": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 24
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "teamEliminated",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 0,
+        "longestDragon": 0,
+        "totalLength": 0
+      },
+      "teamB": {
+        "dragonCount": 23,
+        "longestDragon": 16,
+        "totalLength": 101
+      }
+    }
+  },
+  "580048": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 72
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 15,
+        "longestDragon": 10,
+        "totalLength": 91
+      },
+      "teamB": {
+        "dragonCount": 19,
+        "longestDragon": 19,
+        "totalLength": 166
+      }
+    }
+  },
+  "580049": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 60
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 9,
+        "longestDragon": 9,
+        "totalLength": 32
+      },
+      "teamB": {
+        "dragonCount": 21,
+        "longestDragon": 38,
+        "totalLength": 301
+      }
+    }
+  },
+  "580050": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 48
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 3,
+        "longestDragon": 14,
+        "totalLength": 26
+      },
+      "teamB": {
+        "dragonCount": 12,
+        "longestDragon": 6,
+        "totalLength": 37
+      }
+    }
+  },
+  "580051": {
+    "own_replay_side": "A",
+    "valid_v7_packets": {
+      "A": 24
+    },
+    "replay_result": {
+      "terminated": true,
+      "endReason": "teamEliminated",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 0,
+        "longestDragon": 0,
+        "totalLength": 0
+      },
+      "teamB": {
+        "dragonCount": 54,
+        "longestDragon": 17,
+        "totalLength": 196
+      }
+    }
+  }
+}

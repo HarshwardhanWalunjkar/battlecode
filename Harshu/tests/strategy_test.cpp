@@ -47,6 +47,7 @@ Brain donation_scene() {
     b.allies={{10,61,8,420,419,true}};return b;
 }
 void v7_checks();
+void jormungandr_checks();
 int main() {
     { auto b=open_board();assert(b.next[0][0]==110);assert(b.next[10][1]==0); }
     { auto b=open_board();b.set_edge(60,0,1);b.transitions();State t;int hit;assert(!b.step(b.initial(),0,false,t,hit)); }
@@ -62,9 +63,10 @@ int main() {
     { auto b=open_board();auto packet=b.packet(60,9);Brain ally(11,11,2,0);ally.round=7;ally.messages({packet});assert(ally.allies.size()==1&&ally.allies[0].len==9);ally.messages({packet^16});assert(ally.allies.size()==1);ally.round=10;ally.messages({packet});assert(ally.allies.empty()); }
     { auto b=open_board();b.length=3;b.count=1;assert(!b.safe_split(b.initial(),true)); }
     { auto b=open_board();b.predicted={60,59,48,49};b.length=4;State t,u;int hit;assert(b.step(b.initial(),1,false,t,hit));assert(b.step(t,0,true,u,hit));assert(u.body.size()==3); }
-    // Expansion can use the final slot, but the engine cap is still binding.
-    { auto b=open_board();b.id=2;b.count=63;b.length=4;b.predicted={60,59,58,57};
-      assert(b.safe_split(b.initial(),false));b.count=64;assert(!b.safe_split(b.initial(),true)); }
+    // Growth reserves two rescue slots; emergencies can use the final slot.
+    { auto b=open_board();b.id=2;b.count=61;b.length=4;b.predicted={60,59,58,57};
+      assert(b.safe_split(b.initial(),false));b.count=62;assert(!b.safe_split(b.initial(),false));
+      b.count=63;assert(b.safe_split(b.initial(),true));b.count=64;assert(!b.safe_split(b.initial(),true)); }
     // Growers retain length while scouts may reproduce in the same open position.
     { auto b=open_board(205);b.count=8;b.length=4;b.predicted={60,59,58,57};
       assert(b.grower());assert(!b.safe_split(b.initial(),false));
@@ -167,7 +169,105 @@ int main() {
       double ready=b.attraction(b.initial());b.goals[0].due=b.round+5;
       assert(b.attraction(b.initial())<ready); }
     v7_checks();
-    std::cout<<"V7 strategy checks passed (41 retained + 31 focused scenarios)\n";
+    jormungandr_checks();
+    std::cout<<"Jormungandr checks passed: 72 retained scenarios plus 18 architecture regressions\n";
+}
+
+void jormungandr_checks() {
+    // Shared food is a target, never evidence that a move grows the body.
+    { auto sender=open_board(30);auto b=open_board(31);b.id=2;b.cells[61].seen=-1000;
+      b.messages({sender.tagged_packet(61,0,Brain::FOOD_TAG)});b.prepare_goals();
+      assert(b.food_reports.size()==1&&!b.cells[61].pearl&&!b.goals.empty());
+      State after;int hit;assert(b.step(b.initial(),1,false,after,hit,false)&&after.length==3); }
+    // Fresh direct emptiness overrides a reported meal; it also expires.
+    { auto sender=open_board(30);auto b=open_board(31);b.id=2;
+      b.messages({sender.tagged_packet(61,0,Brain::FOOD_TAG)});assert(b.food_reports.empty());
+      b.cells[61].seen=-1;b.messages({sender.tagged_packet(61,0,Brain::FOOD_TAG)});
+      b.round=39;b.messages({});assert(b.food_reports.empty()); }
+    // Information packets reject wrong teams, future stamps, corruption, and
+    // impossible food delays. No payload shares the status/control tags.
+    { auto b=open_board(30);b.id=2;auto sender=open_board(31);
+      b.messages({sender.tagged_packet(61,0,Brain::FOOD_TAG)});assert(b.food_reports.empty());
+      sender.round=30;sender.team=1;b.messages({sender.tagged_packet(61,0,Brain::FOOD_TAG)});
+      sender.team=0;b.messages({sender.tagged_packet(61,0,Brain::FOOD_TAG)^4,sender.tagged_packet(61,7,Brain::FOOD_TAG)});
+      assert(b.food_reports.empty()&&b.allies.empty()); }
+    // A patch can open a navigation route but cannot make a legal move or an
+    // escape proof through an edge that the dragon has never observed.
+    { auto sender=open_board(30);Brain b(11,11,2,0);b.round=30;
+      b.messages({sender.tagged_packet(60,1,Brain::MAP_TAG)});b.transitions();
+      assert(b.nav_next[60][1]==61&&b.next[60][1]<0&&b.cells[60].kind[1]<0);
+      b.set_edge(60,1,1);b.transitions();assert(b.nav_next[60][1]<0); }
+    // Direct terrain wins over conflicting map chunks in both directions.
+    { auto b=open_board(30);b.id=2;auto sender=b;sender.id=0;b.set_edge(60,1,1);
+      b.messages({sender.tagged_packet(60,1,Brain::MAP_TAG)});b.transitions();
+      assert(b.cells[60].kind[1]==1&&b.cells[61].kind[3]==1&&b.nav_next[60][1]<0); }
+    // Portal information carries both endpoints and the real ID, on either
+    // crossing side. It affects navigation only until observed in person.
+    { auto sender=open_board(30);Brain b(11,11,2,0);b.round=30;
+      auto packet=sender.portal_packet(17,{sender.key(60,1),sender.key(90,3)});
+      b.messages({packet});b.transitions();
+      assert(b.nav_next[60][1]==90&&b.nav_next[90][3]==60&&b.nav_next[61][3]==89);
+      assert(b.next[60][1]<0&&b.portals.empty()); }
+    // A claimed portal cannot rewrite an already confirmed portal pair.
+    { auto b=open_board(30);b.id=2;b.set_edge(60,1,2,17);b.set_edge(90,3,2,17);b.transitions();
+      auto sender=b;sender.id=0;b.messages({sender.portal_packet(17,{b.key(60,1),b.key(80,3)})});b.navigation();
+      assert(b.portal_hints.empty()&&b.nav_next[60][1]==90); }
+    // Oversized/wrong-orientation endpoint packets are ignored, and a newly
+    // seen wall cancels a previously plausible remote link.
+    { auto sender=open_board(30);Brain b(11,11,2,0);b.round=30;
+      b.messages({sender.portal_packet(17,{8190,8191}),sender.portal_packet(17,{120,181})});
+      assert(b.portal_hints.empty());
+      b.messages({sender.portal_packet(17,{121,181})});b.set_edge(60,3,1);b.transitions();
+      assert(b.nav_next[60][3]<0); }
+    // A known blocked junction can be released by a second split funded only
+    // by pearls visible now. Neither discarded half is assumed to disappear.
+    { auto b=open_board(0);b.count=7;b.heading=3;b.length=4;b.predicted={60,61,62,63};
+      for(int p:{58,59,60,63,64,65})for(int d:{0,2})b.set_edge(p,d,1);
+      b.set_edge(58,3,1);b.set_edge(65,1,1);
+      for(int p:{58,59,64,65}){b.cells[p].pearl=true;b.cells[p].pearl_round=0;}
+      b.transitions();assert(b.rescue_split(b.initial())==0&&b.relay_split(b.initial())==2);
+      b.count=63;assert(b.relay_split(b.initial())==0);
+      b.count=7;for(auto& c:b.cells)c.pearl=false;b.started=std::chrono::steady_clock::now();
+      assert(b.relay_split(b.initial())==0); }
+    // A future split cannot create a second copy of an already eaten pearl.
+    { auto b=open_board();b.length=5;b.predicted={60,59,58,57,56};auto s=b.initial();s.eaten.set(61);
+      assert(b.split_part(s,3,true).eaten[61]&&b.split_part(s,3,false).eaten[61]); }
+    // Four-segment front workers retain an escape reserve, unless their rear
+    // immediately feeds or replacement is urgent. Five can split as before.
+    { auto b=open_board(100);b.id=2;b.count=8;b.length=4;b.predicted={60,59,58,57};b.enemy_heads={90};
+      assert(!b.safe_split(b.initial(),false));b.cells[56].pearl=true;assert(b.safe_split(b.initial(),false));
+      b.cells[56].pearl=false;b.length=5;b.predicted.push_back(56);assert(b.safe_split(b.initial(),false)); }
+    // Collector commitments guide actual movement without demanding that its
+    // head park on the food/meeting tile.
+    { auto b=open_board(450);b.length=8;b.count=8;b.predicted={60,59,58,57,56,55,66,67};
+      b.station=64;b.station_until=470;b.station_engaged_until=458;b.prepare_coordination();
+      assert(b.station==64&&!b.coord_distance.empty()&&b.coord_distance[64]==0&&b.coord_distance[60]>0);
+      b.station_engaged_until=449;b.prepare_coordination();assert(b.coord_distance.empty()); }
+    // Workers stick with an adequate nearby collector for eight turns; a
+    // genuinely better collector, invalid old report, or timeout can replace it.
+    { auto b=open_board(450);b.id=2;b.length=2;b.predicted={60,59};b.count=8;
+      b.leader=10;b.leader_until=458;b.station_reports={{63,10,450,8},{58,12,450,8}};
+      b.prepare_coordination();assert(b.leader==10);b.leader_until=450;b.prepare_coordination();assert(b.leader==12); }
+    // A quiet front changes exploration patience only; even then an enemy's
+    // ordinary head attack and a self-collision remain unacceptable.
+    { auto b=open_board(160);b.quiet_front=true;b.id=2;b.last_food=154;
+      b.prepare_exploration();assert(!b.explore_distance.empty());
+      b.cells[61].id=7;b.cells[61].team=1;b.cells[61].head=true;b.threat_sources={61};
+      assert(b.attack_distance(b.initial())==1);State t;int hit;assert(!b.step(b.initial(),3,false,t,hit)); }
+    // Workers in a barren opening explore even if they are not designated
+    // scouts and have just spawned; a real nearby farm still gets first claim.
+    { auto b=open_board(0);b.id=2;b.count=4;b.last_food=0;for(int p=70;p<b.n;p++)b.cells[p].seen=-1;b.profile_terrain();b.prepare_exploration();
+      assert(!b.explore_distance.empty());b.goals={{61,1,std::vector<int>(b.n,1)}};
+      b.prepare_exploration();assert(b.explore_distance.empty()); }
+    // A worker can offer to a visible potential collector before hearing a
+    // station. An offer is not permission to die, and blocks mixed portal probes.
+    { auto b=donation_scene();b.leader=-1;assert(b.offer_recipient(b.initial())==10);
+      assert(b.coordination_sonar(b.initial())&&b.agreed_donation(b.initial())<0); }
+    // A post-action report must not promise food that the sender just ate.
+    { auto b=open_board(20);b.cells[61].pearl=true;b.cells[61].pearl_round=20;
+      State after;int hit;assert(b.step(b.initial(),1,false,after,hit));
+      auto m=b.choose_intel(62,true,after);auto payload=m&((UINT64_C(1)<<50)-1);
+      assert((Brain::checksum(payload)^unsigned(m>>50))!=Brain::FOOD_TAG); }
 }
 
 void v7_checks() {
@@ -268,6 +368,10 @@ void v7_checks() {
       State near;int hit;assert(b.step(b.initial(),3,false,near,hit));
       Candidate c;c.state=near;c.path={3};c.exits=2;c.threat=99;c.score=0;
       Decision out;assert(b.accept_collection({c},out)&&b.outgoing_accept==2&&b.pickup==60&&out.after.body[0]==49);
+      // Two corpse pearls exist, but this route certifies just the head.
+      for(int p:{58,57}){b.cells[p].id=2;b.cells[p].team=0;b.cells[p].facing=1;}
+      b.delivery_offers[0].peer=4;b.outgoing_accept=-1;b.pickup=-1;
+      assert(!b.accept_collection({c},out,9));
       b.cells[49].kind[2]=1;b.transitions();b.started=std::chrono::steady_clock::now();
       assert(!b.accept_collection({c},out)); }
     // Control packets reject stale, future, wrong-team and corrupt messages;

@@ -43,7 +43,10 @@ def main():
     trace, deaths, live, teams = [], [], {}, {}
     with tempfile.TemporaryDirectory(prefix='abyss-online-trace-') as tmp:
         temp = Path(tmp)
-        for name in ('bot.toml', 'main.cpp', 'helper.hpp', 'strategy.hpp', 'config.hpp'):
+        from unswbc.project import Project
+        project = Project.from_dir(ROOT / 'bot'); project.collect_sources()
+        for name in sorted(set(['bot.toml', *project.sources])):
+            (temp / name).parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(ROOT / 'bot' / name, temp / name)
         path = temp / 'main.cpp'
         path.write_text(path.read_text().replace('brain.commit(decision,ct);',

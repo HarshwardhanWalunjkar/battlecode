@@ -1,0 +1,67 @@
+{
+  "match": {
+    "id": 630369,
+    "teamAId": 983,
+    "teamBId": 422,
+    "mapId": 21,
+    "ranked": true,
+    "skinA": "Jiaolong",
+    "skinB": "Loch Ness",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 159,
+    "scoresB": 263,
+    "views": 0,
+    "seriesId": "f7d5ef87-5e3c-4ee0-a1ae-b07ce56b89f6",
+    "eloChangeA": 7,
+    "eloChangeB": -7,
+    "requestedAt": "2026-09-29T21:00:00.000Z",
+    "startedAt": "2026-09-29T21:00:41.878Z",
+    "completedAt": "2026-09-29T21:02:09.355Z",
+    "log": null,
+    "seed": "427b2c1911294748"
+  },
+  "mapName": "Slithery Fight",
+  "teamAName": "Link",
+  "teamBName": "Borgor",
+  "teamAElo": 1483,
+  "teamBElo": 1461,
+  "games": [
+    {
+      "id": 630369,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Slithery Fight"
+    },
+    {
+      "id": 630370,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Autarky"
+    },
+    {
+      "id": 630371,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Default"
+    },
+    {
+      "id": 630372,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Schooltime"
+    },
+    {
+      "id": 630373,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Prisoners Dilemma"
+    }
+  ],
+  "wait": null
+}

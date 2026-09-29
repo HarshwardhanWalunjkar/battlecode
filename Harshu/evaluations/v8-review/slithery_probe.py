@@ -8,12 +8,15 @@ ROOT=Path(__file__).resolve().parents[2]
 OUT=Path(__file__).resolve().parent
 class Done(Exception):pass
 
-def run(rounds=5, override=None, label='baseline'):
+def run(rounds=5, override=None, label='baseline', source='versions/v7/bot'):
     trace=[];deaths=[];live={};spawns={};inputs={}
     with tempfile.TemporaryDirectory(prefix='slithery-v7-audit-') as tmp:
         tmp=Path(tmp)
-        for p in (ROOT/'versions/v7/bot').iterdir():
-            if p.is_file():shutil.copy(p,tmp/p.name)
+        from unswbc.project import Project
+        project=Project.from_dir(ROOT/source);project.collect_sources()
+        for name in sorted(set(['bot.toml',*project.sources])):
+            (tmp/name).parent.mkdir(parents=True,exist_ok=True)
+            shutil.copyfile(ROOT/source/name,tmp/name)
         main=tmp/'main.cpp'
         diagnostic='''
             auto original=brain.initial();

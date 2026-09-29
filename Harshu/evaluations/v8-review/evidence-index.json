@@ -1,0 +1,282 @@
+[
+  {
+    "id": 578853,
+    "map": "Autarky",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      32,
+      40
+    ],
+    "first100_splits": [
+      18,
+      22
+    ]
+  },
+  {
+    "id": 578854,
+    "map": "Default",
+    "winner": "a",
+    "own_side": "A",
+    "first100_food": [
+      28,
+      30
+    ],
+    "first100_splits": [
+      13,
+      16
+    ]
+  },
+  {
+    "id": 578855,
+    "map": "Devil",
+    "winner": "a",
+    "own_side": "A",
+    "first100_food": [
+      13,
+      143
+    ],
+    "first100_splits": [
+      7,
+      56
+    ]
+  },
+  {
+    "id": 578856,
+    "map": "Portals",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      19,
+      5
+    ],
+    "first100_splits": [
+      9,
+      2
+    ]
+  },
+  {
+    "id": 578857,
+    "map": "Prisoners Dilemma",
+    "winner": "a",
+    "own_side": "A",
+    "first100_food": [
+      5,
+      80
+    ],
+    "first100_splits": [
+      7,
+      29
+    ]
+  },
+  {
+    "id": 578858,
+    "map": "Queen Of Spades",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      43,
+      14
+    ],
+    "first100_splits": [
+      11,
+      6
+    ]
+  },
+  {
+    "id": 578859,
+    "map": "Schooltime",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      50,
+      133
+    ],
+    "first100_splits": [
+      17,
+      41
+    ]
+  },
+  {
+    "id": 578860,
+    "map": "Slithery Fight",
+    "winner": "a",
+    "own_side": "A",
+    "first100_food": [
+      68,
+      405
+    ],
+    "first100_splits": [
+      17,
+      147
+    ]
+  },
+  {
+    "id": 578861,
+    "map": "Trauma",
+    "winner": "a",
+    "own_side": "A",
+    "first100_food": [
+      6,
+      5
+    ],
+    "first100_splits": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": 578862,
+    "map": "Trophy",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      30,
+      104
+    ],
+    "first100_splits": [
+      12,
+      40
+    ]
+  },
+  {
+    "id": 580042,
+    "map": "Autarky",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      21,
+      35
+    ],
+    "first100_splits": [
+      16,
+      19
+    ]
+  },
+  {
+    "id": 580043,
+    "map": "Default",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      15,
+      10
+    ],
+    "first100_splits": [
+      9,
+      8
+    ]
+  },
+  {
+    "id": 580044,
+    "map": "Devil",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      5,
+      116
+    ],
+    "first100_splits": [
+      5,
+      37
+    ]
+  },
+  {
+    "id": 580045,
+    "map": "Portals",
+    "winner": "a",
+    "own_side": "A",
+    "first100_food": [
+      1,
+      12
+    ],
+    "first100_splits": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": 580046,
+    "map": "Prisoners Dilemma",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      10,
+      114
+    ],
+    "first100_splits": [
+      6,
+      41
+    ]
+  },
+  {
+    "id": 580047,
+    "map": "Queen Of Spades",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      3,
+      18
+    ],
+    "first100_splits": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": 580048,
+    "map": "Schooltime",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      19,
+      29
+    ],
+    "first100_splits": [
+      10,
+      16
+    ]
+  },
+  {
+    "id": 580049,
+    "map": "Slithery Fight",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      115,
+      414
+    ],
+    "first100_splits": [
+      32,
+      149
+    ]
+  },
+  {
+    "id": 580050,
+    "map": "Trauma",
+    "winner": "a",
+    "own_side": "A",
+    "first100_food": [
+      1,
+      3
+    ],
+    "first100_splits": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": 580051,
+    "map": "Trophy",
+    "winner": "b",
+    "own_side": "A",
+    "first100_food": [
+      24,
+      102
+    ],
+    "first100_splits": [
+      10,
+      35
+    ]
+  }
+]

@@ -7,7 +7,11 @@ from unswbc.bot import Pool,Bot
 ROOT=Path(__file__).resolve().parents[1]
 with tempfile.TemporaryDirectory(prefix='abyss-audit-') as tmp:
     folder=Path(tmp)
-    for name in ('bot.toml','main.cpp','helper.hpp','strategy.hpp','config.hpp'):shutil.copyfile(ROOT/'bot'/name,folder/name)
+    from unswbc.project import Project
+    project=Project.from_dir(ROOT/'bot');project.collect_sources()
+    for name in sorted(set(['bot.toml',*project.sources])):
+        (folder/name).parent.mkdir(parents=True,exist_ok=True)
+        shutil.copyfile(ROOT/'bot'/name,folder/name)
     p=folder/'main.cpp';p.write_text(p.read_text().replace('brain.commit(decision,ct);','ct.output_log("AUDIT",decision.exact,decision.dying); brain.commit(decision,ct);'))
     argv,cwd,kind=_resolve(str(folder));other,othercwd,_=_resolve(str(ROOT/'baselines/greedy'))
     pools={'A':Pool(argv,cwd=str(cwd),size=1),'B':Pool(other,cwd=str(othercwd),size=1)}

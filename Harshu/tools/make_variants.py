@@ -3,10 +3,16 @@
 from pathlib import Path
 import shutil
 ROOT=Path(__file__).resolve().parents[1]
+from unswbc.project import Project
+project=Project.from_dir(ROOT/'bot');project.collect_sources()
+def copy_sources(out):
+    for name in sorted(set(['bot.toml',*project.sources])):
+        (out/name).parent.mkdir(parents=True,exist_ok=True)
+        shutil.copyfile(ROOT/'bot'/name,out/name)
 variants={'no_split':{'max_team':1},'early_split':{'split_length':6,'max_team':3},'late_split':{'split_length':20},'wide_search':{'beam_width':14,'lookahead':14},'cautious':{'danger_two':90.0,'danger_three':25.0},'bold':{'danger_two':15.0,'danger_three':2.0}}
 for name,changes in variants.items():
     out=ROOT/'baselines'/name;out.mkdir(exist_ok=True)
-    for f in ('main.cpp','helper.hpp','strategy.hpp','config.hpp','bot.toml'):shutil.copyfile(ROOT/'bot'/f,out/f)
+    copy_sources(out)
     import re
     cfg=(out/'config.hpp').read_text()
     for key,value in changes.items():cfg=re.sub(rf'({key} = )[^;]+;',rf'\g<1>{value};',cfg)
@@ -14,7 +20,7 @@ for name,changes in variants.items():
 # Greedy and hunter share only observations/legality with the candidate, not search.
 for mode in ('greedy','hunter'):
     out=ROOT/'baselines'/mode;out.mkdir(exist_ok=True)
-    for f in ('helper.hpp','strategy.hpp','config.hpp','bot.toml'):shutil.copyfile(ROOT/'bot'/f,out/f)
+    copy_sources(out)
     (out/'main.cpp').write_text('''#include "strategy.hpp"
 int main(){try{auto [ct,g]=unswbc::init();abyss::Brain b(g.width,g.height,ct.get_id(),ct.get_team().value=='A'?0:1);
 while(unswbc::update(ct,g)){b.observe(ct,g);auto s=b.initial();std::vector<abyss::Candidate> c,a;std::vector<int> p;b.enumerate(s,p,c,a);

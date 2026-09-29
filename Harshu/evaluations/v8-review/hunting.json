@@ -1,0 +1,1216 @@
+[
+  {
+    "game": 578862,
+    "enemy_head_kills": [
+      {
+        "r": 87,
+        "victim": 46,
+        "L": 2,
+        "attacker": 4,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          211,
+          3
+        ],
+        "victim_last": {
+          "r": 86,
+          "head": 235,
+          "enemy": {
+            "4": [
+              211,
+              3
+            ],
+            "44": [
+              163,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "E"
+            ]
+          }
+        }
+      },
+      {
+        "r": 97,
+        "victim": 2,
+        "L": 2,
+        "attacker": 1,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "N"
+          ]
+        },
+        "attacker_previous": [
+          70,
+          3
+        ],
+        "victim_last": {
+          "r": 96,
+          "head": 46,
+          "enemy": {
+            "1": [
+              70,
+              3
+            ],
+            "14": [
+              119,
+              2
+            ],
+            "18": [
+              22,
+              2
+            ],
+            "34": [
+              49,
+              3
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "W"
+            ]
+          }
+        }
+      },
+      {
+        "r": 108,
+        "victim": 0,
+        "L": 2,
+        "attacker": 48,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "W"
+          ]
+        },
+        "attacker_previous": [
+          551,
+          2
+        ],
+        "victim_last": {
+          "r": 108,
+          "head": 574,
+          "enemy": {
+            "34": [
+              572,
+              3
+            ],
+            "48": [
+              551,
+              2
+            ],
+            "58": [
+              524,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "E"
+            ]
+          }
+        }
+      },
+      {
+        "r": 116,
+        "victim": 33,
+        "L": 2,
+        "attacker": 67,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "E"
+          ]
+        },
+        "attacker_previous": [
+          208,
+          2
+        ],
+        "victim_last": {
+          "r": 116,
+          "head": 210,
+          "enemy": {
+            "50": [
+              160,
+              3
+            ],
+            "59": [
+              236,
+              3
+            ],
+            "67": [
+              208,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "W"
+            ]
+          }
+        }
+      },
+      {
+        "r": 126,
+        "victim": 25,
+        "L": 2,
+        "attacker": 69,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "W"
+          ]
+        },
+        "attacker_previous": [
+          235,
+          3
+        ],
+        "victim_last": {
+          "r": 126,
+          "head": 259,
+          "enemy": {
+            "50": [
+              232,
+              2
+            ],
+            "60": [
+              308,
+              3
+            ],
+            "62": [
+              187,
+              4
+            ],
+            "69": [
+              235,
+              3
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "N"
+            ]
+          }
+        }
+      },
+      {
+        "r": 133,
+        "victim": 32,
+        "L": 2,
+        "attacker": 27,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "E"
+          ]
+        },
+        "attacker_previous": [
+          288,
+          3
+        ],
+        "victim_last": {
+          "r": 132,
+          "head": 264,
+          "enemy": {
+            "27": [
+              288,
+              3
+            ],
+            "52": [
+              192,
+              2
+            ],
+            "72": [
+              186,
+              2
+            ],
+            "75": [
+              214,
+              3
+            ],
+            "76": [
+              190,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "S"
+            ]
+          }
+        }
+      },
+      {
+        "r": 140,
+        "victim": 5,
+        "L": 2,
+        "attacker": 71,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          218,
+          2
+        ],
+        "victim_last": {
+          "r": 140,
+          "head": 268,
+          "enemy": {
+            "14": [
+              246,
+              3
+            ],
+            "63": [
+              318,
+              2
+            ],
+            "64": [
+              341,
+              3
+            ],
+            "71": [
+              218,
+              2
+            ],
+            "72": [
+              241,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "N"
+            ]
+          }
+        }
+      },
+      {
+        "r": 146,
+        "victim": 22,
+        "L": 2,
+        "attacker": 42,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "W"
+          ]
+        },
+        "attacker_previous": [
+          30,
+          3
+        ],
+        "victim_last": {
+          "r": 146,
+          "head": 4,
+          "enemy": {
+            "12": [
+              26,
+              2
+            ],
+            "24": [
+              607,
+              3
+            ],
+            "42": [
+              30,
+              3
+            ],
+            "59": [
+              579,
+              2
+            ],
+            "70": [
+              601,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "S"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "game": 580051,
+    "enemy_head_kills": [
+      {
+        "r": 129,
+        "victim": 5,
+        "L": 2,
+        "attacker": 71,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "N"
+          ]
+        },
+        "attacker_previous": [
+          192,
+          2
+        ],
+        "victim_last": {
+          "r": 129,
+          "head": 168,
+          "enemy": {
+            "24": [
+              116,
+              6
+            ],
+            "42": [
+              141,
+              2
+            ],
+            "50": [
+              243,
+              3
+            ],
+            "61": [
+              119,
+              2
+            ],
+            "62": [
+              215,
+              4
+            ],
+            "69": [
+              245,
+              2
+            ],
+            "71": [
+              192,
+              2
+            ],
+            "74": [
+              219,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "W"
+            ]
+          }
+        }
+      },
+      {
+        "r": 130,
+        "victim": 13,
+        "L": 2,
+        "attacker": 61,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "N"
+          ]
+        },
+        "attacker_previous": [
+          120,
+          2
+        ],
+        "victim_last": {
+          "r": 130,
+          "head": 70,
+          "enemy": {
+            "19": [
+              618,
+              2
+            ],
+            "24": [
+              117,
+              6
+            ],
+            "56": [
+              68,
+              3
+            ],
+            "57": [
+              97,
+              2
+            ],
+            "61": [
+              120,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "S"
+            ]
+          }
+        }
+      },
+      {
+        "r": 144,
+        "victim": 37,
+        "L": 2,
+        "attacker": 82,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          55,
+          2
+        ],
+        "victim_last": {
+          "r": 144,
+          "head": 79,
+          "enemy": {
+            "19": [
+              103,
+              2
+            ],
+            "55": [
+              28,
+              3
+            ],
+            "82": [
+              55,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "E"
+            ]
+          }
+        }
+      },
+      {
+        "r": 145,
+        "victim": 64,
+        "L": 2,
+        "attacker": 43,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "W"
+          ]
+        },
+        "attacker_previous": [
+          547,
+          2
+        ],
+        "victim_last": {
+          "r": 144,
+          "head": 545,
+          "enemy": {
+            "18": [
+              592,
+              2
+            ],
+            "29": [
+              543,
+              3
+            ],
+            "43": [
+              547,
+              2
+            ],
+            "49": [
+              495,
+              2
+            ],
+            "57": [
+              595,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "E"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "game": 578860,
+    "enemy_head_kills": [
+      {
+        "r": 33,
+        "victim": 12,
+        "L": 2,
+        "attacker": 40,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "W"
+          ]
+        },
+        "attacker_previous": [
+          210,
+          2
+        ],
+        "victim_last": {
+          "r": 33,
+          "head": 146,
+          "enemy": {
+            "40": [
+              210,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "S"
+            ]
+          }
+        }
+      },
+      {
+        "r": 58,
+        "victim": 61,
+        "L": 2,
+        "attacker": 101,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "W"
+          ]
+        },
+        "attacker_previous": [
+          211,
+          2
+        ],
+        "victim_last": {
+          "r": 58,
+          "head": 147,
+          "enemy": {
+            "72": [
+              272,
+              2
+            ],
+            "88": [
+              276,
+              3
+            ],
+            "89": [
+              86,
+              2
+            ],
+            "101": [
+              211,
+              2
+            ],
+            "102": [
+              270,
+              2
+            ],
+            "105": [
+              84,
+              3
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "S"
+            ]
+          }
+        }
+      },
+      {
+        "r": 61,
+        "victim": 52,
+        "L": 2,
+        "attacker": 115,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": null,
+        "victim_last": {
+          "r": 61,
+          "head": 523,
+          "enemy": {
+            "72": [
+              337,
+              2
+            ],
+            "102": [
+              335,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "E"
+            ]
+          }
+        }
+      },
+      {
+        "r": 75,
+        "victim": 37,
+        "L": 2,
+        "attacker": 132,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          587,
+          2
+        ],
+        "victim_last": {
+          "r": 75,
+          "head": 651,
+          "enemy": {
+            "114": [
+              460,
+              2
+            ],
+            "132": [
+              587,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "W"
+            ]
+          }
+        }
+      },
+      {
+        "r": 87,
+        "victim": 134,
+        "L": 2,
+        "attacker": 150,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "N"
+          ]
+        },
+        "attacker_previous": [
+          1474,
+          2
+        ],
+        "victim_last": {
+          "r": 87,
+          "head": 1348,
+          "enemy": {
+            "87": [
+              1347,
+              2
+            ],
+            "106": [
+              1536,
+              3
+            ],
+            "137": [
+              1345,
+              3
+            ],
+            "150": [
+              1474,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "S"
+            ]
+          }
+        }
+      },
+      {
+        "r": 89,
+        "victim": 10,
+        "L": 2,
+        "attacker": 151,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "W"
+          ]
+        },
+        "attacker_previous": [
+          1467,
+          2
+        ],
+        "victim_last": {
+          "r": 89,
+          "head": 1529,
+          "enemy": {
+            "151": [
+              1467,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "N"
+            ]
+          }
+        }
+      },
+      {
+        "r": 110,
+        "victim": 168,
+        "L": 2,
+        "attacker": 96,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          224,
+          2
+        ],
+        "victim_last": {
+          "r": 109,
+          "head": 286,
+          "enemy": {
+            "96": [
+              224,
+              2
+            ],
+            "179": [
+              163,
+              2
+            ],
+            "190": [
+              283,
+              2
+            ],
+            "193": [
+              222,
+              3
+            ],
+            "204": [
+              97,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "E"
+            ]
+          }
+        }
+      },
+      {
+        "r": 114,
+        "victim": 147,
+        "L": 3,
+        "attacker": 123,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          215,
+          2
+        ],
+        "victim_last": {
+          "r": 113,
+          "head": 279,
+          "enemy": {
+            "123": [
+              215,
+              2
+            ],
+            "129": [
+              280,
+              2
+            ],
+            "205": [
+              91,
+              3
+            ],
+            "206": [
+              90,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "W"
+            ]
+          }
+        }
+      },
+      {
+        "r": 122,
+        "victim": 71,
+        "L": 2,
+        "attacker": 233,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "W"
+          ]
+        },
+        "attacker_previous": [
+          221,
+          2
+        ],
+        "victim_last": {
+          "r": 122,
+          "head": 283,
+          "enemy": {
+            "233": [
+              221,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "N"
+            ]
+          }
+        }
+      },
+      {
+        "r": 126,
+        "victim": 213,
+        "L": 2,
+        "attacker": 248,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "E"
+          ]
+        },
+        "attacker_previous": [
+          156,
+          3
+        ],
+        "victim_last": {
+          "r": 126,
+          "head": 158,
+          "enemy": {
+            "197": [
+              285,
+              2
+            ],
+            "248": [
+              156,
+              3
+            ],
+            "254": [
+              1669,
+              4
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "W"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "game": 580049,
+    "enemy_head_kills": [
+      {
+        "r": 16,
+        "victim": 13,
+        "L": 2,
+        "attacker": 34,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          1486,
+          2
+        ],
+        "victim_last": {
+          "r": 16,
+          "head": 1550,
+          "enemy": {
+            "10": [
+              1485,
+              3
+            ],
+            "34": [
+              1486,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "W"
+            ]
+          }
+        }
+      },
+      {
+        "r": 44,
+        "victim": 58,
+        "L": 2,
+        "attacker": 91,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "E"
+          ]
+        },
+        "attacker_previous": [
+          1368,
+          2
+        ],
+        "victim_last": {
+          "r": 44,
+          "head": 1306,
+          "enemy": {
+            "79": [
+              1240,
+              2
+            ],
+            "91": [
+              1368,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "S"
+            ]
+          }
+        }
+      },
+      {
+        "r": 118,
+        "victim": 215,
+        "L": 2,
+        "attacker": 170,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "E"
+          ]
+        },
+        "attacker_previous": [
+          231,
+          2
+        ],
+        "victim_last": {
+          "r": 117,
+          "head": 295,
+          "enemy": {
+            "170": [
+              231,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "N"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "game": 580044,
+    "enemy_head_kills": [
+      {
+        "r": 135,
+        "victim": 49,
+        "L": 2,
+        "attacker": 34,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "N"
+          ]
+        },
+        "attacker_previous": [
+          296,
+          3
+        ],
+        "victim_last": {
+          "r": 134,
+          "head": 263,
+          "enemy": {
+            "24": [
+              198,
+              2
+            ],
+            "34": [
+              296,
+              3
+            ],
+            "52": [
+              164,
+              2
+            ],
+            "66": [
+              169,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "E"
+            ]
+          }
+        }
+      },
+      {
+        "r": 144,
+        "victim": 0,
+        "L": 2,
+        "attacker": 66,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          424,
+          2
+        ],
+        "victim_last": {
+          "r": 144,
+          "head": 488,
+          "enemy": {
+            "66": [
+              424,
+              2
+            ],
+            "81": [
+              427,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "N"
+            ]
+          }
+        }
+      },
+      {
+        "r": 147,
+        "victim": 4,
+        "L": 2,
+        "attacker": 24,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "S"
+          ]
+        },
+        "attacker_previous": [
+          293,
+          3
+        ],
+        "victim_last": {
+          "r": 147,
+          "head": 357,
+          "enemy": {
+            "24": [
+              293,
+              3
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "N"
+            ]
+          }
+        }
+      },
+      {
+        "r": 147,
+        "victim": 85,
+        "L": 2,
+        "attacker": 58,
+        "attack": {
+          "kind": "move",
+          "steps": [
+            "N"
+          ]
+        },
+        "attacker_previous": [
+          232,
+          3
+        ],
+        "victim_last": {
+          "r": 146,
+          "head": 168,
+          "enemy": {
+            "58": [
+              232,
+              3
+            ],
+            "60": [
+              265,
+              2
+            ]
+          },
+          "action": {
+            "kind": "move",
+            "steps": [
+              "S"
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

@@ -5,6 +5,7 @@ Shift round headers to 450 so the real policy reaches its late phase without
 by the official engine. Two remote allies provide the real population floor.
 """
 import json
+import argparse
 import hashlib
 from pathlib import Path
 import shutil
@@ -72,12 +73,19 @@ def run(folder, reverse):
     return {'collector':collector,'donor':donor,'accepted':accepted,'donated':donated,'collected':collected,'deaths':deaths,'events':events,'turns':turns}
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--output', type=Path, required=True)
+    args=parser.parse_args()
+    from unswbc.project import Project
+    project=Project.from_dir(ROOT/'bot');project.collect_sources()
+    names=sorted(set(['bot.toml',*project.sources]))
     digest=hashlib.sha256()
-    for name in sorted(('bot.toml','main.cpp','helper.hpp','strategy.hpp','config.hpp')):
+    for name in names:
         digest.update(name.encode()+b'\0'+(ROOT/'bot'/name).read_bytes()+b'\0')
     with tempfile.TemporaryDirectory(prefix='v7-coordination-') as tmp:
         folder=Path(tmp)
-        for name in ('bot.toml','main.cpp','helper.hpp','strategy.hpp','config.hpp'):
+        for name in names:
+            (folder/name).parent.mkdir(parents=True,exist_ok=True)
             shutil.copyfile(ROOT/'bot'/name,folder/name)
         p=folder/'main.cpp'
         p.write_text(p.read_text().replace('brain.commit(decision,ct);',
@@ -86,7 +94,8 @@ def main():
             'brain.commit(decision,ct);'))
         results=[run(folder,False),run(folder,True)]
         for row in results: row['source_fingerprint']=digest.hexdigest()
-    output=ROOT/'evaluations/v7-review/coordination-engine.json'
+    output=args.output
+    output.parent.mkdir(parents=True,exist_ok=True)
     output.write_text(json.dumps(results,indent=2)+'\n')
     for row in results:
         assert row['accepted'] and row['donated'] and row['collected'], (row['collector'], 'No completed handshake; inspect saved fixture')

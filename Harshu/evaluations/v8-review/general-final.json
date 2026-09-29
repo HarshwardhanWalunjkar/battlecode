@@ -1,0 +1,238 @@
+{
+  "toolkit": "1.2.2",
+  "wasmtime": "49.0.0",
+  "sandbox": true,
+  "fingerprints": {
+    "Harshu/versions/v7/bot": "0ce4a44b3c76102afe2813fde172cfe4dae61be1c2936931bf08cc181db35186",
+    "Harshu/evaluations/v8-review/general-only/bot": "b7334c022873661771a187b6e9f870d3c09722ca9375e18fa61ba7734c993e68"
+  },
+  "immutable_builds": true,
+  "records": [
+    {
+      "rounds": 499,
+      "winner": "B",
+      "end_reason": 1,
+      "a_dragons": 9,
+      "b_dragons": 5,
+      "a_length": 44,
+      "b_length": 34,
+      "events": 55293,
+      "map": "trauma",
+      "seed": 911,
+      "projects": {
+        "A": "Harshu/evaluations/v8-review/general-only/bot",
+        "B": "Harshu/versions/v7/bot"
+      },
+      "seconds": 18.259,
+      "errors": [],
+      "deaths": [
+        {
+          "id": 4,
+          "team": "A",
+          "round": 155,
+          "reason": "W"
+        },
+        {
+          "id": 3,
+          "team": "B",
+          "round": 199,
+          "reason": "W"
+        },
+        {
+          "id": 16,
+          "team": "A",
+          "round": 211,
+          "reason": "O"
+        },
+        {
+          "id": 0,
+          "team": "A",
+          "round": 228,
+          "reason": "W"
+        },
+        {
+          "id": 8,
+          "team": "A",
+          "round": 361,
+          "reason": "S"
+        },
+        {
+          "id": 9,
+          "team": "B",
+          "round": 406,
+          "reason": "S"
+        },
+        {
+          "id": 21,
+          "team": "A",
+          "round": 427,
+          "reason": "W"
+        },
+        {
+          "id": 18,
+          "team": "A",
+          "round": 437,
+          "reason": "S"
+        },
+        {
+          "id": 6,
+          "team": "A",
+          "round": 445,
+          "reason": "S"
+        },
+        {
+          "id": 22,
+          "team": "A",
+          "round": 451,
+          "reason": "O"
+        },
+        {
+          "id": 11,
+          "team": "B",
+          "round": 453,
+          "reason": "S"
+        },
+        {
+          "id": 1,
+          "team": "B",
+          "round": 458,
+          "reason": "S"
+        },
+        {
+          "id": 2,
+          "team": "A",
+          "round": 478,
+          "reason": "S"
+        }
+      ],
+      "actions": {
+        "A_splits": 16,
+        "B_splits": 7,
+        "A_moves": 3572,
+        "A_sprint_steps": 9,
+        "B_moves": 3288,
+        "B_sprint_steps": 1
+      },
+      "notices": [],
+      "A_budget": {
+        "turns": 3588,
+        "max_points": 21350183,
+        "p99_points": 19916964,
+        "max_memory": 917504
+      },
+      "B_budget": {
+        "turns": 3295,
+        "max_points": 21289779,
+        "p99_points": 19530466,
+        "max_memory": 589824
+      },
+      "bot_side": "A",
+      "opponent": "Harshu/versions/v7/bot",
+      "score": 0
+    },
+    {
+      "rounds": 499,
+      "winner": "A",
+      "end_reason": 1,
+      "a_dragons": 5,
+      "b_dragons": 6,
+      "a_length": 33,
+      "b_length": 37,
+      "events": 51537,
+      "map": "trauma",
+      "seed": 911,
+      "projects": {
+        "A": "Harshu/versions/v7/bot",
+        "B": "Harshu/evaluations/v8-review/general-only/bot"
+      },
+      "seconds": 16.015,
+      "errors": [],
+      "deaths": [
+        {
+          "id": 8,
+          "team": "B",
+          "round": 136,
+          "reason": "W"
+        },
+        {
+          "id": 17,
+          "team": "A",
+          "round": 276,
+          "reason": "W"
+        },
+        {
+          "id": 2,
+          "team": "A",
+          "round": 310,
+          "reason": "W"
+        },
+        {
+          "id": 9,
+          "team": "A",
+          "round": 378,
+          "reason": "W"
+        },
+        {
+          "id": 14,
+          "team": "A",
+          "round": 388,
+          "reason": "S"
+        },
+        {
+          "id": 15,
+          "team": "A",
+          "round": 431,
+          "reason": "W"
+        },
+        {
+          "id": 5,
+          "team": "B",
+          "round": 437,
+          "reason": "S"
+        },
+        {
+          "id": 12,
+          "team": "A",
+          "round": 448,
+          "reason": "S"
+        },
+        {
+          "id": 0,
+          "team": "A",
+          "round": 453,
+          "reason": "S"
+        },
+        {
+          "id": 10,
+          "team": "B",
+          "round": 488,
+          "reason": "O"
+        }
+      ],
+      "actions": {
+        "A_splits": 10,
+        "B_splits": 7,
+        "A_moves": 3305,
+        "A_sprint_steps": 6,
+        "B_moves": 3012,
+        "B_sprint_steps": 2
+      },
+      "notices": [],
+      "A_budget": {
+        "turns": 3315,
+        "max_points": 20534258,
+        "p99_points": 19057902,
+        "max_memory": 589824
+      },
+      "B_budget": {
+        "turns": 3019,
+        "max_points": 20715476,
+        "p99_points": 19520453,
+        "max_memory": 917504
+      },
+      "bot_side": "B",
+      "opponent": "Harshu/versions/v7/bot",
+      "score": 0
+    }
+  ]
+}

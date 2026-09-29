@@ -1,6 +1,79 @@
 {
-  "fetched_at": "2026-09-29T08:53:49.588877+00:00",
+  "fetched_at": "2026-09-29T22:06:09.386247+00:00",
   "submissions": [
+    {
+      "id": 11413,
+      "teamId": 422,
+      "name": "abyss-v7",
+      "description": "V7: affordable enemy threats, local territory and food urgency, protected growers, productive-front replacement workers and agreed one/two-turn feeding",
+      "language": "cpp",
+      "status": "active",
+      "storageKey": "submissions/35336cf2-68e2-42fe-98fb-eb512e0f174f.zip",
+      "uploadedAt": "2026-09-29T09:12:25.494Z",
+      "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+      "buildLog": null,
+      "buildHeartbeatAt": null,
+      "buildAttempts": 1,
+      "sourceHash": "a3814830673a70cf292c59d9f6ee4e1f241b5f939a68c267ae671a5185fa066c",
+      "kStart": 0,
+      "kFreshAt": "2026-09-29T10:19:30.416Z",
+      "wins": 50,
+      "draws": 0,
+      "losses": 70,
+      "byMap": {
+        "Prisoners Dilemma": {
+          "wins": 7,
+          "draws": 0,
+          "losses": 8
+        },
+        "Default": {
+          "wins": 11,
+          "draws": 0,
+          "losses": 3
+        },
+        "Slithery Fight": {
+          "wins": 3,
+          "draws": 0,
+          "losses": 7
+        },
+        "Trophy": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 10
+        },
+        "Devil": {
+          "wins": 2,
+          "draws": 0,
+          "losses": 12
+        },
+        "Portals": {
+          "wins": 5,
+          "draws": 0,
+          "losses": 6
+        },
+        "Schooltime": {
+          "wins": 7,
+          "draws": 0,
+          "losses": 5
+        },
+        "Queen Of Spades": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 6
+        },
+        "Autarky": {
+          "wins": 2,
+          "draws": 0,
+          "losses": 9
+        },
+        "Trauma": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 4
+        }
+      },
+      "version": 7
+    },
     {
       "id": 10600,
       "teamId": 422,
@@ -25,6 +98,21 @@
           "wins": 0,
           "draws": 0,
           "losses": 3
+        },
+        "Prisoners Dilemma": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 2
+        },
+        "Slithery Fight": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 3
+        },
+        "Queen Of Spades": {
+          "wins": 2,
+          "draws": 0,
+          "losses": 2
         },
         "Default": {
           "wins": 2,
@@ -55,21 +143,6 @@
           "wins": 0,
           "draws": 0,
           "losses": 3
-        },
-        "Prisoners Dilemma": {
-          "wins": 0,
-          "draws": 0,
-          "losses": 2
-        },
-        "Slithery Fight": {
-          "wins": 0,
-          "draws": 0,
-          "losses": 3
-        },
-        "Queen Of Spades": {
-          "wins": 2,
-          "draws": 0,
-          "losses": 2
         }
       },
       "version": 6
@@ -80,7 +153,7 @@
       "name": "abyss-v4.1",
       "description": "V4 portal continuity and length-preserving rescues, with a last-resort escape past adjacent ally reports",
       "language": "cpp",
-      "status": "active",
+      "status": "idle",
       "storageKey": "submissions/58ed460c-d4aa-4762-9fb5-64c97248c48c.zip",
       "uploadedAt": "2026-09-28T10:49:56.914Z",
       "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
@@ -90,9 +163,9 @@
       "sourceHash": "d5057070acba7bff7c9b00d98c04c7ef189de94b7ce0e8336353fd19a2a1efec",
       "kStart": 0,
       "kFreshAt": "2026-09-28T10:52:22.078Z",
-      "wins": 111,
+      "wins": 115,
       "draws": 0,
-      "losses": 104,
+      "losses": 105,
       "byMap": {
         "Devil": {
           "wins": 5,
@@ -100,12 +173,12 @@
           "losses": 15
         },
         "Trauma": {
-          "wins": 19,
+          "wins": 20,
           "draws": 0,
           "losses": 3
         },
         "Slithery Fight": {
-          "wins": 3,
+          "wins": 4,
           "draws": 0,
           "losses": 18
         },
@@ -114,23 +187,13 @@
           "draws": 0,
           "losses": 12
         },
-        "Schooltime": {
-          "wins": 15,
-          "draws": 0,
-          "losses": 6
-        },
         "Queen Of Spades": {
           "wins": 13,
           "draws": 0,
           "losses": 9
         },
-        "Portals": {
-          "wins": 15,
-          "draws": 0,
-          "losses": 6
-        },
         "Trophy": {
-          "wins": 3,
+          "wins": 4,
           "draws": 0,
           "losses": 19
         },
@@ -140,9 +203,19 @@
           "losses": 6
         },
         "Default": {
-          "wins": 13,
+          "wins": 14,
           "draws": 0,
           "losses": 10
+        },
+        "Schooltime": {
+          "wins": 15,
+          "draws": 0,
+          "losses": 6
+        },
+        "Portals": {
+          "wins": 15,
+          "draws": 0,
+          "losses": 7
         }
       },
       "version": 5
@@ -194,11 +267,6 @@
           "draws": 0,
           "losses": 2
         },
-        "Queen Of Spades": {
-          "wins": 6,
-          "draws": 0,
-          "losses": 2
-        },
         "Prisoners Dilemma": {
           "wins": 4,
           "draws": 0,
@@ -208,6 +276,16 @@
           "wins": 0,
           "draws": 0,
           "losses": 4
+        },
+        "Default": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 0
+        },
+        "Queen Of Spades": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 2
         },
         "Portals": {
           "wins": 6,
@@ -228,11 +306,6 @@
           "wins": 5,
           "draws": 0,
           "losses": 3
-        },
-        "Default": {
-          "wins": 4,
-          "draws": 0,
-          "losses": 0
         },
         "Trophy": {
           "wins": 1,
@@ -272,6 +345,11 @@
           "draws": 0,
           "losses": 8
         },
+        "Slithery Fight": {
+          "wins": 3,
+          "draws": 0,
+          "losses": 16
+        },
         "Trophy": {
           "wins": 5,
           "draws": 0,
@@ -301,11 +379,6 @@
           "wins": 10,
           "draws": 0,
           "losses": 11
-        },
-        "Slithery Fight": {
-          "wins": 3,
-          "draws": 0,
-          "losses": 16
         },
         "Autarky": {
           "wins": 3,
@@ -340,11 +413,6 @@
           "draws": 0,
           "losses": 5
         },
-        "Devil": {
-          "wins": 0,
-          "draws": 0,
-          "losses": 3
-        },
         "Slithery Fight": {
           "wins": 0,
           "draws": 0,
@@ -375,6 +443,11 @@
           "draws": 0,
           "losses": 3
         },
+        "Devil": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 3
+        },
         "Trophy": {
           "wins": 0,
           "draws": 0,
@@ -390,6 +463,440 @@
     }
   ],
   "battles": [
+    {
+      "id": 634736,
+      "ranked": true,
+      "opponentId": 861,
+      "opponent": "Hampter",
+      "opponentElo": 1461,
+      "eloChange": null,
+      "results": [
+        "pending",
+        "pending",
+        "pending",
+        "pending",
+        "pending"
+      ],
+      "wins": 0,
+      "losses": 0,
+      "outcome": "queued",
+      "replayId": null,
+      "at": "2026-09-29T22:00:00.000Z",
+      "wait": {
+        "ahead": 827,
+        "ms": 537798
+      }
+    },
+    {
+      "id": 630369,
+      "ranked": true,
+      "opponentId": 983,
+      "opponent": "Link",
+      "opponentElo": 1476,
+      "eloChange": -7,
+      "results": [
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 630369,
+      "at": "2026-09-29T21:28:56.211Z"
+    },
+    {
+      "id": 631890,
+      "ranked": false,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1482,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "win",
+        "win",
+        "loss",
+        "win",
+        "loss"
+      ],
+      "wins": 5,
+      "losses": 5,
+      "outcome": "draw",
+      "replayId": 631890,
+      "at": "2026-09-29T21:21:03.106Z"
+    },
+    {
+      "id": 626503,
+      "ranked": true,
+      "opponentId": 150,
+      "opponent": "IT",
+      "opponentElo": 1477,
+      "eloChange": -7,
+      "results": [
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 626503,
+      "at": "2026-09-29T20:26:31.726Z"
+    },
+    {
+      "id": 622898,
+      "ranked": true,
+      "opponentId": 866,
+      "opponent": "Spirit",
+      "opponentElo": 1484,
+      "eloChange": -9,
+      "results": [
+        "win",
+        "loss",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 622898,
+      "at": "2026-09-29T19:22:07.416Z"
+    },
+    {
+      "id": 619115,
+      "ranked": true,
+      "opponentId": 293,
+      "opponent": "AAAP",
+      "opponentElo": 1469,
+      "eloChange": 19,
+      "results": [
+        "win",
+        "win",
+        "win",
+        "win",
+        "win"
+      ],
+      "wins": 5,
+      "losses": 0,
+      "outcome": "win",
+      "replayId": 619115,
+      "at": "2026-09-29T18:29:42.352Z"
+    },
+    {
+      "id": 614904,
+      "ranked": true,
+      "opponentId": 190,
+      "opponent": "risq-v",
+      "opponentElo": 1474,
+      "eloChange": -4,
+      "results": [
+        "win",
+        "loss",
+        "loss",
+        "loss",
+        "win"
+      ],
+      "wins": 2,
+      "losses": 3,
+      "outcome": "loss",
+      "replayId": 614904,
+      "at": "2026-09-29T17:23:57.669Z"
+    },
+    {
+      "id": 610537,
+      "ranked": true,
+      "opponentId": 794,
+      "opponent": "HowaryaMate",
+      "opponentElo": 1489,
+      "eloChange": -16,
+      "results": [
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 610537,
+      "at": "2026-09-29T16:33:49.374Z"
+    },
+    {
+      "id": 609148,
+      "ranked": false,
+      "opponentId": 507,
+      "opponent": "bread first search",
+      "opponentElo": 1950,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 0,
+      "losses": 10,
+      "outcome": "loss",
+      "replayId": 609148,
+      "at": "2026-09-29T15:50:53.436Z"
+    },
+    {
+      "id": 605871,
+      "ranked": true,
+      "opponentId": 420,
+      "opponent": "That's That, and This is This",
+      "opponentElo": 1477,
+      "eloChange": 6,
+      "results": [
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "win"
+      ],
+      "wins": 3,
+      "losses": 2,
+      "outcome": "win",
+      "replayId": 605871,
+      "at": "2026-09-29T15:43:19.609Z"
+    },
+    {
+      "id": 601218,
+      "ranked": true,
+      "opponentId": 849,
+      "opponent": "Milk Dragon",
+      "opponentElo": 1475,
+      "eloChange": 7,
+      "results": [
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "win"
+      ],
+      "wins": 3,
+      "losses": 2,
+      "outcome": "win",
+      "replayId": 601218,
+      "at": "2026-09-29T14:32:50.250Z"
+    },
+    {
+      "id": 599276,
+      "ranked": false,
+      "opponentId": 333,
+      "opponent": "goblin gooners",
+      "opponentElo": 1485,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "loss",
+        "win",
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "loss"
+      ],
+      "wins": 4,
+      "losses": 6,
+      "outcome": "loss",
+      "replayId": 599276,
+      "at": "2026-09-29T13:40:03.433Z"
+    },
+    {
+      "id": 596443,
+      "ranked": true,
+      "opponentId": 333,
+      "opponent": "goblin gooners",
+      "opponentElo": 1483,
+      "eloChange": -7,
+      "results": [
+        "win",
+        "loss",
+        "loss",
+        "loss",
+        "win"
+      ],
+      "wins": 2,
+      "losses": 3,
+      "outcome": "loss",
+      "replayId": 596443,
+      "at": "2026-09-29T13:35:21.605Z"
+    },
+    {
+      "id": 597311,
+      "ranked": false,
+      "opponentId": 178,
+      "opponent": "Kaizen",
+      "opponentElo": 1479,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "win",
+        "win",
+        "win",
+        "win",
+        "win",
+        "loss",
+        "loss",
+        "win"
+      ],
+      "wins": 7,
+      "losses": 3,
+      "outcome": "win",
+      "replayId": 597311,
+      "at": "2026-09-29T13:05:24.568Z"
+    },
+    {
+      "id": 591596,
+      "ranked": true,
+      "opponentId": 542,
+      "opponent": "Serendipity",
+      "opponentElo": 1505,
+      "eloChange": -24,
+      "results": [
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "loss"
+      ],
+      "wins": 1,
+      "losses": 4,
+      "outcome": "loss",
+      "replayId": 591596,
+      "at": "2026-09-29T12:43:31.152Z"
+    },
+    {
+      "id": 587011,
+      "ranked": true,
+      "opponentId": 421,
+      "opponent": "unemployed",
+      "opponentElo": 1498,
+      "eloChange": 10,
+      "results": [
+        "win",
+        "win",
+        "loss",
+        "loss",
+        "win"
+      ],
+      "wins": 3,
+      "losses": 2,
+      "outcome": "win",
+      "replayId": 587011,
+      "at": "2026-09-29T11:17:19.176Z"
+    },
+    {
+      "id": 581990,
+      "ranked": true,
+      "opponentId": 563,
+      "opponent": "not gra",
+      "opponentElo": 1455,
+      "eloChange": 27,
+      "results": [
+        "win",
+        "win",
+        "win",
+        "loss",
+        "win"
+      ],
+      "wins": 4,
+      "losses": 1,
+      "outcome": "win",
+      "replayId": 581990,
+      "at": "2026-09-29T10:19:29.505Z"
+    },
+    {
+      "id": 580042,
+      "ranked": false,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1534,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "loss",
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "loss",
+        "loss",
+        "win",
+        "loss"
+      ],
+      "wins": 2,
+      "losses": 8,
+      "outcome": "loss",
+      "replayId": 580042,
+      "at": "2026-09-29T09:33:35.149Z"
+    },
+    {
+      "id": 577470,
+      "ranked": true,
+      "opponentId": 402,
+      "opponent": "Elan",
+      "opponentElo": 1463,
+      "eloChange": 7,
+      "results": [
+        "loss",
+        "win",
+        "win",
+        "win",
+        "win"
+      ],
+      "wins": 4,
+      "losses": 1,
+      "outcome": "win",
+      "replayId": 577470,
+      "at": "2026-09-29T09:18:43.190Z"
+    },
+    {
+      "id": 578853,
+      "ranked": false,
+      "opponentId": 994,
+      "opponent": "Lozer",
+      "opponentElo": 1504,
+      "eloChange": 0,
+      "results": [
+        "loss",
+        "win",
+        "win",
+        "loss",
+        "win",
+        "loss",
+        "loss",
+        "win",
+        "win",
+        "loss"
+      ],
+      "wins": 5,
+      "losses": 5,
+      "outcome": "draw",
+      "replayId": 578853,
+      "at": "2026-09-29T09:15:12.980Z"
+    },
     {
       "id": 572611,
       "ranked": true,
