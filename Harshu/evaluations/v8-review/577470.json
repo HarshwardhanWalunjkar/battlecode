@@ -1,0 +1,67 @@
+{
+  "match": {
+    "id": 577470,
+    "teamAId": 402,
+    "teamBId": 422,
+    "mapId": 20,
+    "ranked": true,
+    "skinA": "Jiaolong",
+    "skinB": "Loch Ness",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 46,
+    "scoresB": 65,
+    "views": 0,
+    "seriesId": "b52094de-2580-4fbe-b21e-aa87bde0e280",
+    "eloChangeA": -7,
+    "eloChangeB": 7,
+    "requestedAt": "2026-09-29T09:00:00.000Z",
+    "startedAt": "2026-09-29T09:16:37.935Z",
+    "completedAt": "2026-09-29T09:17:07.825Z",
+    "log": null,
+    "seed": "2653d3bb5e40c72c"
+  },
+  "mapName": "Portals",
+  "teamAName": "Elan",
+  "teamBName": "Borgor",
+  "teamAElo": 1456,
+  "teamBElo": 1466,
+  "games": [
+    {
+      "id": 577470,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Portals"
+    },
+    {
+      "id": 577471,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Slithery Fight"
+    },
+    {
+      "id": 577472,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Default"
+    },
+    {
+      "id": 577473,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Trophy"
+    },
+    {
+      "id": 577474,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Trauma"
+    }
+  ],
+  "wait": null
+}

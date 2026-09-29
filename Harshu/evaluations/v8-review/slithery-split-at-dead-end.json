@@ -1,0 +1,2304 @@
+{
+  "label": "split-at-dead-end",
+  "max_rounds": 8,
+  "seed": 823,
+  "trace": [
+    {
+      "r": 0,
+      "id": 0,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 0 0 0 7 4 638 0",
+        "LOG BODY 638 701 764 827",
+        "LOG EDGE 0 0 575",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 701",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 1,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 0 1 0 7 4 1062 0",
+        "LOG BODY 1062 999 936 873",
+        "LOG EDGE 0 0 999",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1125",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 2,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 0 2 1 4 4 459 0",
+        "LOG BODY 459 460 461 462",
+        "LOG CUT 2 1 1 2 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 460",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 458"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 3,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 0 3 1 4 4 1241 0",
+        "LOG BODY 1241 1240 1239 1238",
+        "LOG CUT 2 1 1 2 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 1242",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1240"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 4,
+      "command": "SPLIT 23",
+      "log": [
+        "LOG AUDIT 0 4 1 25 25 1389 0",
+        "LOG BODY 1389 1452 1453 1390 1327 1326 1325 1388 1451 1514 1515 1516 1517 1454 1391 1328 1265 1264 1263 1262 1261 1324 1387 1450 1513",
+        "LOG CUT 2 6 1 0 1",
+        "LOG CUT 3 6 1 0 1",
+        "LOG CUT 4 6 1 0 1",
+        "LOG CUT 5 6 1 0 1",
+        "LOG CUT 6 6 1 0 1",
+        "LOG CUT 7 6 1 0 1",
+        "LOG CUT 8 6 1 0 1",
+        "LOG CUT 9 6 1 0 1",
+        "LOG CUT 10 6 1 0 1",
+        "LOG CUT 11 6 1 0 1",
+        "LOG CUT 12 6 1 0 1",
+        "LOG CUT 13 6 1 0 1",
+        "LOG CUT 14 6 1 0 1",
+        "LOG CUT 15 6 1 0 1",
+        "LOG CUT 16 6 1 0 1",
+        "LOG CUT 17 6 1 0 1",
+        "LOG CUT 18 6 1 0 1",
+        "LOG CUT 19 6 1 0 1",
+        "LOG CUT 20 6 1 0 1",
+        "LOG CUT 21 6 1 0 1",
+        "LOG CUT 22 6 1 0 1",
+        "LOG CUT 23 6 1 0 1",
+        "LOG EDGE 0 0 1326",
+        "LOG EDGE 1 0 1390",
+        "LOG EDGE 2 0 1452",
+        "LOG EDGE 3 0 1388"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 5,
+      "command": "SPLIT 23",
+      "log": [
+        "LOG AUDIT 0 5 1 25 25 311 0",
+        "LOG BODY 311 248 247 310 373 374 375 312 249 186 185 184 183 246 309 372 435 436 437 438 439 376 313 250 187",
+        "LOG CUT 2 6 1 0 1",
+        "LOG CUT 3 6 1 0 1",
+        "LOG CUT 4 6 1 0 1",
+        "LOG CUT 5 6 1 0 1",
+        "LOG CUT 6 6 1 0 1",
+        "LOG CUT 7 6 1 0 1",
+        "LOG CUT 8 6 1 0 1",
+        "LOG CUT 9 6 1 0 1",
+        "LOG CUT 10 6 1 0 1",
+        "LOG CUT 11 6 1 0 1",
+        "LOG CUT 12 6 1 0 1",
+        "LOG CUT 13 6 1 0 1",
+        "LOG CUT 14 6 1 0 1",
+        "LOG CUT 15 6 1 0 1",
+        "LOG CUT 16 6 1 0 1",
+        "LOG CUT 17 6 1 0 1",
+        "LOG CUT 18 6 1 0 1",
+        "LOG CUT 19 6 1 0 1",
+        "LOG CUT 20 6 1 0 1",
+        "LOG CUT 21 6 1 0 1",
+        "LOG CUT 22 6 1 0 1",
+        "LOG CUT 23 6 1 0 1",
+        "LOG EDGE 0 0 248",
+        "LOG EDGE 1 0 312",
+        "LOG EDGE 2 0 374",
+        "LOG EDGE 3 0 310"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 6,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 0 6 1 2 2 834 0",
+        "LOG BODY 834 835",
+        "LOG EDGE 0 0 771",
+        "LOG EDGE 1 0 835",
+        "LOG EDGE 2 0 897",
+        "LOG EDGE 3 0 833"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 7,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 0 7 1 2 2 866 0",
+        "LOG BODY 866 865",
+        "LOG EDGE 0 0 803",
+        "LOG EDGE 1 0 867",
+        "LOG EDGE 2 0 929",
+        "LOG EDGE 3 0 865"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 8,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 0 8 1 5 5 159 0",
+        "LOG BODY 159 222 285 348 347",
+        "LOG CUT 2 1 1 2 1",
+        "LOG CUT 3 1 1 2 1",
+        "LOG EDGE 0 0 96",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 222",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 9,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 0 9 1 5 5 1541 0",
+        "LOG BODY 1541 1478 1415 1352 1353",
+        "LOG CUT 2 1 1 2 1",
+        "LOG CUT 3 1 1 2 1",
+        "LOG EDGE 0 0 1478",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1604",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 10,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 0 10 1 2 2 1475 0",
+        "LOG BODY 1475 1474",
+        "LOG EDGE 0 0 1412",
+        "LOG EDGE 1 0 1476",
+        "LOG EDGE 2 0 1538",
+        "LOG EDGE 3 0 1474"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 11,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 0 11 1 2 2 225 0",
+        "LOG BODY 225 226",
+        "LOG EDGE 0 0 162",
+        "LOG EDGE 1 0 226",
+        "LOG EDGE 2 0 288",
+        "LOG EDGE 3 0 224"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 12,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 0 12 1 2 2 272 0",
+        "LOG BODY 272 335",
+        "LOG EDGE 0 0 209",
+        "LOG EDGE 1 0 273",
+        "LOG EDGE 2 0 335",
+        "LOG EDGE 3 0 271"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 13,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 0 13 1 2 2 1428 0",
+        "LOG BODY 1428 1365",
+        "LOG EDGE 0 0 1365",
+        "LOG EDGE 1 0 1429",
+        "LOG EDGE 2 0 1491",
+        "LOG EDGE 3 0 1427"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 14,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 0 14 0 23 4 1513 1",
+        "LOG BODY 1513 1450 1387 1324",
+        "LOG EDGE 0 0 1450",
+        "LOG EDGE 1 0 1514",
+        "LOG EDGE 2 0 1576",
+        "LOG EDGE 3 0 1512"
+      ],
+      "error": null
+    },
+    {
+      "r": 0,
+      "id": 15,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 0 15 0 23 4 187 1",
+        "LOG BODY 187 250 313 376",
+        "LOG EDGE 0 0 124",
+        "LOG EDGE 1 0 188",
+        "LOG EDGE 2 0 250",
+        "LOG EDGE 3 0 186"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 0,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 1 0 0 8 5 575 0",
+        "LOG BODY 575 638 701 764 827",
+        "LOG EDGE 0 0 512",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 638",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 1,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 1 1 0 8 5 1125 0",
+        "LOG BODY 1125 1062 999 936 873",
+        "LOG EDGE 0 0 1062",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1188",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 2,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 1 2 1 5 5 458 0",
+        "LOG BODY 458 459 460 461 462",
+        "LOG CUT 2 1 1 1 1",
+        "LOG CUT 3 1 1 1 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 459",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 457"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 3,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 1 3 1 5 5 1242 0",
+        "LOG BODY 1242 1241 1240 1239 1238",
+        "LOG CUT 2 1 1 1 1",
+        "LOG CUT 3 1 1 1 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 1243",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1241"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 4,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 1 4 1 2 2 1389 1",
+        "LOG BODY 1389 1452",
+        "LOG EDGE 0 0 1326",
+        "LOG EDGE 1 0 1390",
+        "LOG EDGE 2 0 1452",
+        "LOG EDGE 3 0 1388"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 5,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 1 5 1 2 2 311 1",
+        "LOG BODY 311 248",
+        "LOG EDGE 0 0 248",
+        "LOG EDGE 1 0 312",
+        "LOG EDGE 2 0 374",
+        "LOG EDGE 3 0 310"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 6,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 1 6 1 2 2 897 0",
+        "LOG BODY 897 834",
+        "LOG EDGE 0 0 834",
+        "LOG EDGE 1 0 898",
+        "LOG EDGE 2 0 960",
+        "LOG EDGE 3 0 896"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 7,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 1 7 1 2 2 803 0",
+        "LOG BODY 803 866",
+        "LOG EDGE 0 0 740",
+        "LOG EDGE 1 0 804",
+        "LOG EDGE 2 0 866",
+        "LOG EDGE 3 0 802"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 8,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 1 8 1 6 6 96 0",
+        "LOG BODY 96 159 222 285 348 347",
+        "LOG CUT 2 1 1 1 1",
+        "LOG CUT 3 1 1 1 1",
+        "LOG CUT 4 1 1 1 1",
+        "LOG EDGE 0 0 33",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 159",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 9,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 1 9 1 6 6 1604 0",
+        "LOG BODY 1604 1541 1478 1415 1352 1353",
+        "LOG CUT 2 1 1 1 1",
+        "LOG CUT 3 1 1 1 1",
+        "LOG CUT 4 1 1 1 1",
+        "LOG EDGE 0 0 1541",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1667",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 10,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 1 10 1 2 2 1538 0",
+        "LOG BODY 1538 1475",
+        "LOG EDGE 0 0 1475",
+        "LOG EDGE 1 0 1539",
+        "LOG EDGE 2 0 1601",
+        "LOG EDGE 3 0 1537"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 11,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 1 11 1 2 2 288 0",
+        "LOG BODY 288 225",
+        "LOG EDGE 0 0 225",
+        "LOG EDGE 1 0 289",
+        "LOG EDGE 2 0 351",
+        "LOG EDGE 3 0 287"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 12,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 1 12 1 2 2 271 0",
+        "LOG BODY 271 272",
+        "LOG EDGE 0 0 208",
+        "LOG EDGE 1 0 272",
+        "LOG EDGE 2 0 334",
+        "LOG EDGE 3 0 270"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 13,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 1 13 1 2 2 1491 0",
+        "LOG BODY 1491 1428",
+        "LOG EDGE 0 0 1428",
+        "LOG EDGE 1 0 1492",
+        "LOG EDGE 2 0 1554",
+        "LOG EDGE 3 0 1490"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 14,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 1 14 0 23 5 1576 1",
+        "LOG BODY 1576 1513 1450 1387 1324",
+        "LOG EDGE 0 0 1513",
+        "LOG EDGE 1 0 1577",
+        "LOG EDGE 2 0 1639",
+        "LOG EDGE 3 0 1575"
+      ],
+      "error": null
+    },
+    {
+      "r": 1,
+      "id": 15,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 1 15 0 23 5 124 1",
+        "LOG BODY 124 187 250 313 376",
+        "LOG EDGE 0 0 61",
+        "LOG EDGE 1 0 125",
+        "LOG EDGE 2 0 187",
+        "LOG EDGE 3 0 123"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 0,
+      "command": "SPLIT 7",
+      "log": [
+        "LOG AUDIT 2 0 0 9 6 512 0",
+        "LOG BODY 512 575 638 701 764 827",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 575",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 1,
+      "command": "SPLIT 7",
+      "log": [
+        "LOG AUDIT 2 1 0 9 6 1188 0",
+        "LOG BODY 1188 1125 1062 999 936 873",
+        "LOG EDGE 0 0 1125",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 2,
+      "command": "SPLIT 4",
+      "log": [
+        "LOG AUDIT 2 2 1 6 6 457 0",
+        "LOG BODY 457 458 459 460 461 462",
+        "LOG CUT 2 1 1 0 1",
+        "LOG CUT 3 1 1 0 1",
+        "LOG CUT 4 1 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 458",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 3,
+      "command": "SPLIT 4",
+      "log": [
+        "LOG AUDIT 2 3 1 6 6 1243 0",
+        "LOG BODY 1243 1242 1241 1240 1239 1238",
+        "LOG CUT 2 1 1 0 1",
+        "LOG CUT 3 1 1 0 1",
+        "LOG CUT 4 1 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1242"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 6,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 2 6 1 2 2 960 0",
+        "LOG BODY 960 897",
+        "LOG EDGE 0 0 897",
+        "LOG EDGE 1 0 961",
+        "LOG EDGE 2 0 1023",
+        "LOG EDGE 3 0 959"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 7,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 2 7 1 2 2 740 0",
+        "LOG BODY 740 803",
+        "LOG EDGE 0 0 677",
+        "LOG EDGE 1 0 741",
+        "LOG EDGE 2 0 803",
+        "LOG EDGE 3 0 739"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 8,
+      "command": "SPLIT 5",
+      "log": [
+        "LOG AUDIT 2 8 1 7 7 33 0",
+        "LOG BODY 33 96 159 222 285 348 347",
+        "LOG CUT 2 1 1 0 1",
+        "LOG CUT 3 1 1 0 1",
+        "LOG CUT 4 1 1 0 1",
+        "LOG CUT 5 1 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 96",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 9,
+      "command": "SPLIT 5",
+      "log": [
+        "LOG AUDIT 2 9 1 7 7 1667 0",
+        "LOG BODY 1667 1604 1541 1478 1415 1352 1353",
+        "LOG CUT 2 1 1 0 1",
+        "LOG CUT 3 1 1 0 1",
+        "LOG CUT 4 1 1 0 1",
+        "LOG CUT 5 1 1 0 1",
+        "LOG EDGE 0 0 1604",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 10,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 2 10 1 2 2 1537 0",
+        "LOG BODY 1537 1538",
+        "LOG EDGE 0 0 1474",
+        "LOG EDGE 1 0 1538",
+        "LOG EDGE 2 0 1600",
+        "LOG EDGE 3 0 1536"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 11,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 2 11 1 2 2 287 0",
+        "LOG BODY 287 288",
+        "LOG EDGE 0 0 224",
+        "LOG EDGE 1 0 288",
+        "LOG EDGE 2 0 350",
+        "LOG EDGE 3 0 286"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 12,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 2 12 1 2 2 334 0",
+        "LOG BODY 334 271",
+        "LOG EDGE 0 0 271",
+        "LOG EDGE 1 0 335",
+        "LOG EDGE 2 0 397",
+        "LOG EDGE 3 0 333"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 13,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 2 13 1 2 2 1490 0",
+        "LOG BODY 1490 1491",
+        "LOG EDGE 0 0 1427",
+        "LOG EDGE 1 0 1491",
+        "LOG EDGE 2 0 1553",
+        "LOG EDGE 3 0 1489"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 14,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 2 14 0 23 6 1577 1",
+        "LOG BODY 1577 1576 1513 1450 1387 1324",
+        "LOG EDGE 0 0 1514",
+        "LOG EDGE 1 0 1578",
+        "LOG EDGE 2 0 1640",
+        "LOG EDGE 3 0 1576"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 15,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 2 15 0 23 6 123 1",
+        "LOG BODY 123 124 187 250 313 376",
+        "LOG EDGE 0 0 60",
+        "LOG EDGE 1 0 124",
+        "LOG EDGE 2 0 186",
+        "LOG EDGE 3 0 122"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 16,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 2 16 0 7 4 1016 1",
+        "LOG BODY 1016 953 890 827",
+        "LOG EDGE 0 0 953",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1079",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 17,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 2 17 0 7 4 684 1",
+        "LOG BODY 684 747 810 873",
+        "LOG EDGE 0 0 621",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 747",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 18,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 2 18 1 4 4 462 0",
+        "LOG BODY 462 461 460 459",
+        "LOG CUT 2 1 1 2 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 463",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 461"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 19,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 2 19 1 4 4 1238 0",
+        "LOG BODY 1238 1239 1240 1241",
+        "LOG CUT 2 1 1 2 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 1239",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1237"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 20,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 2 20 1 5 5 347 0",
+        "LOG BODY 347 348 285 222 159",
+        "LOG CUT 2 1 1 1 1",
+        "LOG CUT 3 1 1 1 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 348",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 346"
+      ],
+      "error": null
+    },
+    {
+      "r": 2,
+      "id": 21,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 2 21 1 5 5 1353 0",
+        "LOG BODY 1353 1352 1415 1478 1541",
+        "LOG CUT 2 1 1 1 1",
+        "LOG CUT 3 1 1 1 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 1354",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1352"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 0,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 3 0 1 2 2 512 1",
+        "LOG BODY 512 575",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 575",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 1,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 3 1 1 2 2 1188 1",
+        "LOG BODY 1188 1125",
+        "LOG EDGE 0 0 1125",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 2,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 3 2 1 2 2 457 0",
+        "LOG BODY 457 458",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 458",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 3,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 3 3 1 2 2 1243 0",
+        "LOG BODY 1243 1242",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1242"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 6,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 3 6 1 2 2 959 0",
+        "LOG BODY 959 960",
+        "LOG EDGE 0 0 896",
+        "LOG EDGE 1 0 960",
+        "LOG EDGE 2 0 1022",
+        "LOG EDGE 3 0 958"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 7,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 3 7 1 2 2 741 0",
+        "LOG BODY 741 740",
+        "LOG EDGE 0 0 678",
+        "LOG EDGE 1 0 742",
+        "LOG EDGE 2 0 804",
+        "LOG EDGE 3 0 740"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 8,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 3 8 1 2 2 33 0",
+        "LOG BODY 33 96",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 96",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 9,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 3 9 1 2 2 1667 0",
+        "LOG BODY 1667 1604",
+        "LOG EDGE 0 0 1604",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 10,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 3 10 1 2 2 1600 0",
+        "LOG BODY 1600 1537",
+        "LOG EDGE 0 0 1537",
+        "LOG EDGE 1 0 1601",
+        "LOG EDGE 2 0 1663",
+        "LOG EDGE 3 0 1599"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 11,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 3 11 1 2 2 224 0",
+        "LOG BODY 224 287",
+        "LOG EDGE 0 0 161",
+        "LOG EDGE 1 0 225",
+        "LOG EDGE 2 0 287",
+        "LOG EDGE 3 0 223"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 12,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 3 12 1 2 2 335 0",
+        "LOG BODY 335 334",
+        "LOG EDGE 0 0 272",
+        "LOG EDGE 1 0 336",
+        "LOG EDGE 2 0 398",
+        "LOG EDGE 3 0 334"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 13,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 3 13 1 2 2 1553 0",
+        "LOG BODY 1553 1490",
+        "LOG EDGE 0 0 1490",
+        "LOG EDGE 1 0 1554",
+        "LOG EDGE 2 0 1616",
+        "LOG EDGE 3 0 1552"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 14,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 3 14 0 23 7 1578 1",
+        "LOG BODY 1578 1577 1576 1513 1450 1387 1324",
+        "LOG EDGE 0 0 1515",
+        "LOG EDGE 1 0 1579",
+        "LOG EDGE 2 0 1641",
+        "LOG EDGE 3 0 1577"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 15,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 3 15 0 23 7 122 1",
+        "LOG BODY 122 123 124 187 250 313 376",
+        "LOG EDGE 0 0 59",
+        "LOG EDGE 1 0 123",
+        "LOG EDGE 2 0 185",
+        "LOG EDGE 3 0 121"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 16,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 3 16 0 8 5 1079 1",
+        "LOG BODY 1079 1016 953 890 827",
+        "LOG EDGE 0 0 1016",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1142",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 17,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 3 17 0 8 5 621 1",
+        "LOG BODY 621 684 747 810 873",
+        "LOG EDGE 0 0 558",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 684",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 18,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 3 18 1 5 5 463 0",
+        "LOG BODY 463 462 461 460 459",
+        "LOG CUT 2 1 1 1 1",
+        "LOG CUT 3 1 1 1 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 464",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 462"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 19,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 3 19 1 5 5 1237 0",
+        "LOG BODY 1237 1238 1239 1240 1241",
+        "LOG CUT 2 1 1 1 1",
+        "LOG CUT 3 1 1 1 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 1238",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1236"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 20,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 3 20 1 6 6 346 0",
+        "LOG BODY 346 347 348 285 222 159",
+        "LOG CUT 2 1 1 0 1",
+        "LOG CUT 3 1 1 0 1",
+        "LOG CUT 4 1 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 347",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 3,
+      "id": 21,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 3 21 1 6 6 1354 0",
+        "LOG BODY 1354 1353 1352 1415 1478 1541",
+        "LOG CUT 2 1 1 0 1",
+        "LOG CUT 3 1 1 0 1",
+        "LOG CUT 4 1 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1353"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 6,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 4 6 1 2 2 896 0",
+        "LOG BODY 896 959",
+        "LOG EDGE 0 0 833",
+        "LOG EDGE 1 0 897",
+        "LOG EDGE 2 0 959",
+        "LOG EDGE 3 0 895"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 7,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 4 7 1 2 2 678 0",
+        "LOG BODY 678 741",
+        "LOG EDGE 0 0 615",
+        "LOG EDGE 1 0 679",
+        "LOG EDGE 2 0 741",
+        "LOG EDGE 3 0 677"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 10,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 4 10 1 2 2 1663 0",
+        "LOG BODY 1663 1600",
+        "LOG EDGE 0 0 1600",
+        "LOG EDGE 1 0 1664",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1662"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 11,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 4 11 1 2 2 161 0",
+        "LOG BODY 161 224",
+        "LOG EDGE 0 0 98",
+        "LOG EDGE 1 0 162",
+        "LOG EDGE 2 0 224",
+        "LOG EDGE 3 0 160"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 12,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 4 12 1 2 2 336 0",
+        "LOG BODY 336 335",
+        "LOG EDGE 0 0 273",
+        "LOG EDGE 1 0 337",
+        "LOG EDGE 2 0 399",
+        "LOG EDGE 3 0 335"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 13,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 4 13 1 3 3 1616 0",
+        "LOG BODY 1616 1553 1490",
+        "LOG EDGE 0 0 1553",
+        "LOG EDGE 1 0 1617",
+        "LOG EDGE 2 0 1679",
+        "LOG EDGE 3 0 1615"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 14,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 4 14 0 23 8 1579 1",
+        "LOG BODY 1579 1578 1577 1576 1513 1450 1387 1324",
+        "LOG EDGE 0 0 1516",
+        "LOG EDGE 1 0 1580",
+        "LOG EDGE 2 0 1642",
+        "LOG EDGE 3 0 1578"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 15,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 4 15 0 23 8 121 1",
+        "LOG BODY 121 122 123 124 187 250 313 376",
+        "LOG EDGE 0 0 58",
+        "LOG EDGE 1 0 122",
+        "LOG EDGE 2 0 184",
+        "LOG EDGE 3 0 120"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 16,
+      "command": "SPLIT 4",
+      "log": [
+        "LOG AUDIT 4 16 0 9 6 1142 1",
+        "LOG BODY 1142 1079 1016 953 890 827",
+        "LOG EDGE 0 0 1079",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 17,
+      "command": "SPLIT 4",
+      "log": [
+        "LOG AUDIT 4 17 0 9 6 558 1",
+        "LOG BODY 558 621 684 747 810 873",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 621",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 18,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 4 18 1 6 6 464 0",
+        "LOG BODY 464 463 462 461 460 459",
+        "LOG CUT 2 1 1 0 1",
+        "LOG CUT 3 1 1 0 1",
+        "LOG CUT 4 1 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 463"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 19,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 4 19 1 6 6 1236 0",
+        "LOG BODY 1236 1237 1238 1239 1240 1241",
+        "LOG CUT 2 1 1 0 1",
+        "LOG CUT 3 1 1 0 1",
+        "LOG CUT 4 1 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 0 1237",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 22,
+      "command": "SPLIT 2",
+      "log": [
+        "LOG AUDIT 4 22 1 4 4 638 2",
+        "LOG BODY 638 701 764 827",
+        "LOG CUT 2 6 1 2 1",
+        "LOG EDGE 0 0 575",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 701",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 23,
+      "command": "SPLIT 2",
+      "log": [
+        "LOG AUDIT 4 23 1 4 4 1062 2",
+        "LOG BODY 1062 999 936 873",
+        "LOG CUT 2 6 1 2 1",
+        "LOG EDGE 0 0 999",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1125",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 24,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 4 24 1 2 2 827 0",
+        "LOG BODY 827 764",
+        "LOG EDGE 0 0 764",
+        "LOG EDGE 1 0 828",
+        "LOG EDGE 2 0 890",
+        "LOG EDGE 3 0 826"
+      ],
+      "error": null
+    },
+    {
+      "r": 4,
+      "id": 25,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 4 25 1 2 2 873 0",
+        "LOG BODY 873 936",
+        "LOG EDGE 0 0 810",
+        "LOG EDGE 1 0 874",
+        "LOG EDGE 2 0 936",
+        "LOG EDGE 3 0 872"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 6,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 5 6 1 2 2 833 0",
+        "LOG BODY 833 896",
+        "LOG EDGE 0 0 770",
+        "LOG EDGE 1 0 834",
+        "LOG EDGE 2 0 896",
+        "LOG EDGE 3 0 832"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 7,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 5 7 1 2 2 679 0",
+        "LOG BODY 679 678",
+        "LOG EDGE 0 0 616",
+        "LOG EDGE 1 0 680",
+        "LOG EDGE 2 0 742",
+        "LOG EDGE 3 0 678"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 10,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 5 10 1 2 2 1664 0",
+        "LOG BODY 1664 1663",
+        "LOG EDGE 0 0 1601",
+        "LOG EDGE 1 0 1665",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1663"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 11,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 5 11 1 2 2 162 0",
+        "LOG BODY 162 161",
+        "LOG EDGE 0 0 99",
+        "LOG EDGE 1 0 163",
+        "LOG EDGE 2 0 225",
+        "LOG EDGE 3 0 161"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 12,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 5 12 1 2 2 399 0",
+        "LOG BODY 399 336",
+        "LOG EDGE 0 0 336",
+        "LOG EDGE 1 0 400",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 398"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 13,
+      "command": "SPLIT 2",
+      "log": [
+        "LOG AUDIT 5 13 1 4 4 1615 0",
+        "LOG BODY 1615 1616 1553 1490",
+        "LOG CUT 2 6 1 6 1",
+        "LOG EDGE 0 0 1552",
+        "LOG EDGE 1 0 1616",
+        "LOG EDGE 2 0 1678",
+        "LOG EDGE 3 0 1614"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 14,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 5 14 0 23 9 1580 1",
+        "LOG BODY 1580 1579 1578 1577 1576 1513 1450 1387 1324",
+        "LOG EDGE 0 0 1517",
+        "LOG EDGE 1 0 1581",
+        "LOG EDGE 2 0 1643",
+        "LOG EDGE 3 0 1579"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 15,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 5 15 0 23 9 120 1",
+        "LOG BODY 120 121 122 123 124 187 250 313 376",
+        "LOG EDGE 0 0 57",
+        "LOG EDGE 1 0 121",
+        "LOG EDGE 2 0 183",
+        "LOG EDGE 3 0 119"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 16,
+      "command": "SPLIT 3",
+      "log": [
+        "LOG AUDIT 5 16 1 5 5 1142 2",
+        "LOG BODY 1142 1079 1016 953 890",
+        "LOG CUT 2 6 1 0 1",
+        "LOG CUT 3 6 1 0 1",
+        "LOG EDGE 0 0 1079",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 17,
+      "command": "SPLIT 3",
+      "log": [
+        "LOG AUDIT 5 17 1 5 5 558 2",
+        "LOG BODY 558 621 684 747 810",
+        "LOG CUT 2 6 1 0 1",
+        "LOG CUT 3 6 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 621",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 22,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 5 22 1 2 2 638 3",
+        "LOG BODY 638 701",
+        "LOG EDGE 0 0 575",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 701",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 23,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 5 23 1 2 2 1062 3",
+        "LOG BODY 1062 999",
+        "LOG EDGE 0 0 999",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1125",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 24,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 5 24 1 2 2 828 0",
+        "LOG BODY 828 827",
+        "LOG EDGE 0 0 765",
+        "LOG EDGE 1 0 829",
+        "LOG EDGE 2 0 891",
+        "LOG EDGE 3 0 827"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 25,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 5 25 1 2 2 874 0",
+        "LOG BODY 874 873",
+        "LOG EDGE 0 0 811",
+        "LOG EDGE 1 0 875",
+        "LOG EDGE 2 0 937",
+        "LOG EDGE 3 0 873"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 26,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 5 26 1 2 2 1490 0",
+        "LOG BODY 1490 1553",
+        "LOG EDGE 0 0 1427",
+        "LOG EDGE 1 0 1491",
+        "LOG EDGE 2 0 1553",
+        "LOG EDGE 3 0 1489"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 27,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 5 27 1 3 3 890 0",
+        "LOG BODY 890 953 1016",
+        "LOG EDGE 0 0 827",
+        "LOG EDGE 1 0 891",
+        "LOG EDGE 2 0 953",
+        "LOG EDGE 3 0 889"
+      ],
+      "error": null
+    },
+    {
+      "r": 5,
+      "id": 28,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 5 28 1 3 3 810 0",
+        "LOG BODY 810 747 684",
+        "LOG EDGE 0 0 747",
+        "LOG EDGE 1 0 811",
+        "LOG EDGE 2 0 873",
+        "LOG EDGE 3 0 809"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 6,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 6 6 1 2 2 770 0",
+        "LOG BODY 770 833",
+        "LOG EDGE 0 0 707",
+        "LOG EDGE 1 0 771",
+        "LOG EDGE 2 0 833",
+        "LOG EDGE 3 0 769"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 7,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 6 7 1 2 2 742 0",
+        "LOG BODY 742 679",
+        "LOG EDGE 0 0 679",
+        "LOG EDGE 1 0 743",
+        "LOG EDGE 2 0 805",
+        "LOG EDGE 3 0 741"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 10,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 6 10 1 2 2 1665 0",
+        "LOG BODY 1665 1664",
+        "LOG EDGE 0 0 1602",
+        "LOG EDGE 1 0 1666",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1664"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 11,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 6 11 1 2 2 163 0",
+        "LOG BODY 163 162",
+        "LOG EDGE 0 0 100",
+        "LOG EDGE 1 0 164",
+        "LOG EDGE 2 0 226",
+        "LOG EDGE 3 0 162"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 12,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 6 12 1 2 2 398 0",
+        "LOG BODY 398 399",
+        "LOG EDGE 0 0 335",
+        "LOG EDGE 1 0 399",
+        "LOG EDGE 2 0 461",
+        "LOG EDGE 3 0 397"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 13,
+      "command": "MOVE WSE",
+      "log": [
+        "LOG AUDIT 6 13 1 2 2 1615 0",
+        "LOG BODY 1615 1616",
+        "LOG EDGE 0 0 1552",
+        "LOG EDGE 1 0 1616",
+        "LOG EDGE 2 0 1678",
+        "LOG EDGE 3 0 1614"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 14,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 6 14 0 23 10 1643 1",
+        "LOG BODY 1643 1580 1579 1578 1577 1576 1513 1450 1387 1324",
+        "LOG EDGE 0 0 1580",
+        "LOG EDGE 1 0 1644",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1642"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 15,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 6 15 0 23 10 119 1",
+        "LOG BODY 119 120 121 122 123 124 187 250 313 376",
+        "LOG EDGE 0 0 56",
+        "LOG EDGE 1 0 120",
+        "LOG EDGE 2 0 182",
+        "LOG EDGE 3 0 118"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 16,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 6 16 1 2 2 1142 3",
+        "LOG BODY 1142 1079",
+        "LOG EDGE 0 0 1079",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 17,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 6 17 1 2 2 558 3",
+        "LOG BODY 558 621",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 621",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 22,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 6 22 1 3 3 575 3",
+        "LOG BODY 575 638 701",
+        "LOG EDGE 0 0 512",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 638",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 23,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 6 23 1 3 3 1125 3",
+        "LOG BODY 1125 1062 999",
+        "LOG EDGE 0 0 1062",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 1188",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 24,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 6 24 1 2 2 765 0",
+        "LOG BODY 765 828",
+        "LOG EDGE 0 0 702",
+        "LOG EDGE 1 0 766",
+        "LOG EDGE 2 0 828",
+        "LOG EDGE 3 0 764"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 25,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 6 25 1 2 2 811 0",
+        "LOG BODY 811 874",
+        "LOG EDGE 0 0 748",
+        "LOG EDGE 1 0 812",
+        "LOG EDGE 2 0 874",
+        "LOG EDGE 3 0 810"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 26,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 6 26 1 2 2 1427 0",
+        "LOG BODY 1427 1490",
+        "LOG EDGE 0 0 1364",
+        "LOG EDGE 1 0 1428",
+        "LOG EDGE 2 0 1490",
+        "LOG EDGE 3 0 1426"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 27,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 6 27 1 3 3 889 0",
+        "LOG BODY 889 890 953",
+        "LOG EDGE 0 0 826",
+        "LOG EDGE 1 0 890",
+        "LOG EDGE 2 0 952",
+        "LOG EDGE 3 0 888"
+      ],
+      "error": null
+    },
+    {
+      "r": 6,
+      "id": 28,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 6 28 1 3 3 873 0",
+        "LOG BODY 873 810 747",
+        "LOG EDGE 0 0 810",
+        "LOG EDGE 1 0 874",
+        "LOG EDGE 2 0 936",
+        "LOG EDGE 3 0 872"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 6,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 7 6 1 2 2 769 0",
+        "LOG BODY 769 770",
+        "LOG EDGE 0 0 706",
+        "LOG EDGE 1 0 770",
+        "LOG EDGE 2 0 832",
+        "LOG EDGE 3 0 768"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 7,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 7 7 1 2 2 805 0",
+        "LOG BODY 805 742",
+        "LOG EDGE 0 0 742",
+        "LOG EDGE 1 0 806",
+        "LOG EDGE 2 0 868",
+        "LOG EDGE 3 0 804"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 10,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 7 10 1 2 2 1602 0",
+        "LOG BODY 1602 1665",
+        "LOG EDGE 0 0 1539",
+        "LOG EDGE 1 0 1603",
+        "LOG EDGE 2 0 1665",
+        "LOG EDGE 3 0 1601"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 11,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 7 11 1 2 2 100 0",
+        "LOG BODY 100 163",
+        "LOG EDGE 0 0 37",
+        "LOG EDGE 1 0 101",
+        "LOG EDGE 2 0 163",
+        "LOG EDGE 3 0 99"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 12,
+      "command": "MOVE S",
+      "log": [
+        "LOG AUDIT 7 12 1 2 2 397 0",
+        "LOG BODY 397 398",
+        "LOG EDGE 0 0 334",
+        "LOG EDGE 1 0 398",
+        "LOG EDGE 2 0 460",
+        "LOG EDGE 3 0 396"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 13,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 7 13 1 3 3 1678 0",
+        "LOG BODY 1678 1677 1614",
+        "LOG EDGE 0 0 1615",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1677"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 14,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 7 14 0 23 11 1644 1",
+        "LOG BODY 1644 1643 1580 1579 1578 1577 1576 1513 1450 1387 1324",
+        "LOG EDGE 0 0 1581",
+        "LOG EDGE 1 0 1645",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 0 1643"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 15,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 7 15 0 23 11 182 1",
+        "LOG BODY 182 119 120 121 122 123 124 187 250 313 376",
+        "LOG EDGE 0 0 119",
+        "LOG EDGE 1 0 183",
+        "LOG EDGE 2 0 245",
+        "LOG EDGE 3 0 181"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 22,
+      "command": "SPLIT 2",
+      "log": [
+        "LOG AUDIT 7 22 1 4 4 512 3",
+        "LOG BODY 512 575 638 701",
+        "LOG CUT 2 6 1 0 1",
+        "LOG EDGE 0 1 -1",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 0 575",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 23,
+      "command": "SPLIT 2",
+      "log": [
+        "LOG AUDIT 7 23 1 4 4 1188 3",
+        "LOG BODY 1188 1125 1062 999",
+        "LOG CUT 2 6 1 0 1",
+        "LOG EDGE 0 0 1125",
+        "LOG EDGE 1 1 -1",
+        "LOG EDGE 2 1 -1",
+        "LOG EDGE 3 1 -1"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 24,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 7 24 1 2 2 764 0",
+        "LOG BODY 764 765",
+        "LOG EDGE 0 0 701",
+        "LOG EDGE 1 0 765",
+        "LOG EDGE 2 0 827",
+        "LOG EDGE 3 0 763"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 25,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 7 25 1 2 2 748 0",
+        "LOG BODY 748 811",
+        "LOG EDGE 0 0 685",
+        "LOG EDGE 1 0 749",
+        "LOG EDGE 2 0 811",
+        "LOG EDGE 3 0 747"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 26,
+      "command": "MOVE N",
+      "log": [
+        "LOG AUDIT 7 26 1 2 2 1428 0",
+        "LOG BODY 1428 1427",
+        "LOG EDGE 0 0 1365",
+        "LOG EDGE 1 0 1429",
+        "LOG EDGE 2 0 1491",
+        "LOG EDGE 3 0 1427"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 27,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 7 27 1 3 3 952 0",
+        "LOG BODY 952 889 890",
+        "LOG EDGE 0 0 889",
+        "LOG EDGE 1 0 953",
+        "LOG EDGE 2 0 1015",
+        "LOG EDGE 3 0 951"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 28,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 7 28 1 3 3 874 0",
+        "LOG BODY 874 873 810",
+        "LOG EDGE 0 0 811",
+        "LOG EDGE 1 0 875",
+        "LOG EDGE 2 0 937",
+        "LOG EDGE 3 0 873"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 29,
+      "command": "MOVE E",
+      "log": [
+        "LOG AUDIT 7 29 1 2 2 701 0",
+        "LOG BODY 701 638",
+        "LOG EDGE 0 0 638",
+        "LOG EDGE 1 0 702",
+        "LOG EDGE 2 0 764",
+        "LOG EDGE 3 0 700"
+      ],
+      "error": null
+    },
+    {
+      "r": 7,
+      "id": 30,
+      "command": "MOVE W",
+      "log": [
+        "LOG AUDIT 7 30 1 2 2 999 0",
+        "LOG BODY 999 1062",
+        "LOG EDGE 0 0 936",
+        "LOG EDGE 1 0 1000",
+        "LOG EDGE 2 0 1062",
+        "LOG EDGE 3 0 998"
+      ],
+      "error": null
+    }
+  ],
+  "deaths": [
+    [
+      1,
+      4,
+      "O"
+    ],
+    [
+      1,
+      5,
+      "O"
+    ],
+    [
+      3,
+      0,
+      "W"
+    ],
+    [
+      3,
+      1,
+      "W"
+    ],
+    [
+      3,
+      2,
+      "W"
+    ],
+    [
+      3,
+      3,
+      "W"
+    ],
+    [
+      3,
+      8,
+      "W"
+    ],
+    [
+      3,
+      9,
+      "W"
+    ],
+    [
+      3,
+      20,
+      "W"
+    ],
+    [
+      3,
+      21,
+      "W"
+    ],
+    [
+      4,
+      18,
+      "W"
+    ],
+    [
+      4,
+      19,
+      "W"
+    ],
+    [
+      6,
+      16,
+      "W"
+    ],
+    [
+      6,
+      17,
+      "W"
+    ]
+  ],
+  "inputs": {
+    "0,0": "ROUND 0\nDIR N\nLENGTH 7\nUNIT_COUNT 7\nNUM_MSGS 0\n5 7 0 -1\n6 7 0 -1\n7 7 0 -1\n8 7 0 -1\n9 7 0 -1\n10 7 0 -1\n11 7 0 -1\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 1 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 1 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 0 3\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n5 13 0 1\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\nDRAGON_BODIES 4\nA 0 8 10 N 1\nA 0 8 11 N 0\nA 0 8 12 N 0\nA 0 8 13 N 0\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. w . . . . . .\n0 w . . . . . .\n",
+    "0,1": "ROUND 0\nDIR S\nLENGTH 7\nUNIT_COUNT 7\nNUM_MSGS 0\n51 13 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 0 1\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 0 3\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 1 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 1 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\n51 19 0 -1\n52 19 0 -1\n53 19 0 -1\n54 19 0 -1\n55 19 0 -1\n56 19 0 -1\n57 19 0 -1\nDRAGON_BODIES 4\nB 1 54 16 S 1\nB 1 54 15 S 0\nB 1 54 14 S 0\nB 1 54 13 S 0\n. . . . . . w\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . w 1\n. . . . . . w .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "0,2": "ROUND 0\nDIR W\nLENGTH 4\nUNIT_COUNT 7\nNUM_MSGS 0\n15 4 0 1497\n16 4 0 897\n17 4 0 1897\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n15 5 0 -1\n16 5 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n15 6 0 -1\n16 6 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n15 7 0 -1\n16 7 1 1\n17 7 1 1\n18 7 0 1\n19 7 0 -1\n20 7 0 -1\n21 7 0 -1\n15 8 0 -1\n16 8 0 -1\n17 8 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n15 9 0 -1\n16 9 0 -1\n17 9 0 -1\n18 9 0 -1\n19 9 0 -1\n20 9 0 -1\n21 9 0 -1\n15 10 0 -1\n16 10 0 -1\n17 10 0 -1\n18 10 0 -1\n19 10 0 -1\n20 10 0 -1\n21 10 0 -1\nDRAGON_BODIES 6\nA 2 18 7 W 1\nA 2 19 7 W 0\nA 2 20 7 W 0\nA 2 21 7 W 0\nA 12 20 4 N 1\nA 12 20 5 N 0\n. . w w . . .\n. w . . . . .\nw . . . . . .\nw w w w . . w\nw w w w . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . w . . . . .\n. w . . . . . .\n. w . . . . . .\n. w . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "0,3": "ROUND 0\nDIR E\nLENGTH 4\nUNIT_COUNT 7\nNUM_MSGS 0\n41 16 0 -1\n42 16 0 -1\n43 16 0 -1\n44 16 0 -1\n45 16 0 -1\n46 16 0 -1\n47 16 0 -1\n41 17 0 -1\n42 17 0 -1\n43 17 0 -1\n44 17 0 -1\n45 17 0 -1\n46 17 0 -1\n47 17 0 -1\n41 18 0 -1\n42 18 0 -1\n43 18 0 -1\n44 18 0 -1\n45 18 0 -1\n46 18 0 -1\n47 18 0 -1\n41 19 0 -1\n42 19 0 -1\n43 19 0 -1\n44 19 0 1\n45 19 1 1\n46 19 1 1\n47 19 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n45 20 0 -1\n46 20 0 -1\n47 20 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n45 21 0 -1\n46 21 0 -1\n47 21 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n45 22 0 1897\n46 22 0 897\n47 22 0 1497\nDRAGON_BODIES 6\nB 3 44 19 E 1\nB 3 43 19 E 0\nB 3 42 19 E 0\nB 3 41 19 E 0\nB 13 42 22 S 1\nB 13 42 21 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . w w w w\nw . . w w w w\n. . . . . . w\n. . . . . w .\n. . . w w . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . w .\n. . . . . . w .\n. . . . . . w .\n. . . . . w . .\n",
+    "0,4": "ROUND 0\nDIR N\nLENGTH 25\nUNIT_COUNT 7\nNUM_MSGS 0\n0 19 0 -1\n1 19 0 -1\n2 19 0 -1\n3 19 0 -1\n4 19 0 -1\n5 19 0 -1\n6 19 0 -1\n0 20 0 -1\n1 20 0 -1\n2 20 0 -1\n3 20 0 -1\n4 20 0 -1\n5 20 0 -1\n6 20 0 -1\n0 21 0 2145\n1 21 0 -1\n2 21 0 -1\n3 21 0 -1\n4 21 0 -1\n5 21 0 -1\n6 21 0 -1\n0 22 0 2217\n1 22 0 1032\n2 22 0 -1\n3 22 0 -1\n4 22 0 -1\n5 22 0 -1\n6 22 0 -1\n0 23 0 857\n1 23 0 108\n2 23 0 2503\n3 23 0 -1\n4 23 0 -1\n5 23 0 -1\n6 23 0 -1\n0 24 0 1990\n1 24 0 930\n2 24 0 666\n3 24 0 544\n4 24 0 2039\n5 24 0 -1\n6 24 0 -1\n0 25 0 1309\n1 25 0 1761\n2 25 0 1750\n3 25 0 2101\n4 25 0 737\n5 25 0 863\n6 25 0 84\nDRAGON_BODIES 25\nA 4 3 22 N 1\nA 4 3 23 N 0\nA 4 4 23 W 0\nA 4 4 22 S 0\nA 4 4 21 S 0\nA 4 3 21 E 0\nA 4 2 21 E 0\nA 4 2 22 N 0\nA 4 2 23 N 0\nA 4 2 24 N 0\nA 4 3 24 W 0\nA 4 4 24 W 0\nA 4 5 24 W 0\nA 4 5 23 S 0\nA 4 5 22 S 0\nA 4 5 21 S 0\nA 4 5 20 S 0\nA 4 4 20 E 0\nA 4 3 20 E 0\nA 4 2 20 E 0\nA 4 1 20 E 0\nA 4 1 21 N 0\nA 4 1 22 N 0\nA 4 1 23 N 0\nA 4 1 24 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\n",
+    "0,5": "ROUND 0\nDIR S\nLENGTH 25\nUNIT_COUNT 7\nNUM_MSGS 0\n56 1 0 84\n57 1 0 863\n58 1 0 737\n59 1 0 2101\n60 1 0 1750\n61 1 0 1761\n62 1 0 1309\n56 2 0 -1\n57 2 0 -1\n58 2 0 2039\n59 2 0 544\n60 2 0 666\n61 2 0 930\n62 2 0 1990\n56 3 0 -1\n57 3 0 -1\n58 3 0 -1\n59 3 0 -1\n60 3 0 2503\n61 3 0 108\n62 3 0 857\n56 4 0 -1\n57 4 0 -1\n58 4 0 -1\n59 4 0 -1\n60 4 0 -1\n61 4 0 1032\n62 4 0 2217\n56 5 0 -1\n57 5 0 -1\n58 5 0 -1\n59 5 0 -1\n60 5 0 -1\n61 5 0 -1\n62 5 0 2145\n56 6 0 -1\n57 6 0 -1\n58 6 0 -1\n59 6 0 -1\n60 6 0 -1\n61 6 0 -1\n62 6 0 -1\n56 7 0 -1\n57 7 0 -1\n58 7 0 -1\n59 7 0 -1\n60 7 0 -1\n61 7 0 -1\n62 7 0 -1\nDRAGON_BODIES 25\nB 5 59 4 S 1\nB 5 59 3 S 0\nB 5 58 3 E 0\nB 5 58 4 N 0\nB 5 58 5 N 0\nB 5 59 5 W 0\nB 5 60 5 W 0\nB 5 60 4 S 0\nB 5 60 3 S 0\nB 5 60 2 S 0\nB 5 59 2 E 0\nB 5 58 2 E 0\nB 5 57 2 E 0\nB 5 57 3 N 0\nB 5 57 4 N 0\nB 5 57 5 N 0\nB 5 57 6 N 0\nB 5 58 6 W 0\nB 5 59 6 W 0\nB 5 60 6 W 0\nB 5 61 6 W 0\nB 5 61 5 S 0\nB 5 61 4 S 0\nB 5 61 3 S 0\nB 5 61 2 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n",
+    "0,6": "ROUND 0\nDIR W\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\n12 10 0 -1\n13 10 0 -1\n14 10 0 -1\n15 10 0 -1\n16 10 0 -1\n17 10 0 -1\n18 10 0 -1\n12 11 0 -1\n13 11 0 -1\n14 11 0 -1\n15 11 0 -1\n16 11 0 -1\n17 11 0 -1\n18 11 0 -1\n12 12 0 -1\n13 12 0 -1\n14 12 0 -1\n15 12 0 -1\n16 12 0 -1\n17 12 0 -1\n18 12 0 -1\n12 13 0 -1\n13 13 0 -1\n14 13 0 -1\n15 13 0 -1\n16 13 0 -1\n17 13 0 -1\n18 13 0 -1\n12 14 0 -1\n13 14 0 -1\n14 14 0 -1\n15 14 0 -1\n16 14 0 -1\n17 14 0 -1\n18 14 0 -1\n12 15 0 -1\n13 15 0 -1\n14 15 0 -1\n15 15 0 -1\n16 15 0 -1\n17 15 0 -1\n18 15 0 -1\n12 16 0 -1\n13 16 0 -1\n14 16 0 -1\n15 16 0 -1\n16 16 0 -1\n17 16 0 -1\n18 16 0 -1\nDRAGON_BODIES 2\nA 6 15 13 W 1\nA 6 16 13 W 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "0,7": "ROUND 0\nDIR E\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\n44 10 0 -1\n45 10 0 -1\n46 10 0 -1\n47 10 0 -1\n48 10 0 -1\n49 10 0 -1\n50 10 0 -1\n44 11 0 -1\n45 11 0 -1\n46 11 0 -1\n47 11 0 -1\n48 11 0 -1\n49 11 0 -1\n50 11 0 -1\n44 12 0 -1\n45 12 0 -1\n46 12 0 -1\n47 12 0 -1\n48 12 0 -1\n49 12 0 -1\n50 12 0 -1\n44 13 0 -1\n45 13 0 -1\n46 13 0 -1\n47 13 0 -1\n48 13 0 -1\n49 13 0 -1\n50 13 0 -1\n44 14 0 -1\n45 14 0 -1\n46 14 0 -1\n47 14 0 -1\n48 14 0 -1\n49 14 0 -1\n50 14 0 -1\n44 15 0 -1\n45 15 0 -1\n46 15 0 -1\n47 15 0 -1\n48 15 0 -1\n49 15 0 -1\n50 15 0 -1\n44 16 0 -1\n45 16 0 -1\n46 16 0 -1\n47 16 0 -1\n48 16 0 -1\n49 16 0 -1\n50 16 0 -1\nDRAGON_BODIES 2\nB 7 47 13 E 1\nB 7 46 13 E 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "0,8": "ROUND 0\nDIR N\nLENGTH 5\nUNIT_COUNT 8\nNUM_MSGS 0\n30 26 0 -1\n31 26 0 2\n32 26 1 1\n33 26 0 1\n34 26 1 1\n35 26 0 3\n36 26 0 4\n30 0 1 1\n31 0 0 2\n32 0 0 -1\n33 0 1 1\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n30 1 0 2\n31 1 0 3\n32 1 0 -1\n33 1 1 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n30 2 0 -1\n31 2 0 -1\n32 2 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n30 3 0 -1\n31 3 0 -1\n32 3 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n30 4 0 -1\n31 4 0 -1\n32 4 0 -1\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n30 5 0 -1\n31 5 1 1\n32 5 0 1\n33 5 0 -1\n34 5 0 -1\n35 5 0 -1\n36 5 0 -1\nDRAGON_BODIES 6\nA 8 33 2 N 1\nA 8 33 3 N 0\nA 8 33 4 N 0\nA 8 33 5 N 0\nA 8 32 5 E 0\nB 11 36 3 W 1\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w . . . . .\n. . . . . . .\n. . . . . . .\nw w w . w . .\n. w w w . w w\nw w . w . w . w\nw . w w w . . .\n. . w w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n. w . . w w . .\n",
+    "0,9": "ROUND 0\nDIR S\nLENGTH 5\nUNIT_COUNT 8\nNUM_MSGS 0\n26 21 0 -1\n27 21 0 -1\n28 21 0 -1\n29 21 0 -1\n30 21 0 1\n31 21 1 1\n32 21 0 -1\n26 22 0 -1\n27 22 0 -1\n28 22 0 -1\n29 22 0 -1\n30 22 0 -1\n31 22 0 -1\n32 22 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 0 -1\n30 23 0 -1\n31 23 0 -1\n32 23 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 0 1\n30 24 0 -1\n31 24 0 -1\n32 24 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 1 1\n30 25 0 -1\n31 25 0 3\n32 25 0 2\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 1 1\n30 26 0 -1\n31 26 0 2\n32 26 1 1\n26 0 0 4\n27 0 0 3\n28 0 1 1\n29 0 0 1\n30 0 1 1\n31 0 0 2\n32 0 0 -1\nDRAGON_BODIES 6\nB 9 29 24 S 1\nB 9 29 23 S 0\nB 9 29 22 S 0\nB 9 29 21 S 0\nB 9 30 21 W 0\nA 10 26 23 E 1\nw w . w w w .\n. . w . w w w\n. . . . . . .\n. . . . . . .\n. . . . . w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . w w . . w .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w w . .\n. . . w w w . w\nw . w . w . w w\n",
+    "0,10": "ROUND 0\nDIR E\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\n23 20 0 8\n24 20 0 -1\n25 20 0 -1\n26 20 0 -1\n27 20 0 -1\n28 20 0 -1\n29 20 0 -1\n23 21 0 2\n24 21 0 -1\n25 21 0 -1\n26 21 0 -1\n27 21 0 -1\n28 21 0 -1\n29 21 0 -1\n23 22 0 6\n24 22 0 -1\n25 22 0 -1\n26 22 0 -1\n27 22 0 -1\n28 22 0 -1\n29 22 0 -1\n23 23 0 6\n24 23 0 -1\n25 23 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 0 -1\n23 24 0 -1\n24 24 0 -1\n25 24 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 0 1\n23 25 0 -1\n24 25 0 -1\n25 25 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 0 1\n23 26 0 -1\n24 26 0 -1\n25 26 0 -1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 1 1\nDRAGON_BODIES 7\nB 9 29 25 S 1\nB 9 29 24 S 0\nB 9 29 23 S 0\nB 9 29 22 S 0\nB 9 29 21 S 0\nA 10 26 23 E 1\nA 10 25 23 E 0\nw . w . . . .\n. . . w w . w\nw . . . . w .\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. w . w . . . .\n. w . . . w w .\n. w . . . . . .\n. w . . . . . .\n. . . . . . w w\n. . . . . . w w\n. . . . . . w w\n",
+    "0,11": "ROUND 0\nDIR W\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\n33 0 1 1\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n37 0 0 -1\n38 0 0 -1\n39 0 0 -1\n33 1 0 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n37 1 0 -1\n38 1 0 -1\n39 1 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n37 2 0 -1\n38 2 0 -1\n39 2 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n37 3 0 -1\n38 3 0 -1\n39 3 0 6\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n37 4 0 -1\n38 4 0 -1\n39 4 0 6\n33 5 0 -1\n34 5 0 -1\n35 5 0 -1\n36 5 0 -1\n37 5 0 -1\n38 5 0 -1\n39 5 0 2\n33 6 0 -1\n34 6 0 -1\n35 6 0 -1\n36 6 0 -1\n37 6 0 -1\n38 6 0 -1\n39 6 0 8\nDRAGON_BODIES 7\nA 8 33 1 N 1\nA 8 33 2 N 0\nA 8 33 3 N 0\nA 8 33 4 N 0\nA 8 33 5 N 0\nB 11 36 3 W 1\nB 11 37 3 W 0\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. w . . . . w\nw . w w . . .\n. . . . w . w\nw w . . . . . .\nw w . . . . . .\nw w . . . . . .\n. . . . . . w .\n. . . . . . w .\n. w w . . . w .\n. . . . w . w .\n",
+    "0,12": "ROUND 0\nDIR N\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\n17 1 0 2147\n18 1 0 1848\n19 1 0 955\n20 1 0 2\n21 1 0 3\n22 1 0 3\n23 1 0 1\n17 2 0 2453\n18 2 0 929\n19 2 0 840\n20 2 0 -1\n21 2 0 -1\n22 2 0 -1\n23 2 0 -1\n17 3 0 1821\n18 3 0 -1\n19 3 0 -1\n20 3 0 -1\n21 3 0 -1\n22 3 0 -1\n23 3 0 -1\n17 4 0 1897\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n23 4 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n23 5 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n23 6 0 -1\n17 7 0 1\n18 7 0 1\n19 7 0 -1\n20 7 0 -1\n21 7 0 -1\n22 7 1 1\n23 7 1 1\nDRAGON_BODIES 7\nA 2 17 7 W 1\nA 2 18 7 W 0\nA 2 19 7 W 0\nA 2 20 7 W 0\nA 2 21 7 W 0\nA 12 20 4 N 1\nA 12 20 5 N 0\n. . . . . . .\n. . . w . . w\n. . w . . . .\nw w . . . . .\n. . . . . . .\n. . . . . . .\nw w . . w w w\nw w . . w w w\n. . . w . . . w\n. . . w . . . .\n. . w . . . . .\nw . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . w\n",
+    "0,13": "ROUND 0\nDIR S\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\n39 19 1 1\n40 19 1 1\n41 19 0 -1\n42 19 0 -1\n43 19 0 -1\n44 19 0 1\n45 19 0 1\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n45 20 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n45 21 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n45 22 0 1897\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n44 23 0 -1\n45 23 0 1821\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 840\n44 24 0 929\n45 24 0 2453\n39 25 0 1\n40 25 0 3\n41 25 0 3\n42 25 0 2\n43 25 0 955\n44 25 0 1848\n45 25 0 2147\nDRAGON_BODIES 7\nB 3 45 19 E 1\nB 3 44 19 E 0\nB 3 43 19 E 0\nB 3 42 19 E 0\nB 3 41 19 E 0\nB 13 42 22 S 1\nB 13 42 21 S 0\nw w w . . w w\nw w w . . w w\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . w . .\nw . . w . . .\n. . . . . . .\nw . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . w\n. . . . . w . .\n. . . . w . . .\nw . . . w . . .\n",
+    "0,14": "ROUND 0\nDIR S\nLENGTH 23\nUNIT_COUNT 8\nNUM_MSGS 4\n9373152106405434755\n9373152106405434755\n9373152106405434755\n9373152106405434755\nECHOES 0 0 0 0 0\n61 21 0 -1\n62 21 0 2029\n0 21 0 2145\n1 21 0 -1\n2 21 0 -1\n3 21 0 -1\n4 21 0 -1\n61 22 0 1800\n62 22 0 2274\n0 22 0 2217\n1 22 0 1032\n2 22 0 -1\n3 22 0 -1\n4 22 0 -1\n61 23 0 1742\n62 23 0 4\n0 23 0 857\n1 23 0 108\n2 23 0 2503\n3 23 0 -1\n4 23 0 -1\n61 24 0 1196\n62 24 0 2432\n0 24 0 1990\n1 24 0 930\n2 24 0 666\n3 24 0 544\n4 24 0 2039\n61 25 0 1819\n62 25 0 1262\n0 25 0 1309\n1 25 0 1761\n2 25 0 1750\n3 25 0 2101\n4 25 0 737\n61 26 0 1784\n62 26 0 1924\n0 26 0 193\n1 26 0 1701\n2 26 0 501\n3 26 0 2411\n4 26 0 1589\n61 0 0 1701\n62 0 0 193\n0 0 0 1924\n1 0 0 1784\n2 0 0 1869\n3 0 0 1570\n4 0 0 1180\nDRAGON_BODIES 16\nA 4 3 22 N 1\nA 4 3 23 N 0\nA 14 1 24 S 1\nA 14 1 23 S 0\nA 14 1 22 S 0\nA 14 1 21 S 0\nA 14 4 24 E 0\nA 14 3 24 E 0\nA 14 2 24 E 0\nA 14 2 23 S 0\nA 14 2 22 S 0\nA 14 2 21 S 0\nA 14 3 21 W 0\nA 14 4 21 W 0\nA 14 4 22 N 0\nA 14 4 23 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n",
+    "0,15": "ROUND 0\nDIR N\nLENGTH 23\nUNIT_COUNT 8\nNUM_MSGS 4\n12512723996636090683\n12512723996636090683\n12512723996636090683\n12512723996636090683\nECHOES 0 0 0 0 0\n58 26 0 1180\n59 26 0 1570\n60 26 0 1869\n61 26 0 1784\n62 26 0 1924\n0 26 0 193\n1 26 0 1701\n58 0 0 1589\n59 0 0 2411\n60 0 0 501\n61 0 0 1701\n62 0 0 193\n0 0 0 1924\n1 0 0 1784\n58 1 0 737\n59 1 0 2101\n60 1 0 1750\n61 1 0 1761\n62 1 0 1309\n0 1 0 1262\n1 1 0 1819\n58 2 0 2039\n59 2 0 544\n60 2 0 666\n61 2 0 930\n62 2 0 1990\n0 2 0 2432\n1 2 0 1196\n58 3 0 -1\n59 3 0 -1\n60 3 0 2503\n61 3 0 108\n62 3 0 857\n0 3 0 4\n1 3 0 1742\n58 4 0 -1\n59 4 0 -1\n60 4 0 -1\n61 4 0 1032\n62 4 0 2217\n0 4 0 2274\n1 4 0 1800\n58 5 0 -1\n59 5 0 -1\n60 5 0 -1\n61 5 0 -1\n62 5 0 2145\n0 5 0 2029\n1 5 0 -1\nDRAGON_BODIES 16\nB 5 59 4 S 1\nB 5 59 3 S 0\nB 15 61 2 N 1\nB 15 61 3 N 0\nB 15 61 4 N 0\nB 15 61 5 N 0\nB 15 58 2 W 0\nB 15 59 2 W 0\nB 15 60 2 W 0\nB 15 60 3 N 0\nB 15 60 4 N 0\nB 15 60 5 N 0\nB 15 59 5 E 0\nB 15 58 5 E 0\nB 15 58 4 S 0\nB 15 58 3 S 0\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n",
+    "1,0": "ROUND 1\nDIR N\nLENGTH 8\nUNIT_COUNT 8\nNUM_MSGS 1\n16531588383709864847\nECHOES 0 0 0 0 0\n5 6 0 -1\n6 6 0 -1\n7 6 0 -1\n8 6 0 -1\n9 6 0 -1\n10 6 0 -1\n11 6 0 -1\n5 7 0 -1\n6 7 0 -1\n7 7 0 -1\n8 7 0 -1\n9 7 0 -1\n10 7 0 -1\n11 7 0 -1\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 1 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 0 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 0 2\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\nDRAGON_BODIES 4\nA 0 8 9 N 1\nA 0 8 10 N 0\nA 0 8 11 N 0\nA 0 8 12 N 0\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. w . . . . . .\n",
+    "1,1": "ROUND 1\nDIR S\nLENGTH 8\nUNIT_COUNT 8\nNUM_MSGS 1\n6390044981414863663\nECHOES 0 0 0 0 0\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 0 2\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 0 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 1 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\n51 19 0 -1\n52 19 0 -1\n53 19 0 -1\n54 19 0 -1\n55 19 0 -1\n56 19 0 -1\n57 19 0 -1\n51 20 0 -1\n52 20 0 -1\n53 20 0 -1\n54 20 0 -1\n55 20 0 -1\n56 20 0 -1\n57 20 0 -1\nDRAGON_BODIES 4\nB 1 54 17 S 1\nB 1 54 16 S 0\nB 1 54 15 S 0\nB 1 54 14 S 0\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . w .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "1,2": "ROUND 1\nDIR W\nLENGTH 5\nUNIT_COUNT 8\nNUM_MSGS 1\n10068922969972810003\nECHOES 4 0 0 0 0\n14 4 0 1883\n15 4 0 1496\n16 4 0 896\n17 4 0 1896\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n14 5 0 919\n15 5 0 -1\n16 5 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n14 6 0 -1\n15 6 0 -1\n16 6 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n14 7 0 -1\n15 7 0 -1\n16 7 1 1\n17 7 0 1\n18 7 0 1\n19 7 0 -1\n20 7 0 -1\n14 8 0 -1\n15 8 0 -1\n16 8 0 -1\n17 8 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n14 9 0 -1\n15 9 0 -1\n16 9 0 -1\n17 9 0 -1\n18 9 0 -1\n19 9 0 -1\n20 9 0 -1\n14 10 0 -1\n15 10 0 -1\n16 10 0 -1\n17 10 0 -1\n18 10 0 -1\n19 10 0 -1\n20 10 0 -1\nDRAGON_BODIES 6\nA 2 17 7 W 1\nA 2 18 7 W 0\nA 2 19 7 W 0\nA 2 20 7 W 0\nA 12 19 4 W 1\nA 12 20 4 W 0\n. . . w w . .\n. . w . . . .\n. w . . . . .\n. w w w w . .\nw w w w w . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "1,3": "ROUND 1\nDIR E\nLENGTH 5\nUNIT_COUNT 8\nNUM_MSGS 1\n9830795148265530858\nECHOES 4 0 0 0 0\n42 16 0 -1\n43 16 0 -1\n44 16 0 -1\n45 16 0 -1\n46 16 0 -1\n47 16 0 -1\n48 16 0 -1\n42 17 0 -1\n43 17 0 -1\n44 17 0 -1\n45 17 0 -1\n46 17 0 -1\n47 17 0 -1\n48 17 0 -1\n42 18 0 -1\n43 18 0 -1\n44 18 0 -1\n45 18 0 -1\n46 18 0 -1\n47 18 0 -1\n48 18 0 -1\n42 19 0 -1\n43 19 0 -1\n44 19 0 1\n45 19 0 1\n46 19 1 1\n47 19 0 -1\n48 19 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n45 20 0 -1\n46 20 0 -1\n47 20 0 -1\n48 20 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n45 21 0 -1\n46 21 0 -1\n47 21 0 -1\n48 21 0 919\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n45 22 0 1896\n46 22 0 896\n47 22 0 1496\n48 22 0 1883\nDRAGON_BODIES 5\nB 3 45 19 E 1\nB 3 44 19 E 0\nB 3 43 19 E 0\nB 3 42 19 E 0\nB 13 42 22 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . w w w w w\n. . w w w w .\n. . . . . w .\n. . . . w . .\n. . w w . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . w . . .\n",
+    "1,4": "ROUND 1\nDIR N\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 0 4 0 0 0\n0 19 0 -1\n1 19 0 -1\n2 19 0 -1\n3 19 0 -1\n4 19 0 -1\n5 19 0 -1\n6 19 0 -1\n0 20 0 -1\n1 20 0 -1\n2 20 0 -1\n3 20 0 -1\n4 20 0 -1\n5 20 0 -1\n6 20 0 -1\n0 21 0 2144\n1 21 0 -1\n2 21 0 -1\n3 21 0 -1\n4 21 0 -1\n5 21 0 -1\n6 21 0 -1\n0 22 0 2216\n1 22 0 1031\n2 22 0 -1\n3 22 0 -1\n4 22 0 -1\n5 22 0 -1\n6 22 0 -1\n0 23 0 856\n1 23 0 107\n2 23 0 2502\n3 23 0 -1\n4 23 0 -1\n5 23 0 -1\n6 23 0 -1\n0 24 0 1989\n1 24 0 929\n2 24 0 665\n3 24 0 543\n4 24 0 2038\n5 24 0 -1\n6 24 0 -1\n0 25 0 1308\n1 25 0 1760\n2 25 0 1749\n3 25 0 2100\n4 25 0 736\n5 25 0 862\n6 25 0 83\nDRAGON_BODIES 25\nA 4 3 22 N 1\nA 4 3 23 N 0\nA 14 1 25 S 1\nA 14 1 24 S 0\nA 14 1 23 S 0\nA 14 1 22 S 0\nA 14 1 21 S 0\nA 14 1 20 S 0\nA 14 2 20 W 0\nA 14 3 20 W 0\nA 14 4 20 W 0\nA 14 5 20 W 0\nA 14 5 21 N 0\nA 14 5 22 N 0\nA 14 5 23 N 0\nA 14 5 24 N 0\nA 14 4 24 E 0\nA 14 3 24 E 0\nA 14 2 24 E 0\nA 14 2 23 S 0\nA 14 2 22 S 0\nA 14 2 21 S 0\nA 14 3 21 W 0\nA 14 4 21 W 0\nA 14 4 22 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\n",
+    "1,5": "ROUND 1\nDIR S\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 0 4 0 0 0\n56 1 0 83\n57 1 0 862\n58 1 0 736\n59 1 0 2100\n60 1 0 1749\n61 1 0 1760\n62 1 0 1308\n56 2 0 -1\n57 2 0 -1\n58 2 0 2038\n59 2 0 543\n60 2 0 665\n61 2 0 929\n62 2 0 1989\n56 3 0 -1\n57 3 0 -1\n58 3 0 -1\n59 3 0 -1\n60 3 0 2502\n61 3 0 107\n62 3 0 856\n56 4 0 -1\n57 4 0 -1\n58 4 0 -1\n59 4 0 -1\n60 4 0 -1\n61 4 0 1031\n62 4 0 2216\n56 5 0 -1\n57 5 0 -1\n58 5 0 -1\n59 5 0 -1\n60 5 0 -1\n61 5 0 -1\n62 5 0 2144\n56 6 0 -1\n57 6 0 -1\n58 6 0 -1\n59 6 0 -1\n60 6 0 -1\n61 6 0 -1\n62 6 0 -1\n56 7 0 -1\n57 7 0 -1\n58 7 0 -1\n59 7 0 -1\n60 7 0 -1\n61 7 0 -1\n62 7 0 -1\nDRAGON_BODIES 25\nB 5 59 4 S 1\nB 5 59 3 S 0\nB 15 61 1 N 1\nB 15 61 2 N 0\nB 15 61 3 N 0\nB 15 61 4 N 0\nB 15 61 5 N 0\nB 15 61 6 N 0\nB 15 60 6 E 0\nB 15 59 6 E 0\nB 15 58 6 E 0\nB 15 57 6 E 0\nB 15 57 5 S 0\nB 15 57 4 S 0\nB 15 57 3 S 0\nB 15 57 2 S 0\nB 15 58 2 W 0\nB 15 59 2 W 0\nB 15 60 2 W 0\nB 15 60 3 N 0\nB 15 60 4 N 0\nB 15 60 5 N 0\nB 15 59 5 E 0\nB 15 58 5 E 0\nB 15 58 4 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n",
+    "1,6": "ROUND 1\nDIR S\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n12 11 0 -1\n13 11 0 -1\n14 11 0 -1\n15 11 0 -1\n16 11 0 -1\n17 11 0 -1\n18 11 0 -1\n12 12 0 -1\n13 12 0 -1\n14 12 0 -1\n15 12 0 -1\n16 12 0 -1\n17 12 0 -1\n18 12 0 -1\n12 13 0 -1\n13 13 0 -1\n14 13 0 -1\n15 13 0 -1\n16 13 0 -1\n17 13 0 -1\n18 13 0 -1\n12 14 0 -1\n13 14 0 -1\n14 14 0 -1\n15 14 0 -1\n16 14 0 -1\n17 14 0 -1\n18 14 0 -1\n12 15 0 -1\n13 15 0 -1\n14 15 0 -1\n15 15 0 -1\n16 15 0 -1\n17 15 0 -1\n18 15 0 -1\n12 16 0 -1\n13 16 0 -1\n14 16 0 -1\n15 16 0 -1\n16 16 0 -1\n17 16 0 -1\n18 16 0 -1\n12 17 0 -1\n13 17 0 -1\n14 17 0 -1\n15 17 0 -1\n16 17 0 -1\n17 17 0 -1\n18 17 0 -1\nDRAGON_BODIES 2\nA 6 15 14 S 1\nA 6 15 13 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "1,7": "ROUND 1\nDIR N\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n44 9 0 -1\n45 9 0 -1\n46 9 0 -1\n47 9 0 -1\n48 9 0 -1\n49 9 0 -1\n50 9 0 -1\n44 10 0 -1\n45 10 0 -1\n46 10 0 -1\n47 10 0 -1\n48 10 0 -1\n49 10 0 -1\n50 10 0 -1\n44 11 0 -1\n45 11 0 -1\n46 11 0 -1\n47 11 0 -1\n48 11 0 -1\n49 11 0 -1\n50 11 0 -1\n44 12 0 -1\n45 12 0 -1\n46 12 0 -1\n47 12 0 -1\n48 12 0 -1\n49 12 0 -1\n50 12 0 -1\n44 13 0 -1\n45 13 0 -1\n46 13 0 -1\n47 13 0 -1\n48 13 0 -1\n49 13 0 -1\n50 13 0 -1\n44 14 0 -1\n45 14 0 -1\n46 14 0 -1\n47 14 0 -1\n48 14 0 -1\n49 14 0 -1\n50 14 0 -1\n44 15 0 -1\n45 15 0 -1\n46 15 0 -1\n47 15 0 -1\n48 15 0 -1\n49 15 0 -1\n50 15 0 -1\nDRAGON_BODIES 2\nB 7 47 12 N 1\nB 7 47 13 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "1,8": "ROUND 1\nDIR N\nLENGTH 6\nUNIT_COUNT 7\nNUM_MSGS 2\n16540032675960856868\n10068922969972810003\nECHOES 4 0 0 0 0\n30 25 0 -1\n31 25 0 2\n32 25 0 1\n33 25 0 1\n34 25 1 1\n35 25 0 3\n36 25 1 3\n30 26 0 -1\n31 26 0 1\n32 26 1 4\n33 26 1 2\n34 26 1 5\n35 26 0 2\n36 26 0 3\n30 0 1 4\n31 0 0 1\n32 0 0 -1\n33 0 1 1\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n30 1 0 1\n31 1 0 2\n32 1 0 -1\n33 1 0 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n30 2 0 -1\n31 2 0 -1\n32 2 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n30 3 0 -1\n31 3 0 -1\n32 3 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n30 4 0 -1\n31 4 0 -1\n32 4 0 -1\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\nDRAGON_BODIES 6\nA 8 33 1 N 1\nA 8 33 2 N 0\nA 8 33 3 N 0\nA 8 33 4 N 0\nB 11 36 4 S 1\nB 11 36 3 S 0\n. w . . w w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w . . . . .\n. . . . . . .\n. . . . . . .\nw w w . w . .\nw w . . . w . .\nw w . w . w . w\nw . w w w . . .\n. . w w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "1,9": "ROUND 1\nDIR S\nLENGTH 6\nUNIT_COUNT 7\nNUM_MSGS 1\n9830795148265530858\nECHOES 4 0 0 0 0\n26 22 0 -1\n27 22 0 -1\n28 22 0 -1\n29 22 0 -1\n30 22 0 -1\n31 22 0 -1\n32 22 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 0 -1\n30 23 0 -1\n31 23 0 -1\n32 23 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 0 1\n30 24 0 -1\n31 24 0 -1\n32 24 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 0 1\n30 25 0 -1\n31 25 0 2\n32 25 0 1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 1 1\n30 26 0 -1\n31 26 0 1\n32 26 1 4\n26 0 0 3\n27 0 0 2\n28 0 1 5\n29 0 1 2\n30 0 1 4\n31 0 0 1\n32 0 0 -1\n26 1 1 3\n27 1 0 3\n28 1 1 1\n29 1 0 1\n30 1 0 1\n31 1 0 2\n32 1 0 -1\nDRAGON_BODIES 6\nB 9 29 25 S 1\nB 9 29 24 S 0\nB 9 29 23 S 0\nB 9 29 22 S 0\nA 10 26 24 S 1\nA 10 26 23 S 0\n. . w . w w w\n. . . . . . .\n. . . . . . .\n. . . . . w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w w . . w .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w w . .\n. . . w w w . w\nw . w . w . w w\n. . w . . . w w\n",
+    "1,10": "ROUND 1\nDIR S\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n23 21 0 1\n24 21 0 -1\n25 21 0 -1\n26 21 0 -1\n27 21 0 -1\n28 21 0 -1\n29 21 0 -1\n23 22 0 5\n24 22 0 -1\n25 22 0 -1\n26 22 0 -1\n27 22 0 -1\n28 22 0 -1\n29 22 0 -1\n23 23 0 5\n24 23 0 -1\n25 23 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 0 -1\n23 24 0 -1\n24 24 0 -1\n25 24 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 0 1\n23 25 0 -1\n24 25 0 -1\n25 25 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 0 1\n23 26 0 -1\n24 26 0 -1\n25 26 0 -1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 0 1\n23 0 0 1\n24 0 1 5\n25 0 0 3\n26 0 0 3\n27 0 0 2\n28 0 1 5\n29 0 1 2\nDRAGON_BODIES 8\nB 9 29 26 S 1\nB 9 29 25 S 0\nB 9 29 24 S 0\nB 9 29 23 S 0\nB 9 29 22 S 0\nB 9 29 21 S 0\nA 10 26 24 S 1\nA 10 26 23 S 0\n. . . w w . w\nw . . . . w .\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w . . . w w .\n. w . . . . . .\n. w . . . . . .\n. . . . . . w w\n. . . . . . w w\n. . . . . . w w\n. w . w . w . w\n",
+    "1,11": "ROUND 1\nDIR S\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 0 0 1 0\n33 1 0 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n37 1 0 -1\n38 1 0 -1\n39 1 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n37 2 0 -1\n38 2 0 -1\n39 2 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n37 3 0 -1\n38 3 0 -1\n39 3 0 5\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n37 4 0 -1\n38 4 0 -1\n39 4 0 5\n33 5 0 -1\n34 5 0 -1\n35 5 0 -1\n36 5 0 -1\n37 5 0 -1\n38 5 0 -1\n39 5 0 1\n33 6 0 -1\n34 6 0 -1\n35 6 0 -1\n36 6 0 -1\n37 6 0 -1\n38 6 0 -1\n39 6 0 7\n33 7 0 -1\n34 7 0 -1\n35 7 0 -1\n36 7 0 -1\n37 7 0 -1\n38 7 0 -1\n39 7 0 -1\nDRAGON_BODIES 7\nA 8 33 1 N 0\nA 8 33 2 N 0\nA 8 33 3 N 0\nA 8 33 4 N 0\nA 8 33 5 N 0\nB 11 36 4 S 1\nB 11 36 3 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. w . . . . w\nw . w w . . .\n. . . . w . w\n. . . . . w w\nw w . . . . . .\nw w . . . . . .\n. . . . . . w .\n. . . . . . w .\n. w w . . . w .\n. . . . w . w .\nw . . . . w . .\n",
+    "1,12": "ROUND 1\nDIR W\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 2 2 0 0 0\n16 1 0 738\n17 1 0 2146\n18 1 0 1847\n19 1 0 954\n20 1 0 1\n21 1 0 2\n22 1 0 2\n16 2 0 1318\n17 2 0 2452\n18 2 0 928\n19 2 0 839\n20 2 0 -1\n21 2 0 -1\n22 2 0 -1\n16 3 0 358\n17 3 0 1820\n18 3 0 -1\n19 3 0 -1\n20 3 0 -1\n21 3 0 -1\n22 3 0 -1\n16 4 0 896\n17 4 0 1896\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n16 5 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n16 6 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n16 7 0 1\n17 7 0 1\n18 7 0 1\n19 7 0 -1\n20 7 0 -1\n21 7 0 -1\n22 7 1 1\nDRAGON_BODIES 8\nA 2 16 7 W 1\nA 2 17 7 W 0\nA 2 18 7 W 0\nA 2 19 7 W 0\nA 2 20 7 W 0\nA 2 21 7 W 0\nA 12 19 4 W 1\nA 12 20 4 W 0\n. . . . . . .\n. . . . w . .\n. . . w . . .\n. w w . . . .\nw . . . . . .\n. . . . . . .\nw w w . . w w\nw w w . . w w\n. . . . w . . .\n. . . . w . . .\n. . . w . . . .\n. w . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\n",
+    "1,13": "ROUND 1\nDIR S\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 2 2 0 0 0\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n45 20 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n45 21 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n45 22 0 1896\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n44 23 0 -1\n45 23 0 1820\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 839\n44 24 0 928\n45 24 0 2452\n39 25 1 3\n40 25 0 2\n41 25 0 2\n42 25 0 1\n43 25 0 954\n44 25 0 1847\n45 25 0 2146\n39 26 0 1\n40 26 0 3\n41 26 0 3\n42 26 1 1\n43 26 0 1990\n44 26 0 452\n45 26 0 1753\nDRAGON_BODIES 2\nB 13 42 23 S 1\nB 13 42 22 S 0\nw w w . . w w\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . w . .\nw . . w . . .\n. . . . . . .\nw w w w w w w\n. . . . . . . .\n. . . . . . . .\n. . . . . . . w\n. . . . . w . .\n. . . . w . . .\nw . . . w . . .\nw . w . w . . .\n",
+    "1,14": "ROUND 1\nDIR S\nLENGTH 23\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n61 22 0 1799\n62 22 0 2273\n0 22 0 2216\n1 22 0 1031\n2 22 0 -1\n3 22 1 -1\n4 22 0 -1\n61 23 0 1741\n62 23 0 3\n0 23 0 856\n1 23 0 107\n2 23 0 2502\n3 23 0 -1\n4 23 0 -1\n61 24 0 1195\n62 24 0 2431\n0 24 0 1989\n1 24 0 929\n2 24 0 665\n3 24 0 543\n4 24 0 2038\n61 25 0 1818\n62 25 0 1261\n0 25 0 1308\n1 25 0 1760\n2 25 0 1749\n3 25 0 2100\n4 25 0 736\n61 26 0 1783\n62 26 0 1923\n0 26 0 192\n1 26 0 1700\n2 26 0 500\n3 26 0 2410\n4 26 0 1588\n61 0 0 1700\n62 0 0 192\n0 0 0 1923\n1 0 0 1783\n2 0 0 1868\n3 0 0 1569\n4 0 0 1179\n61 1 0 1760\n62 1 0 1308\n0 1 0 1261\n1 1 0 1818\n2 1 0 1639\n3 1 0 300\n4 1 0 333\nDRAGON_BODIES 11\nA 14 1 25 S 1\nA 14 1 24 S 0\nA 14 1 23 S 0\nA 14 1 22 S 0\nA 14 4 24 E 0\nA 14 3 24 E 0\nA 14 2 24 E 0\nA 14 2 23 S 0\nA 14 2 22 S 0\nA 14 4 22 N 0\nB 15 61 1 N 1\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n. . w . . . . .\n",
+    "1,15": "ROUND 1\nDIR N\nLENGTH 23\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n58 25 0 333\n59 25 0 300\n60 25 0 1639\n61 25 0 1818\n62 25 0 1261\n0 25 0 1308\n1 25 0 1760\n58 26 0 1179\n59 26 0 1569\n60 26 0 1868\n61 26 0 1783\n62 26 0 1923\n0 26 0 192\n1 26 0 1700\n58 0 0 1588\n59 0 0 2410\n60 0 0 500\n61 0 0 1700\n62 0 0 192\n0 0 0 1923\n1 0 0 1783\n58 1 0 736\n59 1 0 2100\n60 1 0 1749\n61 1 0 1760\n62 1 0 1308\n0 1 0 1261\n1 1 0 1818\n58 2 0 2038\n59 2 0 543\n60 2 0 665\n61 2 0 929\n62 2 0 1989\n0 2 0 2431\n1 2 0 1195\n58 3 0 -1\n59 3 0 -1\n60 3 0 2502\n61 3 0 107\n62 3 0 856\n0 3 0 3\n1 3 0 1741\n58 4 0 -1\n59 4 1 -1\n60 4 0 -1\n61 4 0 1031\n62 4 0 2216\n0 4 0 2273\n1 4 0 1799\nDRAGON_BODIES 11\nA 14 1 25 E 0\nB 15 61 1 N 1\nB 15 61 2 N 0\nB 15 61 3 N 0\nB 15 61 4 N 0\nB 15 58 2 W 0\nB 15 59 2 W 0\nB 15 60 2 W 0\nB 15 60 3 N 0\nB 15 60 4 N 0\nB 15 58 4 S 0\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n. . . . . w . .\n",
+    "2,0": "ROUND 2\nDIR N\nLENGTH 9\nUNIT_COUNT 7\nNUM_MSGS 1\n7317223546126607311\nECHOES 0 0 0 0 0\n5 5 0 -1\n6 5 0 -1\n7 5 0 -1\n8 5 0 -1\n9 5 0 -1\n10 5 0 -1\n11 5 0 -1\n5 6 0 -1\n6 6 0 -1\n7 6 0 -1\n8 6 0 -1\n9 6 0 -1\n10 6 0 -1\n11 6 0 -1\n5 7 0 -1\n6 7 0 -1\n7 7 0 -1\n8 7 0 -1\n9 7 0 -1\n10 7 0 -1\n11 7 0 -1\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 0 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 0 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\nDRAGON_BODIES 4\nA 0 8 8 N 1\nA 0 8 9 N 0\nA 0 8 10 N 0\nA 0 8 11 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "2,1": "ROUND 2\nDIR S\nLENGTH 9\nUNIT_COUNT 7\nNUM_MSGS 1\n922675033803858671\nECHOES 0 0 0 0 0\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 0 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 0 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\n51 19 0 -1\n52 19 0 -1\n53 19 0 -1\n54 19 0 -1\n55 19 0 -1\n56 19 0 -1\n57 19 0 -1\n51 20 0 -1\n52 20 0 -1\n53 20 0 -1\n54 20 0 -1\n55 20 0 -1\n56 20 0 -1\n57 20 0 -1\n51 21 0 -1\n52 21 0 -1\n53 21 0 -1\n54 21 0 -1\n55 21 0 -1\n56 21 0 -1\n57 21 0 -1\nDRAGON_BODIES 4\nB 1 54 18 S 1\nB 1 54 17 S 0\nB 1 54 16 S 0\nB 1 54 15 S 0\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "2,2": "ROUND 2\nDIR W\nLENGTH 6\nUNIT_COUNT 8\nNUM_MSGS 1\n10546304530490859859\nECHOES 4 0 0 0 0\n13 4 0 -1\n14 4 0 1882\n15 4 0 1495\n16 4 0 895\n17 4 0 1895\n18 4 0 -1\n19 4 0 -1\n13 5 0 -1\n14 5 0 918\n15 5 0 -1\n16 5 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n13 6 0 -1\n14 6 0 -1\n15 6 0 -1\n16 6 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n13 7 0 -1\n14 7 0 -1\n15 7 0 -1\n16 7 0 1\n17 7 0 1\n18 7 0 1\n19 7 0 -1\n13 8 0 -1\n14 8 0 -1\n15 8 0 -1\n16 8 0 -1\n17 8 0 -1\n18 8 0 -1\n19 8 0 -1\n13 9 0 -1\n14 9 0 -1\n15 9 0 -1\n16 9 0 -1\n17 9 0 -1\n18 9 0 -1\n19 9 0 -1\n13 10 0 -1\n14 10 0 -1\n15 10 0 -1\n16 10 0 -1\n17 10 0 -1\n18 10 0 -1\n19 10 0 -1\nDRAGON_BODIES 6\nA 2 16 7 W 1\nA 2 17 7 W 0\nA 2 18 7 W 0\nA 2 19 7 W 0\nA 12 19 5 S 1\nA 12 19 4 S 0\n. . . . w w .\n. . . w . . .\n. . w . . . .\n. . w w w w .\nw w w w w w .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . w . . .\n. . . w . . . .\n. . . w . . . .\n. . . w . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "2,3": "ROUND 2\nDIR E\nLENGTH 6\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n43 16 0 -1\n44 16 0 -1\n45 16 0 -1\n46 16 0 -1\n47 16 0 -1\n48 16 0 -1\n49 16 0 -1\n43 17 0 -1\n44 17 0 -1\n45 17 0 -1\n46 17 0 -1\n47 17 0 -1\n48 17 0 -1\n49 17 0 -1\n43 18 0 -1\n44 18 0 -1\n45 18 0 -1\n46 18 0 -1\n47 18 0 -1\n48 18 0 -1\n49 18 0 -1\n43 19 0 -1\n44 19 0 1\n45 19 0 1\n46 19 0 1\n47 19 0 -1\n48 19 0 -1\n49 19 0 -1\n43 20 0 -1\n44 20 0 -1\n45 20 0 -1\n46 20 0 -1\n47 20 0 -1\n48 20 0 -1\n49 20 0 -1\n43 21 0 -1\n44 21 0 -1\n45 21 0 -1\n46 21 0 -1\n47 21 0 -1\n48 21 0 918\n49 21 0 -1\n43 22 0 -1\n44 22 0 -1\n45 22 0 1895\n46 22 0 895\n47 22 0 1495\n48 22 0 1882\n49 22 0 -1\nDRAGON_BODIES 4\nB 3 46 19 E 1\nB 3 45 19 E 0\nB 3 44 19 E 0\nB 3 43 19 E 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. w w w w w w\n. w w w w . .\n. . . . w . .\n. . . w . . .\n. w w . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . w . . .\n. . . . w . . .\n. . . . w . . .\n. . . w . . . .\n",
+    "2,6": "ROUND 2\nDIR S\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n12 12 0 -1\n13 12 0 -1\n14 12 0 -1\n15 12 0 -1\n16 12 0 -1\n17 12 0 -1\n18 12 0 -1\n12 13 0 -1\n13 13 0 -1\n14 13 0 -1\n15 13 0 -1\n16 13 0 -1\n17 13 0 -1\n18 13 0 -1\n12 14 0 -1\n13 14 0 -1\n14 14 0 -1\n15 14 0 -1\n16 14 0 -1\n17 14 0 -1\n18 14 0 -1\n12 15 0 -1\n13 15 0 -1\n14 15 0 -1\n15 15 0 -1\n16 15 0 -1\n17 15 0 -1\n18 15 0 -1\n12 16 0 -1\n13 16 0 -1\n14 16 0 -1\n15 16 0 -1\n16 16 0 -1\n17 16 0 -1\n18 16 0 -1\n12 17 0 -1\n13 17 0 -1\n14 17 0 -1\n15 17 0 -1\n16 17 0 -1\n17 17 0 -1\n18 17 0 -1\n12 18 0 -1\n13 18 0 -1\n14 18 0 -1\n15 18 0 -1\n16 18 0 -1\n17 18 0 -1\n18 18 0 -1\nDRAGON_BODIES 2\nA 6 15 15 S 1\nA 6 15 14 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "2,7": "ROUND 2\nDIR N\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n44 8 0 -1\n45 8 0 -1\n46 8 0 -1\n47 8 0 -1\n48 8 0 -1\n49 8 0 -1\n50 8 0 -1\n44 9 0 -1\n45 9 0 -1\n46 9 0 -1\n47 9 0 -1\n48 9 0 -1\n49 9 0 -1\n50 9 0 -1\n44 10 0 -1\n45 10 0 -1\n46 10 0 -1\n47 10 0 -1\n48 10 0 -1\n49 10 0 -1\n50 10 0 -1\n44 11 0 -1\n45 11 0 -1\n46 11 0 -1\n47 11 0 -1\n48 11 0 -1\n49 11 0 -1\n50 11 0 -1\n44 12 0 -1\n45 12 0 -1\n46 12 0 -1\n47 12 0 -1\n48 12 0 -1\n49 12 0 -1\n50 12 0 -1\n44 13 0 -1\n45 13 0 -1\n46 13 0 -1\n47 13 0 -1\n48 13 0 -1\n49 13 0 -1\n50 13 0 -1\n44 14 0 -1\n45 14 0 -1\n46 14 0 -1\n47 14 0 -1\n48 14 0 -1\n49 14 0 -1\n50 14 0 -1\nDRAGON_BODIES 2\nB 7 47 11 N 1\nB 7 47 12 N 0\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "2,8": "ROUND 2\nDIR N\nLENGTH 7\nUNIT_COUNT 9\nNUM_MSGS 1\n16862040049334624547\nECHOES 4 0 0 0 0\n30 24 0 -1\n31 24 0 -1\n32 24 0 -1\n33 24 0 -1\n34 24 0 -1\n35 24 0 -1\n36 24 0 -1\n30 25 0 -1\n31 25 0 1\n32 25 1 4\n33 25 1 1\n34 25 1 3\n35 25 0 2\n36 25 1 2\n30 26 0 -1\n31 26 1 5\n32 26 1 3\n33 26 1 1\n34 26 1 4\n35 26 0 1\n36 26 0 2\n30 0 1 3\n31 0 1 5\n32 0 0 -1\n33 0 0 1\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n30 1 1 4\n31 1 0 1\n32 1 0 -1\n33 1 0 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n30 2 0 -1\n31 2 0 -1\n32 2 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n30 3 0 -1\n31 3 0 -1\n32 3 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\nDRAGON_BODIES 4\nA 8 33 0 N 1\nA 8 33 1 N 0\nA 8 33 2 N 0\nA 8 33 3 N 0\n. . . . . . .\n. w . . w w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . . .\nw w . . . w . .\nw w . w . w . w\nw . w w w . . .\n. . w w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "2,9": "ROUND 2\nDIR S\nLENGTH 7\nUNIT_COUNT 9\nNUM_MSGS 1\n15802568254175585769\nECHOES 4 0 0 0 0\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 0 -1\n30 23 0 -1\n31 23 0 -1\n32 23 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 0 1\n30 24 0 -1\n31 24 0 -1\n32 24 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 0 1\n30 25 0 -1\n31 25 0 1\n32 25 1 4\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 0 1\n30 26 0 -1\n31 26 1 5\n32 26 1 3\n26 0 0 2\n27 0 0 1\n28 0 1 4\n29 0 1 1\n30 0 1 3\n31 0 1 5\n32 0 0 -1\n26 1 1 2\n27 1 0 2\n28 1 1 3\n29 1 1 1\n30 1 1 4\n31 1 0 1\n32 1 0 -1\n26 2 0 -1\n27 2 0 -1\n28 2 0 -1\n29 2 0 -1\n30 2 0 -1\n31 2 0 -1\n32 2 0 -1\nDRAGON_BODIES 5\nB 9 29 26 S 1\nB 9 29 25 S 0\nB 9 29 24 S 0\nB 9 29 23 S 0\nA 10 26 24 W 0\n. . . . . . .\n. . . . . . .\n. . . . . w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w w . . w .\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w w . .\n. . . w w w . w\nw . w . w . w w\n. . w . . . w w\n. . . . . . . w\n",
+    "2,10": "ROUND 2\nDIR W\nLENGTH 2\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n22 21 0 7\n23 21 1 10\n24 21 0 -1\n25 21 0 -1\n26 21 0 -1\n27 21 0 -1\n28 21 0 -1\n22 22 0 1\n23 22 0 4\n24 22 0 -1\n25 22 0 -1\n26 22 0 -1\n27 22 0 -1\n28 22 0 -1\n22 23 0 7\n23 23 0 4\n24 23 0 -1\n25 23 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n22 24 0 -1\n23 24 0 -1\n24 24 0 -1\n25 24 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n22 25 0 -1\n23 25 0 -1\n24 25 0 -1\n25 25 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n22 26 0 -1\n23 26 0 -1\n24 26 0 -1\n25 26 0 -1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n22 0 0 2\n23 0 1 2\n24 0 1 4\n25 0 0 2\n26 0 0 2\n27 0 0 1\n28 0 1 4\nDRAGON_BODIES 2\nA 10 25 24 W 1\nA 10 26 24 W 0\n. . . . w w .\n. w . . . . w\n. . . . . . .\nw w . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . w . . . w w\n. . w . . . . .\nw . w . . . . .\n. . . . . . . w\nw . . . . . . w\nw . . . . . . w\nw . w . w . w .\n",
+    "2,11": "ROUND 2\nDIR W\nLENGTH 2\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 3 0 0 1 0\n32 1 0 -1\n33 1 0 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n37 1 0 -1\n38 1 0 -1\n32 2 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n37 2 0 -1\n38 2 0 -1\n32 3 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n37 3 0 -1\n38 3 0 -1\n32 4 0 -1\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n37 4 0 -1\n38 4 0 -1\n32 5 0 1\n33 5 0 -1\n34 5 0 -1\n35 5 0 -1\n36 5 0 -1\n37 5 0 -1\n38 5 0 -1\n32 6 0 -1\n33 6 0 -1\n34 6 0 -1\n35 6 0 -1\n36 6 0 -1\n37 6 0 -1\n38 6 0 -1\n32 7 0 -1\n33 7 0 -1\n34 7 0 -1\n35 7 0 -1\n36 7 0 -1\n37 7 0 -1\n38 7 0 -1\nDRAGON_BODIES 8\nA 8 33 1 N 0\nB 11 35 4 W 1\nB 11 36 4 W 0\nA 20 32 5 W 1\nA 20 33 5 W 0\nA 20 33 4 S 0\nA 20 33 3 S 0\nA 20 33 2 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . w . . . .\nw w . w w . .\nw . . . . w .\n. . . . . . w\nw w w . . . . .\n. w w . . . . .\n. . . . . . . w\n. . . . . . . w\n. . w w . . . w\n. . . . . w . w\n. w . . . . w .\n",
+    "2,12": "ROUND 2\nDIR S\nLENGTH 2\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n16 2 0 1317\n17 2 0 2451\n18 2 0 927\n19 2 0 838\n20 2 0 -1\n21 2 0 -1\n22 2 0 -1\n16 3 0 357\n17 3 0 1819\n18 3 0 -1\n19 3 0 -1\n20 3 0 -1\n21 3 0 -1\n22 3 0 -1\n16 4 0 895\n17 4 0 1895\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n16 5 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n16 6 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n16 7 0 1\n17 7 0 1\n18 7 0 1\n19 7 0 -1\n20 7 0 -1\n21 7 0 -1\n22 7 1 1\n16 8 0 -1\n17 8 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\nDRAGON_BODIES 8\nA 2 16 7 W 1\nA 2 17 7 W 0\nA 12 19 5 S 1\nA 12 19 4 S 0\nA 18 21 7 E 1\nA 18 20 7 E 0\nA 18 19 7 E 0\nA 18 18 7 E 0\n. . . . w . .\n. . . w . . .\n. w w . . . .\nw . . . . . .\n. . . . . . .\nw w w . . w w\nw w w . . w w\n. . . . . . .\n. . . . w . . .\n. . . w . . . .\n. w . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\n. . . . . . . w\n",
+    "2,13": "ROUND 2\nDIR W\nLENGTH 2\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n38 20 0 -1\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n38 21 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n38 23 0 -1\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n44 23 0 -1\n38 24 0 -1\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 838\n44 24 0 927\n38 25 1 4\n39 25 1 2\n40 25 0 1\n41 25 0 1\n42 25 1 2\n43 25 0 953\n44 25 0 1846\n38 26 1 4\n39 26 1 2\n40 26 0 2\n41 26 0 2\n42 26 1 5\n43 26 0 1989\n44 26 0 451\nDRAGON_BODIES 2\nB 13 41 23 W 1\nB 13 42 23 W 0\nw w w w . . w\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . w .\nw w . . w . .\n. . . . . . .\nw w w w w w w\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . w .\n. . . . . w . .\n. w . . . w . .\n. w . w . w . .\n",
+    "2,14": "ROUND 2\nDIR E\nLENGTH 23\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n62 22 0 2272\n0 22 0 2215\n1 22 0 1030\n2 22 0 -1\n3 22 1 -1\n4 22 0 -1\n5 22 0 -1\n62 23 0 2\n0 23 0 855\n1 23 0 106\n2 23 0 2501\n3 23 0 -1\n4 23 0 -1\n5 23 0 -1\n62 24 0 2430\n0 24 0 1988\n1 24 0 928\n2 24 0 664\n3 24 0 542\n4 24 0 2037\n5 24 0 -1\n62 25 0 1260\n0 25 0 1307\n1 25 0 1759\n2 25 0 1748\n3 25 0 2099\n4 25 0 735\n5 25 0 861\n62 26 0 1922\n0 26 0 191\n1 26 0 1699\n2 26 0 499\n3 26 0 2409\n4 26 0 1587\n5 26 0 1763\n62 0 0 191\n0 0 0 1922\n1 0 0 1782\n2 0 0 1867\n3 0 0 1568\n4 0 0 1178\n5 0 0 -1\n62 1 0 1307\n0 1 0 1260\n1 1 0 1817\n2 1 0 1638\n3 1 0 299\n4 1 0 332\n5 1 0 1086\nDRAGON_BODIES 13\nA 14 2 25 E 1\nA 14 1 25 E 0\nA 14 1 24 S 0\nA 14 1 23 S 0\nA 14 1 22 S 0\nA 14 5 22 N 0\nA 14 5 23 N 0\nA 14 5 24 N 0\nA 14 4 24 E 0\nA 14 3 24 E 0\nA 14 2 24 E 0\nA 14 2 23 S 0\nA 14 2 22 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. w . . . . . .\n. w . . . . . .\n. w . . . . . .\n. w . . . . . .\n. w . . . . . .\n. w . . . . . .\n. w . . . . . .\n",
+    "2,15": "ROUND 2\nDIR W\nLENGTH 23\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n57 25 0 1086\n58 25 0 332\n59 25 0 299\n60 25 0 1638\n61 25 0 1817\n62 25 0 1260\n0 25 0 1307\n57 26 0 -1\n58 26 0 1178\n59 26 0 1568\n60 26 0 1867\n61 26 0 1782\n62 26 0 1922\n0 26 0 191\n57 0 0 1763\n58 0 0 1587\n59 0 0 2409\n60 0 0 499\n61 0 0 1699\n62 0 0 191\n0 0 0 1922\n57 1 0 861\n58 1 0 735\n59 1 0 2099\n60 1 0 1748\n61 1 0 1759\n62 1 0 1307\n0 1 0 1260\n57 2 0 -1\n58 2 0 2037\n59 2 0 542\n60 2 0 664\n61 2 0 928\n62 2 0 1988\n0 2 0 2430\n57 3 0 -1\n58 3 0 -1\n59 3 0 -1\n60 3 0 2501\n61 3 0 106\n62 3 0 855\n0 3 0 2\n57 4 0 -1\n58 4 0 -1\n59 4 1 -1\n60 4 0 -1\n61 4 0 1030\n62 4 0 2215\n0 4 0 2272\nDRAGON_BODIES 13\nB 15 60 1 W 1\nB 15 61 1 W 0\nB 15 61 2 N 0\nB 15 61 3 N 0\nB 15 61 4 N 0\nB 15 57 4 S 0\nB 15 57 3 S 0\nB 15 57 2 S 0\nB 15 58 2 W 0\nB 15 59 2 W 0\nB 15 60 2 W 0\nB 15 60 3 N 0\nB 15 60 4 N 0\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . w .\n. . . . . . w .\n. . . . . . w .\n. . . . . . w .\n. . . . . . w .\n. . . . . . w .\n. . . . . . w .\n",
+    "2,16": "ROUND 2\nDIR S\nLENGTH 7\nUNIT_COUNT 10\nNUM_MSGS 2\n9860666628662891016\n7713540313351988174\nECHOES 0 0 0 0 0\n5 13 1 4\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\n5 14 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n11 14 0 -1\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n11 16 0 -1\n5 17 0 -1\n6 17 0 -1\n7 17 0 -1\n8 17 1 1\n9 17 0 -1\n10 17 0 -1\n11 17 0 -1\n5 18 0 -1\n6 18 0 -1\n7 18 0 -1\n8 18 1 1\n9 18 0 -1\n10 18 0 -1\n11 18 0 -1\n5 19 0 -1\n6 19 0 -1\n7 19 0 -1\n8 19 0 -1\n9 19 0 -1\n10 19 0 -1\n11 19 0 -1\nDRAGON_BODIES 4\nA 16 8 16 S 1\nA 16 8 15 S 0\nA 16 8 14 S 0\nA 16 8 13 S 0\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n0 w . . . . . .\n1 . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "2,17": "ROUND 2\nDIR N\nLENGTH 7\nUNIT_COUNT 10\nNUM_MSGS 2\n17832600919062090934\n11920465323859387120\nECHOES 0 0 0 0 0\n51 7 0 -1\n52 7 0 -1\n53 7 0 -1\n54 7 0 -1\n55 7 0 -1\n56 7 0 -1\n57 7 0 -1\n51 8 0 -1\n52 8 0 -1\n53 8 0 -1\n54 8 1 1\n55 8 0 -1\n56 8 0 -1\n57 8 0 -1\n51 9 0 -1\n52 9 0 -1\n53 9 0 -1\n54 9 1 1\n55 9 0 -1\n56 9 0 -1\n57 9 0 -1\n51 10 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n51 11 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n51 12 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n51 13 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 4\nDRAGON_BODIES 4\nB 17 54 10 N 1\nB 17 54 11 N 0\nB 17 54 12 N 0\nB 17 54 13 N 0\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . 0\n. . . . . . w 1\n",
+    "2,18": "ROUND 2\nDIR E\nLENGTH 4\nUNIT_COUNT 10\nNUM_MSGS 1\n4367365841755316564\nECHOES 0 0 0 0 0\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n23 4 0 -1\n24 4 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n23 5 0 -1\n24 5 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n23 6 0 -1\n24 6 0 -1\n18 7 0 1\n19 7 0 -1\n20 7 0 -1\n21 7 0 -1\n22 7 1 1\n23 7 1 1\n24 7 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\n23 8 0 -1\n24 8 0 -1\n18 9 0 -1\n19 9 0 -1\n20 9 0 -1\n21 9 0 -1\n22 9 0 -1\n23 9 0 -1\n24 9 0 -1\n18 10 0 -1\n19 10 0 -1\n20 10 0 -1\n21 10 0 -1\n22 10 0 -1\n23 10 0 -1\n24 10 0 -1\nDRAGON_BODIES 6\nA 12 20 5 E 1\nA 12 19 5 E 0\nA 18 21 7 E 1\nA 18 20 7 E 0\nA 18 19 7 E 0\nA 18 18 7 E 0\nw . . . . . .\n. . . . . . .\n. . . . . . .\nw . . w w w w\nw . . w w w .\n. . . . . w .\n. . . . . . w\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . w .\n. . . . . w . .\n. . . . . . w .\n. . . . . . . w\n",
+    "2,19": "ROUND 2\nDIR W\nLENGTH 4\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n38 16 0 -1\n39 16 0 -1\n40 16 0 -1\n41 16 0 -1\n42 16 0 -1\n43 16 0 -1\n44 16 0 -1\n38 17 0 -1\n39 17 0 -1\n40 17 0 -1\n41 17 0 -1\n42 17 0 -1\n43 17 0 -1\n44 17 0 -1\n38 18 0 -1\n39 18 0 -1\n40 18 0 -1\n41 18 0 -1\n42 18 0 -1\n43 18 0 -1\n44 18 0 -1\n38 19 0 -1\n39 19 1 1\n40 19 1 1\n41 19 0 -1\n42 19 0 -1\n43 19 0 -1\n44 19 0 1\n38 20 0 -1\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n38 21 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\nDRAGON_BODIES 4\nB 19 41 19 W 1\nB 19 42 19 W 0\nB 19 43 19 W 0\nB 19 44 19 W 0\n. . . . . . .\nw . . . . . .\n. w . . . . .\n. w w w . . w\nw w w w . . w\n. . . . . . .\n. . . . . . .\n. . . . . . w\nw . . . . . . .\n. w . . . . . .\n. . w . . . . .\n. w . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "2,20": "ROUND 2\nDIR W\nLENGTH 5\nUNIT_COUNT 10\nNUM_MSGS 1\n4877961440918511843\nECHOES 0 0 0 0 0\n29 2 0 -1\n30 2 0 -1\n31 2 0 -1\n32 2 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n29 3 0 -1\n30 3 0 -1\n31 3 0 -1\n32 3 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n29 4 0 -1\n30 4 0 -1\n31 4 0 -1\n32 4 0 -1\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n29 5 0 -1\n30 5 0 -1\n31 5 1 1\n32 5 0 1\n33 5 0 -1\n34 5 0 -1\n35 5 0 -1\n29 6 0 -1\n30 6 0 -1\n31 6 0 -1\n32 6 0 -1\n33 6 0 -1\n34 6 0 -1\n35 6 0 -1\n29 7 0 -1\n30 7 0 -1\n31 7 0 -1\n32 7 0 -1\n33 7 0 -1\n34 7 0 -1\n35 7 0 -1\n29 8 0 -1\n30 8 0 -1\n31 8 0 -1\n32 8 0 -1\n33 8 0 -1\n34 8 0 -1\n35 8 0 -1\nDRAGON_BODIES 7\nB 11 35 3 N 1\nB 11 35 4 N 0\nA 20 32 5 W 1\nA 20 33 5 W 0\nA 20 33 4 S 0\nA 20 33 3 S 0\nA 20 33 2 S 0\n. . w . . . .\n. . . . . . .\n. . . . . . .\nw w w w . w .\nw . w w w . w\nw w w w . . .\nw . w . . . .\nw . . w . . .\n. . . . w w . .\n. . . . . . . .\n. . . . . . . .\n. . w . . w w .\nw . . . . . . .\n. . . . w . . .\n. w w . w . . .\n",
+    "2,21": "ROUND 2\nDIR E\nLENGTH 5\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n27 18 0 -1\n28 18 0 -1\n29 18 0 -1\n30 18 0 -1\n31 18 0 -1\n32 18 0 -1\n33 18 0 -1\n27 19 0 -1\n28 19 0 -1\n29 19 0 -1\n30 19 0 -1\n31 19 0 -1\n32 19 0 -1\n33 19 0 -1\n27 20 0 -1\n28 20 0 -1\n29 20 0 -1\n30 20 0 -1\n31 20 0 -1\n32 20 0 -1\n33 20 0 -1\n27 21 0 -1\n28 21 0 -1\n29 21 0 -1\n30 21 0 1\n31 21 1 1\n32 21 0 -1\n33 21 0 -1\n27 22 0 -1\n28 22 0 -1\n29 22 0 -1\n30 22 0 -1\n31 22 0 -1\n32 22 0 -1\n33 22 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 0 -1\n30 23 0 -1\n31 23 0 -1\n32 23 0 -1\n33 23 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 0 1\n30 24 0 -1\n31 24 0 -1\n32 24 0 -1\n33 24 0 -1\nDRAGON_BODIES 5\nB 21 30 21 E 1\nB 21 29 21 E 0\nB 21 29 22 N 0\nB 21 29 23 N 0\nB 21 29 24 N 0\n. . . w . . w\n. . . . w . w\n. . . w w w w\nw . w w w . w\n. w . w w w w\n. . . . . . .\n. . . . . . .\n. . . . w . .\n. . . w . w w .\n. . . w . . . .\n. . . . . . . w\n. w w . . w . .\n. . . . . . . .\n. . . . . . . .\n. . w w . . . .\n",
+    "3,0": "ROUND 3\nDIR N\nLENGTH 2\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n5 5 0 -1\n6 5 0 -1\n7 5 0 -1\n8 5 0 -1\n9 5 0 -1\n10 5 0 -1\n11 5 0 -1\n5 6 0 -1\n6 6 0 -1\n7 6 0 -1\n8 6 0 -1\n9 6 0 -1\n10 6 0 -1\n11 6 0 -1\n5 7 0 -1\n6 7 0 -1\n7 7 0 -1\n8 7 0 -1\n9 7 0 -1\n10 7 0 -1\n11 7 0 -1\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 0 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 0 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\nDRAGON_BODIES 4\nA 0 8 8 N 1\nA 0 8 9 N 0\nA 16 8 11 S 0\nA 16 8 10 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "3,1": "ROUND 3\nDIR S\nLENGTH 2\nUNIT_COUNT 10\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 0 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 0 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\n51 19 0 -1\n52 19 0 -1\n53 19 0 -1\n54 19 0 -1\n55 19 0 -1\n56 19 0 -1\n57 19 0 -1\n51 20 0 -1\n52 20 0 -1\n53 20 0 -1\n54 20 0 -1\n55 20 0 -1\n56 20 0 -1\n57 20 0 -1\n51 21 0 -1\n52 21 0 -1\n53 21 0 -1\n54 21 0 -1\n55 21 0 -1\n56 21 0 -1\n57 21 0 -1\nDRAGON_BODIES 4\nB 1 54 18 S 1\nB 1 54 17 S 0\nB 17 54 15 N 0\nB 17 54 16 N 0\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "3,2": "ROUND 3\nDIR W\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 1\n11874866472121553366\nECHOES 0 0 0 0 0\n13 4 0 -1\n14 4 0 1881\n15 4 0 1494\n16 4 0 894\n17 4 0 1894\n18 4 0 -1\n19 4 0 -1\n13 5 0 -1\n14 5 0 917\n15 5 0 -1\n16 5 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n13 6 0 -1\n14 6 0 -1\n15 6 0 -1\n16 6 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n13 7 0 -1\n14 7 0 -1\n15 7 0 -1\n16 7 0 1\n17 7 0 1\n18 7 0 1\n19 7 0 -1\n13 8 0 -1\n14 8 0 -1\n15 8 0 -1\n16 8 0 -1\n17 8 0 -1\n18 8 0 -1\n19 8 0 -1\n13 9 0 -1\n14 9 0 -1\n15 9 0 -1\n16 9 0 -1\n17 9 0 -1\n18 9 0 -1\n19 9 0 -1\n13 10 0 -1\n14 10 0 -1\n15 10 0 -1\n16 10 0 -1\n17 10 0 -1\n18 10 0 -1\n19 10 0 -1\nDRAGON_BODIES 5\nA 2 16 7 W 1\nA 2 17 7 W 0\nA 12 19 5 E 0\nA 18 19 7 E 0\nA 18 18 7 E 0\n. . . . w w .\n. . . w . . .\n. . w . . . .\n. . w w w w .\nw w w w w w .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . w . . .\n. . . w . . . .\n. . . w . . . .\n. . . w . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "3,3": "ROUND 3\nDIR E\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 1\n5387994167437710568\nECHOES 0 0 0 0 0\n43 16 0 -1\n44 16 0 -1\n45 16 0 -1\n46 16 0 -1\n47 16 0 -1\n48 16 0 -1\n49 16 0 -1\n43 17 0 -1\n44 17 0 -1\n45 17 0 -1\n46 17 0 -1\n47 17 0 -1\n48 17 0 -1\n49 17 0 -1\n43 18 0 -1\n44 18 0 -1\n45 18 0 -1\n46 18 0 -1\n47 18 0 -1\n48 18 0 -1\n49 18 0 -1\n43 19 0 -1\n44 19 0 1\n45 19 0 1\n46 19 0 1\n47 19 0 -1\n48 19 0 -1\n49 19 0 -1\n43 20 0 -1\n44 20 0 -1\n45 20 0 -1\n46 20 0 -1\n47 20 0 -1\n48 20 0 -1\n49 20 0 -1\n43 21 0 -1\n44 21 0 -1\n45 21 0 -1\n46 21 0 -1\n47 21 0 -1\n48 21 0 917\n49 21 0 -1\n43 22 0 -1\n44 22 0 -1\n45 22 0 1894\n46 22 0 894\n47 22 0 1494\n48 22 0 1881\n49 22 0 -1\nDRAGON_BODIES 4\nB 3 46 19 E 1\nB 3 45 19 E 0\nB 19 43 19 W 0\nB 19 44 19 W 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. w w w w w w\n. w w w w . .\n. . . . w . .\n. . . w . . .\n. w w . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . w . . .\n. . . . w . . .\n. . . . w . . .\n. . . w . . . .\n",
+    "3,6": "ROUND 3\nDIR W\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n11 12 0 -1\n12 12 0 -1\n13 12 0 -1\n14 12 0 -1\n15 12 0 -1\n16 12 0 -1\n17 12 0 -1\n11 13 0 -1\n12 13 0 -1\n13 13 0 -1\n14 13 0 -1\n15 13 0 -1\n16 13 0 -1\n17 13 0 -1\n11 14 0 -1\n12 14 0 -1\n13 14 0 -1\n14 14 0 -1\n15 14 0 -1\n16 14 0 -1\n17 14 0 -1\n11 15 0 -1\n12 15 0 -1\n13 15 0 -1\n14 15 0 -1\n15 15 0 -1\n16 15 0 -1\n17 15 0 -1\n11 16 0 -1\n12 16 0 -1\n13 16 0 -1\n14 16 0 -1\n15 16 0 -1\n16 16 0 -1\n17 16 0 -1\n11 17 0 -1\n12 17 0 -1\n13 17 0 -1\n14 17 0 -1\n15 17 0 -1\n16 17 0 -1\n17 17 0 -1\n11 18 0 -1\n12 18 0 -1\n13 18 0 -1\n14 18 0 -1\n15 18 0 -1\n16 18 0 -1\n17 18 0 -1\nDRAGON_BODIES 2\nA 6 14 15 W 1\nA 6 15 15 W 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "3,7": "ROUND 3\nDIR E\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n45 8 0 -1\n46 8 0 -1\n47 8 0 -1\n48 8 0 -1\n49 8 0 -1\n50 8 0 -1\n51 8 0 -1\n45 9 0 -1\n46 9 0 -1\n47 9 0 -1\n48 9 0 -1\n49 9 0 -1\n50 9 0 -1\n51 9 0 -1\n45 10 0 -1\n46 10 0 -1\n47 10 0 -1\n48 10 0 -1\n49 10 0 -1\n50 10 0 -1\n51 10 0 -1\n45 11 0 -1\n46 11 0 -1\n47 11 0 -1\n48 11 0 -1\n49 11 0 -1\n50 11 0 -1\n51 11 0 -1\n45 12 0 -1\n46 12 0 -1\n47 12 0 -1\n48 12 0 -1\n49 12 0 -1\n50 12 0 -1\n51 12 0 -1\n45 13 0 -1\n46 13 0 -1\n47 13 0 -1\n48 13 0 -1\n49 13 0 -1\n50 13 0 -1\n51 13 0 -1\n45 14 0 -1\n46 14 0 -1\n47 14 0 -1\n48 14 0 -1\n49 14 0 -1\n50 14 0 -1\n51 14 0 -1\nDRAGON_BODIES 2\nB 7 48 11 E 1\nB 7 47 11 E 0\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "3,8": "ROUND 3\nDIR N\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 1\n8480278270170915167\nECHOES 0 0 0 0 0\n30 24 0 -1\n31 24 0 -1\n32 24 0 -1\n33 24 0 -1\n34 24 0 -1\n35 24 0 -1\n36 24 0 -1\n30 25 0 -1\n31 25 1 1\n32 25 1 3\n33 25 1 3\n34 25 1 2\n35 25 0 1\n36 25 1 1\n30 26 0 -1\n31 26 1 4\n32 26 1 2\n33 26 1 4\n34 26 1 3\n35 26 1 3\n36 26 0 1\n30 0 1 2\n31 0 1 4\n32 0 0 -1\n33 0 0 1\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n30 1 1 3\n31 1 1 1\n32 1 0 -1\n33 1 0 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n30 2 0 -1\n31 2 0 -1\n32 2 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n30 3 0 -1\n31 3 0 -1\n32 3 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\nDRAGON_BODIES 5\nA 8 33 0 N 1\nA 8 33 1 N 0\nB 11 35 3 N 1\nA 20 33 3 S 0\nA 20 33 2 S 0\n. . . . . . .\n. w . . w w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . . .\nw w . . . w . .\nw w . w . w . w\nw . w w w . . .\n. . w w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "3,9": "ROUND 3\nDIR S\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 1\n9575215938165302623\nECHOES 0 0 0 0 0\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 0 -1\n30 23 0 -1\n31 23 0 -1\n32 23 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 0 1\n30 24 0 -1\n31 24 0 -1\n32 24 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 0 1\n30 25 0 -1\n31 25 1 1\n32 25 1 3\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 0 1\n30 26 0 -1\n31 26 1 4\n32 26 1 2\n26 0 0 1\n27 0 1 3\n28 0 1 3\n29 0 1 4\n30 0 1 2\n31 0 1 4\n32 0 0 -1\n26 1 1 1\n27 1 0 1\n28 1 1 2\n29 1 1 3\n30 1 1 3\n31 1 1 1\n32 1 0 -1\n26 2 0 -1\n27 2 0 -1\n28 2 0 -1\n29 2 0 -1\n30 2 0 -1\n31 2 0 -1\n32 2 0 -1\nDRAGON_BODIES 4\nB 9 29 26 S 1\nB 9 29 25 S 0\nB 21 29 23 N 0\nB 21 29 24 N 0\n. . . . . . .\n. . . . . . .\n. . . . . w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w w . . w .\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w w . .\n. . . w w w . w\nw . w . w . w w\n. . w . . . w w\n. . . . . . . w\n",
+    "3,10": "ROUND 3\nDIR S\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n22 22 1 3\n23 22 0 3\n24 22 0 -1\n25 22 0 -1\n26 22 0 -1\n27 22 0 -1\n28 22 0 -1\n22 23 0 6\n23 23 0 3\n24 23 0 -1\n25 23 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n22 24 0 -1\n23 24 0 -1\n24 24 0 -1\n25 24 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n22 25 0 -1\n23 25 0 -1\n24 25 0 -1\n25 25 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n22 26 0 -1\n23 26 0 -1\n24 26 0 -1\n25 26 0 -1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n22 0 0 1\n23 0 1 1\n24 0 1 3\n25 0 0 1\n26 0 0 1\n27 0 1 3\n28 0 1 3\n22 1 1 1\n23 1 1 1\n24 1 1 3\n25 1 1 4\n26 1 1 1\n27 1 0 1\n28 1 1 2\nDRAGON_BODIES 2\nA 10 25 25 S 1\nA 10 25 24 S 0\n. w . . . . w\n. . . . . . .\nw w . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w w . . w w\n. . w . . . . .\nw . w . . . . .\n. . . . . . . w\nw . . . . . . w\nw . . . . . . w\nw . w . w . w .\n. . w . . . w .\n",
+    "3,11": "ROUND 3\nDIR N\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 0 0 1 0\n32 0 0 -1\n33 0 1 1\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n37 0 0 -1\n38 0 0 -1\n32 1 0 -1\n33 1 0 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n37 1 0 -1\n38 1 0 -1\n32 2 0 -1\n33 2 0 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n37 2 0 -1\n38 2 0 -1\n32 3 0 -1\n33 3 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n37 3 0 -1\n38 3 0 -1\n32 4 0 -1\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n37 4 0 -1\n38 4 0 -1\n32 5 0 1\n33 5 0 -1\n34 5 0 -1\n35 5 0 -1\n36 5 0 -1\n37 5 0 -1\n38 5 0 -1\n32 6 0 -1\n33 6 0 -1\n34 6 0 -1\n35 6 0 -1\n36 6 0 -1\n37 6 0 -1\n38 6 0 -1\nDRAGON_BODIES 7\nB 11 35 3 N 1\nB 11 35 4 N 0\nA 20 32 5 W 0\nA 20 33 5 W 0\nA 20 33 4 S 0\nA 20 33 3 S 0\nA 20 33 2 S 0\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . w . . . .\nw w . w w . .\nw . . . . w .\nw w w . . . . .\nw w w . . . . .\n. w w . . . . .\n. . . . . . . w\n. . . . . . . w\n. . w w . . . w\n. . . . . w . w\n",
+    "3,12": "ROUND 3\nDIR E\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n17 2 0 2450\n18 2 0 926\n19 2 0 837\n20 2 0 -1\n21 2 0 -1\n22 2 0 -1\n23 2 0 -1\n17 3 0 1818\n18 3 0 -1\n19 3 0 -1\n20 3 0 -1\n21 3 0 -1\n22 3 0 -1\n23 3 0 -1\n17 4 0 1894\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n23 4 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n23 5 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n23 6 0 -1\n17 7 0 1\n18 7 0 1\n19 7 0 -1\n20 7 0 -1\n21 7 0 -1\n22 7 0 1\n23 7 1 1\n17 8 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\n23 8 0 -1\nDRAGON_BODIES 7\nA 12 20 5 E 1\nA 12 19 5 E 0\nA 18 22 7 E 1\nA 18 21 7 E 0\nA 18 20 7 E 0\nA 18 19 7 E 0\nA 18 18 7 E 0\n. . . w . . w\n. . w . . . .\nw w . . . . .\n. . . . . . .\n. . . . . . .\nw w . . w w w\nw w . . w w w\n. . . . . . w\n. . . w . . . .\n. . w . . . . .\nw . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . w\n. . . . . . w .\n",
+    "3,13": "ROUND 3\nDIR S\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n38 21 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n38 23 0 -1\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n44 23 0 -1\n38 24 0 -1\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 837\n44 24 0 926\n38 25 1 3\n39 25 1 1\n40 25 1 1\n41 25 1 1\n42 25 1 1\n43 25 0 952\n44 25 0 1845\n38 26 1 3\n39 26 1 1\n40 26 0 1\n41 26 0 1\n42 26 1 4\n43 26 0 1988\n44 26 0 450\n38 0 0 -1\n39 0 0 -1\n40 0 0 -1\n41 0 0 3\n42 0 0 3\n43 0 1 3\n44 0 1 9\nDRAGON_BODIES 2\nB 13 41 24 S 1\nB 13 41 23 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . w .\nw w . . w . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . w .\n. . . . . w . .\n. w . . . w . .\n. w . w . w . .\n. . . w . w . w\n",
+    "3,14": "ROUND 3\nDIR E\nLENGTH 23\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n0 22 0 2214\n1 22 0 1029\n2 22 0 -1\n3 22 1 -1\n4 22 0 -1\n5 22 0 -1\n6 22 0 -1\n0 23 0 854\n1 23 0 105\n2 23 0 2500\n3 23 0 -1\n4 23 0 -1\n5 23 0 -1\n6 23 0 -1\n0 24 0 1987\n1 24 0 927\n2 24 0 663\n3 24 0 541\n4 24 0 2036\n5 24 0 -1\n6 24 0 -1\n0 25 0 1306\n1 25 0 1758\n2 25 0 1747\n3 25 0 2098\n4 25 0 734\n5 25 0 860\n6 25 0 81\n0 26 0 190\n1 26 0 1698\n2 26 0 498\n3 26 0 2408\n4 26 0 1586\n5 26 0 1762\n6 26 0 1330\n0 0 0 1921\n1 0 0 1781\n2 0 0 1866\n3 0 0 1567\n4 0 0 1177\n5 0 0 -1\n6 0 0 -1\n0 1 0 1259\n1 1 0 1816\n2 1 0 1637\n3 1 0 298\n4 1 0 331\n5 1 0 1085\n6 1 0 -1\nDRAGON_BODIES 14\nA 14 3 25 E 1\nA 14 2 25 E 0\nA 14 1 25 E 0\nA 14 1 24 S 0\nA 14 1 23 S 0\nA 14 1 22 S 0\nA 14 5 22 N 0\nA 14 5 23 N 0\nA 14 5 24 N 0\nA 14 4 24 E 0\nA 14 3 24 E 0\nA 14 2 24 E 0\nA 14 2 23 S 0\nA 14 2 22 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\n",
+    "3,15": "ROUND 3\nDIR W\nLENGTH 23\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n56 25 0 -1\n57 25 0 1085\n58 25 0 331\n59 25 0 298\n60 25 0 1637\n61 25 0 1816\n62 25 0 1259\n56 26 0 -1\n57 26 0 -1\n58 26 0 1177\n59 26 0 1567\n60 26 0 1866\n61 26 0 1781\n62 26 0 1921\n56 0 0 1330\n57 0 0 1762\n58 0 0 1586\n59 0 0 2408\n60 0 0 498\n61 0 0 1698\n62 0 0 190\n56 1 0 81\n57 1 0 860\n58 1 0 734\n59 1 0 2098\n60 1 0 1747\n61 1 0 1758\n62 1 0 1306\n56 2 0 -1\n57 2 0 -1\n58 2 0 2036\n59 2 0 541\n60 2 0 663\n61 2 0 927\n62 2 0 1987\n56 3 0 -1\n57 3 0 -1\n58 3 0 -1\n59 3 0 -1\n60 3 0 2500\n61 3 0 105\n62 3 0 854\n56 4 0 -1\n57 4 0 -1\n58 4 0 -1\n59 4 1 -1\n60 4 0 -1\n61 4 0 1029\n62 4 0 2214\nDRAGON_BODIES 14\nB 15 59 1 W 1\nB 15 60 1 W 0\nB 15 61 1 W 0\nB 15 61 2 N 0\nB 15 61 3 N 0\nB 15 61 4 N 0\nB 15 57 4 S 0\nB 15 57 3 S 0\nB 15 57 2 S 0\nB 15 58 2 W 0\nB 15 59 2 W 0\nB 15 60 2 W 0\nB 15 60 3 N 0\nB 15 60 4 N 0\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n. . . . . . . w\n",
+    "3,16": "ROUND 3\nDIR S\nLENGTH 8\nUNIT_COUNT 7\nNUM_MSGS 1\n15145605598436926350\nECHOES 0 0 0 0 0\n5 14 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n11 14 0 -1\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n11 16 0 -1\n5 17 0 -1\n6 17 0 -1\n7 17 0 -1\n8 17 0 1\n9 17 0 -1\n10 17 0 -1\n11 17 0 -1\n5 18 0 -1\n6 18 0 -1\n7 18 0 -1\n8 18 1 1\n9 18 0 -1\n10 18 0 -1\n11 18 0 -1\n5 19 0 -1\n6 19 0 -1\n7 19 0 -1\n8 19 0 -1\n9 19 0 -1\n10 19 0 -1\n11 19 0 -1\n5 20 0 -1\n6 20 0 -1\n7 20 0 -1\n8 20 0 -1\n9 20 0 -1\n10 20 0 -1\n11 20 0 -1\nDRAGON_BODIES 5\nA 14 5 20 W 0\nA 16 8 17 S 1\nA 16 8 16 S 0\nA 16 8 15 S 0\nA 16 8 14 S 0\nw . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n1 . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "3,17": "ROUND 3\nDIR N\nLENGTH 8\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n51 6 0 -1\n52 6 0 -1\n53 6 0 -1\n54 6 0 -1\n55 6 0 -1\n56 6 0 -1\n57 6 0 -1\n51 7 0 -1\n52 7 0 -1\n53 7 0 -1\n54 7 0 -1\n55 7 0 -1\n56 7 0 -1\n57 7 0 -1\n51 8 0 -1\n52 8 0 -1\n53 8 0 -1\n54 8 1 1\n55 8 0 -1\n56 8 0 -1\n57 8 0 -1\n51 9 0 -1\n52 9 0 -1\n53 9 0 -1\n54 9 0 1\n55 9 0 -1\n56 9 0 -1\n57 9 0 -1\n51 10 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n51 11 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n51 12 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\nDRAGON_BODIES 5\nB 15 57 6 E 0\nB 17 54 9 N 1\nB 17 54 10 N 0\nB 17 54 11 N 0\nB 17 54 12 N 0\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . 0\n",
+    "3,18": "ROUND 3\nDIR E\nLENGTH 5\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n23 4 0 -1\n24 4 0 -1\n25 4 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n23 5 0 -1\n24 5 0 -1\n25 5 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n23 6 0 -1\n24 6 0 -1\n25 6 0 -1\n19 7 0 -1\n20 7 0 -1\n21 7 0 -1\n22 7 0 1\n23 7 1 1\n24 7 0 -1\n25 7 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\n23 8 0 -1\n24 8 0 -1\n25 8 0 -1\n19 9 0 -1\n20 9 0 -1\n21 9 0 -1\n22 9 0 -1\n23 9 0 -1\n24 9 0 -1\n25 9 0 -1\n19 10 0 -1\n20 10 0 -1\n21 10 0 -1\n22 10 0 -1\n23 10 0 -1\n24 10 0 -1\n25 10 0 5\nDRAGON_BODIES 6\nA 12 21 5 E 1\nA 12 20 5 E 0\nA 18 22 7 E 1\nA 18 21 7 E 0\nA 18 20 7 E 0\nA 18 19 7 E 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . w w w w w\n. . w w w . .\n. . . . w . .\n. . . . . w .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . w\n. . . . . w . .\n. . . . w . . .\n. . . . . w . .\n. . . . . . w .\n",
+    "3,19": "ROUND 3\nDIR W\nLENGTH 5\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n37 16 0 5\n38 16 0 -1\n39 16 0 -1\n40 16 0 -1\n41 16 0 -1\n42 16 0 -1\n43 16 0 -1\n37 17 0 -1\n38 17 0 -1\n39 17 0 -1\n40 17 0 -1\n41 17 0 -1\n42 17 0 -1\n43 17 0 -1\n37 18 0 -1\n38 18 0 -1\n39 18 0 -1\n40 18 0 -1\n41 18 0 -1\n42 18 0 -1\n43 18 0 -1\n37 19 0 -1\n38 19 0 -1\n39 19 1 1\n40 19 0 1\n41 19 0 -1\n42 19 0 -1\n43 19 0 -1\n37 20 0 -1\n38 20 0 -1\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n37 21 0 -1\n38 21 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n37 22 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\nDRAGON_BODIES 4\nB 19 40 19 W 1\nB 19 41 19 W 0\nB 19 42 19 W 0\nB 19 43 19 W 0\n. . . . . . .\n. w . . . . .\n. . w . . . .\n. . w w w . .\nw w w w w . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. w . . . . . .\n. . w . . . . .\n. . . w . . . .\n. . w . . . . .\nw . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "3,20": "ROUND 3\nDIR W\nLENGTH 6\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n28 2 0 -1\n29 2 0 -1\n30 2 0 -1\n31 2 0 -1\n32 2 0 -1\n33 2 0 1\n34 2 0 -1\n28 3 0 -1\n29 3 0 -1\n30 3 0 -1\n31 3 0 -1\n32 3 0 -1\n33 3 0 -1\n34 3 0 -1\n28 4 0 -1\n29 4 0 -1\n30 4 0 -1\n31 4 0 -1\n32 4 0 -1\n33 4 0 -1\n34 4 0 -1\n28 5 0 -1\n29 5 0 -1\n30 5 0 -1\n31 5 0 1\n32 5 0 1\n33 5 0 -1\n34 5 0 -1\n28 6 0 -1\n29 6 0 -1\n30 6 0 -1\n31 6 0 -1\n32 6 0 -1\n33 6 0 -1\n34 6 0 -1\n28 7 0 -1\n29 7 0 -1\n30 7 0 -1\n31 7 0 -1\n32 7 0 -1\n33 7 0 -1\n34 7 0 -1\n28 8 0 -1\n29 8 0 -1\n30 8 0 -1\n31 8 0 -1\n32 8 0 -1\n33 8 0 -1\n34 8 0 -1\nDRAGON_BODIES 6\nA 20 31 5 W 1\nA 20 32 5 W 0\nA 20 33 5 W 0\nA 20 33 4 S 0\nA 20 33 3 S 0\nA 20 33 2 S 0\nw . . w . . .\n. . . . . . .\n. . . . . . .\nw w w w w . w\n. w . w w w .\nw w w w w . .\nw w . w . . .\n. w . . w . .\n. . . . . w w .\n. . . . . . . .\n. . . . . . . .\n. . . w . . w w\n. w . . . . . .\nw . . . . w . .\n. . w w . w . .\n",
+    "3,21": "ROUND 3\nDIR E\nLENGTH 6\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n28 18 0 -1\n29 18 0 -1\n30 18 0 -1\n31 18 0 -1\n32 18 0 -1\n33 18 0 -1\n34 18 0 -1\n28 19 0 -1\n29 19 0 -1\n30 19 0 -1\n31 19 0 -1\n32 19 0 -1\n33 19 0 -1\n34 19 0 -1\n28 20 0 -1\n29 20 0 -1\n30 20 0 -1\n31 20 0 -1\n32 20 0 -1\n33 20 0 -1\n34 20 0 -1\n28 21 0 -1\n29 21 0 -1\n30 21 0 1\n31 21 0 1\n32 21 0 -1\n33 21 0 -1\n34 21 0 -1\n28 22 0 -1\n29 22 0 -1\n30 22 0 -1\n31 22 0 -1\n32 22 0 -1\n33 22 0 -1\n34 22 0 -1\n28 23 0 -1\n29 23 0 -1\n30 23 0 -1\n31 23 0 -1\n32 23 0 -1\n33 23 0 -1\n34 23 0 -1\n28 24 0 -1\n29 24 0 1\n30 24 0 -1\n31 24 0 -1\n32 24 0 -1\n33 24 0 -1\n34 24 0 -1\nDRAGON_BODIES 6\nB 21 31 21 E 1\nB 21 30 21 E 0\nB 21 29 21 E 0\nB 21 29 22 N 0\nB 21 29 23 N 0\nB 21 29 24 N 0\n. . w . . w .\n. . . w . w w\n. . w w w w w\n. w w w . w .\nw . w w w w w\n. . . . . . .\n. . . . . . .\n. . . w . . w\n. . w . w w . .\n. . w . . . . w\n. . . . . . w .\nw w . . w . . .\n. . . . . . . .\n. . . . . . . .\n. w w . . . . .\n",
+    "4,6": "ROUND 4\nDIR N\nLENGTH 2\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n11 11 0 -1\n12 11 0 -1\n13 11 0 -1\n14 11 0 -1\n15 11 0 -1\n16 11 0 -1\n17 11 0 -1\n11 12 0 -1\n12 12 0 -1\n13 12 0 -1\n14 12 0 -1\n15 12 0 -1\n16 12 0 -1\n17 12 0 -1\n11 13 0 -1\n12 13 0 -1\n13 13 0 -1\n14 13 0 -1\n15 13 0 -1\n16 13 0 -1\n17 13 0 -1\n11 14 0 -1\n12 14 0 -1\n13 14 0 -1\n14 14 0 -1\n15 14 0 -1\n16 14 0 -1\n17 14 0 -1\n11 15 0 -1\n12 15 0 -1\n13 15 0 -1\n14 15 0 -1\n15 15 0 -1\n16 15 0 -1\n17 15 0 -1\n11 16 0 -1\n12 16 0 -1\n13 16 0 -1\n14 16 0 -1\n15 16 0 -1\n16 16 0 -1\n17 16 0 -1\n11 17 0 -1\n12 17 0 -1\n13 17 0 -1\n14 17 0 -1\n15 17 0 -1\n16 17 0 -1\n17 17 0 -1\nDRAGON_BODIES 2\nA 6 14 14 N 1\nA 6 14 15 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "4,7": "ROUND 4\nDIR N\nLENGTH 2\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n45 7 0 -1\n46 7 0 -1\n47 7 0 -1\n48 7 0 -1\n49 7 0 -1\n50 7 0 -1\n51 7 0 -1\n45 8 0 -1\n46 8 0 -1\n47 8 0 -1\n48 8 0 -1\n49 8 0 -1\n50 8 0 -1\n51 8 0 -1\n45 9 0 -1\n46 9 0 -1\n47 9 0 -1\n48 9 0 -1\n49 9 0 -1\n50 9 0 -1\n51 9 0 -1\n45 10 0 -1\n46 10 0 -1\n47 10 0 -1\n48 10 0 -1\n49 10 0 -1\n50 10 0 -1\n51 10 0 -1\n45 11 0 -1\n46 11 0 -1\n47 11 0 -1\n48 11 0 -1\n49 11 0 -1\n50 11 0 -1\n51 11 0 -1\n45 12 0 -1\n46 12 0 -1\n47 12 0 -1\n48 12 0 -1\n49 12 0 -1\n50 12 0 -1\n51 12 0 -1\n45 13 0 -1\n46 13 0 -1\n47 13 0 -1\n48 13 0 -1\n49 13 0 -1\n50 13 0 -1\n51 13 0 -1\nDRAGON_BODIES 2\nB 7 48 10 N 1\nB 7 48 11 N 0\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . w . w . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "4,10": "ROUND 4\nDIR S\nLENGTH 2\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n22 23 0 5\n23 23 0 2\n24 23 0 -1\n25 23 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n22 24 0 -1\n23 24 0 -1\n24 24 0 -1\n25 24 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n22 25 0 -1\n23 25 0 -1\n24 25 0 -1\n25 25 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n22 26 0 -1\n23 26 0 -1\n24 26 0 -1\n25 26 0 -1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n22 0 1 5\n23 0 1 4\n24 0 1 2\n25 0 1 5\n26 0 1 4\n27 0 1 2\n28 0 1 2\n22 1 1 4\n23 1 1 1\n24 1 1 2\n25 1 1 3\n26 1 1 5\n27 1 1 3\n28 1 1 1\n22 2 0 -1\n23 2 0 -1\n24 2 0 -1\n25 2 0 -1\n26 2 0 -1\n27 2 0 -1\n28 2 0 -1\nDRAGON_BODIES 2\nA 10 25 26 S 1\nA 10 25 25 S 0\n. . . . . . .\nw w . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. w w . . w w\n. . . . . . .\nw . w . . . . .\n. . . . . . . w\nw . . . . . . w\nw . . . . . . w\nw . w . w . w .\n. . w . . . w .\n. . . . . . . .\n",
+    "4,11": "ROUND 4\nDIR N\nLENGTH 2\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n32 26 1 1\n33 26 1 3\n34 26 1 2\n35 26 1 2\n36 26 1 4\n37 26 1 5\n38 26 1 2\n32 0 0 -1\n33 0 1 1\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n37 0 0 -1\n38 0 0 -1\n32 1 0 -1\n33 1 1 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n37 1 0 -1\n38 1 0 -1\n32 2 0 -1\n33 2 1 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n37 2 0 -1\n38 2 0 -1\n32 3 0 -1\n33 3 1 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n37 3 0 -1\n38 3 0 -1\n32 4 0 -1\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n37 4 0 -1\n38 4 0 -1\n32 5 1 1\n33 5 1 -1\n34 5 0 -1\n35 5 0 -1\n36 5 0 -1\n37 5 0 -1\n38 5 0 -1\nDRAGON_BODIES 2\nB 11 35 2 N 1\nB 11 35 3 N 0\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . w . . . .\nw w . w w . .\n. w . w . w . w\nw w w . . . . .\nw w w . . . . .\n. w w . . . . .\n. . . . . . . w\n. . . . . . . w\n. . w w . . . w\n",
+    "4,12": "ROUND 4\nDIR E\nLENGTH 2\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n18 2 0 925\n19 2 0 836\n20 2 0 -1\n21 2 0 -1\n22 2 0 -1\n23 2 0 -1\n24 2 0 -1\n18 3 0 -1\n19 3 0 -1\n20 3 0 -1\n21 3 0 -1\n22 3 0 -1\n23 3 0 -1\n24 3 0 -1\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n23 4 0 -1\n24 4 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n23 5 0 -1\n24 5 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n23 6 0 -1\n24 6 0 -1\n18 7 0 1\n19 7 0 -1\n20 7 0 -1\n21 7 0 -1\n22 7 0 1\n23 7 0 1\n24 7 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\n23 8 0 -1\n24 8 0 -1\nDRAGON_BODIES 8\nA 12 21 5 E 1\nA 12 20 5 E 0\nA 18 23 7 E 1\nA 18 22 7 E 0\nA 18 21 7 E 0\nA 18 20 7 E 0\nA 18 19 7 E 0\nA 18 18 7 E 0\n. . w . . w w\n. w . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\nw . . w w w w\nw . . w w w .\n. . . . . w .\n. . w . . . . .\n. w . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . w .\n. . . . . w . .\n",
+    "4,13": "ROUND 4\nDIR S\nLENGTH 3\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n38 23 0 -1\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n44 23 0 -1\n38 24 0 -1\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 836\n44 24 0 925\n38 25 1 2\n39 25 1 1\n40 25 1 4\n41 25 0 4\n42 25 1 5\n43 25 0 951\n44 25 0 1844\n38 26 1 2\n39 26 1 4\n40 26 1 5\n41 26 1 1\n42 26 1 3\n43 26 0 1987\n44 26 0 449\n38 0 0 -1\n39 0 0 -1\n40 0 0 -1\n41 0 0 2\n42 0 0 2\n43 0 1 2\n44 0 1 8\n38 1 0 -1\n39 1 0 -1\n40 1 0 -1\n41 1 1 1\n42 1 0 2\n43 1 0 2\n44 1 1 5\nDRAGON_BODIES 3\nB 13 41 25 S 1\nB 13 41 24 S 0\nB 13 41 23 S 0\n. . . . . . .\n. . . . . . w\n. . . . . w .\nw w . . w . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . w . . w\n. . . . . . . .\n. . . . . . w .\n. . . . . w . .\n. w . . . w . .\n. w . w . w . .\n. . . w . w . w\n. . . w . . . w\n",
+    "4,14": "ROUND 4\nDIR E\nLENGTH 23\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n1 22 0 1028\n2 22 0 -1\n3 22 1 -1\n4 22 0 -1\n5 22 0 -1\n6 22 0 -1\n7 22 0 -1\n1 23 0 104\n2 23 0 2499\n3 23 0 -1\n4 23 0 -1\n5 23 0 -1\n6 23 0 -1\n7 23 0 -1\n1 24 0 926\n2 24 0 662\n3 24 0 540\n4 24 0 2035\n5 24 0 -1\n6 24 0 -1\n7 24 0 -1\n1 25 0 1757\n2 25 0 1746\n3 25 0 2097\n4 25 0 733\n5 25 0 859\n6 25 0 80\n7 25 0 -1\n1 26 0 1697\n2 26 0 497\n3 26 0 2407\n4 26 0 1585\n5 26 0 1761\n6 26 0 1329\n7 26 0 -1\n1 0 0 1780\n2 0 0 1865\n3 0 0 1566\n4 0 0 1176\n5 0 0 -1\n6 0 0 -1\n7 0 0 -1\n1 1 0 1815\n2 1 0 1636\n3 1 0 297\n4 1 0 330\n5 1 0 1084\n6 1 0 -1\n7 1 0 -1\nDRAGON_BODIES 15\nA 14 4 25 E 1\nA 14 3 25 E 0\nA 14 2 25 E 0\nA 14 1 25 E 0\nA 14 1 24 S 0\nA 14 1 23 S 0\nA 14 1 22 S 0\nA 14 5 22 N 0\nA 14 5 23 N 0\nA 14 5 24 N 0\nA 14 4 24 E 0\nA 14 3 24 E 0\nA 14 2 24 E 0\nA 14 2 23 S 0\nA 14 2 22 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "4,15": "ROUND 4\nDIR W\nLENGTH 23\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n55 25 0 -1\n56 25 0 -1\n57 25 0 1084\n58 25 0 330\n59 25 0 297\n60 25 0 1636\n61 25 0 1815\n55 26 0 -1\n56 26 0 -1\n57 26 0 -1\n58 26 0 1176\n59 26 0 1566\n60 26 0 1865\n61 26 0 1780\n55 0 0 -1\n56 0 0 1329\n57 0 0 1761\n58 0 0 1585\n59 0 0 2407\n60 0 0 497\n61 0 0 1697\n55 1 0 -1\n56 1 0 80\n57 1 0 859\n58 1 0 733\n59 1 0 2097\n60 1 0 1746\n61 1 0 1757\n55 2 0 -1\n56 2 0 -1\n57 2 0 -1\n58 2 0 2035\n59 2 0 540\n60 2 0 662\n61 2 0 926\n55 3 0 -1\n56 3 0 -1\n57 3 0 -1\n58 3 0 -1\n59 3 0 -1\n60 3 0 2499\n61 3 0 104\n55 4 0 -1\n56 4 0 -1\n57 4 0 -1\n58 4 0 -1\n59 4 1 -1\n60 4 0 -1\n61 4 0 1028\nDRAGON_BODIES 15\nB 15 58 1 W 1\nB 15 59 1 W 0\nB 15 60 1 W 0\nB 15 61 1 W 0\nB 15 61 2 N 0\nB 15 61 3 N 0\nB 15 61 4 N 0\nB 15 57 4 S 0\nB 15 57 3 S 0\nB 15 57 2 S 0\nB 15 58 2 W 0\nB 15 59 2 W 0\nB 15 60 2 W 0\nB 15 60 3 N 0\nB 15 60 4 N 0\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "4,16": "ROUND 4\nDIR S\nLENGTH 9\nUNIT_COUNT 6\nNUM_MSGS 1\n945755973354529614\nECHOES 0 0 0 0 0\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n11 16 0 -1\n5 17 0 -1\n6 17 0 -1\n7 17 0 -1\n8 17 0 1\n9 17 0 -1\n10 17 0 -1\n11 17 0 -1\n5 18 0 -1\n6 18 0 -1\n7 18 0 -1\n8 18 0 1\n9 18 0 -1\n10 18 0 -1\n11 18 0 -1\n5 19 0 -1\n6 19 0 -1\n7 19 0 -1\n8 19 0 -1\n9 19 0 -1\n10 19 0 -1\n11 19 0 -1\n5 20 0 -1\n6 20 0 -1\n7 20 0 -1\n8 20 0 -1\n9 20 0 -1\n10 20 0 -1\n11 20 0 -1\n5 21 0 -1\n6 21 0 -1\n7 21 0 -1\n8 21 0 -1\n9 21 0 -1\n10 21 0 -1\n11 21 0 -1\nDRAGON_BODIES 6\nA 14 5 20 W 0\nA 14 5 21 N 0\nA 16 8 18 S 1\nA 16 8 17 S 0\nA 16 8 16 S 0\nA 16 8 15 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "4,17": "ROUND 4\nDIR N\nLENGTH 9\nUNIT_COUNT 6\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n51 5 0 -1\n52 5 0 -1\n53 5 0 -1\n54 5 0 -1\n55 5 0 -1\n56 5 0 -1\n57 5 0 -1\n51 6 0 -1\n52 6 0 -1\n53 6 0 -1\n54 6 0 -1\n55 6 0 -1\n56 6 0 -1\n57 6 0 -1\n51 7 0 -1\n52 7 0 -1\n53 7 0 -1\n54 7 0 -1\n55 7 0 -1\n56 7 0 -1\n57 7 0 -1\n51 8 0 -1\n52 8 0 -1\n53 8 0 -1\n54 8 0 1\n55 8 0 -1\n56 8 0 -1\n57 8 0 -1\n51 9 0 -1\n52 9 0 -1\n53 9 0 -1\n54 9 0 1\n55 9 0 -1\n56 9 0 -1\n57 9 0 -1\n51 10 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n51 11 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\nDRAGON_BODIES 6\nB 15 57 6 E 0\nB 15 57 5 S 0\nB 17 54 8 N 1\nB 17 54 9 N 0\nB 17 54 10 N 0\nB 17 54 11 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "4,18": "ROUND 4\nDIR E\nLENGTH 6\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n23 4 0 -1\n24 4 0 -1\n25 4 0 -1\n26 4 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n23 5 0 -1\n24 5 0 -1\n25 5 0 -1\n26 5 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n23 6 0 -1\n24 6 0 -1\n25 6 0 -1\n26 6 0 -1\n20 7 0 -1\n21 7 0 -1\n22 7 0 1\n23 7 0 1\n24 7 0 -1\n25 7 0 -1\n26 7 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\n23 8 0 -1\n24 8 0 -1\n25 8 0 -1\n26 8 0 -1\n20 9 0 -1\n21 9 0 -1\n22 9 0 -1\n23 9 0 -1\n24 9 0 -1\n25 9 0 -1\n26 9 1 7\n20 10 0 -1\n21 10 0 -1\n22 10 0 -1\n23 10 0 -1\n24 10 0 -1\n25 10 0 4\n26 10 1 3\nDRAGON_BODIES 6\nA 12 21 6 S 1\nA 12 21 5 S 0\nA 18 23 7 E 1\nA 18 22 7 E 0\nA 18 21 7 E 0\nA 18 20 7 E 0\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. w w w w w .\n. w w w . . .\n. . . w . . .\n. . . . w . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . w\n. . . . . . w .\n. . . . w . . .\n. . . w . . . .\n. . . . w . . .\n. . . . . w . .\n",
+    "4,19": "ROUND 4\nDIR W\nLENGTH 6\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n36 16 1 3\n37 16 0 4\n38 16 0 -1\n39 16 0 -1\n40 16 0 -1\n41 16 0 -1\n42 16 0 -1\n36 17 1 7\n37 17 0 -1\n38 17 0 -1\n39 17 0 -1\n40 17 0 -1\n41 17 0 -1\n42 17 0 -1\n36 18 0 -1\n37 18 0 -1\n38 18 0 -1\n39 18 0 -1\n40 18 0 -1\n41 18 0 -1\n42 18 0 -1\n36 19 0 -1\n37 19 0 -1\n38 19 0 -1\n39 19 0 1\n40 19 0 1\n41 19 0 -1\n42 19 0 -1\n36 20 0 -1\n37 20 0 -1\n38 20 0 -1\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n36 21 0 -1\n37 21 0 -1\n38 21 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n36 22 0 -1\n37 22 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\nDRAGON_BODIES 4\nB 19 39 19 W 1\nB 19 40 19 W 0\nB 19 41 19 W 0\nB 19 42 19 W 0\n. . . . . . .\n. . w . . . .\n. . . w . . .\n. . . w w w .\n. w w w w w .\nw . . . . . .\n. . . . . . .\n. . . . . . .\n. . w . . . . .\n. . . w . . . .\n. . . . w . . .\n. . . w . . . .\n. w . . . . . .\nw . . . . . . .\n. . . . . . . .\n",
+    "4,22": "ROUND 4\nDIR N\nLENGTH 4\nUNIT_COUNT 6\nNUM_MSGS 1\n5069153258753234056\nECHOES 0 0 0 0 0\n5 7 0 -1\n6 7 0 -1\n7 7 0 -1\n8 7 0 -1\n9 7 0 -1\n10 7 0 -1\n11 7 0 -1\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 1 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 1 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 1 3\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n5 13 1 2\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\nDRAGON_BODIES 4\nA 22 8 10 N 1\nA 22 8 11 N 0\nA 22 8 12 N 0\nA 22 8 13 N 0\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. w . . . . . .\n0 w . . . . . .\n",
+    "4,23": "ROUND 4\nDIR S\nLENGTH 4\nUNIT_COUNT 6\nNUM_MSGS 1\n11103413809476276790\nECHOES 0 0 0 0 0\n51 13 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 2\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 3\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 1 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 1 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\n51 19 0 -1\n52 19 0 -1\n53 19 0 -1\n54 19 0 -1\n55 19 0 -1\n56 19 0 -1\n57 19 0 -1\nDRAGON_BODIES 4\nB 23 54 16 S 1\nB 23 54 15 S 0\nB 23 54 14 S 0\nB 23 54 13 S 0\n. . . . . . w\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . w 1\n. . . . . . w .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "4,24": "ROUND 4\nDIR S\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 1\n3866340469143249544\nECHOES 0 0 0 0 0\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 1 3\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n5 13 1 2\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\n5 14 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n11 14 0 -1\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n11 16 0 -1\nDRAGON_BODIES 7\nA 16 8 16 S 0\nA 16 8 15 S 0\nA 16 8 14 S 0\nA 22 8 10 N 1\nA 22 8 11 N 0\nA 24 8 13 S 1\nA 24 8 12 S 0\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w . . .\n. . . . . . . .\n. w . . . . . .\n0 w . . . . . .\n1 . . . . . . .\n. . . . . . . .\n. . . w w . . .\n",
+    "4,25": "ROUND 4\nDIR N\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 1\n5095260226051908662\nECHOES 0 0 0 0 0\n51 10 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n51 11 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n51 12 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n51 13 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 2\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 3\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\nDRAGON_BODIES 7\nB 17 54 10 N 0\nB 17 54 11 N 0\nB 17 54 12 N 0\nB 23 54 16 S 1\nB 23 54 15 S 0\nB 25 54 13 N 1\nB 25 54 14 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . 0\n. . . . . . w 1\n. . . . . . w .\n. . . . . . . .\n. . . w w . . .\n",
+    "5,6": "ROUND 5\nDIR N\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 1\n1370220392853021513\nECHOES 3 1 0 0 0\n11 10 0 -1\n12 10 0 -1\n13 10 0 -1\n14 10 0 -1\n15 10 0 -1\n16 10 0 -1\n17 10 0 -1\n11 11 0 -1\n12 11 0 -1\n13 11 0 -1\n14 11 0 -1\n15 11 0 -1\n16 11 0 -1\n17 11 0 -1\n11 12 0 -1\n12 12 0 -1\n13 12 0 -1\n14 12 0 -1\n15 12 0 -1\n16 12 0 -1\n17 12 0 -1\n11 13 0 -1\n12 13 0 -1\n13 13 0 -1\n14 13 0 -1\n15 13 0 -1\n16 13 0 -1\n17 13 0 -1\n11 14 0 -1\n12 14 0 -1\n13 14 0 -1\n14 14 0 -1\n15 14 0 -1\n16 14 0 -1\n17 14 0 -1\n11 15 0 -1\n12 15 0 -1\n13 15 0 -1\n14 15 0 -1\n15 15 0 -1\n16 15 0 -1\n17 15 0 -1\n11 16 0 -1\n12 16 0 -1\n13 16 0 -1\n14 16 0 -1\n15 16 0 -1\n16 16 0 -1\n17 16 0 -1\nDRAGON_BODIES 2\nA 6 14 13 N 1\nA 6 14 14 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "5,7": "ROUND 5\nDIR E\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n46 7 0 -1\n47 7 0 -1\n48 7 0 -1\n49 7 0 -1\n50 7 0 -1\n51 7 0 -1\n52 7 0 -1\n46 8 0 -1\n47 8 0 -1\n48 8 0 -1\n49 8 0 -1\n50 8 0 -1\n51 8 0 -1\n52 8 0 -1\n46 9 0 -1\n47 9 0 -1\n48 9 0 -1\n49 9 0 -1\n50 9 0 -1\n51 9 0 -1\n52 9 0 -1\n46 10 0 -1\n47 10 0 -1\n48 10 0 -1\n49 10 0 -1\n50 10 0 -1\n51 10 0 -1\n52 10 0 -1\n46 11 0 -1\n47 11 0 -1\n48 11 0 -1\n49 11 0 -1\n50 11 0 -1\n51 11 0 -1\n52 11 0 -1\n46 12 0 -1\n47 12 0 -1\n48 12 0 -1\n49 12 0 -1\n50 12 0 -1\n51 12 0 -1\n52 12 0 -1\n46 13 0 -1\n47 13 0 -1\n48 13 0 -1\n49 13 0 -1\n50 13 0 -1\n51 13 0 -1\n52 13 0 -1\nDRAGON_BODIES 2\nB 7 49 10 E 1\nB 7 48 10 E 0\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. w . w . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "5,10": "ROUND 5\nDIR E\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n23 23 0 1\n24 23 0 -1\n25 23 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 1 -1\n23 24 0 -1\n24 24 0 -1\n25 24 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 1 1\n23 25 0 -1\n24 25 0 -1\n25 25 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 1 1\n23 26 0 -1\n24 26 0 -1\n25 26 0 -1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 1 1\n23 0 1 3\n24 0 1 1\n25 0 1 4\n26 0 1 3\n27 0 1 1\n28 0 1 1\n29 0 1 2\n23 1 1 2\n24 1 1 1\n25 1 1 2\n26 1 1 4\n27 1 1 2\n28 1 1 5\n29 1 1 1\n23 2 0 -1\n24 2 0 -1\n25 2 0 -1\n26 2 0 -1\n27 2 0 -1\n28 2 0 -1\n29 2 0 -1\nDRAGON_BODIES 2\nA 10 26 26 E 1\nA 10 25 26 E 0\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\nw w . . w w .\n. . . . . . .\n. w . . . . . .\n. . . . . . w w\n. . . . . . w w\n. . . . . . w w\n. w . w . w . w\n. w . . . w . .\n. . . . . . . .\n",
+    "5,11": "ROUND 5\nDIR E\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n33 26 1 2\n34 26 1 1\n35 26 1 1\n36 26 1 3\n37 26 1 4\n38 26 1 1\n39 26 1 3\n33 0 1 1\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n37 0 0 -1\n38 0 0 -1\n39 0 0 -1\n33 1 1 1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n37 1 0 -1\n38 1 0 -1\n39 1 0 -1\n33 2 1 1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n37 2 0 -1\n38 2 0 -1\n39 2 0 -1\n33 3 1 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n37 3 0 -1\n38 3 0 -1\n39 3 0 1\n33 4 0 -1\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n37 4 0 -1\n38 4 0 -1\n39 4 0 1\n33 5 1 -1\n34 5 0 -1\n35 5 0 -1\n36 5 0 -1\n37 5 0 -1\n38 5 0 -1\n39 5 1 7\nDRAGON_BODIES 2\nB 11 36 2 E 1\nB 11 35 2 E 0\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. w . . . . w\nw . w w . . .\nw . w . w . w .\nw w . . . . . .\nw w . . . . . .\nw w . . . . . .\n. . . . . . w .\n. . . . . . w .\n. w w . . . w .\n",
+    "5,12": "ROUND 5\nDIR S\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n18 3 0 -1\n19 3 0 -1\n20 3 0 -1\n21 3 0 -1\n22 3 0 -1\n23 3 0 -1\n24 3 0 -1\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n23 4 0 -1\n24 4 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n23 5 0 -1\n24 5 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n23 6 0 -1\n24 6 0 -1\n18 7 1 1\n19 7 1 -1\n20 7 0 -1\n21 7 1 -1\n22 7 1 1\n23 7 1 1\n24 7 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\n23 8 0 -1\n24 8 0 -1\n18 9 0 -1\n19 9 0 -1\n20 9 0 -1\n21 9 0 -1\n22 9 0 -1\n23 9 0 -1\n24 9 0 -1\nDRAGON_BODIES 2\nA 12 21 6 S 1\nA 12 21 5 S 0\n. w . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\nw . . w w w w\nw . . w w w .\n. . . . . w .\n. . . . . . w\n. w . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . w .\n. . . . . w . .\n. . . . . . w .\n",
+    "5,13": "ROUND 5\nDIR W\nLENGTH 4\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n37 22 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n37 23 0 -1\n38 23 0 -1\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n37 24 0 -1\n38 24 0 -1\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 835\n37 25 1 2\n38 25 1 1\n39 25 1 2\n40 25 0 3\n41 25 0 3\n42 25 1 4\n43 25 0 950\n37 26 1 4\n38 26 1 1\n39 26 1 3\n40 26 1 4\n41 26 1 3\n42 26 1 2\n43 26 0 1986\n37 0 0 -1\n38 0 0 -1\n39 0 0 -1\n40 0 0 -1\n41 0 0 1\n42 0 0 1\n43 0 1 1\n37 1 0 -1\n38 1 0 -1\n39 1 0 -1\n40 1 0 -1\n41 1 1 4\n42 1 0 1\n43 1 0 1\nDRAGON_BODIES 4\nB 13 40 25 W 1\nB 13 41 25 W 0\nB 13 41 24 S 0\nB 13 41 23 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. w w . . w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . w . .\n. . . . . . . .\n. . . . . . . w\n. . . . . . w .\n. . w . . . w .\nw . w . w . w .\n. . . . w . w .\n. . . . w . . .\n",
+    "5,14": "ROUND 5\nDIR E\nLENGTH 23\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n2 22 0 -1\n3 22 1 -1\n4 22 0 -1\n5 22 0 -1\n6 22 0 -1\n7 22 0 -1\n8 22 0 -1\n2 23 0 2498\n3 23 0 -1\n4 23 0 -1\n5 23 0 -1\n6 23 0 -1\n7 23 0 -1\n8 23 0 -1\n2 24 0 661\n3 24 0 539\n4 24 0 2034\n5 24 0 -1\n6 24 0 -1\n7 24 0 -1\n8 24 0 -1\n2 25 0 1745\n3 25 0 2096\n4 25 0 732\n5 25 0 858\n6 25 0 79\n7 25 0 -1\n8 25 0 -1\n2 26 0 496\n3 26 0 2406\n4 26 0 1584\n5 26 0 1760\n6 26 0 1328\n7 26 0 -1\n8 26 0 -1\n2 0 0 1864\n3 0 0 1565\n4 0 0 1175\n5 0 0 -1\n6 0 0 -1\n7 0 0 -1\n8 0 0 -1\n2 1 0 1635\n3 1 0 296\n4 1 0 329\n5 1 0 1083\n6 1 0 -1\n7 1 0 -1\n8 1 0 -1\nDRAGON_BODIES 12\nA 14 5 25 E 1\nA 14 4 25 E 0\nA 14 3 25 E 0\nA 14 2 25 E 0\nA 14 5 22 N 0\nA 14 5 23 N 0\nA 14 5 24 N 0\nA 14 4 24 E 0\nA 14 3 24 E 0\nA 14 2 24 E 0\nA 14 2 23 S 0\nA 14 2 22 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "5,15": "ROUND 5\nDIR W\nLENGTH 23\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n54 25 0 -1\n55 25 0 -1\n56 25 0 -1\n57 25 0 1083\n58 25 0 329\n59 25 0 296\n60 25 0 1635\n54 26 0 -1\n55 26 0 -1\n56 26 0 -1\n57 26 0 -1\n58 26 0 1175\n59 26 0 1565\n60 26 0 1864\n54 0 0 -1\n55 0 0 -1\n56 0 0 1328\n57 0 0 1760\n58 0 0 1584\n59 0 0 2406\n60 0 0 496\n54 1 0 -1\n55 1 0 -1\n56 1 0 79\n57 1 0 858\n58 1 0 732\n59 1 0 2096\n60 1 0 1745\n54 2 0 -1\n55 2 0 -1\n56 2 0 -1\n57 2 0 -1\n58 2 0 2034\n59 2 0 539\n60 2 0 661\n54 3 0 -1\n55 3 0 -1\n56 3 0 -1\n57 3 0 -1\n58 3 0 -1\n59 3 0 -1\n60 3 0 2498\n54 4 0 -1\n55 4 0 -1\n56 4 0 -1\n57 4 0 -1\n58 4 0 -1\n59 4 1 -1\n60 4 0 -1\nDRAGON_BODIES 12\nB 15 57 1 W 1\nB 15 58 1 W 0\nB 15 59 1 W 0\nB 15 60 1 W 0\nB 15 57 4 S 0\nB 15 57 3 S 0\nB 15 57 2 S 0\nB 15 58 2 W 0\nB 15 59 2 W 0\nB 15 60 2 W 0\nB 15 60 3 N 0\nB 15 60 4 N 0\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "5,16": "ROUND 5\nDIR S\nLENGTH 5\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n11 16 0 -1\n5 17 0 -1\n6 17 0 -1\n7 17 0 -1\n8 17 0 1\n9 17 0 -1\n10 17 0 -1\n11 17 0 -1\n5 18 0 -1\n6 18 0 -1\n7 18 0 -1\n8 18 0 1\n9 18 0 -1\n10 18 0 -1\n11 18 0 -1\n5 19 0 -1\n6 19 0 -1\n7 19 0 -1\n8 19 0 -1\n9 19 0 -1\n10 19 0 -1\n11 19 0 -1\n5 20 0 -1\n6 20 0 -1\n7 20 0 -1\n8 20 0 -1\n9 20 0 -1\n10 20 0 -1\n11 20 0 -1\n5 21 0 -1\n6 21 0 -1\n7 21 0 -1\n8 21 0 -1\n9 21 0 -1\n10 21 0 -1\n11 21 0 -1\nDRAGON_BODIES 6\nA 14 5 20 W 0\nA 14 5 21 N 0\nA 16 8 18 S 1\nA 16 8 17 S 0\nA 16 8 16 S 0\nA 16 8 15 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "5,17": "ROUND 5\nDIR N\nLENGTH 5\nUNIT_COUNT 8\nNUM_MSGS 1\n3526881518397956849\nECHOES 3 1 0 0 0\n51 5 0 -1\n52 5 0 -1\n53 5 0 -1\n54 5 0 -1\n55 5 0 -1\n56 5 0 -1\n57 5 0 -1\n51 6 0 -1\n52 6 0 -1\n53 6 0 -1\n54 6 0 -1\n55 6 0 -1\n56 6 0 -1\n57 6 0 -1\n51 7 0 -1\n52 7 0 -1\n53 7 0 -1\n54 7 0 -1\n55 7 0 -1\n56 7 0 -1\n57 7 0 -1\n51 8 0 -1\n52 8 0 -1\n53 8 0 -1\n54 8 0 1\n55 8 0 -1\n56 8 0 -1\n57 8 0 -1\n51 9 0 -1\n52 9 0 -1\n53 9 0 -1\n54 9 0 1\n55 9 0 -1\n56 9 0 -1\n57 9 0 -1\n51 10 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n51 11 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\nDRAGON_BODIES 6\nB 15 57 6 E 0\nB 15 57 5 S 0\nB 17 54 8 N 1\nB 17 54 9 N 0\nB 17 54 10 N 0\nB 17 54 11 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "5,22": "ROUND 5\nDIR N\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n5 7 0 -1\n6 7 0 -1\n7 7 0 -1\n8 7 0 -1\n9 7 0 -1\n10 7 0 -1\n11 7 0 -1\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 1 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 1 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 1 2\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n5 13 1 1\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\nDRAGON_BODIES 4\nA 22 8 10 N 1\nA 22 8 11 N 0\nA 24 9 13 E 1\nA 24 8 13 E 0\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. w . . . . . .\n0 w . . . . . .\n",
+    "5,23": "ROUND 5\nDIR S\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n51 13 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 1\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 2\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 1 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 1 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\n51 19 0 -1\n52 19 0 -1\n53 19 0 -1\n54 19 0 -1\n55 19 0 -1\n56 19 0 -1\n57 19 0 -1\nDRAGON_BODIES 4\nB 23 54 16 S 1\nB 23 54 15 S 0\nB 25 55 13 E 1\nB 25 54 13 E 0\n. . . . . . w\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . w 1\n. . . . . . w .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "5,24": "ROUND 5\nDIR E\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 1\n8730228066720166472\nECHOES 3 0 1 0 0\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n12 10 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n12 11 0 -1\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n12 12 0 -1\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\n12 13 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n11 14 0 -1\n12 14 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n12 15 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n11 16 0 -1\n12 16 0 -1\nDRAGON_BODIES 7\nA 22 8 10 N 0\nA 22 8 11 N 0\nA 24 9 13 E 1\nA 24 8 13 E 0\nA 27 8 14 N 1\nA 27 8 15 N 0\nA 27 8 16 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . w w . . . .\n. . . . . . . .\nw . . . . . . .\nw . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . w w . . . .\n",
+    "5,25": "ROUND 5\nDIR E\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 1\n13131933761111340150\nECHOES 4 0 0 0 0\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n58 10 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n58 11 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n58 12 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 1\n58 13 1 3\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 2\n58 14 1 1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n58 15 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n58 16 0 -1\nDRAGON_BODIES 7\nB 23 54 16 S 0\nB 23 54 15 S 0\nB 25 55 13 E 1\nB 25 54 13 E 0\nB 28 54 12 S 1\nB 28 54 11 S 0\nB 28 54 10 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . . . .\n. . . . . w w\n. . . . . . .\n. . . . . . .\n. . w w . . . .\n. . . . . . . .\n. . . . . . 0 .\n. . . . . w 1 w\n. . . . . w . w\n. . . . . . . .\n. . w w . . . .\n",
+    "5,26": "ROUND 5\nDIR N\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n38 20 0 -1\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n38 21 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n38 23 0 -1\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n44 23 0 -1\n38 24 0 -1\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 835\n44 24 0 924\n38 25 1 1\n39 25 1 2\n40 25 0 3\n41 25 0 3\n42 25 1 4\n43 25 0 950\n44 25 0 1843\n38 26 1 1\n39 26 1 3\n40 26 1 4\n41 26 1 3\n42 26 1 2\n43 26 0 1986\n44 26 0 448\nDRAGON_BODIES 4\nB 13 40 25 W 1\nB 13 41 25 W 0\nB 26 41 23 N 1\nB 26 41 24 N 0\nw w w w . . w\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . w .\nw w . . w . .\n. . . . . . .\nw w w w w w w\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . w .\n. . . . . w . .\n. w . . . w . .\n. w . w . w . .\n",
+    "5,27": "ROUND 5\nDIR N\nLENGTH 3\nUNIT_COUNT 8\nNUM_MSGS 1\n4424786771414361224\nECHOES 0 0 0 0 0\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 1 2\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n5 13 1 1\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\n5 14 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n11 14 0 -1\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n11 16 0 -1\n5 17 0 -1\n6 17 0 -1\n7 17 0 -1\n8 17 0 1\n9 17 0 -1\n10 17 0 -1\n11 17 0 -1\nDRAGON_BODIES 7\nA 16 8 17 S 0\nA 22 8 11 N 0\nA 24 9 12 N 1\nA 24 9 13 N 0\nA 27 8 14 N 1\nA 27 8 15 N 0\nA 27 8 16 N 0\n. . . . . . .\nw . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. w . . . . . .\n0 w . . . . . .\n1 . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n",
+    "5,28": "ROUND 5\nDIR S\nLENGTH 3\nUNIT_COUNT 9\nNUM_MSGS 2\n6921469823427813942\n4665166478834672439\nECHOES 0 0 0 0 0\n51 9 0 -1\n52 9 0 -1\n53 9 0 -1\n54 9 0 1\n55 9 0 -1\n56 9 0 -1\n57 9 0 -1\n51 10 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n51 11 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n51 12 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n51 13 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 1\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 2\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\nDRAGON_BODIES 7\nB 17 54 9 N 0\nB 23 54 15 S 0\nB 25 55 12 N 1\nB 25 55 13 N 0\nB 28 54 12 S 1\nB 28 54 11 S 0\nB 28 54 10 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . 0\n. . . . . . w 1\n. . . . . . w .\n. . . . . . . .\n",
+    "6,6": "ROUND 6\nDIR N\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 1\n4770438111534523145\nECHOES 4 0 0 0 0\n11 9 0 -1\n12 9 0 -1\n13 9 0 -1\n14 9 0 -1\n15 9 0 -1\n16 9 0 -1\n17 9 0 -1\n11 10 0 -1\n12 10 0 -1\n13 10 0 -1\n14 10 0 -1\n15 10 0 -1\n16 10 0 -1\n17 10 0 -1\n11 11 0 -1\n12 11 0 -1\n13 11 0 -1\n14 11 0 -1\n15 11 0 -1\n16 11 0 -1\n17 11 0 -1\n11 12 0 -1\n12 12 0 -1\n13 12 0 -1\n14 12 0 -1\n15 12 0 -1\n16 12 0 -1\n17 12 0 -1\n11 13 0 -1\n12 13 0 -1\n13 13 0 -1\n14 13 0 -1\n15 13 0 -1\n16 13 0 -1\n17 13 0 -1\n11 14 0 -1\n12 14 0 -1\n13 14 0 -1\n14 14 0 -1\n15 14 0 -1\n16 14 0 -1\n17 14 0 -1\n11 15 0 -1\n12 15 0 -1\n13 15 0 -1\n14 15 0 -1\n15 15 0 -1\n16 15 0 -1\n17 15 0 -1\nDRAGON_BODIES 2\nA 6 14 12 N 1\nA 6 14 13 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "6,7": "ROUND 6\nDIR S\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n46 8 0 -1\n47 8 0 -1\n48 8 0 -1\n49 8 0 -1\n50 8 0 -1\n51 8 0 -1\n52 8 0 -1\n46 9 0 -1\n47 9 0 -1\n48 9 0 -1\n49 9 0 -1\n50 9 0 -1\n51 9 0 -1\n52 9 0 -1\n46 10 0 -1\n47 10 0 -1\n48 10 0 -1\n49 10 0 -1\n50 10 0 -1\n51 10 0 -1\n52 10 0 -1\n46 11 0 -1\n47 11 0 -1\n48 11 0 -1\n49 11 0 -1\n50 11 0 -1\n51 11 0 -1\n52 11 0 -1\n46 12 0 -1\n47 12 0 -1\n48 12 0 -1\n49 12 0 -1\n50 12 0 -1\n51 12 0 -1\n52 12 0 -1\n46 13 0 -1\n47 13 0 -1\n48 13 0 -1\n49 13 0 -1\n50 13 0 -1\n51 13 0 -1\n52 13 0 -1\n46 14 0 -1\n47 14 0 -1\n48 14 0 -1\n49 14 0 -1\n50 14 0 -1\n51 14 0 -1\n52 14 0 -1\nDRAGON_BODIES 2\nB 7 49 11 S 1\nB 7 49 10 S 0\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "6,10": "ROUND 6\nDIR E\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n24 23 0 -1\n25 23 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 1 -1\n30 23 0 -1\n24 24 0 -1\n25 24 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 1 1\n30 24 0 -1\n24 25 0 -1\n25 25 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 1 1\n30 25 0 -1\n24 26 0 -1\n25 26 0 -1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 1 1\n30 26 0 -1\n24 0 1 5\n25 0 1 3\n26 0 1 2\n27 0 1 5\n28 0 1 2\n29 0 1 1\n30 0 1 2\n24 1 1 2\n25 1 1 1\n26 1 1 3\n27 1 1 1\n28 1 1 4\n29 1 1 4\n30 1 1 2\n24 2 0 -1\n25 2 0 -1\n26 2 0 -1\n27 2 0 -1\n28 2 0 -1\n29 2 0 -1\n30 2 0 -1\nDRAGON_BODIES 2\nA 10 27 26 E 1\nA 10 26 26 E 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\nw . . w w . .\n. . . . . . .\nw . . . . . . .\n. . . . . w w .\n. . . . . w w w\n. . . . . w w w\nw . w . w . w .\nw . . . w . . .\n. . . . . . . .\n",
+    "6,11": "ROUND 6\nDIR E\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n34 26 1 2\n35 26 1 5\n36 26 1 2\n37 26 1 3\n38 26 1 5\n39 26 1 2\n40 26 1 3\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n37 0 0 -1\n38 0 0 -1\n39 0 0 -1\n40 0 0 -1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n37 1 0 -1\n38 1 0 -1\n39 1 0 -1\n40 1 0 -1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n37 2 0 -1\n38 2 0 -1\n39 2 0 -1\n40 2 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n37 3 0 -1\n38 3 0 -1\n39 3 1 3\n40 3 0 3\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n37 4 0 -1\n38 4 0 -1\n39 4 1 1\n40 4 1 3\n34 5 0 -1\n35 5 0 -1\n36 5 0 -1\n37 5 0 -1\n38 5 0 -1\n39 5 1 6\n40 5 0 3\nDRAGON_BODIES 2\nB 11 37 2 E 1\nB 11 36 2 E 0\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . . . .\nw . . . . w .\n. w w . . . .\n. w . w . w . w\nw . . . . . . w\nw . . . . . . w\nw . . . . . . .\n. . . . . w . w\n. . . . . w . .\nw w . . . w . .\n",
+    "6,12": "ROUND 6\nDIR W\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n17 3 0 1815\n18 3 0 -1\n19 3 0 -1\n20 3 0 -1\n21 3 0 -1\n22 3 0 -1\n23 3 0 -1\n17 4 0 1891\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n23 4 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n23 5 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n23 6 0 -1\n17 7 1 1\n18 7 1 1\n19 7 1 -1\n20 7 0 -1\n21 7 1 -1\n22 7 1 1\n23 7 1 1\n17 8 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\n23 8 0 -1\n17 9 0 -1\n18 9 0 -1\n19 9 0 -1\n20 9 0 -1\n21 9 0 -1\n22 9 0 -1\n23 9 0 -1\nDRAGON_BODIES 2\nA 12 20 6 W 1\nA 12 21 6 W 0\n. . w . . . .\nw w . . . . .\n. . . . . . .\n. . . . . . .\nw w . . w w w\nw w . . w w w\n. . . . . . w\n. . . . . . .\n. . w . . . . .\nw . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . w\n. . . . . . w .\n. . . . . . . w\n",
+    "6,13": "ROUND 6\nDIR W\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 1\n1176002676119315881\nECHOES 4 0 0 0 0\n37 22 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n37 23 0 -1\n38 23 0 -1\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n37 24 0 -1\n38 24 0 -1\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 834\n37 25 1 1\n38 25 1 2\n39 25 1 1\n40 25 0 2\n41 25 0 2\n42 25 1 3\n43 25 0 949\n37 26 1 3\n38 26 1 5\n39 26 1 2\n40 26 1 3\n41 26 1 2\n42 26 1 1\n43 26 0 1985\n37 0 0 -1\n38 0 0 -1\n39 0 0 -1\n40 0 0 -1\n41 0 1 8\n42 0 1 10\n43 0 1 9\n37 1 0 -1\n38 1 0 -1\n39 1 0 -1\n40 1 0 -1\n41 1 1 3\n42 1 1 9\n43 1 1 1\nDRAGON_BODIES 5\nB 11 37 1 N 1\nB 13 40 25 W 1\nB 13 41 25 W 0\nB 26 41 22 N 1\nB 26 41 23 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. w w . . w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . w . .\n. . . . . . . .\n. . . . . . . w\n. . . . . . w .\n. . w . . . w .\nw . w . w . w .\n. . . . w . w .\n. . . . w . . .\n",
+    "6,14": "ROUND 6\nDIR S\nLENGTH 23\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n2 23 0 2497\n3 23 0 -1\n4 23 0 -1\n5 23 0 -1\n6 23 0 -1\n7 23 0 -1\n8 23 0 -1\n2 24 0 660\n3 24 0 538\n4 24 0 2033\n5 24 0 -1\n6 24 0 -1\n7 24 0 -1\n8 24 0 -1\n2 25 0 1744\n3 25 0 2095\n4 25 0 731\n5 25 0 857\n6 25 0 78\n7 25 0 -1\n8 25 0 -1\n2 26 0 495\n3 26 0 2405\n4 26 0 1583\n5 26 0 1759\n6 26 0 1327\n7 26 0 -1\n8 26 0 -1\n2 0 0 1863\n3 0 0 1564\n4 0 0 1174\n5 0 0 -1\n6 0 0 -1\n7 0 0 -1\n8 0 0 -1\n2 1 0 1634\n3 1 0 295\n4 1 0 328\n5 1 0 1082\n6 1 0 -1\n7 1 0 -1\n8 1 0 -1\n2 2 0 1156\n3 2 0 2104\n4 2 0 1153\n5 2 0 -1\n6 2 0 -1\n7 2 0 -1\n8 2 0 -1\nDRAGON_BODIES 11\nA 14 5 26 S 1\nA 14 5 25 S 0\nA 14 4 25 E 0\nA 14 3 25 E 0\nA 14 2 25 E 0\nA 14 5 23 N 0\nA 14 5 24 N 0\nA 14 4 24 E 0\nA 14 3 24 E 0\nA 14 2 24 E 0\nA 14 2 23 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "6,15": "ROUND 6\nDIR W\nLENGTH 23\nUNIT_COUNT 9\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n53 25 0 -1\n54 25 0 -1\n55 25 0 -1\n56 25 0 -1\n57 25 0 1082\n58 25 0 328\n59 25 0 295\n53 26 0 -1\n54 26 0 -1\n55 26 0 -1\n56 26 0 -1\n57 26 0 -1\n58 26 0 1174\n59 26 0 1564\n53 0 0 -1\n54 0 0 -1\n55 0 0 -1\n56 0 0 1327\n57 0 0 1759\n58 0 0 1583\n59 0 0 2405\n53 1 0 -1\n54 1 0 -1\n55 1 0 -1\n56 1 0 78\n57 1 0 857\n58 1 0 731\n59 1 0 2095\n53 2 0 -1\n54 2 0 -1\n55 2 0 -1\n56 2 0 -1\n57 2 0 -1\n58 2 0 2033\n59 2 0 538\n53 3 0 -1\n54 3 0 -1\n55 3 0 -1\n56 3 0 -1\n57 3 0 -1\n58 3 0 -1\n59 3 0 -1\n53 4 0 -1\n54 4 0 -1\n55 4 0 -1\n56 4 0 -1\n57 4 0 -1\n58 4 0 -1\n59 4 1 -1\nDRAGON_BODIES 9\nB 15 56 1 W 1\nB 15 57 1 W 0\nB 15 58 1 W 0\nB 15 59 1 W 0\nB 15 57 4 S 0\nB 15 57 3 S 0\nB 15 57 2 S 0\nB 15 58 2 W 0\nB 15 59 2 W 0\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "6,16": "ROUND 6\nDIR S\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 1\n10976398423820874631\nECHOES 3 1 0 0 0\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n11 16 0 -1\n5 17 0 -1\n6 17 0 -1\n7 17 0 -1\n8 17 0 1\n9 17 0 -1\n10 17 0 -1\n11 17 0 -1\n5 18 0 -1\n6 18 0 -1\n7 18 0 -1\n8 18 0 1\n9 18 0 -1\n10 18 0 -1\n11 18 0 -1\n5 19 0 -1\n6 19 0 -1\n7 19 0 -1\n8 19 0 -1\n9 19 0 -1\n10 19 0 -1\n11 19 0 -1\n5 20 0 -1\n6 20 0 -1\n7 20 0 -1\n8 20 0 -1\n9 20 0 -1\n10 20 0 -1\n11 20 0 -1\n5 21 0 -1\n6 21 0 -1\n7 21 0 -1\n8 21 0 -1\n9 21 0 -1\n10 21 0 -1\n11 21 0 -1\nDRAGON_BODIES 5\nA 14 5 20 W 0\nA 14 5 21 N 0\nA 16 8 18 S 1\nA 16 8 17 S 0\nA 27 8 15 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "6,17": "ROUND 6\nDIR N\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 1\n17096227376053891958\nECHOES 3 1 0 0 0\n51 5 0 -1\n52 5 0 -1\n53 5 0 -1\n54 5 0 -1\n55 5 0 -1\n56 5 0 -1\n57 5 0 -1\n51 6 0 -1\n52 6 0 -1\n53 6 0 -1\n54 6 0 -1\n55 6 0 -1\n56 6 0 -1\n57 6 0 -1\n51 7 0 -1\n52 7 0 -1\n53 7 0 -1\n54 7 0 -1\n55 7 0 -1\n56 7 0 -1\n57 7 0 -1\n51 8 0 -1\n52 8 0 -1\n53 8 0 -1\n54 8 0 1\n55 8 0 -1\n56 8 0 -1\n57 8 0 -1\n51 9 0 -1\n52 9 0 -1\n53 9 0 -1\n54 9 0 1\n55 9 0 -1\n56 9 0 -1\n57 9 0 -1\n51 10 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n51 11 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\nDRAGON_BODIES 5\nB 15 57 6 E 0\nB 15 57 5 S 0\nB 17 54 8 N 1\nB 17 54 9 N 0\nB 28 54 11 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "6,22": "ROUND 6\nDIR N\nLENGTH 3\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n5 6 0 -1\n6 6 0 -1\n7 6 0 -1\n8 6 0 -1\n9 6 0 -1\n10 6 0 -1\n11 6 0 -1\n5 7 0 -1\n6 7 0 -1\n7 7 0 -1\n8 7 0 -1\n9 7 0 -1\n10 7 0 -1\n11 7 0 -1\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 1 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 0 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 1 1\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\nDRAGON_BODIES 4\nA 22 8 9 N 1\nA 22 8 10 N 0\nA 22 8 11 N 0\nA 24 9 12 N 1\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. w . . . . . .\n",
+    "6,23": "ROUND 6\nDIR S\nLENGTH 3\nUNIT_COUNT 8\nNUM_MSGS 1\n17096227376053891958\nECHOES 3 1 0 0 0\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 1\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 0 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 1 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\n51 19 0 -1\n52 19 0 -1\n53 19 0 -1\n54 19 0 -1\n55 19 0 -1\n56 19 0 -1\n57 19 0 -1\n51 20 0 -1\n52 20 0 -1\n53 20 0 -1\n54 20 0 -1\n55 20 0 -1\n56 20 0 -1\n57 20 0 -1\nDRAGON_BODIES 3\nB 23 54 17 S 1\nB 23 54 16 S 0\nB 23 54 15 S 0\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . w .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "6,24": "ROUND 6\nDIR N\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 1\n284852728071463693\nECHOES 3 0 1 0 0\n6 9 0 -1\n7 9 0 -1\n8 9 0 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n12 9 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n12 10 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n12 11 0 -1\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n12 12 0 -1\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\n12 13 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n11 14 0 -1\n12 14 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\n12 15 0 -1\nDRAGON_BODIES 8\nA 22 8 9 N 0\nA 22 8 10 N 0\nA 22 8 11 N 0\nA 24 9 12 N 1\nA 24 9 13 N 0\nA 27 7 14 W 1\nA 27 8 14 W 0\nA 27 8 15 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . w w . . . .\n. . w w . . . .\n. . . . . . . .\nw . . . . . . .\nw . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "6,25": "ROUND 6\nDIR N\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 1\n17096227376053891958\nECHOES 3 0 1 0 0\n52 9 0 -1\n53 9 0 -1\n54 9 0 1\n55 9 0 -1\n56 9 0 -1\n57 9 0 -1\n58 9 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n58 10 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n58 11 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n58 12 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 4\n58 13 1 2\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 1\n58 14 1 1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n58 15 0 -1\nDRAGON_BODIES 6\nB 23 54 15 S 0\nB 25 55 12 N 1\nB 25 55 13 N 0\nB 28 54 13 S 1\nB 28 54 12 S 0\nB 28 54 11 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . . . .\n. . . . . w w\n. . . . . . .\n. . w w . . . .\n. . w w . . . .\n. . . . . . . .\n. . . . . . 0 .\n. . . . . w 1 w\n. . . . . w . w\n. . . . . . . .\n",
+    "6,26": "ROUND 6\nDIR N\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n38 19 0 -1\n39 19 1 1\n40 19 1 1\n41 19 1 -1\n42 19 0 -1\n43 19 1 -1\n44 19 1 1\n38 20 0 -1\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n38 21 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n38 22 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n38 23 0 -1\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n44 23 0 -1\n38 24 0 -1\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 834\n44 24 0 923\n38 25 1 2\n39 25 0 1\n40 25 0 2\n41 25 0 2\n42 25 1 3\n43 25 0 949\n44 25 0 1842\nDRAGON_BODIES 3\nB 13 39 25 S 0\nB 26 41 22 N 1\nB 26 41 23 N 0\n. w w w . . w\nw w w w . . w\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . w .\nw w . . w . .\n. . . . . . .\n. w . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . w .\n. . . . . w . .\n. w . . . w . .\n",
+    "6,27": "ROUND 6\nDIR W\nLENGTH 3\nUNIT_COUNT 7\nNUM_MSGS 2\n14668224175424946696\n946882027913749256\nECHOES 3 1 0 0 0\n4 11 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n4 12 1 1\n5 12 1 1\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n4 13 1 2\n5 13 1 4\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n4 14 0 -1\n5 14 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n4 15 0 -1\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n4 16 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n4 17 0 -1\n5 17 0 -1\n6 17 0 -1\n7 17 0 -1\n8 17 0 1\n9 17 0 -1\n10 17 0 -1\nDRAGON_BODIES 6\nA 22 8 11 N 0\nA 24 8 12 W 1\nA 24 9 12 W 0\nA 27 7 14 W 1\nA 27 8 14 W 0\nA 27 8 15 N 0\n. . . . . . .\nw w . . . . .\n. . . . . . .\nw w . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\nw . w . . . . .\nw 0 w . . . . .\n. 1 . . . . . .\n. . . . . . . .\n. . . . w w . .\n. . . . w w . .\n",
+    "6,28": "ROUND 6\nDIR S\nLENGTH 3\nUNIT_COUNT 8\nNUM_MSGS 3\n15934298491820450609\n15462546568292353206\n10114522027969749751\nECHOES 1 3 0 0 0\n51 10 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n51 11 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n51 12 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n51 13 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 4\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 1\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\nDRAGON_BODIES 7\nB 23 54 16 S 0\nB 23 54 15 S 0\nB 25 55 11 N 1\nB 25 55 12 N 0\nB 28 54 13 S 1\nB 28 54 12 S 0\nB 28 54 11 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . 0\n. . . . . . w 1\n. . . . . . w .\n. . . . . . . .\n. . . w w . . .\n",
+    "7,6": "ROUND 7\nDIR W\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 1\n946882027913749256\nECHOES 3 0 1 0 0\n10 9 0 -1\n11 9 0 -1\n12 9 0 -1\n13 9 0 -1\n14 9 0 -1\n15 9 0 -1\n16 9 0 -1\n10 10 0 -1\n11 10 0 -1\n12 10 0 -1\n13 10 0 -1\n14 10 0 -1\n15 10 0 -1\n16 10 0 -1\n10 11 0 -1\n11 11 0 -1\n12 11 0 -1\n13 11 0 -1\n14 11 0 -1\n15 11 0 -1\n16 11 0 -1\n10 12 0 -1\n11 12 0 -1\n12 12 0 -1\n13 12 0 -1\n14 12 0 -1\n15 12 0 -1\n16 12 0 -1\n10 13 0 -1\n11 13 0 -1\n12 13 0 -1\n13 13 0 -1\n14 13 0 -1\n15 13 0 -1\n16 13 0 -1\n10 14 0 -1\n11 14 0 -1\n12 14 0 -1\n13 14 0 -1\n14 14 0 -1\n15 14 0 -1\n16 14 0 -1\n10 15 0 -1\n11 15 0 -1\n12 15 0 -1\n13 15 0 -1\n14 15 0 -1\n15 15 0 -1\n16 15 0 -1\nDRAGON_BODIES 2\nA 6 13 12 W 1\nA 6 14 12 W 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "7,7": "ROUND 7\nDIR S\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 3 1 0 0 0\n46 9 0 -1\n47 9 0 -1\n48 9 0 -1\n49 9 0 -1\n50 9 0 -1\n51 9 0 -1\n52 9 0 -1\n46 10 0 -1\n47 10 0 -1\n48 10 0 -1\n49 10 0 -1\n50 10 0 -1\n51 10 0 -1\n52 10 0 -1\n46 11 0 -1\n47 11 0 -1\n48 11 0 -1\n49 11 0 -1\n50 11 0 -1\n51 11 0 -1\n52 11 0 -1\n46 12 0 -1\n47 12 0 -1\n48 12 0 -1\n49 12 0 -1\n50 12 0 -1\n51 12 0 -1\n52 12 0 -1\n46 13 0 -1\n47 13 0 -1\n48 13 0 -1\n49 13 0 -1\n50 13 0 -1\n51 13 0 -1\n52 13 0 -1\n46 14 0 -1\n47 14 0 -1\n48 14 0 -1\n49 14 0 -1\n50 14 0 -1\n51 14 0 -1\n52 14 0 -1\n46 15 0 -1\n47 15 0 -1\n48 15 0 -1\n49 15 0 -1\n50 15 0 -1\n51 15 0 -1\n52 15 0 -1\nDRAGON_BODIES 2\nB 7 49 12 S 1\nB 7 49 11 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "7,10": "ROUND 7\nDIR N\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n24 22 0 -1\n25 22 0 -1\n26 22 0 -1\n27 22 0 -1\n28 22 0 -1\n29 22 0 -1\n30 22 0 -1\n24 23 0 -1\n25 23 0 -1\n26 23 0 -1\n27 23 0 -1\n28 23 0 -1\n29 23 1 -1\n30 23 0 -1\n24 24 0 -1\n25 24 0 -1\n26 24 0 -1\n27 24 0 -1\n28 24 0 -1\n29 24 1 1\n30 24 0 -1\n24 25 0 -1\n25 25 0 -1\n26 25 0 -1\n27 25 0 -1\n28 25 0 -1\n29 25 1 1\n30 25 0 -1\n24 26 0 -1\n25 26 0 -1\n26 26 0 -1\n27 26 0 -1\n28 26 0 -1\n29 26 1 1\n30 26 0 -1\n24 0 1 4\n25 0 1 2\n26 0 1 1\n27 0 1 4\n28 0 1 1\n29 0 1 4\n30 0 1 1\n24 1 1 1\n25 1 1 5\n26 1 1 2\n27 1 1 1\n28 1 1 3\n29 1 1 3\n30 1 1 1\nDRAGON_BODIES 2\nA 10 27 25 N 1\nA 10 27 26 N 0\n. . . . w . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\nw . . w w . .\nw . . . . . . .\nw . . . . . . .\n. . . . . w w .\n. . . . . w w w\n. . . . . w w w\nw . w . w . w .\nw . . . w . . .\n",
+    "7,11": "ROUND 7\nDIR N\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n34 25 1 3\n35 25 1 1\n36 25 1 2\n37 25 1 5\n38 25 1 1\n39 25 0 4\n40 25 0 1\n34 26 1 1\n35 26 1 4\n36 26 1 1\n37 26 1 2\n38 26 1 4\n39 26 0 1\n40 26 0 2\n34 0 0 -1\n35 0 0 -1\n36 0 0 -1\n37 0 0 -1\n38 0 0 -1\n39 0 0 -1\n40 0 0 -1\n34 1 0 -1\n35 1 0 -1\n36 1 0 -1\n37 1 0 -1\n38 1 0 -1\n39 1 0 -1\n40 1 0 -1\n34 2 0 -1\n35 2 0 -1\n36 2 0 -1\n37 2 0 -1\n38 2 0 -1\n39 2 0 -1\n40 2 0 -1\n34 3 0 -1\n35 3 0 -1\n36 3 0 -1\n37 3 0 -1\n38 3 0 -1\n39 3 1 2\n40 3 0 2\n34 4 0 -1\n35 4 0 -1\n36 4 0 -1\n37 4 0 -1\n38 4 0 -1\n39 4 1 3\n40 4 1 2\nDRAGON_BODIES 5\nB 11 37 1 N 1\nB 11 37 2 N 0\nB 13 40 26 E 1\nB 13 39 26 E 0\nB 13 39 25 S 0\nw w . . w w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . . . .\nw . . . . w .\n. w . . . w . .\n. w . w . w . w\nw . . . . . . w\nw . . . . . . w\nw . . . . . . .\n. . . . . w . w\n. . . . . w . .\n",
+    "7,12": "ROUND 7\nDIR W\nLENGTH 2\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n16 3 0 352\n17 3 0 1814\n18 3 0 -1\n19 3 0 -1\n20 3 0 -1\n21 3 0 -1\n22 3 0 -1\n16 4 0 890\n17 4 0 1890\n18 4 0 -1\n19 4 0 -1\n20 4 0 -1\n21 4 0 -1\n22 4 0 -1\n16 5 0 -1\n17 5 0 -1\n18 5 0 -1\n19 5 0 -1\n20 5 0 -1\n21 5 0 -1\n22 5 0 -1\n16 6 0 -1\n17 6 0 -1\n18 6 0 -1\n19 6 0 -1\n20 6 0 -1\n21 6 0 -1\n22 6 0 -1\n16 7 1 1\n17 7 1 1\n18 7 1 1\n19 7 1 -1\n20 7 0 -1\n21 7 1 -1\n22 7 1 1\n16 8 0 -1\n17 8 0 -1\n18 8 0 -1\n19 8 0 -1\n20 8 0 -1\n21 8 0 -1\n22 8 0 -1\n16 9 0 -1\n17 9 0 -1\n18 9 0 -1\n19 9 0 -1\n20 9 0 -1\n21 9 0 -1\n22 9 0 -1\nDRAGON_BODIES 2\nA 12 19 6 W 1\nA 12 20 6 W 0\n. . . w . . .\n. w w . . . .\nw . . . . . .\n. . . . . . .\nw w w . . w w\nw w w . . w w\n. . . . . . .\n. . . . . . .\n. . . w . . . .\n. w . . . . . .\nw . . . . . . .\nw . . . . . . .\nw . . . . . . .\n. . . . . . . w\n. . . . . . . .\n",
+    "7,13": "ROUND 7\nDIR E\nLENGTH 3\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n37 23 0 -1\n38 23 0 -1\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n37 24 0 -1\n38 24 0 -1\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 833\n37 25 1 5\n38 25 1 1\n39 25 0 4\n40 25 0 1\n41 25 0 1\n42 25 1 2\n43 25 0 948\n37 26 1 2\n38 26 1 4\n39 26 0 1\n40 26 0 2\n41 26 1 1\n42 26 1 5\n43 26 0 1984\n37 0 0 -1\n38 0 0 -1\n39 0 0 -1\n40 0 0 -1\n41 0 1 7\n42 0 1 9\n43 0 1 8\n37 1 0 -1\n38 1 0 -1\n39 1 0 -1\n40 1 0 -1\n41 1 1 2\n42 1 1 8\n43 1 1 9\n37 2 0 -1\n38 2 0 -1\n39 2 0 -1\n40 2 0 -1\n41 2 0 -1\n42 2 0 -1\n43 2 0 -1\nDRAGON_BODIES 5\nB 11 38 1 E 1\nB 11 37 1 E 0\nB 13 40 26 E 1\nB 13 39 26 E 0\nB 13 39 25 S 0\n. . . . . . .\n. . . . . . w\n. w w . . w .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . w . .\n. . w w . . .\n. . . . . . . w\n. . . . . . w .\n. . w . . . w .\nw . w . w . w .\n. . . . w . w .\n. . . . w . . .\n. . . . . . . .\n",
+    "7,14": "ROUND 7\nDIR E\nLENGTH 23\nUNIT_COUNT 7\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n3 23 0 -1\n4 23 0 -1\n5 23 0 -1\n6 23 0 -1\n7 23 0 -1\n8 23 0 -1\n9 23 0 -1\n3 24 0 537\n4 24 0 2032\n5 24 0 -1\n6 24 0 -1\n7 24 0 -1\n8 24 0 -1\n9 24 0 -1\n3 25 0 2094\n4 25 0 730\n5 25 0 856\n6 25 0 77\n7 25 0 -1\n8 25 0 -1\n9 25 0 -1\n3 26 0 2404\n4 26 0 1582\n5 26 0 1758\n6 26 0 1326\n7 26 0 -1\n8 26 0 -1\n9 26 0 -1\n3 0 0 1563\n4 0 0 1173\n5 0 0 -1\n6 0 0 -1\n7 0 0 -1\n8 0 0 -1\n9 0 0 -1\n3 1 0 294\n4 1 0 327\n5 1 0 1081\n6 1 0 -1\n7 1 0 -1\n8 1 0 -1\n9 1 0 -1\n3 2 0 2103\n4 2 0 1152\n5 2 0 -1\n6 2 0 -1\n7 2 0 -1\n8 2 0 -1\n9 2 0 -1\nDRAGON_BODIES 9\nA 14 6 26 E 1\nA 14 5 26 E 0\nA 14 5 25 S 0\nA 14 4 25 E 0\nA 14 3 25 E 0\nA 14 5 23 N 0\nA 14 5 24 N 0\nA 14 4 24 E 0\nA 14 3 24 E 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "7,15": "ROUND 7\nDIR S\nLENGTH 23\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 0 0 0 0 0\n53 26 0 -1\n54 26 0 -1\n55 26 0 -1\n56 26 0 -1\n57 26 0 -1\n58 26 0 1173\n59 26 0 1563\n53 0 0 -1\n54 0 0 -1\n55 0 0 -1\n56 0 0 1326\n57 0 0 1758\n58 0 0 1582\n59 0 0 2404\n53 1 0 -1\n54 1 0 -1\n55 1 0 -1\n56 1 0 77\n57 1 0 856\n58 1 0 730\n59 1 0 2094\n53 2 0 -1\n54 2 0 -1\n55 2 0 -1\n56 2 0 -1\n57 2 0 -1\n58 2 0 2032\n59 2 0 537\n53 3 0 -1\n54 3 0 -1\n55 3 0 -1\n56 3 0 -1\n57 3 0 -1\n58 3 0 -1\n59 3 0 -1\n53 4 0 -1\n54 4 0 -1\n55 4 0 -1\n56 4 0 -1\n57 4 0 -1\n58 4 0 -1\n59 4 1 -1\n53 5 0 -1\n54 5 0 -1\n55 5 0 -1\n56 5 0 -1\n57 5 0 -1\n58 5 0 -1\n59 5 0 -1\nDRAGON_BODIES 11\nB 15 56 2 S 1\nB 15 56 1 S 0\nB 15 57 1 W 0\nB 15 58 1 W 0\nB 15 59 1 W 0\nB 15 57 5 S 0\nB 15 57 4 S 0\nB 15 57 3 S 0\nB 15 57 2 S 0\nB 15 58 2 W 0\nB 15 59 2 W 0\n. . . . . . .\nw w w w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "7,22": "ROUND 7\nDIR N\nLENGTH 4\nUNIT_COUNT 7\nNUM_MSGS 1\n946882027913749256\nECHOES 3 1 0 0 0\n5 5 0 -1\n6 5 0 -1\n7 5 0 -1\n8 5 0 -1\n9 5 0 -1\n10 5 0 -1\n11 5 0 -1\n5 6 0 -1\n6 6 0 -1\n7 6 0 -1\n8 6 0 -1\n9 6 0 -1\n10 6 0 -1\n11 6 0 -1\n5 7 0 -1\n6 7 0 -1\n7 7 0 -1\n8 7 0 -1\n9 7 0 -1\n10 7 0 -1\n11 7 0 -1\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 0 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 0 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\nDRAGON_BODIES 4\nA 22 8 8 N 1\nA 22 8 9 N 0\nA 22 8 10 N 0\nA 22 8 11 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n",
+    "7,23": "ROUND 7\nDIR S\nLENGTH 4\nUNIT_COUNT 8\nNUM_MSGS 0\nECHOES 3 0 1 0 0\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 0 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 0 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\n51 19 0 -1\n52 19 0 -1\n53 19 0 -1\n54 19 0 -1\n55 19 0 -1\n56 19 0 -1\n57 19 0 -1\n51 20 0 -1\n52 20 0 -1\n53 20 0 -1\n54 20 0 -1\n55 20 0 -1\n56 20 0 -1\n57 20 0 -1\n51 21 0 -1\n52 21 0 -1\n53 21 0 -1\n54 21 0 -1\n55 21 0 -1\n56 21 0 -1\n57 21 0 -1\nDRAGON_BODIES 4\nB 23 54 18 S 1\nB 23 54 17 S 0\nB 23 54 16 S 0\nB 23 54 15 S 0\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . .\n",
+    "7,24": "ROUND 7\nDIR W\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 1\n5612611087267537676\nECHOES 1 2 1 0 0\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 0 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 1 4\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n5 13 1 3\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\n5 14 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n11 14 0 -1\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n11 15 0 -1\nDRAGON_BODIES 8\nA 22 8 9 N 0\nA 24 8 12 W 1\nA 24 9 12 W 0\nA 27 7 15 S 1\nA 27 7 14 S 0\nA 27 8 14 W 0\nA 29 8 11 S 1\nA 29 8 10 S 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. w . . . . . .\n0 w . . . . . .\n1 . . . . . . .\n. . . . . . . .\n",
+    "7,25": "ROUND 7\nDIR N\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 1\n7231092392315597687\nECHOES 3 1 0 0 0\n52 8 0 -1\n53 8 0 -1\n54 8 1 1\n55 8 0 -1\n56 8 0 -1\n57 8 0 -1\n58 8 0 -1\n52 9 0 -1\n53 9 0 -1\n54 9 1 1\n55 9 0 -1\n56 9 0 -1\n57 9 0 -1\n58 9 0 -1\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n58 10 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n58 11 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n58 12 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 3\n58 13 1 1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 4\n58 14 1 5\nDRAGON_BODIES 5\nB 25 55 11 N 1\nB 25 55 12 N 0\nB 28 55 13 E 1\nB 28 54 13 E 0\nB 28 54 12 S 0\nw w w . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . . . .\n. . . . . w w\n. . w w . . . .\n. . w w . . . .\n. . w w . . . .\n. . . . . . . .\n. . . . . . 0 .\n. . . . . w 1 w\n. . . . . w . w\n",
+    "7,26": "ROUND 7\nDIR E\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 0\nECHOES 4 0 0 0 0\n39 19 1 1\n40 19 1 1\n41 19 1 -1\n42 19 0 -1\n43 19 1 -1\n44 19 1 1\n45 19 1 1\n39 20 0 -1\n40 20 0 -1\n41 20 0 -1\n42 20 0 -1\n43 20 0 -1\n44 20 0 -1\n45 20 0 -1\n39 21 0 -1\n40 21 0 -1\n41 21 0 -1\n42 21 0 -1\n43 21 0 -1\n44 21 0 -1\n45 21 0 -1\n39 22 0 -1\n40 22 0 -1\n41 22 0 -1\n42 22 0 -1\n43 22 0 -1\n44 22 0 -1\n45 22 0 1890\n39 23 0 -1\n40 23 0 -1\n41 23 0 -1\n42 23 0 -1\n43 23 0 -1\n44 23 0 -1\n45 23 0 1814\n39 24 0 -1\n40 24 0 -1\n41 24 0 -1\n42 24 0 -1\n43 24 0 833\n44 24 0 922\n45 24 0 2446\n39 25 0 4\n40 25 0 1\n41 25 0 1\n42 25 1 2\n43 25 0 948\n44 25 0 1841\n45 25 0 2140\nDRAGON_BODIES 3\nB 13 40 25 N 1\nB 26 42 22 E 1\nB 26 41 22 E 0\nw w w . . w w\nw w w . . w w\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . w . .\nw . . w . . .\n. . . . . . .\nw . . . . . . .\n. . . . . . . .\n. . . . . . . .\n. . . . . . . w\n. . . . . w . .\n. . . . w . . .\nw . . . w . . .\n",
+    "7,27": "ROUND 7\nDIR S\nLENGTH 3\nUNIT_COUNT 8\nNUM_MSGS 1\n7466968388456162055\nECHOES 4 0 0 0 0\n4 12 1 5\n5 12 1 4\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n4 13 1 1\n5 13 1 3\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n4 14 0 -1\n5 14 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n4 15 0 -1\n5 15 0 -1\n6 15 0 -1\n7 15 0 -1\n8 15 0 -1\n9 15 0 -1\n10 15 0 -1\n4 16 0 -1\n5 16 0 -1\n6 16 0 -1\n7 16 0 -1\n8 16 0 -1\n9 16 0 -1\n10 16 0 -1\n4 17 0 -1\n5 17 0 -1\n6 17 0 -1\n7 17 0 -1\n8 17 1 1\n9 17 0 -1\n10 17 0 -1\n4 18 0 -1\n5 18 0 -1\n6 18 0 -1\n7 18 0 -1\n8 18 1 1\n9 18 0 -1\n10 18 0 -1\nDRAGON_BODIES 5\nA 24 7 12 W 1\nA 24 8 12 W 0\nA 27 7 15 S 1\nA 27 7 14 S 0\nA 27 8 14 W 0\nw w . . . . .\n. . . . . . .\nw w . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . w w w\nw . w . . . . .\nw 0 w . . . . .\n. 1 . . . . . .\n. . . . . . . .\n. . . . w w . .\n. . . . w w . .\n. . . . w w . .\n",
+    "7,28": "ROUND 7\nDIR E\nLENGTH 3\nUNIT_COUNT 9\nNUM_MSGS 2\n7652178777102885745\n14492020865790649078\nECHOES 3 1 0 0 0\n52 10 0 -1\n53 10 0 -1\n54 10 0 -1\n55 10 0 -1\n56 10 0 -1\n57 10 0 -1\n58 10 0 -1\n52 11 0 -1\n53 11 0 -1\n54 11 0 -1\n55 11 0 -1\n56 11 0 -1\n57 11 0 -1\n58 11 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n58 12 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 3\n58 13 1 1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 4\n58 14 1 5\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n58 15 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n58 16 0 -1\nDRAGON_BODIES 7\nB 25 54 11 W 1\nB 25 55 11 W 0\nB 28 55 13 E 1\nB 28 54 13 E 0\nB 28 54 12 S 0\nB 30 54 15 N 1\nB 30 54 16 N 0\n. . . . . . .\n. . . . . . .\n. . . . . . .\n. . . . . w w\n. . . . . . .\n. . . . . w w\n. . . . . . .\n. . . . . . .\n. . w w . . . .\n. . . . . . . .\n. . . . . . 0 .\n. . . . . w 1 w\n. . . . . w . w\n. . . . . . . .\n. . w w . . . .\n",
+    "7,29": "ROUND 7\nDIR S\nLENGTH 2\nUNIT_COUNT 8\nNUM_MSGS 1\n6476176453254783496\nECHOES 0 0 0 0 0\n5 8 0 -1\n6 8 0 -1\n7 8 0 -1\n8 8 0 1\n9 8 0 -1\n10 8 0 -1\n11 8 0 -1\n5 9 0 -1\n6 9 0 -1\n7 9 0 -1\n8 9 0 1\n9 9 0 -1\n10 9 0 -1\n11 9 0 -1\n5 10 0 -1\n6 10 0 -1\n7 10 0 -1\n8 10 0 1\n9 10 0 -1\n10 10 0 -1\n11 10 0 -1\n5 11 0 -1\n6 11 0 -1\n7 11 0 -1\n8 11 0 -1\n9 11 0 -1\n10 11 0 -1\n11 11 0 -1\n5 12 1 4\n6 12 0 -1\n7 12 0 -1\n8 12 0 -1\n9 12 0 -1\n10 12 0 -1\n11 12 0 -1\n5 13 1 3\n6 13 0 -1\n7 13 0 -1\n8 13 0 -1\n9 13 0 -1\n10 13 0 -1\n11 13 0 -1\n5 14 0 -1\n6 14 0 -1\n7 14 0 -1\n8 14 0 -1\n9 14 0 -1\n10 14 0 -1\n11 14 0 -1\nDRAGON_BODIES 7\nA 22 8 8 N 1\nA 22 8 9 N 0\nA 24 7 12 W 1\nA 24 8 12 W 0\nA 27 7 14 S 0\nA 29 8 11 S 1\nA 29 8 10 S 0\n. . . w w w w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\nw . . . . . .\n. . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n. . . . . . . .\n. w . . . . . .\n0 w . . . . . .\n1 . . . . . . .\n",
+    "7,30": "ROUND 7\nDIR N\nLENGTH 2\nUNIT_COUNT 9\nNUM_MSGS 1\n18277296335415682230\nECHOES 0 0 0 0 0\n51 12 0 -1\n52 12 0 -1\n53 12 0 -1\n54 12 0 -1\n55 12 0 -1\n56 12 0 -1\n57 12 0 -1\n51 13 0 -1\n52 13 0 -1\n53 13 0 -1\n54 13 0 -1\n55 13 0 -1\n56 13 0 -1\n57 13 1 3\n51 14 0 -1\n52 14 0 -1\n53 14 0 -1\n54 14 0 -1\n55 14 0 -1\n56 14 0 -1\n57 14 1 4\n51 15 0 -1\n52 15 0 -1\n53 15 0 -1\n54 15 0 -1\n55 15 0 -1\n56 15 0 -1\n57 15 0 -1\n51 16 0 -1\n52 16 0 -1\n53 16 0 -1\n54 16 0 1\n55 16 0 -1\n56 16 0 -1\n57 16 0 -1\n51 17 0 -1\n52 17 0 -1\n53 17 0 -1\n54 17 0 1\n55 17 0 -1\n56 17 0 -1\n57 17 0 -1\n51 18 0 -1\n52 18 0 -1\n53 18 0 -1\n54 18 0 1\n55 18 0 -1\n56 18 0 -1\n57 18 0 -1\nDRAGON_BODIES 7\nB 23 54 18 S 1\nB 23 54 17 S 0\nB 28 56 13 E 1\nB 28 55 13 E 0\nB 28 54 13 E 0\nB 30 54 15 N 1\nB 30 54 16 N 0\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . w\n. . . . . . .\n. . . . . . .\n. . . . . . .\nw w w w . . .\n. . . . . . . 0\n. . . . . . w 1\n. . . . . . w .\n. . . . . . . .\n. . . w w . . .\n. . . w w . . .\n. . . w w . . .\n"
+  },
+  "spawns": {
+    "0": "ID 0\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "1": "ID 1\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "2": "ID 2\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "3": "ID 3\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "4": "ID 4\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "5": "ID 5\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "6": "ID 6\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "7": "ID 7\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "8": "ID 8\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "9": "ID 9\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "10": "ID 10\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "11": "ID 11\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "12": "ID 12\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "13": "ID 13\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "14": "ID 14\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "15": "ID 15\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "16": "ID 16\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "17": "ID 17\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "18": "ID 18\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "19": "ID 19\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "20": "ID 20\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "21": "ID 21\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "22": "ID 22\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "23": "ID 23\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "24": "ID 24\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "25": "ID 25\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "26": "ID 26\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "27": "ID 27\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "28": "ID 28\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "29": "ID 29\nTEAM A\nMAP 63 27\nUNIT_LIMIT 64\n",
+    "30": "ID 30\nTEAM B\nMAP 63 27\nUNIT_LIMIT 64\n"
+  }
+}

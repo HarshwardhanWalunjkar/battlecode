@@ -16,6 +16,24 @@ def show(d):return d.astimezone(ZoneInfo('Asia/Kolkata')).strftime('%Y-%m-%d %H:
 def load():return json.loads(HISTORY.read_text())
 def save(h):
     temp=HISTORY.with_suffix('.tmp');temp.write_text(json.dumps(h,indent=2)+'\n');temp.replace(HISTORY)
+def sync_markers(h,snapshot):
+    submissions=snapshot['submissions']
+    markers=[s for s in submissions if s.get('kFreshAt')]
+    if markers:
+        latest=max(markers,key=lambda s:parse_time(s['kFreshAt']))
+        started=parse_time(latest['kFreshAt'])
+        h['fresh_window']={'submission_id':latest['id'],'version':latest['version'],
+            'started_at':latest['kFreshAt'],'expires_at':(started+dt.timedelta(hours=12)).isoformat(),
+            'basis':'Authoritative server submissions.kFreshAt','verified_at':snapshot['fetched_at']}
+    for upload in h['uploads']:
+        sub=next((s for s in submissions if s['version']==upload['version']),None)
+        if sub:upload['latest_server_state']={k:sub.get(k) for k in ('id','version','status','kStart','kFreshAt','uploadedAt')}
+    active=next((s for s in submissions if s['status']=='active'),None)
+    if active:
+        h['latest_submission_verification']={'at':snapshot['fetched_at'],'active_submission_id':active['id'],
+            'active_server_version':active['version'],'name':active['name'],'kStart':active.get('kStart'),
+            'kFreshAt':active.get('kFreshAt'),'snapshot':'submissions/server-snapshot.json',
+            'series_attribution':'Only server markers refreshed; completed counts are not inferred.'}
 def package():
     from unswbc.project import Project
     p=Project.from_dir(ROOT/'bot');p.collect_sources()
@@ -37,6 +55,11 @@ def advice(h,identity,at):
         free=min(parse_time(u['uploaded_at']) for u in recent)+dt.timedelta(hours=1)
         lines.append('Local hourly quota is full. Earliest recorded slot: '+show(free))
     windows=[parse_time(b['played_at']) for b in h['ranked_battles'] if b.get('fresh_window')]
+    # Recent APIs can omit per-battle submission identity while still exposing
+    # the authoritative fresh-window marker. Do not fall back to an older
+    # attributed battle and incorrectly announce that the window has expired.
+    marker=h.get('fresh_window',{}).get('started_at')
+    if marker:windows.append(parse_time(marker))
     same=[u for u in uploads if u['fingerprint']==identity]
     counts=[]
     for u in same:
@@ -85,7 +108,8 @@ def main():
         if a.cmd=='sync':
             snapshot={'fetched_at':now().isoformat(),'submissions':api.request('submissions',key=key),'battles':api.request('battles?limit=200',key=key)}
             (ROOT/'submissions/server-snapshot.json').write_text(json.dumps(snapshot,indent=2)+'\n')
-            print('Saved server records. First-ranked count/window still needs verification; raw fields are not guessed.');return
+            sync_markers(h,snapshot);save(h)
+            print('Saved server records and authoritative fresh-window markers. Missing battle attribution and effective counts are not guessed.');return
         print('\n'.join(advice(h,identity,now())))
         recent=[u for u in h['uploads'] if u['status']=='accepted' and parse_time(u['uploaded_at'])>now()-dt.timedelta(hours=1)]
         if len(recent)>=12:raise ValueError('Local hourly upload quota is full')

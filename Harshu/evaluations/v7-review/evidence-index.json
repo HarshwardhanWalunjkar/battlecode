@@ -1,0 +1,645 @@
+[
+  {
+    "game": 481660,
+    "map": "Trophy",
+    "our_side": "A",
+    "checks": 203,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 584,
+        "new_team_tiles": 551,
+        "food": 42,
+        "splits": 16
+      },
+      {
+        "team": "B",
+        "turns": 1689,
+        "new_team_tiles": 625,
+        "food": 120,
+        "splits": 52
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "teamEliminated",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 0,
+        "longestDragon": 0,
+        "totalLength": 0
+      },
+      "teamB": {
+        "dragonCount": 38,
+        "longestDragon": 4,
+        "totalLength": 92
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 481661,
+    "map": "Trauma",
+    "our_side": "A",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 400,
+        "new_team_tiles": 528,
+        "splits": 2,
+        "food": 1
+      },
+      {
+        "team": "B",
+        "turns": 401,
+        "new_team_tiles": 391,
+        "splits": 3,
+        "food": 3
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 15,
+        "longestDragon": 9,
+        "totalLength": 49
+      },
+      "teamB": {
+        "dragonCount": 1,
+        "longestDragon": 13,
+        "totalLength": 13
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 481662,
+    "map": "Prisoners Dilemma",
+    "our_side": "A",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 454,
+        "new_team_tiles": 499,
+        "food": 68,
+        "splits": 33
+      },
+      {
+        "team": "B",
+        "turns": 963,
+        "new_team_tiles": 369,
+        "splits": 24,
+        "food": 53
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 1,
+        "longestDragon": 13,
+        "totalLength": 13
+      },
+      "teamB": {
+        "dragonCount": 5,
+        "longestDragon": 36,
+        "totalLength": 60
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 481663,
+    "map": "Slithery Fight",
+    "our_side": "A",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 2268,
+        "new_team_tiles": 947,
+        "food": 308,
+        "splits": 102
+      },
+      {
+        "team": "B",
+        "turns": 3547,
+        "new_team_tiles": 1232,
+        "splits": 133,
+        "food": 299
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 18,
+        "longestDragon": 24,
+        "totalLength": 90
+      },
+      "teamB": {
+        "dragonCount": 18,
+        "longestDragon": 35,
+        "totalLength": 269
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 481664,
+    "map": "Devil",
+    "our_side": "A",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 815,
+        "new_team_tiles": 367,
+        "splits": 12,
+        "food": 53
+      },
+      {
+        "team": "B",
+        "turns": 1382,
+        "new_team_tiles": 445,
+        "splits": 65,
+        "food": 155
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 1,
+        "longestDragon": 2,
+        "totalLength": 2
+      },
+      "teamB": {
+        "dragonCount": 6,
+        "longestDragon": 31,
+        "totalLength": 113
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 487046,
+    "map": "Queen Of Spades",
+    "our_side": "B",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 575,
+        "new_team_tiles": 685,
+        "food": 45,
+        "splits": 17
+      },
+      {
+        "team": "B",
+        "turns": 369,
+        "new_team_tiles": 566,
+        "food": 23,
+        "splits": 5
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 13,
+        "longestDragon": 3,
+        "totalLength": 29
+      },
+      "teamB": {
+        "dragonCount": 8,
+        "longestDragon": 7,
+        "totalLength": 31
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 493949,
+    "map": "Trauma",
+    "our_side": "B",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 200,
+        "new_team_tiles": 296
+      },
+      {
+        "team": "B",
+        "turns": 400,
+        "new_team_tiles": 672,
+        "splits": 2
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 1,
+        "longestDragon": 14,
+        "totalLength": 14
+      },
+      "teamB": {
+        "dragonCount": 13,
+        "longestDragon": 12,
+        "totalLength": 64
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 495301,
+    "map": "Portals",
+    "our_side": "A",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 847,
+        "new_team_tiles": 486,
+        "food": 85,
+        "splits": 31
+      },
+      {
+        "team": "B",
+        "turns": 565,
+        "new_team_tiles": 425,
+        "food": 95,
+        "splits": 40
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 17,
+        "longestDragon": 6,
+        "totalLength": 56
+      },
+      "teamB": {
+        "dragonCount": 3,
+        "longestDragon": 12,
+        "totalLength": 17
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 459157,
+    "map": "Trauma",
+    "our_side": "reference",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 582,
+        "new_team_tiles": 741,
+        "splits": 9,
+        "food": 19
+      },
+      {
+        "team": "B",
+        "turns": 487,
+        "new_team_tiles": 512,
+        "splits": 4,
+        "food": 5
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 6,
+        "longestDragon": 20,
+        "totalLength": 60
+      },
+      "teamB": {
+        "dragonCount": 3,
+        "longestDragon": 30,
+        "totalLength": 40
+      }
+    },
+    "source": "v6-review/reassessment.json"
+  },
+  {
+    "game": 503086,
+    "map": "Trophy",
+    "our_side": "A",
+    "checks": 106,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 288,
+        "new_team_tiles": 571,
+        "food": 15,
+        "splits": 4
+      },
+      {
+        "team": "B",
+        "turns": 1964,
+        "new_team_tiles": 625,
+        "food": 128,
+        "splits": 49
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "teamEliminated",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 0,
+        "longestDragon": 0,
+        "totalLength": 0
+      },
+      "teamB": {
+        "dragonCount": 44,
+        "longestDragon": 3,
+        "totalLength": 108
+      }
+    },
+    "source": "v6-review/new-reassessment.json"
+  },
+  {
+    "game": 503089,
+    "map": "Queen Of Spades",
+    "our_side": "A",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 520,
+        "new_team_tiles": 576,
+        "food": 45,
+        "splits": 12
+      },
+      {
+        "team": "B",
+        "turns": 384,
+        "new_team_tiles": 749,
+        "food": 10,
+        "splits": 5
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 1,
+        "longestDragon": 5,
+        "totalLength": 5
+      },
+      "teamB": {
+        "dragonCount": 55,
+        "longestDragon": 3,
+        "totalLength": 135
+      }
+    },
+    "source": "v6-review/new-reassessment.json"
+  },
+  {
+    "game": 504446,
+    "map": "Slithery Fight",
+    "our_side": "A",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 1064,
+        "new_team_tiles": 839,
+        "food": 167,
+        "splits": 63
+      },
+      {
+        "team": "B",
+        "turns": 3982,
+        "new_team_tiles": 1423,
+        "splits": 206,
+        "food": 449
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 6,
+        "longestDragon": 10,
+        "totalLength": 39
+      },
+      "teamB": {
+        "dragonCount": 63,
+        "longestDragon": 18,
+        "totalLength": 298
+      }
+    },
+    "source": "v6-review/new-reassessment.json"
+  },
+  {
+    "game": 504448,
+    "map": "Trauma",
+    "our_side": "A",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 425,
+        "new_team_tiles": 665,
+        "splits": 3,
+        "food": 3
+      },
+      {
+        "team": "B",
+        "turns": 1025,
+        "new_team_tiles": 718,
+        "splits": 49,
+        "food": 100
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 16,
+        "longestDragon": 13,
+        "totalLength": 62
+      },
+      "teamB": {
+        "dragonCount": 18,
+        "longestDragon": 9,
+        "totalLength": 56
+      }
+    },
+    "source": "v6-review/new-reassessment.json"
+  },
+  {
+    "game": 518063,
+    "map": "Trophy",
+    "our_side": "B",
+    "checks": 290,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 993,
+        "new_team_tiles": 595,
+        "food": 56,
+        "splits": 23
+      },
+      {
+        "team": "B",
+        "turns": 1453,
+        "new_team_tiles": 622,
+        "food": 99,
+        "splits": 33
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "teamEliminated",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 63,
+        "longestDragon": 7,
+        "totalLength": 166
+      },
+      "teamB": {
+        "dragonCount": 0,
+        "longestDragon": 0,
+        "totalLength": 0
+      }
+    },
+    "source": "v7-review/lozer-reassessment.json"
+  },
+  {
+    "game": 518061,
+    "map": "Slithery Fight",
+    "our_side": "B",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 3755,
+        "new_team_tiles": 1437,
+        "splits": 243,
+        "food": 665
+      },
+      {
+        "team": "B",
+        "turns": 996,
+        "new_team_tiles": 926,
+        "food": 66,
+        "splits": 19
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 44,
+        "longestDragon": 12,
+        "totalLength": 237
+      },
+      "teamB": {
+        "dragonCount": 27,
+        "longestDragon": 9,
+        "totalLength": 101
+      }
+    },
+    "source": "v7-review/lozer-reassessment.json"
+  },
+  {
+    "game": 518062,
+    "map": "Trauma",
+    "our_side": "B",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 455,
+        "new_team_tiles": 462,
+        "splits": 3,
+        "food": 5
+      },
+      {
+        "team": "B",
+        "turns": 476,
+        "new_team_tiles": 407,
+        "splits": 4,
+        "food": 6
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "B",
+      "teamA": {
+        "dragonCount": 12,
+        "longestDragon": 8,
+        "totalLength": 47
+      },
+      "teamB": {
+        "dragonCount": 18,
+        "longestDragon": 13,
+        "totalLength": 57
+      }
+    },
+    "source": "v7-review/lozer-reassessment.json"
+  },
+  {
+    "game": 518056,
+    "map": "Devil",
+    "our_side": "B",
+    "checks": 501,
+    "first100": [
+      {
+        "team": "A",
+        "turns": 1435,
+        "new_team_tiles": 512,
+        "splits": 55,
+        "food": 141
+      },
+      {
+        "team": "B",
+        "turns": 506,
+        "new_team_tiles": 292,
+        "splits": 3,
+        "food": 3
+      }
+    ],
+    "result": {
+      "terminated": true,
+      "endReason": "roundLimit",
+      "winner": "A",
+      "teamA": {
+        "dragonCount": 30,
+        "longestDragon": 12,
+        "totalLength": 126
+      },
+      "teamB": {
+        "dragonCount": 1,
+        "longestDragon": 2,
+        "totalLength": 2
+      }
+    },
+    "source": "v7-review/lozer-reassessment.json"
+  }
+]

@@ -1,0 +1,319 @@
+{
+  "fetched_at": "2026-09-28T17:29:14.098562+00:00",
+  "data": [
+    {
+      "id": 10120,
+      "teamId": 422,
+      "name": "abyss-v4.1",
+      "description": "V4 portal continuity and length-preserving rescues, with a last-resort escape past adjacent ally reports",
+      "language": "cpp",
+      "status": "active",
+      "storageKey": "submissions/58ed460c-d4aa-4762-9fb5-64c97248c48c.zip",
+      "uploadedAt": "2026-09-28T10:49:56.914Z",
+      "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+      "buildLog": null,
+      "buildHeartbeatAt": null,
+      "buildAttempts": 1,
+      "sourceHash": "d5057070acba7bff7c9b00d98c04c7ef189de94b7ce0e8336353fd19a2a1efec",
+      "kStart": 0,
+      "kFreshAt": "2026-09-28T10:52:22.078Z",
+      "wins": 64,
+      "draws": 0,
+      "losses": 51,
+      "byMap": {
+        "Devil": {
+          "wins": 3,
+          "draws": 0,
+          "losses": 7
+        },
+        "Trauma": {
+          "wins": 11,
+          "draws": 0,
+          "losses": 3
+        },
+        "Slithery Fight": {
+          "wins": 2,
+          "draws": 0,
+          "losses": 9
+        },
+        "Autarky": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 6
+        },
+        "Schooltime": {
+          "wins": 8,
+          "draws": 0,
+          "losses": 3
+        },
+        "Queen Of Spades": {
+          "wins": 9,
+          "draws": 0,
+          "losses": 2
+        },
+        "Portals": {
+          "wins": 8,
+          "draws": 0,
+          "losses": 4
+        },
+        "Trophy": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 10
+        },
+        "Prisoners Dilemma": {
+          "wins": 10,
+          "draws": 0,
+          "losses": 4
+        },
+        "Default": {
+          "wins": 8,
+          "draws": 0,
+          "losses": 3
+        }
+      },
+      "version": 5
+    },
+    {
+      "id": 10118,
+      "teamId": 422,
+      "name": "abyss-v4.1",
+      "description": "V4 portal continuity and length-preserving rescues, with a last-resort escape past adjacent ally reports",
+      "language": "cpp",
+      "status": "idle",
+      "storageKey": "submissions/37e29826-0f5d-4ae0-859b-7e401139f6b6.zip",
+      "uploadedAt": "2026-09-28T10:49:42.143Z",
+      "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+      "buildLog": null,
+      "buildHeartbeatAt": null,
+      "buildAttempts": 1,
+      "sourceHash": "d5057070acba7bff7c9b00d98c04c7ef189de94b7ce0e8336353fd19a2a1efec",
+      "kStart": null,
+      "kFreshAt": null,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "byMap": {},
+      "version": 4
+    },
+    {
+      "id": 9700,
+      "teamId": 422,
+      "name": "abyss-v3",
+      "description": "Protected growers, 64-slot expansion, persistent exploration and selective upward trades",
+      "language": "cpp",
+      "status": "idle",
+      "storageKey": "submissions/60960cf4-7b35-4b91-89aa-d01835728eac.zip",
+      "uploadedAt": "2026-09-28T05:09:17.007Z",
+      "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+      "buildLog": null,
+      "buildHeartbeatAt": null,
+      "buildAttempts": 1,
+      "sourceHash": "c90c3de0d6352ea3483647c421ff50033cc33a85fae2dbd068aed9fad2ff6898",
+      "kStart": 10,
+      "kFreshAt": null,
+      "wins": 40,
+      "draws": 0,
+      "losses": 30,
+      "byMap": {
+        "Schooltime": {
+          "wins": 5,
+          "draws": 0,
+          "losses": 2
+        },
+        "Queen Of Spades": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 2
+        },
+        "Prisoners Dilemma": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 5
+        },
+        "Autarky": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 4
+        },
+        "Portals": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 1
+        },
+        "Slithery Fight": {
+          "wins": 3,
+          "draws": 0,
+          "losses": 5
+        },
+        "Devil": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 3
+        },
+        "Trauma": {
+          "wins": 5,
+          "draws": 0,
+          "losses": 3
+        },
+        "Default": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 0
+        },
+        "Trophy": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 5
+        }
+      },
+      "version": 3
+    },
+    {
+      "id": 9062,
+      "teamId": 422,
+      "name": "abyss-v2",
+      "description": "Swarm expansion, selective trades, portal exploration and long-body escape",
+      "language": "cpp",
+      "status": "idle",
+      "storageKey": "submissions/8e189679-9ca2-470a-98ec-2306ae062f28.zip",
+      "uploadedAt": "2026-09-27T18:06:20.040Z",
+      "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+      "buildLog": null,
+      "buildHeartbeatAt": null,
+      "buildAttempts": 1,
+      "sourceHash": "59f1c6b33da04f742fec411ab614e873e88fd81455881f178f893ed21e157e37",
+      "kStart": 2,
+      "kFreshAt": null,
+      "wins": 78,
+      "draws": 0,
+      "losses": 122,
+      "byMap": {
+        "Prisoners Dilemma": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 12
+        },
+        "Default": {
+          "wins": 17,
+          "draws": 0,
+          "losses": 8
+        },
+        "Trophy": {
+          "wins": 5,
+          "draws": 0,
+          "losses": 16
+        },
+        "Portals": {
+          "wins": 13,
+          "draws": 0,
+          "losses": 8
+        },
+        "Trauma": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 13
+        },
+        "Queen Of Spades": {
+          "wins": 5,
+          "draws": 0,
+          "losses": 13
+        },
+        "Schooltime": {
+          "wins": 12,
+          "draws": 0,
+          "losses": 6
+        },
+        "Devil": {
+          "wins": 10,
+          "draws": 0,
+          "losses": 11
+        },
+        "Slithery Fight": {
+          "wins": 3,
+          "draws": 0,
+          "losses": 16
+        },
+        "Autarky": {
+          "wins": 3,
+          "draws": 0,
+          "losses": 19
+        }
+      },
+      "version": 2
+    },
+    {
+      "id": 9003,
+      "teamId": 422,
+      "name": "abyss-v1",
+      "description": "Tested survival and growth search",
+      "language": "cpp",
+      "status": "idle",
+      "storageKey": "submissions/d1b1eeed-90e2-4e67-8cc1-0f5e962c46fc.zip",
+      "uploadedAt": "2026-09-27T17:07:28.690Z",
+      "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+      "buildLog": null,
+      "buildHeartbeatAt": null,
+      "buildAttempts": 1,
+      "sourceHash": "6989485b182f60b4b4a95a945a25a6aa8ea7988fc4bb427b2854d2f30de1ea07",
+      "kStart": 0,
+      "kFreshAt": "2026-09-27T18:34:02.102Z",
+      "wins": 3,
+      "draws": 0,
+      "losses": 37,
+      "byMap": {
+        "Schooltime": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 5
+        },
+        "Devil": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 3
+        },
+        "Slithery Fight": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 5
+        },
+        "Queen Of Spades": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 4
+        },
+        "Prisoners Dilemma": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 4
+        },
+        "Trauma": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 3
+        },
+        "Default": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 4
+        },
+        "Autarky": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 3
+        },
+        "Trophy": {
+          "wins": 0,
+          "draws": 0,
+          "losses": 3
+        },
+        "Portals": {
+          "wins": 1,
+          "draws": 0,
+          "losses": 3
+        }
+      },
+      "version": 1
+    }
+  ]
+}

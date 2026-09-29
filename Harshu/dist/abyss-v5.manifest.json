@@ -1,0 +1,14 @@
+{
+  "release": "v5",
+  "name": "abyss-v5",
+  "fingerprint": "53fbd1fc2c0f6b5c2d8f76971df564bc12031096bc9421017638de1a6b68335c",
+  "files": [
+    "bot.toml",
+    "config.hpp",
+    "helper.hpp",
+    "main.cpp",
+    "strategy.hpp"
+  ],
+  "bytes": 19855,
+  "toolkit": "1.2.2"
+}

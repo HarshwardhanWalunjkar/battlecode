@@ -1,0 +1,70 @@
+{
+  "fetched_at": "2026-09-28T21:04:11.899131+00:00",
+  "data": {
+    "match": {
+      "id": 484914,
+      "teamAId": 994,
+      "teamBId": 422,
+      "mapId": 17,
+      "ranked": true,
+      "skinA": "Vatulele Prawn",
+      "skinB": "Jiaolong",
+      "status": "completed",
+      "winner": "b",
+      "scoresA": 104,
+      "scoresB": 13,
+      "views": 0,
+      "seriesId": "c256d5db-7f95-4561-946e-32907076a603",
+      "eloChangeA": 3,
+      "eloChangeB": -8,
+      "requestedAt": "2026-09-28T11:58:36.286Z",
+      "startedAt": "2026-09-28T12:05:28.400Z",
+      "completedAt": "2026-09-28T12:05:39.313Z",
+      "log": null,
+      "seed": "096c9b6c0ceca536"
+    },
+    "mapName": "Prisoners Dilemma",
+    "teamAName": "Lozer",
+    "teamBName": "Borgor",
+    "teamAElo": 1486,
+    "teamBElo": 1457,
+    "games": [
+      {
+        "id": 484914,
+        "status": "completed",
+        "winner": "b",
+        "hasReplay": true,
+        "mapName": "Prisoners Dilemma"
+      },
+      {
+        "id": 484915,
+        "status": "completed",
+        "winner": "a",
+        "hasReplay": true,
+        "mapName": "Slithery Fight"
+      },
+      {
+        "id": 484916,
+        "status": "completed",
+        "winner": "b",
+        "hasReplay": true,
+        "mapName": "Schooltime"
+      },
+      {
+        "id": 484917,
+        "status": "completed",
+        "winner": "a",
+        "hasReplay": true,
+        "mapName": "Autarky"
+      },
+      {
+        "id": 484918,
+        "status": "completed",
+        "winner": "a",
+        "hasReplay": true,
+        "mapName": "Trophy"
+      }
+    ],
+    "wait": null
+  }
+}

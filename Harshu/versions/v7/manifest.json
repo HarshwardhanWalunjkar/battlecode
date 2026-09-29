@@ -1,0 +1,50 @@
+{
+  "release": "v7",
+  "name": "abyss-v7",
+  "fingerprint": "0ce4a44b3c76102afe2813fde172cfe4dae61be1c2936931bf08cc181db35186",
+  "files": [
+    "bot.toml",
+    "config.hpp",
+    "helper.hpp",
+    "main.cpp",
+    "strategy.hpp"
+  ],
+  "bytes": 24974,
+  "toolkit": "1.2.2",
+  "status": "candidate-not-submitted",
+  "based_on": "frozen v4.1",
+  "frozen_at": "2026-09-29T09:04:01.827809+00:00",
+  "zip_sha256": "37cfbbcacbf8239718b383fae03cf988ad0937a22ffbd5964c8a72afa4baa22b",
+  "validation": {
+    "strategy_scenarios": 72,
+    "compiler": "g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic",
+    "warnings": 0,
+    "engine_coordination_fixtures": 2,
+    "timing_checks": 12,
+    "sandbox_matches": 8,
+    "sandbox_wins": 6,
+    "sandbox_draws": 0,
+    "sandbox_losses": 2,
+    "online_games": 0,
+    "bot_errors": 0,
+    "engine_notices": 0,
+    "sandbox_turns": 81311,
+    "max_points": 25836992,
+    "max_memory_bytes": 917504,
+    "opponent": "v4.1",
+    "seed": 823,
+    "maps": [
+      "trophy",
+      "slithery_fight",
+      "queen_of_spades",
+      "trauma"
+    ],
+    "delivered_agreements": 132,
+    "agreed_donations": 63,
+    "intended_pickups_within_promise": 59,
+    "package_extracted_compile": "passed",
+    "package_exact_identity": "passed"
+  },
+  "report": "../../evaluations/v7-review/VALIDATION.md",
+  "review": "../../evaluations/v7-review/REPORT.md"
+}

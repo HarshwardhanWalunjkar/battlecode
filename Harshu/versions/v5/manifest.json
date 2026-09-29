@@ -1,0 +1,33 @@
+{
+  "release": "v5",
+  "name": "abyss-v5",
+  "fingerprint": "53fbd1fc2c0f6b5c2d8f76971df564bc12031096bc9421017638de1a6b68335c",
+  "files": [
+    "bot.toml",
+    "config.hpp",
+    "helper.hpp",
+    "main.cpp",
+    "strategy.hpp"
+  ],
+  "bytes": 19855,
+  "toolkit": "1.2.2",
+  "status": "held-experimental-not-recommended",
+  "based_on": "v4.1",
+  "validation": {
+    "strategy_scenarios": 60,
+    "warnings": 0,
+    "native_games": 2,
+    "native_wins": 1,
+    "sandbox_games": 2,
+    "sandbox_wins": 0,
+    "opponent": "v4.1",
+    "seed": 509,
+    "runtime_errors": 0,
+    "engine_notices": 0,
+    "sandbox_turns": 7669,
+    "max_points": 25802662,
+    "max_memory_bytes": 720896,
+    "online_games": 0
+  },
+  "report": "../../evaluations/series-481660/REPORT.md"
+}

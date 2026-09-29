@@ -1,0 +1,694 @@
+{
+  "toolkit": "1.2.2",
+  "wasmtime": "49.0.0",
+  "sandbox": false,
+  "fingerprints": {
+    "Harshu/versions/v4.1/bot": "217f6872e1b068b83481e5cc89777406f6615f3a1428ed2ac975c56d289d6aa8",
+    "Harshu/bot": "6027bd014feb0a8f54bf154a55bab947dcc558bb0789bfc669b7655df0f5131a"
+  },
+  "immutable_builds": true,
+  "records": [
+    {
+      "rounds": 499,
+      "winner": "B",
+      "end_reason": 1,
+      "a_dragons": 17,
+      "b_dragons": 5,
+      "a_length": 67,
+      "b_length": 22,
+      "events": 84337,
+      "map": "queen_of_spades",
+      "seed": 509,
+      "projects": {
+        "A": "Harshu/bot",
+        "B": "Harshu/versions/v4.1/bot"
+      },
+      "seconds": 7.649,
+      "errors": [],
+      "deaths": [
+        {
+          "id": 5,
+          "team": "A",
+          "round": 39,
+          "reason": "W"
+        },
+        {
+          "id": 8,
+          "team": "B",
+          "round": 56,
+          "reason": "H"
+        },
+        {
+          "id": 13,
+          "team": "A",
+          "round": 56,
+          "reason": "H"
+        },
+        {
+          "id": 1,
+          "team": "B",
+          "round": 66,
+          "reason": "W"
+        },
+        {
+          "id": 16,
+          "team": "A",
+          "round": 73,
+          "reason": "W"
+        },
+        {
+          "id": 2,
+          "team": "A",
+          "round": 81,
+          "reason": "W"
+        },
+        {
+          "id": 9,
+          "team": "A",
+          "round": 93,
+          "reason": "W"
+        },
+        {
+          "id": 3,
+          "team": "B",
+          "round": 102,
+          "reason": "W"
+        },
+        {
+          "id": 23,
+          "team": "A",
+          "round": 110,
+          "reason": "O"
+        },
+        {
+          "id": 20,
+          "team": "A",
+          "round": 112,
+          "reason": "W"
+        },
+        {
+          "id": 18,
+          "team": "A",
+          "round": 136,
+          "reason": "W"
+        },
+        {
+          "id": 28,
+          "team": "A",
+          "round": 139,
+          "reason": "W"
+        },
+        {
+          "id": 4,
+          "team": "A",
+          "round": 151,
+          "reason": "H"
+        },
+        {
+          "id": 12,
+          "team": "B",
+          "round": 151,
+          "reason": "H"
+        },
+        {
+          "id": 7,
+          "team": "A",
+          "round": 157,
+          "reason": "W"
+        },
+        {
+          "id": 10,
+          "team": "A",
+          "round": 159,
+          "reason": "W"
+        },
+        {
+          "id": 41,
+          "team": "B",
+          "round": 163,
+          "reason": "W"
+        },
+        {
+          "id": 25,
+          "team": "A",
+          "round": 168,
+          "reason": "W"
+        },
+        {
+          "id": 40,
+          "team": "A",
+          "round": 186,
+          "reason": "O"
+        },
+        {
+          "id": 24,
+          "team": "A",
+          "round": 191,
+          "reason": "W"
+        },
+        {
+          "id": 52,
+          "team": "B",
+          "round": 204,
+          "reason": "W"
+        },
+        {
+          "id": 32,
+          "team": "A",
+          "round": 235,
+          "reason": "W"
+        },
+        {
+          "id": 30,
+          "team": "A",
+          "round": 244,
+          "reason": "W"
+        },
+        {
+          "id": 47,
+          "team": "B",
+          "round": 245,
+          "reason": "W"
+        },
+        {
+          "id": 29,
+          "team": "B",
+          "round": 267,
+          "reason": "W"
+        },
+        {
+          "id": 53,
+          "team": "A",
+          "round": 271,
+          "reason": "W"
+        },
+        {
+          "id": 37,
+          "team": "A",
+          "round": 273,
+          "reason": "W"
+        },
+        {
+          "id": 49,
+          "team": "A",
+          "round": 274,
+          "reason": "W"
+        },
+        {
+          "id": 36,
+          "team": "A",
+          "round": 284,
+          "reason": "W"
+        },
+        {
+          "id": 45,
+          "team": "A",
+          "round": 318,
+          "reason": "O"
+        },
+        {
+          "id": 54,
+          "team": "A",
+          "round": 318,
+          "reason": "W"
+        },
+        {
+          "id": 58,
+          "team": "A",
+          "round": 319,
+          "reason": "W"
+        },
+        {
+          "id": 17,
+          "team": "B",
+          "round": 324,
+          "reason": "O"
+        },
+        {
+          "id": 55,
+          "team": "A",
+          "round": 329,
+          "reason": "O"
+        },
+        {
+          "id": 42,
+          "team": "A",
+          "round": 341,
+          "reason": "W"
+        },
+        {
+          "id": 57,
+          "team": "A",
+          "round": 358,
+          "reason": "W"
+        },
+        {
+          "id": 59,
+          "team": "A",
+          "round": 365,
+          "reason": "W"
+        },
+        {
+          "id": 38,
+          "team": "B",
+          "round": 392,
+          "reason": "W"
+        },
+        {
+          "id": 39,
+          "team": "A",
+          "round": 392,
+          "reason": "W"
+        },
+        {
+          "id": 35,
+          "team": "A",
+          "round": 407,
+          "reason": "H"
+        },
+        {
+          "id": 22,
+          "team": "B",
+          "round": 407,
+          "reason": "H"
+        },
+        {
+          "id": 61,
+          "team": "A",
+          "round": 410,
+          "reason": "W"
+        },
+        {
+          "id": 21,
+          "team": "A",
+          "round": 414,
+          "reason": "S"
+        },
+        {
+          "id": 60,
+          "team": "A",
+          "round": 442,
+          "reason": "W"
+        },
+        {
+          "id": 66,
+          "team": "A",
+          "round": 450,
+          "reason": "W"
+        },
+        {
+          "id": 14,
+          "team": "B",
+          "round": 462,
+          "reason": "W"
+        },
+        {
+          "id": 43,
+          "team": "B",
+          "round": 470,
+          "reason": "W"
+        },
+        {
+          "id": 68,
+          "team": "A",
+          "round": 471,
+          "reason": "W"
+        },
+        {
+          "id": 64,
+          "team": "A",
+          "round": 489,
+          "reason": "W"
+        },
+        {
+          "id": 62,
+          "team": "A",
+          "round": 493,
+          "reason": "W"
+        },
+        {
+          "id": 48,
+          "team": "A",
+          "round": 494,
+          "reason": "W"
+        },
+        {
+          "id": 63,
+          "team": "B",
+          "round": 497,
+          "reason": "W"
+        }
+      ],
+      "actions": {
+        "A_moves": 7874,
+        "A_sprint_steps": 115,
+        "B_moves": 3747,
+        "B_sprint_steps": 137,
+        "A_splits": 53,
+        "B_splits": 17
+      },
+      "notices": [],
+      "bot_side": "A",
+      "opponent": "Harshu/versions/v4.1/bot",
+      "score": 0
+    },
+    {
+      "rounds": 499,
+      "winner": "A",
+      "end_reason": 1,
+      "a_dragons": 16,
+      "b_dragons": 4,
+      "a_length": 76,
+      "b_length": 13,
+      "events": 71978,
+      "map": "queen_of_spades",
+      "seed": 509,
+      "projects": {
+        "A": "Harshu/versions/v4.1/bot",
+        "B": "Harshu/bot"
+      },
+      "seconds": 6.798,
+      "errors": [],
+      "deaths": [
+        {
+          "id": 8,
+          "team": "A",
+          "round": 27,
+          "reason": "W"
+        },
+        {
+          "id": 7,
+          "team": "A",
+          "round": 37,
+          "reason": "W"
+        },
+        {
+          "id": 6,
+          "team": "A",
+          "round": 56,
+          "reason": "W"
+        },
+        {
+          "id": 2,
+          "team": "A",
+          "round": 66,
+          "reason": "O"
+        },
+        {
+          "id": 1,
+          "team": "B",
+          "round": 77,
+          "reason": "H"
+        },
+        {
+          "id": 5,
+          "team": "A",
+          "round": 77,
+          "reason": "H"
+        },
+        {
+          "id": 26,
+          "team": "A",
+          "round": 111,
+          "reason": "W"
+        },
+        {
+          "id": 14,
+          "team": "A",
+          "round": 114,
+          "reason": "W"
+        },
+        {
+          "id": 24,
+          "team": "A",
+          "round": 149,
+          "reason": "W"
+        },
+        {
+          "id": 11,
+          "team": "A",
+          "round": 151,
+          "reason": "W"
+        },
+        {
+          "id": 19,
+          "team": "B",
+          "round": 162,
+          "reason": "O"
+        },
+        {
+          "id": 17,
+          "team": "B",
+          "round": 163,
+          "reason": "W"
+        },
+        {
+          "id": 25,
+          "team": "A",
+          "round": 175,
+          "reason": "W"
+        },
+        {
+          "id": 36,
+          "team": "A",
+          "round": 175,
+          "reason": "W"
+        },
+        {
+          "id": 12,
+          "team": "B",
+          "round": 177,
+          "reason": "W"
+        },
+        {
+          "id": 23,
+          "team": "A",
+          "round": 196,
+          "reason": "W"
+        },
+        {
+          "id": 20,
+          "team": "A",
+          "round": 197,
+          "reason": "W"
+        },
+        {
+          "id": 44,
+          "team": "A",
+          "round": 198,
+          "reason": "W"
+        },
+        {
+          "id": 30,
+          "team": "B",
+          "round": 201,
+          "reason": "W"
+        },
+        {
+          "id": 3,
+          "team": "B",
+          "round": 202,
+          "reason": "W"
+        },
+        {
+          "id": 27,
+          "team": "A",
+          "round": 209,
+          "reason": "W"
+        },
+        {
+          "id": 45,
+          "team": "A",
+          "round": 213,
+          "reason": "W"
+        },
+        {
+          "id": 0,
+          "team": "A",
+          "round": 215,
+          "reason": "W"
+        },
+        {
+          "id": 13,
+          "team": "A",
+          "round": 218,
+          "reason": "W"
+        },
+        {
+          "id": 35,
+          "team": "B",
+          "round": 232,
+          "reason": "H"
+        },
+        {
+          "id": 47,
+          "team": "A",
+          "round": 232,
+          "reason": "H"
+        },
+        {
+          "id": 9,
+          "team": "A",
+          "round": 247,
+          "reason": "W"
+        },
+        {
+          "id": 21,
+          "team": "A",
+          "round": 263,
+          "reason": "O"
+        },
+        {
+          "id": 33,
+          "team": "A",
+          "round": 264,
+          "reason": "S"
+        },
+        {
+          "id": 16,
+          "team": "A",
+          "round": 265,
+          "reason": "W"
+        },
+        {
+          "id": 28,
+          "team": "A",
+          "round": 282,
+          "reason": "W"
+        },
+        {
+          "id": 15,
+          "team": "A",
+          "round": 284,
+          "reason": "W"
+        },
+        {
+          "id": 10,
+          "team": "A",
+          "round": 289,
+          "reason": "W"
+        },
+        {
+          "id": 40,
+          "team": "A",
+          "round": 306,
+          "reason": "W"
+        },
+        {
+          "id": 50,
+          "team": "A",
+          "round": 342,
+          "reason": "W"
+        },
+        {
+          "id": 38,
+          "team": "A",
+          "round": 349,
+          "reason": "W"
+        },
+        {
+          "id": 53,
+          "team": "A",
+          "round": 349,
+          "reason": "W"
+        },
+        {
+          "id": 54,
+          "team": "A",
+          "round": 352,
+          "reason": "O"
+        },
+        {
+          "id": 34,
+          "team": "A",
+          "round": 359,
+          "reason": "W"
+        },
+        {
+          "id": 41,
+          "team": "A",
+          "round": 366,
+          "reason": "W"
+        },
+        {
+          "id": 43,
+          "team": "A",
+          "round": 389,
+          "reason": "W"
+        },
+        {
+          "id": 49,
+          "team": "B",
+          "round": 389,
+          "reason": "W"
+        },
+        {
+          "id": 22,
+          "team": "A",
+          "round": 399,
+          "reason": "W"
+        },
+        {
+          "id": 31,
+          "team": "A",
+          "round": 415,
+          "reason": "W"
+        },
+        {
+          "id": 61,
+          "team": "A",
+          "round": 419,
+          "reason": "W"
+        },
+        {
+          "id": 29,
+          "team": "A",
+          "round": 436,
+          "reason": "W"
+        },
+        {
+          "id": 63,
+          "team": "A",
+          "round": 440,
+          "reason": "W"
+        },
+        {
+          "id": 64,
+          "team": "B",
+          "round": 442,
+          "reason": "H"
+        },
+        {
+          "id": 51,
+          "team": "A",
+          "round": 442,
+          "reason": "H"
+        },
+        {
+          "id": 62,
+          "team": "B",
+          "round": 459,
+          "reason": "O"
+        },
+        {
+          "id": 66,
+          "team": "A",
+          "round": 460,
+          "reason": "O"
+        }
+      ],
+      "actions": {
+        "A_moves": 8380,
+        "A_sprint_steps": 217,
+        "B_moves": 1485,
+        "B_sprint_steps": 16,
+        "A_splits": 55,
+        "B_splits": 12
+      },
+      "notices": [],
+      "bot_side": "B",
+      "opponent": "Harshu/versions/v4.1/bot",
+      "score": 0
+    }
+  ]
+}

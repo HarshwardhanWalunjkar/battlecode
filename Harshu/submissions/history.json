@@ -31,7 +31,8 @@
         "version": 1,
         "status": "idle",
         "kStart": 0,
-        "kFreshAt": "2026-09-27T18:34:02.102Z"
+        "kFreshAt": "2026-09-27T18:34:02.102Z",
+        "uploadedAt": "2026-09-27T17:07:28.690Z"
       }
     },
     {
@@ -64,7 +65,8 @@
         "version": 2,
         "status": "idle",
         "kStart": 2,
-        "kFreshAt": null
+        "kFreshAt": null,
+        "uploadedAt": "2026-09-27T18:06:20.040Z"
       }
     },
     {
@@ -97,7 +99,8 @@
         "version": 3,
         "status": "idle",
         "kStart": 10,
-        "kFreshAt": null
+        "kFreshAt": null,
+        "uploadedAt": "2026-09-28T05:09:17.007Z"
       }
     },
     {
@@ -130,7 +133,8 @@
         "version": 4,
         "status": "idle",
         "kStart": null,
-        "kFreshAt": null
+        "kFreshAt": null,
+        "uploadedAt": "2026-09-28T10:49:42.143Z"
       }
     },
     {
@@ -163,7 +167,68 @@
         "version": 5,
         "status": "active",
         "kStart": 0,
-        "kFreshAt": "2026-09-28T10:52:22.078Z"
+        "kFreshAt": "2026-09-28T10:52:22.078Z",
+        "uploadedAt": "2026-09-28T10:49:56.914Z"
+      }
+    },
+    {
+      "uploaded_at": "2026-09-28T18:32:06.032154+00:00",
+      "fingerprint": "05ec14fdb136b847c2db3271ce0d7a666bbf1691d52f3c3c1106622a91b99853",
+      "name": "abyss-v6",
+      "version": 6,
+      "status": "accepted",
+      "archive": "20260928T183206Z-05ec14fdb136.zip",
+      "server_response": {
+        "id": 10600,
+        "teamId": 422,
+        "name": "abyss-v6",
+        "description": "Claude V6: Terrain assessment, corridor escape features",
+        "language": "cpp",
+        "status": "processing",
+        "storageKey": "submissions/25083af5-a1e2-4c0d-ac0e-6ed89e9be13e.zip",
+        "uploadedAt": "2026-09-28T18:32:07.216Z",
+        "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+        "buildLog": null,
+        "buildHeartbeatAt": null,
+        "buildAttempts": 0,
+        "sourceHash": "c8d37f97521b9e938b19950fedd90bc8378140a8f33531bb20a0c5b99c18739a",
+        "kStart": null,
+        "kFreshAt": null,
+        "version": 6
+      },
+      "latest_server_state": {
+        "id": 10600,
+        "version": 6,
+        "status": "idle",
+        "kStart": 10,
+        "kFreshAt": null,
+        "uploadedAt": "2026-09-28T18:32:07.216Z"
+      }
+    },
+    {
+      "uploaded_at": "2026-09-29T09:12:20.245313+00:00",
+      "fingerprint": "0ce4a44b3c76102afe2813fde172cfe4dae61be1c2936931bf08cc181db35186",
+      "name": "abyss-v7",
+      "version": 7,
+      "status": "accepted",
+      "archive": "20260929T091220Z-0ce4a44b3c76.zip",
+      "server_response": {
+        "id": 11413,
+        "teamId": 422,
+        "name": "abyss-v7",
+        "description": "V7: affordable enemy threats, local territory and food urgency, protected growers, productive-front replacement workers and agreed one/two-turn feeding",
+        "language": "cpp",
+        "status": "processing",
+        "storageKey": "submissions/35336cf2-68e2-42fe-98fb-eb512e0f174f.zip",
+        "uploadedAt": "2026-09-29T09:12:25.494Z",
+        "uploadedBy": "PJWaPuEaIAAnoX1GUJl8QodEkTZbHtID",
+        "buildLog": null,
+        "buildHeartbeatAt": null,
+        "buildAttempts": 0,
+        "sourceHash": "a3814830673a70cf292c59d9f6ee4e1f241b5f939a68c267ae671a5185fa066c",
+        "kStart": null,
+        "kFreshAt": null,
+        "version": 7
       }
     }
   ],
@@ -769,35 +834,26 @@
       "evidence": "evaluations/recent-20260928/450662.json"
     }
   ],
-  "notes": "Latest submission-only verification is in latest_submission_verification. Older full battle-count reconciliation remains historical; do not infer current effective K from that older snapshot.",
+  "notes": "Original new-account history confirmed by user. Upload receipts preserved; server state refreshed through 2026-09-29T08:53:49.588877+00:00. Active abyss-v4.1 / 10120; Claude abyss-v6 / 10600 is idle. Local v7 is not submitted. Recent completed ranked series without submission identities remain unassigned.",
   "history_confirmed_at": "2026-09-27T11:30:35.772399+00:00",
   "latest_server_verification": {
-    "at": "2026-09-28T10:12:57.741088+00:00",
-    "active_submission_id": 9700,
-    "active_version": 3,
-    "kStart": 10,
-    "kFreshAt": null,
+    "at": "2026-09-29T08:53:49.588877+00:00",
+    "active_submission_id": 10120,
+    "active_version": 5,
+    "kStart": 0,
+    "kFreshAt": "2026-09-28T10:52:22.078Z",
     "completed_ranked_series": 24,
-    "queued_ranked_series": [
-      {
-        "battle_id": 478549,
-        "version": null,
-        "opponent": "GZHU-AISquad-Machine"
-      },
-      {
-        "battle_id": 477219,
-        "version": null,
-        "opponent": "Wisher"
-      }
-    ],
+    "unattributed_completed_series": 35,
+    "queued_ranked_series": [],
     "effective_counts": {
+      "6": 10,
+      "5": 0,
       "3": 10,
       "2": 24,
       "1": 2
     },
-    "effective_count_basis": "Server kStart plus completed ranked series; live/queued series excluded.",
-    "unattributed_completed_series": 6,
-    "snapshot": "evaluations/recent-20260928/snapshot.json"
+    "effective_count_basis": "Lower bounds only: server starting counts and previously attributed completed series. New series lack submission identities.",
+    "snapshot": "evaluations/v7-review/timing-final-snapshot.json"
   },
   "fresh_window": {
     "submission_id": 10120,
@@ -805,7 +861,7 @@
     "started_at": "2026-09-28T10:52:22.078Z",
     "expires_at": "2026-09-28T22:52:22.078000+00:00",
     "basis": "Authoritative server submissions.kFreshAt",
-    "verified_at": "2026-09-28T11:44:45.905476+00:00"
+    "verified_at": "2026-09-29T08:53:49.588877+00:00"
   },
   "unattributed_ranked_battles": [
     {
@@ -815,7 +871,9 @@
       "wins": 2,
       "losses": 3,
       "draws": 0,
-      "reason": "Current battle response omits submission identity; no version inferred."
+      "elo_change": -3,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
     },
     {
       "battle_id": 461829,
@@ -824,7 +882,9 @@
       "wins": 1,
       "losses": 4,
       "draws": 0,
-      "reason": "Current battle response omits submission identity; no version inferred."
+      "elo_change": -7,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
     },
     {
       "battle_id": 458742,
@@ -833,7 +893,9 @@
       "wins": 3,
       "losses": 2,
       "draws": 0,
-      "reason": "Current battle response omits submission identity; no version inferred."
+      "elo_change": 3,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
     },
     {
       "battle_id": 460052,
@@ -842,7 +904,9 @@
       "wins": 5,
       "losses": 0,
       "draws": 0,
-      "reason": "Current battle response omits submission identity; no version inferred."
+      "elo_change": 13,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
     },
     {
       "battle_id": 467868,
@@ -851,7 +915,9 @@
       "wins": 4,
       "losses": 1,
       "draws": 0,
-      "reason": "Current battle response omits submission identity; no version inferred."
+      "elo_change": 7,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
     },
     {
       "battle_id": 469198,
@@ -860,7 +926,53 @@
       "wins": 5,
       "losses": 0,
       "draws": 0,
-      "reason": "Current battle response omits submission identity; no version inferred."
+      "elo_change": 12,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 478549,
+      "opponent": "GZHU-AISquad-Machine",
+      "completed_at": "2026-09-28T10:40:23.243Z",
+      "wins": 5,
+      "losses": 0,
+      "draws": 0,
+      "elo_change": 12,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 477219,
+      "opponent": "Wisher",
+      "completed_at": "2026-09-28T10:40:46.837Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "elo_change": 6,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 481493,
+      "opponent": "Lozer",
+      "completed_at": "2026-09-28T10:52:22.066Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "elo_change": 34,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 481605,
+      "opponent": "Lozer",
+      "completed_at": "2026-09-28T10:54:48.064Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "elo_change": 26,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
     },
     {
       "battle_id": 481660,
@@ -869,17 +981,340 @@
       "wins": 0,
       "losses": 5,
       "draws": 0,
-      "reason": "Match details omit submission identity; played after v4.1 uploads but not assigned by guesswork."
+      "elo_change": -35,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 481739,
+      "opponent": "Lozer",
+      "completed_at": "2026-09-28T10:58:05.514Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 7,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 484914,
+      "opponent": "Lozer",
+      "completed_at": "2026-09-28T12:06:35.940Z",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo_change": -8,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 485689,
+      "opponent": "Salt Light",
+      "completed_at": "2026-09-28T13:59:55.572Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "elo_change": 19,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 487044,
+      "opponent": "not gra",
+      "completed_at": "2026-09-28T14:09:47.102Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "elo_change": 17,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 493946,
+      "opponent": "Madda Guddu",
+      "completed_at": "2026-09-28T14:52:42.417Z",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo_change": -5,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 495301,
+      "opponent": "Gilligan\u2019s crew",
+      "completed_at": "2026-09-28T14:53:15.941Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 3,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 503086,
+      "opponent": "DSAI boyz",
+      "completed_at": "2026-09-28T16:34:56.336Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "elo_change": 9,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 504446,
+      "opponent": "deez",
+      "completed_at": "2026-09-28T16:35:31.473Z",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo_change": -3,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 512726,
+      "opponent": "gorro",
+      "completed_at": "2026-09-28T18:31:17.345Z",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo_change": -3,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 511366,
+      "opponent": "POKU",
+      "completed_at": "2026-09-28T18:33:58.409Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 2,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 518919,
+      "opponent": "not gra",
+      "completed_at": "2026-09-28T20:28:46.238Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 2,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 520264,
+      "opponent": "Link",
+      "completed_at": "2026-09-28T20:29:23.522Z",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "elo_change": -7,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 527141,
+      "opponent": "Minusix",
+      "completed_at": "2026-09-28T22:29:39.572Z",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo_change": -2,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 525796,
+      "opponent": ":3:3:3",
+      "completed_at": "2026-09-28T22:29:57.339Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 2,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 533490,
+      "opponent": "BattleSavvy",
+      "completed_at": "2026-09-29T00:24:38.745Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 3,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 534865,
+      "opponent": "halleluiah",
+      "completed_at": "2026-09-29T00:34:06.198Z",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo_change": -2,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 539266,
+      "opponent": "5ilky",
+      "completed_at": "2026-09-29T01:14:32.642Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 3,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 543614,
+      "opponent": "HowaryaMate",
+      "completed_at": "2026-09-29T02:20:01.422Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 3,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 548384,
+      "opponent": "HUST IT1",
+      "completed_at": "2026-09-29T03:18:44.994Z",
+      "wins": 3,
+      "losses": 2,
+      "draws": 0,
+      "elo_change": 2,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 553271,
+      "opponent": "YY Slayers",
+      "completed_at": "2026-09-29T04:26:41.697Z",
+      "wins": 2,
+      "losses": 3,
+      "draws": 0,
+      "elo_change": -2,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 558645,
+      "opponent": "Link",
+      "completed_at": "2026-09-29T05:20:36.418Z",
+      "wins": 1,
+      "losses": 4,
+      "draws": 0,
+      "elo_change": -7,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 563071,
+      "opponent": "KUEE",
+      "completed_at": "2026-09-29T06:33:09.136Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "elo_change": 7,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 567978,
+      "opponent": "hackyc",
+      "completed_at": "2026-09-29T07:34:26.799Z",
+      "wins": 0,
+      "losses": 5,
+      "draws": 0,
+      "elo_change": -12,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
+    },
+    {
+      "battle_id": 572611,
+      "opponent": "Low Cortisol",
+      "completed_at": "2026-09-29T08:36:15.117Z",
+      "wins": 4,
+      "losses": 1,
+      "draws": 0,
+      "elo_change": 7,
+      "reason": "Listing omits submission identity; no assignment from active status or upload time.",
+      "evidence": "evaluations/v7-review/timing-final-snapshot.json"
     }
   ],
   "latest_submission_verification": {
-    "at": "2026-09-28T11:44:45.905476+00:00",
+    "at": "2026-09-29T08:53:49.588877+00:00",
     "active_submission_id": 10120,
     "active_server_version": 5,
     "local_build": "v4.1",
     "kStart": 0,
     "kFreshAt": "2026-09-28T10:52:22.078Z",
-    "snapshot": "evaluations/series-481660/submissions.json",
-    "series_attribution": "Requested match details omit submission IDs; effective completed count is not inferred."
-  }
+    "snapshot": "evaluations/v7-review/timing-final-snapshot.json",
+    "series_attribution": "Recent listing and reviewed match details omit submission IDs; no exact current effective count inferred."
+  },
+  "latest_targeted_replay_review": {
+    "at": "2026-09-29T08:53:49.588877+00:00",
+    "games": 17,
+    "verified_snapshots": 7613,
+    "report": "evaluations/v7-review/REPORT.md",
+    "local_candidate": "v7",
+    "submitted": false
+  },
+  "verification_history": [
+    {
+      "at": "2026-09-28T10:12:57.741088+00:00",
+      "active_submission_id": 9700,
+      "active_version": 3,
+      "kStart": 10,
+      "kFreshAt": null,
+      "completed_ranked_series": 24,
+      "queued_ranked_series": [
+        {
+          "battle_id": 478549,
+          "version": null,
+          "opponent": "GZHU-AISquad-Machine"
+        },
+        {
+          "battle_id": 477219,
+          "version": null,
+          "opponent": "Wisher"
+        }
+      ],
+      "effective_counts": {
+        "3": 10,
+        "2": 24,
+        "1": 2
+      },
+      "effective_count_basis": "Server kStart plus completed ranked series; live/queued series excluded.",
+      "unattributed_completed_series": 6,
+      "snapshot": "evaluations/recent-20260928/snapshot.json"
+    },
+    {
+      "at": "2026-09-28T21:34:10.012713+00:00",
+      "active_submission_id": 10120,
+      "active_version": 5,
+      "kStart": 0,
+      "kFreshAt": "2026-09-28T10:52:22.078Z",
+      "completed_ranked_series": 24,
+      "unattributed_completed_series": 23,
+      "queued_ranked_series": [],
+      "effective_counts": {
+        "6": 10,
+        "5": 0,
+        "3": 10,
+        "2": 24,
+        "1": 2
+      },
+      "effective_count_basis": "Lower bounds only: server starting counts and previously attributed completed series. New series lack submission identities.",
+      "snapshot": "evaluations/v7-review/timing-snapshot.json"
+    }
+  ]
 }

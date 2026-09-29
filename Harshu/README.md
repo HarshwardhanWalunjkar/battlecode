@@ -1,80 +1,50 @@
 # Abyss — UNSW Battlecode bot
 
-**V4.1 is packaged and not submitted. V3 / submission 9700 is the latest verified
-active bot.** V4.1 passes 47 focused logic checks and won both native Portals
-games plus both sandbox Slithery Fight games against frozen v3, without runtime
-errors. Sandbox CPU peaked at 25.43 million of 100 million points; memory peaked
-at 0.75 MiB. These small fixed-seed checks do not establish a ranked win rate.
+**Local v7 is the next candidate, built directly from frozen v4.1.** It won six of eight final sandbox comparisons against v4.1, with zero runtime errors. Queen and Trauma won on both sides; Trophy and Slithery each split 1–1. These are small regression checks, not a ranked win-rate estimate. Slithery's opening worker economy remains a weakness. V7 has not been submitted.
 
-Start with [current planned work.md](current%20planned%20work.md) to resume work.
-Read [Gamplan.md](Gamplan.md) for every implemented strategy detail,
-[documentation/MASTER.md](documentation/MASTER.md) for rules, and the
-[v4 review](evaluations/v4-review/REPORT.md) for evidence and limitations.
-[Version history](versions/README.md) identifies frozen builds and prior results.
-Do not reread the complete documentation unless explicitly requested.
+At the final read-only server check, 29 September 2026, 08:53 UTC, **v4.1 / 10120 remained active** and Claude's **v6 / 10600 was idle**. No activation or submission was performed by this task.
 
-## Package and submission
+## Fast references
 
-All commands below run from the repository root, which contains `.venv/` and
-`Harshu/`. The installed toolkit is 1.2.2; the submission uses C++20.
+- [Gamplan.md](Gamplan.md): every implemented policy, threshold, exception and tradeoff in plain English.
+- [documentation/MASTER.md](documentation/MASTER.md): rules to read first; use focused pages only for unresolved questions. Do not reread everything unless requested.
+- [current planned work.md](current%20planned%20work.md): completed work and a handoff without restarting the investigation.
+- [V7 review](evaluations/v7-review/REPORT.md): seventeen independently reconstructed games, Lozer analysis, accepted/rejected suggestions and preserved strengths.
+- [V7 validation](evaluations/v7-review/VALIDATION.md): exact source, eight sandbox games, actual feeding transfers and limitations.
+- [Version history](versions/README.md) and [timing](evaluations/v7-review/TIMING.md): local releases, active server identity and eligibility.
+
+## Package and submit
+
+Run from the repository root, containing `.venv/` and `Harshu/`. The toolkit is 1.2.2 and the bot is C++20. V7's package is [abyss-v7.zip](dist/abyss-v7.zip); its [manifest](dist/abyss-v7.manifest.json) identifies the five included files and fingerprint. The frozen source is under [versions/v7](versions/v7/manifest.json).
 
 ```sh
+.venv/bin/python Harshu/tools/submissions.py sync
 .venv/bin/python Harshu/tools/submissions.py status
-.venv/bin/python Harshu/tools/submissions.py package
 ```
 
-The candidate is [dist/abyss-v4.1.zip](dist/abyss-v4.1.zip), 18,869 bytes, containing
-only `bot.toml` and four C++ source/header files. Exact uploaded bytes, server
-receipts and timing are kept in [submission history](submissions/README.md).
-Submitting can activate the build automatically. Only when an upload is requested:
+The last confirmed fresh window expired at 04:22:22.078 IST on 29 September. A newer server marker or activity can change later advice; upload time itself does not start the window. `sync` refreshes authoritative markers without inventing battle attribution.
+
+When an upload is requested:
 
 ```sh
 .venv/bin/python Harshu/tools/submissions.py submit
 ```
 
-Authentication is already configured locally. Keep keys out of source files and
-chat. This workspace's environment is managed by `uv`; it does not require pip
-inside the virtual environment.
+This can activate the bot once built, and records the exact bytes, receipt and timing. Authentication is already configured locally; keep credentials out of files and chat. The environment is managed by `uv` and does not require pip inside `.venv`.
 
-## Focused checks
+## Verification and future changes
 
-The following compiled logic checks passed for this candidate. They do not
-launch bots in matches or run the official engine.
+V7 passed 72 warning-clean C++ scenarios, two small official-engine coordination fixtures, twelve timing checks and the predeclared eight sandbox games. Across 81,311 sandbox turns, maximum cost was 25,836,992 CPU points and 917,504 bytes. The full matches contained 63 matched agreed donations and 59 intended head-pearl collections within the promised time. The four misses are traced in the validation report.
 
-```sh
-g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic Harshu/tests/strategy_test.cpp -o /tmp/battlecode-strategy-test
-/tmp/battlecode-strategy-test
-```
-
-## Match validation
-
-The [validation report](evaluations/v4-review/VALIDATION.md) records exact builds,
-both-side results, CPU and memory, portal failures, rescue lengths and feeding
-outcomes. Original v4 won four native and two sandbox games; review found and
-fixed one overly cautious portal fallback. V4.1 then won four targeted games.
-No additional automatic runs are planned.
-
-For a future targeted comparison, use a fresh output name and the intended
-frozen opponent. This example runs two games; do not rerun it automatically:
+Focused checks, when changes justify them:
 
 ```sh
-.venv/bin/python Harshu/tools/evaluate.py --bot Harshu/bot --opponents Harshu/versions/v3/bot --maps portals --seeds 509 --output Harshu/evaluations/next-check.json --replays
+g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic Harshu/tests/strategy_test.cpp -o /tmp/abyss-strategy-test
+/tmp/abyss-strategy-test
+.venv/bin/python Harshu/tests/coordination_engine.py
+.venv/bin/python Harshu/tests/submissions_test.py
 ```
 
-A native game does not verify judge CPU points or memory; `--sandbox` measures
-those. Native and sandbox decisions can differ because of their search clocks.
+No further automatic match sweep is planned. Use a new result filename and explicit frozen opponent for a future necessary comparison. Native games do not check judge points; sandbox games do. Evaluated builds are stored under their fingerprints, and release ZIPs cannot be replaced with different bytes under the same name.
 
-Evaluations freeze source under its fingerprint and record maps, sides, seeds,
-deaths, errors and resource usage where available. Avoid tuning sweeps and do
-not overwrite earlier evaluated opponents or frozen release files.
-
-## Files
-
-- `bot/`: current candidate source.
-- `versions/`: frozen source, strategy, manifests and version index.
-- `documentation/`: master rules and focused references.
-- `evaluations/v4-review/`: named game review and archived replay evidence.
-- `submissions/`: receipts, exact uploaded ZIPs and rating timing.
-- `tools/`: replay audits, evaluation and submission tracking.
-- `tests/`: focused strategy assertions and separate engine/timing checks.
-- `maps/`, `baselines/`: local maps and prior opponents; unchanged for v4.
+MainBaselineBuild, older releases and research/ were unchanged. Bot source stays in `bot/`; rule references in `documentation/`; source/strategy snapshots in `versions/`; replay evidence in `evaluations/`; upload receipts and rating history in `submissions/`.

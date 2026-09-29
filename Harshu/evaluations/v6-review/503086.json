@@ -1,0 +1,67 @@
+{
+  "match": {
+    "id": 503086,
+    "teamAId": 422,
+    "teamBId": 271,
+    "mapId": 11,
+    "ranked": true,
+    "skinA": "Jiaolong",
+    "skinB": "Loch Ness",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 108,
+    "views": 0,
+    "seriesId": "4ffe2c99-ba59-4690-b4fc-0bcee51554e6",
+    "eloChangeA": 9,
+    "eloChangeB": -7,
+    "requestedAt": "2026-09-28T16:00:00.000Z",
+    "startedAt": "2026-09-28T16:29:47.155Z",
+    "completedAt": "2026-09-28T16:29:58.292Z",
+    "log": null,
+    "seed": "7387cc27d2158518"
+  },
+  "mapName": "Trophy",
+  "teamAName": "Borgor",
+  "teamBName": "DSAI boyz",
+  "teamAElo": 1463,
+  "teamBElo": 1433,
+  "games": [
+    {
+      "id": 503086,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Trophy"
+    },
+    {
+      "id": 503087,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Trauma"
+    },
+    {
+      "id": 503088,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Portals"
+    },
+    {
+      "id": 503089,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Queen Of Spades"
+    },
+    {
+      "id": 503090,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Prisoners Dilemma"
+    }
+  ],
+  "wait": null
+}

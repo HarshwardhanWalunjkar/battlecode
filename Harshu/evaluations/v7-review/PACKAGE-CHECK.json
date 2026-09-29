@@ -1,0 +1,13 @@
+{
+  "fingerprint": "0ce4a44b3c76102afe2813fde172cfe4dae61be1c2936931bf08cc181db35186",
+  "zip_sha256": "37cfbbcacbf8239718b383fae03cf988ad0937a22ffbd5964c8a72afa4baa22b",
+  "bytes": 24974,
+  "source_frozen_zip_fixture_and_sandbox_match": true,
+  "extracted_warning_clean_compile": true,
+  "historical_sources": {
+    "v3": "frozen source fingerprint unchanged",
+    "v4": "frozen source fingerprint unchanged",
+    "v4.1": "frozen source fingerprint unchanged",
+    "v5": "frozen source fingerprint unchanged"
+  }
+}

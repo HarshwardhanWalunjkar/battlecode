@@ -1,6 +1,7 @@
 {
-  "release": "v5",
-  "name": "abyss-v5",
-  "status": "candidate",
-  "description": "Correct food lookahead scoring, resource-directed workers, repeated-rescue splitting and earlier checked length concentration"
+  "release": "v7",
+  "name": "abyss-v7",
+  "status": "candidate-not-submitted",
+  "based_on": "frozen v4.1; independent integrated v7; v5 and Claude v6 reviewed only as evidence",
+  "description": "V7: affordable enemy threats, local territory and food urgency, protected growers, productive-front replacement workers and agreed one/two-turn feeding"
 }

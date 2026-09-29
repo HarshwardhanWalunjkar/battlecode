@@ -1,0 +1,102 @@
+{
+  "match": {
+    "id": 514977,
+    "teamAId": 422,
+    "teamBId": 994,
+    "mapId": 19,
+    "ranked": false,
+    "skinA": "Jiaolong",
+    "skinB": "Vatulele Prawn",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 2,
+    "scoresB": 206,
+    "views": 0,
+    "seriesId": "536634b3-ebf6-4db5-952d-630c54676267",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-28T18:33:29.777Z",
+    "startedAt": "2026-09-28T18:33:31.367Z",
+    "completedAt": "2026-09-28T18:33:57.045Z",
+    "log": null,
+    "seed": "f97c6800ce77f8fa"
+  },
+  "mapName": "Autarky",
+  "teamAName": "Borgor",
+  "teamBName": "Lozer",
+  "teamAElo": 1457,
+  "teamBElo": 1492,
+  "games": [
+    {
+      "id": 514977,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Autarky"
+    },
+    {
+      "id": 514978,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Default"
+    },
+    {
+      "id": 514979,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Devil"
+    },
+    {
+      "id": 514980,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Portals"
+    },
+    {
+      "id": 514981,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Prisoners Dilemma"
+    },
+    {
+      "id": 514982,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Queen Of Spades"
+    },
+    {
+      "id": 514983,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Schooltime"
+    },
+    {
+      "id": 514984,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Slithery Fight"
+    },
+    {
+      "id": 514985,
+      "status": "completed",
+      "winner": "a",
+      "hasReplay": true,
+      "mapName": "Trauma"
+    },
+    {
+      "id": 514986,
+      "status": "completed",
+      "winner": "b",
+      "hasReplay": true,
+      "mapName": "Trophy"
+    }
+  ],
+  "wait": null
+}

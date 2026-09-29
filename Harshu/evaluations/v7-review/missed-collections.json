@@ -1,0 +1,156 @@
+[
+  {
+    "replay": "0002-slithery_fight.events.json",
+    "agreement": {
+      "round": 460,
+      "collector": 430,
+      "donor": 387,
+      "food": 139,
+      "donation_death": {
+        "id": 387,
+        "head": 139,
+        "round": 461,
+        "reason": "S"
+      },
+      "actual_head_pickups": []
+    },
+    "later_or_other_pickups": [
+      {
+        "r": 483,
+        "recipient": 113,
+        "team": "B",
+        "length_before": 2,
+        "cell": 139,
+        "donor": 387,
+        "donor_team": "A",
+        "death_r": 461,
+        "donor_length": 2,
+        "death_reason": "S"
+      }
+    ],
+    "collector_death": []
+  },
+  {
+    "replay": "0003-slithery_fight.events.json",
+    "agreement": {
+      "round": 366,
+      "collector": 59,
+      "donor": 297,
+      "food": 742,
+      "donation_death": {
+        "id": 297,
+        "head": 742,
+        "round": 366,
+        "reason": "S"
+      },
+      "actual_head_pickups": []
+    },
+    "later_or_other_pickups": [
+      {
+        "r": 367,
+        "recipient": 29,
+        "team": "B",
+        "length_before": 2,
+        "cell": 742,
+        "donor": 297,
+        "donor_team": "B",
+        "death_r": 366,
+        "donor_length": 2,
+        "death_reason": "S"
+      }
+    ],
+    "collector_death": [
+      {
+        "r": 430,
+        "id": 59,
+        "team": "B",
+        "length": 9,
+        "reason": "H",
+        "age": 391,
+        "action": null
+      }
+    ]
+  },
+  {
+    "replay": "0003-slithery_fight.events.json",
+    "agreement": {
+      "round": 419,
+      "collector": 337,
+      "donor": 399,
+      "food": 176,
+      "donation_death": {
+        "id": 399,
+        "head": 176,
+        "round": 419,
+        "reason": "S"
+      },
+      "actual_head_pickups": []
+    },
+    "later_or_other_pickups": [
+      {
+        "r": 419,
+        "recipient": 450,
+        "team": "B",
+        "length_before": 5,
+        "cell": 176,
+        "donor": 399,
+        "donor_team": "B",
+        "death_r": 419,
+        "donor_length": 4,
+        "death_reason": "S"
+      }
+    ],
+    "collector_death": [
+      {
+        "r": 454,
+        "id": 337,
+        "team": "B",
+        "length": 16,
+        "reason": "H",
+        "age": 245,
+        "action": null
+      }
+    ]
+  },
+  {
+    "replay": "0003-slithery_fight.events.json",
+    "agreement": {
+      "round": 429,
+      "collector": 337,
+      "donor": 466,
+      "food": 433,
+      "donation_death": {
+        "id": 466,
+        "head": 433,
+        "round": 429,
+        "reason": "S"
+      },
+      "actual_head_pickups": []
+    },
+    "later_or_other_pickups": [
+      {
+        "r": 429,
+        "recipient": 471,
+        "team": "B",
+        "length_before": 3,
+        "cell": 433,
+        "donor": 466,
+        "donor_team": "B",
+        "death_r": 429,
+        "donor_length": 2,
+        "death_reason": "S"
+      }
+    ],
+    "collector_death": [
+      {
+        "r": 454,
+        "id": 337,
+        "team": "B",
+        "length": 16,
+        "reason": "H",
+        "age": 245,
+        "action": null
+      }
+    ]
+  }
+]

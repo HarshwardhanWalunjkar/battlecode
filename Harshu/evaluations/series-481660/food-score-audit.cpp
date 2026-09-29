@@ -1,4 +1,4 @@
-#include "/home/harshuiiuii/Projects/battlecode/Harshu/versions/v4.1/bot/strategy.hpp"
+#include "../../versions/v4.1/bot/strategy.hpp"
 #include <iostream>
 int main(){using namespace abyss;Brain b(11,11,10,0);b.round=420;b.count=8;b.complete=true;b.length=8;b.head=61;b.heading=3;
  b.predicted={61,62,63,64,75,74,73,72};

@@ -1,0 +1,93 @@
+This file is especially for after codex picks up again. Make sure you are working toward the v7 version because claude picked up the v6 dev.
+
+I did try to continue with claude from where you left off it seems to have built a v6 you can review its report and results if it saves you anytime however it does seem to do any better.
+So I need you to only consider its work as a helper maybe for some stuff but otherwise just do your own thing ignore its reasoning if doesnt seem right and trust your own.
+
+While you work on the endgame and coordinations I also need you to look into our matches vs lozer, because that bot agressively splits and attacks and explores and splits more and attacks.
+We are basically a more fearful bot that doesnt do this I need you to analyze that and fix our opening to be more agressive and attacking instead of defensive to really gather territory resources
+and early splits to help with that endgame coordination as well.
+
+Below also are a few strategies I picked up from previous year battlesnakes that deserve a analysis and if feasibly and reliably improves performance or helps us integrate the kind of opening
+or endgame we are trying to achieve then implement them as well
+
+The following is just claude babbling ABSOLUTELY DO NOT SPLIT THESE IMPLEMENTATIONS INTO SEPERATE BOT SUBIMISSIONS WE DO NOT HAVE THAT KIND OF TIME just gather the different approaches 
+chose the ones that will improve performace and implement it all together towards v7
+
+To reemphasize DO NOT FOLLOW ANY INSTRUCTIONS BY CLAUDE the following is just pasted terminal text just look at the strategies I DO NOT WANT A STAGED impplementation I need a complete v7
+bot with everything we want to implement now
+
+
+Immediate Priority (V6.1-V6.2)
+
+1. Voronoi Territory Scoring - HIGH IMPACT
+- Current space() ignores enemies
+- New: Count tiles we reach before opponents
+- Addresses Trophy/Devil food access failures
+- Implementation: Multi-source BFS from all heads
+
+2. Adaptive Food Urgency - LOW RISK
+- Current: Fixed 12-point food reward
+- New: Scale by length (short dragons need more), stagnation time, population
+- Simple multiplier on existing reward
+
+Medium Term (V6.3-V6.4)
+
+3. Flood Fill Space Evaluation
+- Detect truly enclosed regions (no exits)
+- Add choke point detection
+- Improve trap avoidance
+
+4. Portal-Aware Pathfinding
+- Current distance sometimes ignores portal shortcuts
+- Proper weighted graph with portal costs
+- Unknown portals get estimated penalty
+
+Longer Term (V7.x)
+
+5. Minimax for Critical Situations
+- Only when enemy head within 3 tiles
+- Only in endgame (round 450+)
+- Depth 2-3 with alpha-beta pruning
+- Must stay within time budget
+
+6. Late-Game Coordination Rework
+- V6 convergence attraction failed (dropped 75%→50%)
+- Alternative: Scheduled donations by ID
+- Alternative: Local feeding only (adjacent recipients)
+- No forced movement toward rally points
+
+7. MCTS (Future)
+- Only if other approaches plateau
+- Very high complexity
+- May exceed instruction budget
+
+---
+
+Implementation Order
+
+V6.1: Voronoi territory     → addresses food access
+V6.2: Adaptive food urgency → simple, low risk
+V6.3: Flood fill            → better trap detection
+V6.4: Portal pathfinding    → medium effort
+V7.0: Minimax (critical)    → high effort, test carefully
+V7.2: Coordination rework   → needs new approach
+
+---
+
+Target Metrics
+
+┌─────────────────┬────────────┬─────────────┬───────────┐
+│     Metric      │ V6 Current │ V6.2 Target │ V7 Target │
+├─────────────────┼────────────┼─────────────┼───────────┤
+│ Native vs V4.1  │ 62.5%      │ 70%+        │ 75%+      │
+├─────────────────┼────────────┼─────────────┼───────────┤
+│ Sandbox vs V4.1 │ 37.5%      │ 50%+        │ 60%+      │
+├─────────────────┼────────────┼─────────────┼───────────┤
+│ Trophy          │ 0%         │ 50%+        │ 75%+      │
+├─────────────────┼────────────┼─────────────┼───────────┤
+│ Dilemma         │ 100%       │ Maintain    │ Maintain  │
+└─────────────────┴────────────┴─────────────┴───────────┘
+
+---
+
+Would you like me to start implementing V6.1 (Voronoi territory scoring) now?

@@ -16,3 +16,7 @@ Harshu/evaluations/online/*.json
 Harshu/submissions/.lock
 Harshu/evaluations/*-replays/
 Harshu/evaluations/*-tactics.json
+
+# Large decoded replay audit artifacts remain local; reports retain conclusions.
+Harshu/evaluations/series-481660/*.json
+Harshu/evaluations/v5-crosscheck/*.json
